@@ -66,9 +66,9 @@
   background: var(--vp-c-brand-2);
 }
 
-.error-msg {
-  color: var(--vp-c-danger-1) !important;
-  margin-top: 0.75rem !important;
-  margin-bottom: 0 !important;
-  font-size: 0.875rem !important;
+.password-card p.error-msg {
+  color: var(--vp-c-danger-1);
+  margin-top: 0.75rem;
+  margin-bottom: 0;
+  font-size: 0.875rem;
 }

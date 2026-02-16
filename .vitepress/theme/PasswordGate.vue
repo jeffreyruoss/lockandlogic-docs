@@ -29,7 +29,7 @@ function submit() {
           type="password"
           placeholder="Password"
           autofocus
-          autocomplete="off"
+          autocomplete="one-time-code"
         />
         <button type="submit">Enter</button>
       </form>

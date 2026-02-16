@@ -4,9 +4,11 @@ import DefaultTheme from 'vitepress/theme'
 import PasswordGate from './PasswordGate.vue'
 
 const isAuthenticated = ref(false)
+const isReady = ref(false)
 
 onMounted(() => {
   isAuthenticated.value = localStorage.getItem('ll-docs-auth') === 'true'
+  isReady.value = true
 })
 
 function onAuthenticated() {
@@ -16,6 +18,7 @@ function onAuthenticated() {
 </script>
 
 <template>
-  <PasswordGate v-if="!isAuthenticated" @authenticated="onAuthenticated" />
+  <div v-if="!isReady" class="password-gate" />
+  <PasswordGate v-else-if="!isAuthenticated" @authenticated="onAuthenticated" />
   <DefaultTheme.Layout v-else />
 </template>

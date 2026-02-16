@@ -13,9 +13,16 @@ if [ ! -d "$SRC" ]; then
   exit 1
 fi
 
+# Files that only exist in docs-site/docs/ (VitePress-specific, not synced)
+EXCLUDE="feature-estimator.md"
+
 count=0
 for f in "$SRC"/*.md; do
   [ -f "$f" ] || continue
+  basename="$(basename "$f")"
+  if echo "$EXCLUDE" | grep -qw "$basename"; then
+    continue
+  fi
   cp "$f" "$DEST/"
   count=$((count + 1))
 done
