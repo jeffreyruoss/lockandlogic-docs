@@ -5,6 +5,9 @@ hero:
   name: Lock & Logic
   text: Project Documentation
   tagline: Client-facing documents, internal briefs, and project planning resources.
+  image:
+    src: /logo.png
+    alt: Lock & Logic Logo
   actions:
     - theme: brand
       text: Project Estimate

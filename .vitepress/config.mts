@@ -8,7 +8,7 @@ export default defineConfig({
 
   themeConfig: {
     siteTitle: 'Lock & Logic Docs',
-    logo: '/logo.jpeg',
+    logo: '/logo.png',
 
     sidebar: [
       {
