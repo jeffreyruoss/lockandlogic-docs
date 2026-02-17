@@ -14,7 +14,7 @@ if [ ! -d "$SRC" ]; then
 fi
 
 # Files that only exist in docs-site/docs/ (VitePress-specific, not synced)
-EXCLUDE="feature-estimator.md"
+EXCLUDE="feature-estimator.md top-and-local-escape-room-websites.md"
 
 count=0
 for f in "$SRC"/*.md; do

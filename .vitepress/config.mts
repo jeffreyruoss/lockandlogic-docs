@@ -24,6 +24,7 @@ export default defineConfig({
           { text: 'SEO Strategy', link: '/seo-strategy' },
           { text: 'Google Ads Strategy', link: '/google-ads-strategy' },
           { text: 'Facebook & Instagram Ads Strategy', link: '/facebook-instagram-ads-strategy' },
+          { text: 'Top & Local Escape Room Websites', link: '/top-and-local-escape-room-websites' },
         ],
       },
       {
