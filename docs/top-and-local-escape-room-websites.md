@@ -8,11 +8,11 @@
 
 # Part 1: Top Escape Room Websites
 
-The best escape room websites in the country — large chains and standout boutiques whose design, branding, and digital features set the bar.
+The best escape room websites in the country — large chains and standout boutiques whose design, branding, and digital features are worth studying. Several of the boutique sites below also happen to be Lock & Logic's local competitors and appear again in Part 2.
 
 ## Large Escape Room Companies
 
-These are the biggest names in the industry. Their websites set the bar for production quality, branding, and conversion-focused design.
+These are the biggest names in the industry. Their websites represent the highest production quality, strongest branding, and most conversion-focused design in the space.
 
 ### The Escape Game — [theescapegame.com](https://theescapegame.com/)
 
@@ -42,7 +42,7 @@ Bright, family-friendly branding that sets them apart from the dark/moody aesthe
 
 [![Amazing Escape Room homepage](/screenshots/amazing-escape-room.png)](https://amazingescaperoom.com/)
 
-Multi-location chain based in NJ/PA with 9+ locations. Professional Elementor/WordPress build with Revolution Slider. Strong visuals but notably hides pricing — a friction point in the booking funnel that Lock & Logic should avoid.
+Multi-location chain based in NJ/PA with 9+ locations. Professional Elementor/WordPress build with Revolution Slider. Strong visuals but does not publish pricing — a friction point in the booking funnel that Lock & Logic should avoid.
 
 ## Small / Boutique Escape Rooms
 
@@ -54,7 +54,7 @@ These independently owned escape rooms punch above their weight with strong webs
 
 [![Expedition Escape homepage](/screenshots/expedition-escape.png)](https://expeditionescape.com/)
 
-The regional volume leader with 8-9 rooms, 9,100+ Google reviews at 5.0 stars, and the lowest base price ($27/person) among professional competitors. Their site is a heavily customized Fusion Builder build with prominent booking CTAs, award badges, and schema.org structured data for SEO. Private rooms guaranteed — a strong selling point they feature prominently.
+The highest-volume escape room in the region with 8-9 rooms, 9,100+ Google reviews at 5.0 stars, and the lowest base price ($27/person) among professional competitors. Their site is a heavily customized Fusion Builder build with prominent booking CTAs, award badges, and schema.org structured data for SEO. Private rooms guaranteed — a strong selling point they feature prominently.
 
 ### SAGE Escape Room — [sageescaperoom.com](https://sageescaperoom.com/)
 
@@ -62,7 +62,7 @@ The regional volume leader with 8-9 rooms, 9,100+ Google reviews at 5.0 stars, a
 
 [![SAGE Escape Room homepage](/screenshots/sage-escape-room.png)](https://sageescaperoom.com/)
 
-The most feature-complete small escape room site in the area. SAGE has a leaderboard (the only one among local competitors), a blog, video embeds on room pages, birthday/fundraiser/tournament event pages, and 75-minute sessions that reviews consistently praise. Perfect 5.0 Google rating. This is the closest model to what Lock & Logic should aim for digitally.
+The strongest digital presence of any small escape room in the area. SAGE has a leaderboard (the only one among local competitors), a blog, video embeds on room pages, birthday/fundraiser/tournament event pages, and 75-minute sessions that reviews consistently praise. Perfect 5.0 Google rating. This is the closest model to what Lock & Logic should aim for digitally.
 
 ### Escape Room Mystery — [escaperoommystery.com](https://escaperoommystery.com/)
 
@@ -86,7 +86,7 @@ Dark, horror-themed branding that's immediately memorable. What sets them apart 
 
 [![Encrypted Escape homepage](/screenshots/encrypted-escape.png)](https://encryptedwr.com/)
 
-A small indie with outsized reputation — Room Escape Artist called their rooms "among the best." The website is template-based (Elementor/OceanWP) and relatively basic, which is a good lesson: even highly-rated rooms can lose potential customers with a mediocre web presence. Lock & Logic can compete with this quality of experience AND have a website that matches.
+A small independent with an outsized reputation — Room Escape Artist called their rooms "among the best." The website is template-based (Elementor/OceanWP) and relatively basic, which is a good lesson: even highly-rated rooms can lose potential customers with a mediocre web presence. Lock & Logic can compete with this quality of experience *and* have a website that matches.
 
 ---
 
@@ -114,7 +114,7 @@ The closest active competitor. Part of the 9+ location Amazing Escape Room chain
 
 [![Mind Warp Escapes / Escape Limerick](/screenshots/escape-limerick.png)](https://www.escapelimerick.com/)
 
-A tiny indie operation with just 2 rooms and very limited hours (closed Wed-Thu). Has two confusing websites — mindwarpescapes.com (which mostly shows a loading screen) and escapelimerick.com (a basic Wix site). Reviews praise the creativity and affordable pricing, but the web presence is the weakest in the area. A clear example of what Lock & Logic can do better.
+A small independent operation with just 2 rooms and very limited hours (closed Wed-Thu). Has two separate websites — mindwarpescapes.com (which mostly shows a loading screen) and escapelimerick.com (a basic Wix site). Reviews praise the creativity and affordable pricing, but the web presence is the weakest in the area. A clear example of where Lock & Logic can differentiate.
 
 ## Mid-Range Competitors (10–20 miles)
 
@@ -122,7 +122,7 @@ A tiny indie operation with just 2 rooms and very limited hours (closed Wed-Thu)
 
 **Phoenixville, PA (~15 mi) · 5 rooms · $35-50/person · 5.0★**
 
-Also featured in [Top Websites — Small / Boutique](#sage-escape-room-sageescaperoomcom) for their standout web presence. The most digitally complete competitor in the area with a leaderboard, blog, and event pages.
+Also featured in [Top Websites — Small / Boutique](#sage-escape-room-sageescaperoomcom). The best digital presence of any local competitor, with a leaderboard, blog, and event pages.
 
 ### Encrypted Escape — [encryptedwr.com](https://encryptedwr.com/)
 
@@ -138,7 +138,7 @@ The KoP area is the most saturated escape room market near Pottstown, with four 
 
 **King of Prussia, PA (~22 mi) · 8-9 rooms · $27/person · 5.0★ (9,100+ reviews)**
 
-Also featured in [Top Websites — Small / Boutique](#expedition-escape-expeditionescapecom). The regional volume leader with the most rooms and lowest price among professional competitors.
+Also featured in [Top Websites — Small / Boutique](#expedition-escape-expeditionescapecom). The highest-volume escape room in the region with the most rooms and lowest price among professional competitors.
 
 ### The Escape Game KoP — [theescapegame.com/kingofprussia](https://theescapegame.com/kingofprussia/)
 
@@ -150,7 +150,7 @@ The premium option in the KoP cluster. National chain with movie-set-level rooms
 
 ### Amazing Escape Room KoP — [amazingescaperoom.com/king-of-prussia-pa](https://amazingescaperoom.com/king-of-prussia-pa/)
 
-**King of Prussia, PA (~22 mi) · 4 rooms · ~$28-35/person · ~4.8★**
+**King of Prussia, PA (~22 mi) · 4 rooms · ~$28-35/person**
 
 [![Amazing Escape Room King of Prussia](/screenshots/amazing-escape-room-kop.png)](https://amazingescaperoom.com/king-of-prussia-pa/)
 
@@ -210,11 +210,11 @@ Also featured in [Top Websites — Small / Boutique](#bates-motel-escape-rooms-b
 - **Email capture** — Only 3 of 12 local competitors have newsletter signup. Email is the highest-ROI channel for repeat business
 - **Digital waivers** — Most lack them or use clunky Google Forms. Integrated waivers (like Clever Waiver) are a quality-of-life win
 - **Community features** — No loyalty programs, no referral programs, minimal social engagement strategies
-- **Published pricing** — Amazing Escape Room (the closest competitor) hides pricing entirely, creating booking friction
+- **Published pricing** — Amazing Escape Room (the closest competitor) does not publish pricing, creating booking friction
 
 ### The Lock & Logic opportunity
 - **Zero competition in Pottstown** — the closest escape room is 7+ miles away, and the only Pottstown escape room has permanently closed
-- **Website quality gap** — immediate competitors (Mind Warp, Elite Escape) have weak websites; even mid-tier competitors use WordPress/Wix templates
-- **Feature completeness** — launching with booking, gift cards, waivers, leaderboard, corporate page, newsletter, AND blog would make Lock & Logic the most digitally complete escape room in the region
-- **Local SEO vacuum** — no one currently owns "escape room Pottstown PA" or related search terms
-- **A custom-built Astro site** would match or exceed the production quality of The Escape Game while loading significantly faster than the WordPress/Wix template sites that dominate the market
+- **Website quality gap** — the nearest competitors (Mind Warp, Amazing Escape Room Trappe) have basic or template-driven websites; even mid-tier competitors rely on WordPress/Wix templates
+- **Feature completeness** — launching with booking, gift cards, waivers, leaderboard, corporate page, newsletter, *and* blog would make Lock & Logic the most feature-rich escape room site in the region
+- **Local SEO vacuum** — with no escape room currently operating in Pottstown, search terms like "escape room Pottstown PA" and "things to do in Pottstown" are wide open for Lock & Logic to claim
+- **Website technology gap** — every competitor in the area uses WordPress templates or Wix; a custom-built site would match the production quality of The Escape Game while loading significantly faster
