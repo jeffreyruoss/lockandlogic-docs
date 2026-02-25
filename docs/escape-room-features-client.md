@@ -21,7 +21,7 @@ These are non-negotiable. Without them, the website won't do its job.
 | **SEO foundation** | The technical setup that helps you show up when someone searches "escape room near me" or "escape room Pottstown." Without this, you're invisible online. |
 | **Analytics** | Tracking that shows how many people visit your site, where they come from, and where they drop off. You can't improve what you don't measure. |
 | **Atmospheric design** | Your website is the first impression of your experience. If it looks generic, people assume the rooms will be too. A dark, immersive design signals quality. |
-| **Legal pages** | Privacy Policy and Terms of Service. Required by law for any site collecting personal data and processing payments. |
+| **Legal pages** | Privacy Policy, Terms of Service, and Cookie Policy. Required by law for any site collecting personal data and processing payments. |
 
 ---
 
@@ -82,4 +82,5 @@ For when the business scales. Not relevant at launch, but good to know they exis
 | **A/B testing** | Test different versions of your booking page to find what converts best. |
 | **Automated review requests** | Post-visit emails asking customers to leave a Google review. Fresh reviews help you rank higher in local search. |
 | **Merchandise shop** | Sell branded merch (t-shirts, puzzles, mugs) online. |
+| **Franchise / white-label** | A templated system for launching new franchise locations with centralized brand control, local customization, and franchise-level reporting. Only relevant if you plan to franchise the business. |
 | **Multi-language support** | Website in multiple languages. Only relevant if you're in a tourist-heavy area. |
