@@ -10,8 +10,6 @@ This document outlines a Google Ads strategy for Lock & Logic, covering campaign
 
 SEO is a long-term investment that takes months to pay off. Google Ads delivers results on day one. When someone searches "escape room near me" or "things to do in Pottstown," a Google Ad can put Lock & Logic at the very top of the page — above the map pack, above organic results, above everything.
 
-Here's why Google Ads makes sense for Lock & Logic specifically:
-
 - **Immediate visibility at launch.** Your site will be brand new in May 2026 with no search history. Ads bridge the gap while organic rankings build.
 - **High-intent searches.** People searching for escape rooms are ready to book. Google Ads captures them at the exact moment of intent.
 - **No local competitor is running ads.** A search for "escape room Pottstown" shows zero paid results. The nearest competitors running ads are 20+ miles away in King of Prussia.
@@ -33,9 +31,7 @@ Here's why Google Ads makes sense for Lock & Logic specifically:
 
 ## Part 1: Campaign Structure
 
-A well-organized campaign structure keeps your budget focused and your reporting clean. Each campaign targets a different audience with different intent.
-
-### Recommended Campaigns
+Each campaign targets a different audience with different intent.
 
 | Campaign | Type | Purpose |
 |----------|------|---------|
@@ -53,8 +49,6 @@ A well-organized campaign structure keeps your budget focused and your reporting
 ### Campaign 1: Core — Escape Room Searches
 
 These are your highest-intent keywords. Someone typing these is actively looking for an escape room.
-
-**Target Keywords:**
 
 | Keyword | Match Type | Expected Competition |
 |---------|-----------|---------------------|
@@ -80,7 +74,7 @@ These are your highest-intent keywords. Someone typing these is actively looking
 
 ### Campaign 2: Local — Things to Do
 
-These keywords capture people looking for activities, not necessarily escape rooms. They're discovery searches.
+These keywords capture people looking for activities, not necessarily escape rooms.
 
 | Keyword | Match Type |
 |---------|-----------|
@@ -95,7 +89,7 @@ These keywords capture people looking for activities, not necessarily escape roo
 
 ### Campaign 3: Events — Team Building & Parties
 
-These keywords target high-value group bookings. A single corporate booking can be worth $200-500+.
+High-value group bookings. A single corporate booking can be worth $200-500+.
 
 **Team Building:**
 
@@ -142,7 +136,7 @@ Brand campaigns typically have very high click-through rates (30-50%) and very l
 
 ### Negative Keywords
 
-Equally important is telling Google what you *don't* want to show up for. Apply these across all campaigns:
+Apply these across all campaigns to avoid wasting budget on irrelevant searches:
 
 | Negative Keyword | Why |
 |------------------|-----|
@@ -162,7 +156,7 @@ Review the search terms report weekly and add new negative keywords as you find 
 
 ## Part 3: Ad Copy
 
-Google Search Ads use Responsive Search Ads (RSAs), where you provide multiple headlines and descriptions and Google tests combinations. Here are recommended assets for each campaign.
+Google Search Ads use Responsive Search Ads (RSAs), where you provide multiple headlines and descriptions and Google tests combinations.
 
 ### Core Campaign Ad Copy
 
@@ -186,18 +180,6 @@ Google Search Ads use Responsive Search Ads (RSAs), where you provide multiple h
 3. Perfect for date nights, birthdays, and team building. Groups of 2-8 players welcome.
 4. Brand new escape room experience in the heart of Pottstown. Can your team beat the clock?
 
-**Ad Extensions to Enable:**
-
-| Extension | Details |
-|-----------|---------|
-| **Sitelinks** | "Book Now," "Our Rooms," "Pricing," "Gift Cards," "Corporate Events," "Birthday Parties" |
-| **Callout** | "No Experience Needed," "Private Rooms Available," "Free Parking," "Online Booking" |
-| **Structured Snippet** | Types: "The Vault, [Room 2], [Room 3]" |
-| **Call** | Your phone number — enables click-to-call on mobile |
-| **Location** | Links to your Google Business Profile, shows address and map |
-| **Price** | Shows starting price per person |
-| **Image** | Room photos (high-quality, well-lit) |
-
 ### Events Campaign Ad Copy
 
 **Team Building Headlines:**
@@ -216,11 +198,23 @@ Google Search Ads use Responsive Search Ads (RSAs), where you provide multiple h
 4. Birthday Party Packages
 5. Celebrate at Lock & Logic
 
+### Ad Extensions
+
+| Extension | Details |
+|-----------|---------|
+| **Sitelinks** | "Book Now," "Our Rooms," "Pricing," "Gift Cards," "Corporate Events," "Birthday Parties" |
+| **Callout** | "No Experience Needed," "Private Rooms Available," "Free Parking," "Online Booking" |
+| **Structured Snippet** | Types: "The Vault, [Room 2], [Room 3]" |
+| **Call** | Your phone number — enables click-to-call on mobile |
+| **Location** | Links to your Google Business Profile, shows address and map |
+| **Price** | Shows starting price per person |
+| **Image** | Room photos (high-quality, well-lit) |
+
 ---
 
 ## Part 4: Landing Pages
 
-Every ad should send people to the most relevant page — never just the homepage. Matching the landing page to the ad's intent dramatically improves conversion rates and lowers cost per click (Google rewards relevance).
+Every ad should send people to the most relevant page — never just the homepage. Matching the landing page to the ad's intent improves conversion rates and lowers cost per click (Google rewards relevance).
 
 | Campaign | Landing Page |
 |----------|-------------|
@@ -232,19 +226,11 @@ Every ad should send people to the most relevant page — never just the homepag
 | Brand | Homepage |
 | Remarketing | Booking page (they already know you — push for conversion) |
 
-Each landing page should include:
-
-- A clear headline matching the ad's promise
-- A prominent "Book Now" button above the fold
-- Social proof (reviews, star rating, group photos)
-- Key details (pricing, group sizes, what to expect)
-- No distracting navigation that leads away from booking
-
 ---
 
 ## Part 5: Budget Recommendations
 
-Google Ads costs vary by keyword competition, location, and industry. For escape rooms in a low-competition market like Pottstown, costs will be on the lower end.
+For escape rooms in a low-competition market like Pottstown, costs will be on the lower end.
 
 ### Expected Cost Per Click (CPC)
 
@@ -280,36 +266,9 @@ At a $600/month budget with an average CPC of $1.50, that's roughly **400 clicks
 
 ---
 
-## Part 6: Conversion Tracking
-
-Without conversion tracking, you're flying blind. Every action that matters should be tracked so you know which keywords and ads are actually driving bookings.
-
-### What to Track
-
-| Conversion Action | How to Track | Value |
-|-------------------|-------------|-------|
-| **Online booking completed** | Resova confirmation page / thank-you page | Actual booking value |
-| **Phone call from ad** | Google Ads call tracking | Estimated ($100) |
-| **Click on "Book Now" button** | Google Tag Manager event | Micro-conversion |
-| **Gift card purchase** | Thank-you page after purchase | Actual value |
-| **Contact form submission** | Thank-you page | Estimated ($50) |
-| **Direction request** | Google Maps action tracking | Estimated ($25) |
-
-### Setup Requirements
-
-1. **Google Ads conversion tag** on the booking confirmation page
-2. **Google Analytics 4** linked to Google Ads for full funnel visibility
-3. **Google Tag Manager** for event tracking (button clicks, scroll depth, form starts)
-4. **Enhanced conversions** enabled for better attribution accuracy
-5. **Offline conversion import** (optional) — if you track phone bookings in Resova, import them back into Google Ads to close the loop
-
----
-
-## Part 7: Remarketing Strategy
+## Part 6: Remarketing Strategy
 
 97% of first-time visitors don't book on their first visit. Remarketing shows ads to people who already visited your site, keeping Lock & Logic top of mind until they're ready to book.
-
-### Audience Segments
 
 | Audience | Who They Are | Ad Message |
 |----------|-------------|------------|
@@ -319,92 +278,64 @@ Without conversion tracking, you're flying blind. Every action that matters shou
 | **Booking page abandoners** | Started booking but didn't finish | "You were so close! Complete your booking — your time slot is filling up." |
 | **Past customers** | People who already booked (via email list) | "Loved your first escape? Try our other rooms! [New Room Name] now open." |
 
-### Remarketing Budget
-
 Remarketing is extremely cost-effective — typically $0.30-$0.80 per click with higher conversion rates than cold search traffic. Allocate 10% of your total Google Ads budget here.
 
 ---
 
-## Part 8: Seasonal Campaign Calendar
+## Part 7: Seasonal Budget Adjustments
 
-Google Ads should flex with demand. Here's when to increase spend and what to promote.
+Google Ads should flex with demand. For the full seasonal content calendar, see the [SEO Strategy](/seo-strategy) document — the same seasonal themes apply to ad campaigns. Here are the budget adjustments:
 
-| Month | Campaign Focus | Budget Adjustment |
-|-------|---------------|-------------------|
-| **January** | "Beat the winter blues" — indoor activity ads | Normal |
-| **February** | Valentine's Day date night ads | +20% |
-| **March – April** | Pre-launch awareness, "Coming Soon" ads | Pre-launch budget |
-| **May** | GRAND OPENING — max visibility | +50% |
-| **June** | Father's Day, graduation parties | +10% |
-| **July** | Summer activities, 4th of July weekend | Normal |
-| **August** | Back-to-school, end-of-summer | Normal |
-| **September** | Corporate team building season, fall activities | +15% |
-| **October** | Halloween — peak escape room season | +30% |
-| **November** | Black Friday gift card promotions | +20% |
-| **December** | Holiday gift cards, corporate holiday parties, NYE | +30% |
+| Month | Budget Adjustment | Why |
+|-------|-------------------|-----|
+| **January – March** | Normal | Baseline spend |
+| **April** | Pre-launch budget | "Coming Soon" awareness |
+| **May** | +50% | Grand opening — max visibility |
+| **June** | +10% | Father's Day, graduation parties |
+| **July – August** | Normal | Steady summer |
+| **September** | +15% | Corporate team building season |
+| **October** | +30% | Halloween — peak escape room season |
+| **November** | +20% | Black Friday gift card promotions |
+| **December** | +30% | Holiday gift cards, corporate parties, NYE |
+| **February** | +20% | Valentine's Day |
 
 ---
 
-## Part 9: Optimization Playbook
+## Part 8: Optimization Playbook
 
 Google Ads is not set-it-and-forget-it. Regular optimization is what separates profitable campaigns from money pits.
 
-### Weekly Tasks
+### Weekly
 
-- [ ] Review search terms report — add negative keywords for irrelevant queries
-- [ ] Check cost per conversion by campaign — pause anything over your target CPA
-- [ ] Review ad performance — pause underperforming ad variations
-- [ ] Check budget pacing — make sure campaigns aren't running out of budget early in the day
+- Review search terms report — add negative keywords for irrelevant queries
+- Check cost per conversion by campaign — pause anything over your target CPA
+- Review ad performance — pause underperforming ad variations
+- Check budget pacing — make sure campaigns aren't running out of budget early in the day
 
-### Monthly Tasks
+### Monthly
 
-- [ ] Review keyword performance — pause keywords with high spend and no conversions
-- [ ] Test new ad copy variations (swap 1-2 headlines or descriptions)
-- [ ] Review device performance — adjust bids for mobile vs. desktop if needed
-- [ ] Review time-of-day performance — increase bids during peak booking hours
-- [ ] Review geographic performance — adjust location bid modifiers
-- [ ] Update seasonal ad copy and promotions
+- Pause keywords with high spend and no conversions
+- Test new ad copy variations (swap 1-2 headlines or descriptions)
+- Review device, time-of-day, and geographic performance — adjust bids accordingly
+- Update seasonal ad copy and promotions
 
-### Quarterly Tasks
+### Quarterly
 
-- [ ] Review campaign structure — add new campaigns or restructure based on data
-- [ ] Review landing page performance — test new layouts or CTAs
-- [ ] Competitor ad review — check what competitors are running
-- [ ] Review and update remarketing audiences
-- [ ] Assess overall ROI and adjust budget allocation
+- Review campaign structure — add new campaigns or restructure based on data
+- Test new landing page layouts or CTAs
+- Review competitor ads
+- Assess overall ROI and adjust budget allocation
 
 ### Key Metrics and Targets
 
 | Metric | Target | What It Means |
 |--------|--------|--------------|
 | **Click-through rate (CTR)** | 5-10% (Search) | % of people who see your ad and click. Below 5% means your ads need work. |
-| **Cost per click (CPC)** | Under $2.50 | How much you pay per click. Lower is better. |
+| **Cost per click (CPC)** | Under $2.50 | How much you pay per click. |
 | **Conversion rate** | 5-10% | % of clicks that result in a booking or call. |
 | **Cost per acquisition (CPA)** | Under $15 | Cost to acquire one booking. At $15 CPA and $100+ booking value, that's strong ROI. |
-| **Return on ad spend (ROAS)** | 5:1 or better | For every $1 spent, you should generate $5+ in booking revenue. |
+| **Return on ad spend (ROAS)** | 5:1 or better | For every $1 spent, generate $5+ in booking revenue. |
 | **Quality Score** | 7+ (out of 10) | Google's rating of your ad relevance. Higher scores = lower CPCs. |
-
----
-
-## Part 10: Google Ads vs. SEO — How They Work Together
-
-Google Ads and SEO are not either/or — they complement each other.
-
-| | Google Ads | SEO |
-|---|-----------|-----|
-| **Speed** | Immediate results | 3-6 months to see rankings |
-| **Cost** | Pay per click (ongoing) | Free clicks once ranked (upfront investment) |
-| **Placement** | Top of page (labeled "Sponsored") | Below ads, in organic results and map pack |
-| **Control** | Full control over messaging and targeting | Limited control — Google decides what to show |
-| **Best for** | Launch period, seasonal pushes, high-intent keywords | Long-term sustainable traffic |
-
-**The ideal approach:**
-
-1. **Launch with Google Ads** to drive immediate traffic and bookings while SEO builds
-2. **Run both in parallel** — ads at the top, organic results below, map pack in the middle = maximum visibility
-3. **Use ads data to inform SEO** — the keywords that convert in ads should be your SEO content priorities
-4. **Reduce ad spend gradually** as organic rankings strengthen for your top keywords
-5. **Keep ads running** for seasonal promotions, new room launches, and high-competition keywords
 
 ---
 
@@ -425,23 +356,21 @@ Google Ads and SEO are not either/or — they complement each other.
 - [ ] Activate all Search campaigns
 - [ ] Run grand opening promotion ads
 - [ ] Monitor daily and adjust bids for best-performing keywords
-- [ ] Review search terms report 2-3 times per week to catch irrelevant queries early
-- [ ] Launch remarketing campaign after 1-2 weeks (once audience builds)
-- [ ] Target budget: $750-$1,000 for the month
+- [ ] Review search terms report 2-3x/week to catch irrelevant queries early
+- [ ] Launch remarketing after 1-2 weeks (once audience builds)
+- [ ] Target budget: $750-$1,000
 
 ### Optimization (June – August 2026)
 
-- [ ] Analyze first month's data — identify top keywords and top-performing ads
-- [ ] Pause underperforming keywords and ads
-- [ ] A/B test new ad copy variations
+- [ ] Identify top keywords and top-performing ads from launch data
+- [ ] Pause underperformers, A/B test new ad copy
 - [ ] Refine location and time-of-day bid adjustments
 - [ ] Build out remarketing with segmented audiences
 - [ ] Reduce budget to $500-$750/month, focused on proven performers
 
 ### Ongoing (September 2026+)
 
-- [ ] Maintain $400-$600/month steady-state budget
-- [ ] Boost budget for seasonal peaks (October, December, Valentine's Day)
+- [ ] Maintain $400-$600/month steady-state budget with seasonal boosts
 - [ ] Weekly search terms review and negative keyword updates
 - [ ] Monthly ad copy refresh
 - [ ] Quarterly performance review and campaign restructuring
@@ -449,4 +378,4 @@ Google Ads and SEO are not either/or — they complement each other.
 
 ---
 
-*Google Ads is the fastest way to put Lock & Logic in front of people who are ready to book. Combined with the long-term SEO strategy, it creates a complete search marketing approach — ads for immediate results, SEO for sustainable growth. In a market with zero local competitors running ads, even a modest budget can deliver outsized results.*
+*Google Ads is the fastest way to put Lock & Logic in front of people who are ready to book. In a market with zero local competitors running ads, even a modest budget can deliver outsized results. Combined with the long-term [SEO strategy](/seo-strategy), it creates a complete search marketing approach — ads for immediate results, organic for sustainable growth.*

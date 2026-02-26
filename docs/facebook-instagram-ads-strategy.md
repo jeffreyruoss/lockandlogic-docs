@@ -10,8 +10,6 @@ This document outlines a paid social media advertising strategy for Lock & Logic
 
 Google Ads catches people with intent. Social ads create demand. Both are valuable, but they work differently.
 
-Here's why Facebook and Instagram ads make sense for Lock & Logic:
-
 - **Visual product, visual platforms.** Escape rooms are inherently exciting and photogenic. Images and videos of themed rooms, group celebrations, and puzzle close-ups perform extremely well on social media.
 - **Precise audience targeting.** Meta lets you target by location, age, interests, behaviors, and life events — you can reach people in Pottstown who are interested in entertainment, puzzles, or group activities.
 - **Event-driven bookings.** A huge percentage of escape room bookings are tied to events — birthdays, date nights, corporate outings, holiday activities. Social ads can target people approaching these moments.
@@ -32,39 +30,9 @@ Here's why Facebook and Instagram ads make sense for Lock & Logic:
 
 ---
 
-## Part 1: Account & Pixel Setup
+## Part 1: Audience Strategy
 
-Before running any ads, the technical foundation needs to be in place.
-
-### Requirements
-
-| Element | Details |
-|---------|---------|
-| **Meta Business Suite** | Central hub for managing Facebook Page, Instagram account, and ads |
-| **Facebook Business Page** | Must be set up with complete business info, hours, photos, and booking link |
-| **Instagram Business Account** | Connected to the Facebook Page for unified ad management |
-| **Meta Ads Manager** | Where all campaigns are built, managed, and optimized |
-| **Meta Pixel** | A small piece of code on your website that tracks visitor behavior — essential for conversion tracking and remarketing |
-| **Conversions API (CAPI)** | Server-side tracking that supplements the Pixel (important as browser privacy restrictions increase) |
-| **Product catalog** (optional) | If you want to run dynamic ads showing specific rooms to people who viewed them |
-
-### Meta Pixel Events to Track
-
-| Event | When It Fires | Why It Matters |
-|-------|--------------|---------------|
-| **PageView** | Every page load | Baseline tracking |
-| **ViewContent** | Room detail pages | Tracks interest in specific rooms |
-| **InitiateCheckout** | Booking flow started | Tracks booking intent |
-| **Purchase** | Booking confirmed | Tracks completed bookings and revenue |
-| **Lead** | Email signup or contact form | Tracks lead generation |
-| **AddToCart** | Gift card added to cart | Tracks gift card interest |
-| **Schedule** | Booking date/time selected | Tracks how far people get in the funnel |
-
----
-
-## Part 2: Audience Strategy
-
-The power of Facebook and Instagram ads is in the targeting. Here's how to build audiences that convert.
+The power of Facebook and Instagram ads is in the targeting.
 
 ### Core Audiences (Interest & Demographic Targeting)
 
@@ -79,7 +47,7 @@ The power of Facebook and Instagram ads is in the targeting. Here's how to build
 
 ### Custom Audiences (Your Own Data)
 
-Custom audiences are built from people who have already interacted with your business. They're your warmest prospects.
+Custom audiences are built from people who have already interacted with your business — your warmest prospects.
 
 | Audience | Source | Use Case |
 |----------|--------|----------|
@@ -93,7 +61,7 @@ Custom audiences are built from people who have already interacted with your bus
 
 ### Lookalike Audiences
 
-Once you have enough customer data (typically 100+ purchases tracked by the Pixel), Meta can find new people who "look like" your best customers. These are incredibly powerful for scaling.
+Once you have enough customer data (typically 100+ purchases tracked by the Pixel), Meta can find new people who "look like" your best customers.
 
 | Lookalike Source | Size | Use Case |
 |-----------------|------|----------|
@@ -101,13 +69,11 @@ Once you have enough customer data (typically 100+ purchases tracked by the Pixe
 | Website visitors | 1-2% | Broader prospecting based on site interest |
 | Social engagers | 2-3% | Widest net for awareness campaigns |
 
-**Start with 1% lookalikes** (the top 1% most similar people in your target area) and expand to 2-3% as you scale.
+Start with 1% lookalikes (the top 1% most similar people in your target area) and expand to 2-3% as you scale.
 
 ---
 
-## Part 3: Campaign Structure
-
-### Recommended Campaign Framework
+## Part 2: Campaign Structure
 
 | Campaign | Objective | Audience | Funnel Stage |
 |----------|-----------|----------|-------------|
@@ -122,7 +88,7 @@ Once you have enough customer data (typically 100+ purchases tracked by the Pixe
 
 ---
 
-## Part 4: Ad Creative
+## Part 3: Ad Creative
 
 Social ads live or die on creative. The best targeting in the world won't matter if the ad doesn't stop someone from scrolling.
 
@@ -134,25 +100,9 @@ Social ads live or die on creative. The best targeting in the world won't matter
 | **Carousel (multiple images)** | High | Show all rooms in one ad. Each card = one room with a "Book Now" button. |
 | **UGC (user-generated content)** | High | Real customer photos and videos feel authentic. Repost with permission. |
 | **Single image** | Medium | Works for simple promotions, gift cards, and event-specific ads. |
-| **Stories/Reels format** | High | Full-screen vertical video. The fastest-growing ad format. |
+| **Stories/Reels format** | High | Full-screen vertical video (9:16). The fastest-growing ad format. |
 
-### Creative Guidelines
-
-**Do:**
-- Show real rooms and real people (not stock photos)
-- Use video whenever possible — even a simple phone walkthrough works
-- Show the group experience — friends laughing, high-fiving, celebrating
-- Include faces in images (ads with faces get 38% more engagement)
-- Use bright, dramatic lighting that shows off room theming
-- Keep text on images under 20% of the image area
-- Create separate creative for Stories/Reels (9:16 vertical) and Feed (1:1 square or 4:5)
-
-**Don't:**
-- Give away room puzzles or solutions
-- Use dark, hard-to-see photos
-- Write long paragraphs of text in the ad copy
-- Use generic "escape room" stock imagery
-- Forget a clear call-to-action
+Show real rooms and real people — not stock photos. Include faces (ads with faces get 38% more engagement). Create separate creative for Stories/Reels (9:16 vertical) and Feed (1:1 square or 4:5). Never give away room puzzles or solutions.
 
 ### Ad Copy Templates
 
@@ -207,19 +157,19 @@ Social ads live or die on creative. The best targeting in the world won't matter
 
 ---
 
-## Part 5: Budget Recommendations
+## Part 4: Budget Recommendations
 
 Facebook and Instagram ads are generally cheaper than Google Ads, especially for awareness and engagement campaigns.
 
 ### Expected Costs
 
-| Metric | Expected Range | Notes |
-|--------|---------------|-------|
-| **CPM (cost per 1,000 impressions)** | $5 – $15 | How much it costs to show your ad 1,000 times |
-| **CPC (cost per click)** | $0.50 – $2.00 | Clicks to your website |
-| **Cost per lead** | $3 – $8 | Email signup or inquiry |
-| **Cost per booking** | $8 – $20 | Completed booking from ad |
-| **Video view (ThruPlay)** | $0.02 – $0.08 | Cost per 15-second video view |
+| Metric | Expected Range |
+|--------|---------------|
+| **CPM (cost per 1,000 impressions)** | $5 – $15 |
+| **CPC (cost per click)** | $0.50 – $2.00 |
+| **Cost per lead** | $3 – $8 |
+| **Cost per booking** | $8 – $20 |
+| **Video view (ThruPlay)** | $0.02 – $0.08 |
 
 ### Recommended Monthly Budgets
 
@@ -241,16 +191,11 @@ Facebook and Instagram ads are generally cheaper than Google Ads, especially for
 | Awareness / Video Views | 15% |
 | Testing new creative | 10% |
 
-At a $500/month budget, you can expect roughly:
-
-- **35,000-100,000 impressions** (people seeing your ads)
-- **250-500 website clicks**
-- **15-40 bookings** (at $12-$20 cost per booking)
-- **$1,500-$4,800 in booking revenue** from a $500 investment
+At a $500/month budget, you can expect roughly **250-500 website clicks** and **15-40 bookings** (at $12-$20 cost per booking), generating **$1,500-$4,800 in booking revenue** from a $500 investment.
 
 ---
 
-## Part 6: Pre-Launch Campaign (March – April 2026)
+## Part 5: Pre-Launch Campaign (March – April 2026)
 
 The pre-launch period is about building anticipation and growing an audience before opening day.
 
@@ -278,11 +223,11 @@ The pre-launch period is about building anticipation and growing an audience bef
 
 **Offer:** "Be the first to book. Sign up for early access and get [10% off / first dibs on opening-week time slots]."
 
-**Why this matters:** An email list of 200-500 local people ready to book on opening day is extremely valuable. Even at a $5 cost per lead, spending $500-1,000 to build this list pays for itself many times over.
+An email list of 200-500 local people ready to book on opening day is extremely valuable. Even at a $5 cost per lead, spending $500-1,000 to build this list pays for itself many times over.
 
 ---
 
-## Part 7: Launch Campaign (May 2026)
+## Part 6: Launch Campaign (May 2026)
 
 Opening month is your biggest push. The goal is maximum visibility in the Pottstown area.
 
@@ -292,8 +237,6 @@ Opening month is your biggest push. The goal is maximum visibility in the Pottst
 
 **Audience:** Email list (early access), local interest audiences, social engagers from pre-launch
 
-**Creative:**
-
 | Ad | Format | Copy Hook |
 |----|--------|-----------|
 | "We're Open" announcement | Video + Image | "Pottstown's first escape room is officially open. Book your adventure today." |
@@ -302,8 +245,6 @@ Opening month is your biggest push. The goal is maximum visibility in the Pottst
 | Customer reaction video | Video (Reels) | First customers celebrating after escaping — authentic excitement |
 
 ### Campaign: Social Proof Push
-
-**Objective:** Engagement → Conversions
 
 As soon as the first groups play, capture their experience:
 
@@ -315,93 +256,20 @@ Social proof is the single most powerful conversion driver for escape rooms. Rea
 
 ---
 
-## Part 8: Ongoing Campaign Calendar
+## Part 7: Measuring Success
 
-| Month | Campaign Focus | Creative Theme |
-|-------|---------------|----------------|
-| **January** | New Year, indoor winter activities | "Start the year with an adventure" |
-| **February** | Valentine's Day date night | Couples-focused creative, gift card for partner |
-| **March** | Spring break, family activities | Family/teen group imagery |
-| **April** | Spring activities, teacher appreciation | Group/team imagery |
-| **May** | Anniversary (Year 2+), Mother's Day gift cards | Gift card creative, celebration imagery |
-| **June** | Father's Day, graduation parties | Gift card creative, graduation group shots |
-| **July** | Summer activities, 4th of July weekend | Summer energy, friend group imagery |
-| **August** | End of summer, back to school | "Last chance for summer fun" urgency |
-| **September** | Corporate team building season | Professional/team imagery |
-| **October** | **Halloween** — biggest escape room month | Spooky/themed creative, special Halloween events |
-| **November** | Black Friday / Cyber Monday gift cards | Gift card promotions, holiday shopping |
-| **December** | Holiday gift cards, holiday parties, NYE | Gift card creative, party/celebration imagery |
+### Key Metrics
 
----
+| Metric | Target |
+|--------|--------|
+| **ROAS (return on ad spend)** | 4:1 or better |
+| **Cost per booking** | Under $20 |
+| **Click-through rate (CTR)** | 1-3% (Feed), 0.5-1.5% (Stories) |
+| **Cost per click (CPC)** | Under $2.00 |
+| **Frequency** | Under 3.0 (over 3 = ad fatigue, refresh creative) |
+| **Conversion rate** | 3-8% |
 
-## Part 9: Instagram-Specific Strategy
-
-Instagram deserves special attention because it's the most visual platform and skews younger — a key escape room demographic.
-
-### Content That Performs on Instagram
-
-| Content Type | Platform Feature | Notes |
-|-------------|-----------------|-------|
-| Room walkthrough videos | Reels | 15-30 second tours of themed rooms. Highest organic reach. |
-| Group celebration photos | Feed posts (boosted) | Tag groups, encourage sharing. Social proof. |
-| Behind-the-scenes | Stories | Daily/weekly stories showing room design, puzzle creation, staff |
-| Puzzle teasers | Reels / Stories | "Can you solve this?" interactive content |
-| Countdown to events | Stories | Use countdown sticker for launches, Halloween events, etc. |
-| User-generated content | Feed / Stories | Repost customer content (with permission) |
-
-### Instagram Ad Placements
-
-When running ads through Meta Ads Manager, enable all Instagram placements:
-
-| Placement | Format | Best For |
-|-----------|--------|----------|
-| **Instagram Feed** | Square (1:1) or 4:5 image/video | All campaigns |
-| **Instagram Stories** | Vertical 9:16 video/image | Awareness, promotions, remarketing |
-| **Instagram Reels** | Vertical 9:16 video (15-30 sec) | Awareness, engagement, room showcases |
-| **Instagram Explore** | Square or vertical | Reaching new audiences beyond followers |
-
----
-
-## Part 10: Measuring Success
-
-### Key Metrics to Track
-
-| Metric | Target | What It Tells You |
-|--------|--------|-------------------|
-| **ROAS (return on ad spend)** | 4:1 or better | For every $1 in ad spend, generate $4+ in bookings |
-| **Cost per booking** | Under $20 | How much it costs to acquire one booking via ads |
-| **Click-through rate (CTR)** | 1-3% (Feed), 0.5-1.5% (Stories) | How compelling your ads are |
-| **Cost per click (CPC)** | Under $2.00 | Efficiency of driving website traffic |
-| **Frequency** | Under 3.0 | How many times the average person sees your ad. Over 3 = ad fatigue |
-| **Conversion rate** | 3-8% | % of clicks that result in a booking |
-| **Video view rate** | 15%+ ThruPlay rate | How engaging your video content is |
-| **Relevance score** | 7+ (out of 10) | Meta's rating of how well your audience responds to your ad |
-
-### Reporting Cadence
-
-| Frequency | What to Review |
-|-----------|---------------|
-| **Daily** (launch month) | Spend pacing, any disapproved ads, obvious issues |
-| **Weekly** | Performance by campaign, creative performance, audience performance |
-| **Monthly** | Full funnel analysis, budget reallocation, creative refresh planning |
-| **Quarterly** | Strategy review, audience refresh, seasonal planning |
-
----
-
-## Part 11: Facebook & Instagram Ads vs. Google Ads
-
-These platforms serve different purposes. Here's when to use each.
-
-| | Facebook & Instagram Ads | Google Ads |
-|---|------------------------|------------|
-| **Best for** | Awareness, visual storytelling, event promotion, remarketing | Capturing active search intent |
-| **Targeting** | Demographics, interests, behaviors, lookalikes | Keywords (what people are searching for) |
-| **Creative** | Image and video heavy | Text-based ads with extensions |
-| **Funnel stage** | Top and middle of funnel (+ remarketing) | Bottom of funnel (high intent) |
-| **Cost** | Generally lower CPC | Generally higher CPC, but higher intent |
-| **When to use** | Building awareness, promoting events, seasonal pushes, remarketing | Capturing "escape room near me" searches |
-
-**The ideal approach:** Use both. Google Ads captures people already searching. Facebook and Instagram ads create demand among people who didn't know they wanted an escape room — until they saw your ad.
+Review performance weekly by campaign, creative, and audience. Do a full funnel analysis monthly and a strategy review quarterly. Refresh creative at least monthly — never let the same ads run more than 4-6 weeks.
 
 ---
 
@@ -410,9 +278,7 @@ These platforms serve different purposes. Here's when to use each.
 ### Pre-Launch (March – April 2026)
 
 - [ ] Set up Meta Business Suite, Facebook Page, and Instagram Business account
-- [ ] Install Meta Pixel on the website
-- [ ] Configure Conversions API (CAPI) for server-side tracking
-- [ ] Set up Meta Pixel events (ViewContent, InitiateCheckout, Purchase, Lead)
+- [ ] Install Meta Pixel on the website and configure key events (ViewContent, InitiateCheckout, Purchase, Lead)
 - [ ] Build core audiences in Ads Manager
 - [ ] Create "Coming Soon" awareness campaign with room teasers
 - [ ] Run email signup campaign for early booking access
@@ -426,28 +292,28 @@ These platforms serve different purposes. Here's when to use each.
 - [ ] Capture and boost customer celebration content immediately
 - [ ] Launch remarketing campaign (website visitors, social engagers)
 - [ ] Test 3-5 creative variations per campaign
-- [ ] Target budget: $600-$1,000 for the month
+- [ ] Target budget: $600-$1,000
 - [ ] Goal: 50+ bookings from social ads in month one
 
 ### Growth (June – August 2026)
 
-- [ ] Analyze first month's data — identify top creative and audiences
+- [ ] Identify top creative and audiences from launch data
 - [ ] Build custom audiences from Pixel data and customer lists
 - [ ] Create first lookalike audiences (once 100+ purchases tracked)
 - [ ] Launch event-specific campaigns (date night, birthdays, team building)
 - [ ] A/B test creative, copy, and audiences systematically
-- [ ] Establish a rhythm of fresh creative every 2-3 weeks to prevent ad fatigue
+- [ ] Fresh creative every 2-3 weeks to prevent ad fatigue
 - [ ] Reduce budget to $400-$600/month, focused on proven performers
 
 ### Ongoing (September 2026+)
 
-- [ ] Maintain $300-$500/month steady-state budget
-- [ ] Boost budget for seasonal peaks (October, December, Valentine's Day)
-- [ ] Refresh creative at least monthly — never let the same ads run more than 4-6 weeks
+- [ ] Maintain $300-$500/month steady-state budget with seasonal boosts
+- [ ] Refresh creative monthly
 - [ ] Expand remarketing with increasingly specific segments
 - [ ] Scale lookalike audiences as customer data grows
 - [ ] Coordinate social ad messaging with email, Google Ads, and organic content calendar
+- [ ] For seasonal campaign themes and timing, see the [SEO Strategy](/seo-strategy) seasonal calendar
 
 ---
 
-*Facebook and Instagram ads are the perfect complement to Google Ads and SEO. Where Google captures existing demand, social ads create new demand — putting Lock & Logic in front of thousands of local people who are one compelling ad away from booking their first escape room. The visual nature of escape rooms makes social media one of the most effective advertising channels for this business.*
+*Facebook and Instagram ads are the perfect complement to Google Ads and SEO. Where Google captures existing demand, social ads create new demand — putting Lock & Logic in front of thousands of local people who are one compelling ad away from booking their first escape room.*

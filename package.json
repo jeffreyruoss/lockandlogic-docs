@@ -4,8 +4,7 @@
   "scripts": {
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview",
-    "sync": "bash sync-docs.sh"
+    "docs:preview": "vitepress preview"
   },
   "devDependencies": {
     "playwright": "^1.58.2",
