@@ -7,7 +7,7 @@ export default defineConfig({
   base: '/lockandlogic-docs/',
 
   head: [
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/lockandlogic-docs/favicon.svg' }],
+    ['link', { rel: 'icon', type: 'image/png', href: '/lockandlogic-docs/favicon.png' }],
   ],
 
   themeConfig: {
