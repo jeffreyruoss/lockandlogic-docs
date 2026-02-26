@@ -1,13 +1,14 @@
 <script setup lang="ts">
-import { ref, onMounted } from 'vue'
-import { useData } from 'vitepress'
+import { ref, onMounted, watch } from 'vue'
+import { useData, useRoute } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import PasswordGate from './PasswordGate.vue'
 
 const isAuthenticated = ref(false)
 const isReady = ref(false)
-const adminChecked = ref(false)
+const isAdmin = ref(false)
 const { site } = useData()
+const route = useRoute()
 
 const adminSidebar = [
   {
@@ -41,20 +42,37 @@ const adminSidebar = [
 
 const ADMIN_IP = '45.11.81.248'
 
+function applyAdminSidebar() {
+  if (isAdmin.value) {
+    site.value.themeConfig.sidebar = adminSidebar
+  }
+}
+
+// Re-apply admin sidebar on every route change
+watch(() => route.path, () => {
+  applyAdminSidebar()
+})
+
 onMounted(async () => {
   isAuthenticated.value = localStorage.getItem('ll-docs-auth') === 'true'
+
+  // Check cached admin status first for instant sidebar
+  if (localStorage.getItem('ll-docs-admin') === 'true') {
+    isAdmin.value = true
+    applyAdminSidebar()
+  }
 
   try {
     const res = await fetch('https://api.ipify.org?format=json')
     const data = await res.json()
-    if (data.ip === ADMIN_IP) {
-      site.value.themeConfig.sidebar = adminSidebar
-    }
+    const admin = data.ip === ADMIN_IP
+    isAdmin.value = admin
+    localStorage.setItem('ll-docs-admin', String(admin))
+    applyAdminSidebar()
   } catch {
-    // silently fail — default sidebar stays
+    // silently fail — use cached status or default sidebar
   }
 
-  adminChecked.value = true
   isReady.value = true
 })
 
