@@ -85,5 +85,23 @@ function onAuthenticated() {
 <template>
   <div v-if="!isReady" class="password-gate" />
   <PasswordGate v-else-if="!isAuthenticated" @authenticated="onAuthenticated" />
-  <DefaultTheme.Layout v-else />
+  <DefaultTheme.Layout v-else>
+    <template #sidebar-nav-before>
+      <div v-if="isAdmin" class="admin-note">
+        Admin view — clients only see the Client-Facing docs.
+      </div>
+    </template>
+  </DefaultTheme.Layout>
 </template>
+
+<style scoped>
+.admin-note {
+  padding: 8px 12px;
+  margin: 0 0 12px;
+  font-size: 12px;
+  line-height: 1.4;
+  color: var(--vp-c-text-2);
+  background: var(--vp-c-bg-soft);
+  border-radius: 6px;
+}
+</style>
