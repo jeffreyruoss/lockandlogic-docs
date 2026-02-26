@@ -6,6 +6,7 @@ import PasswordGate from './PasswordGate.vue'
 
 const isAuthenticated = ref(false)
 const isReady = ref(false)
+const adminChecked = ref(false)
 const { site } = useData()
 
 const adminSidebar = [
@@ -40,7 +41,9 @@ const adminSidebar = [
 
 const ADMIN_IP = '45.11.81.248'
 
-async function checkAdmin() {
+onMounted(async () => {
+  isAuthenticated.value = localStorage.getItem('ll-docs-auth') === 'true'
+
   try {
     const res = await fetch('https://api.ipify.org?format=json')
     const data = await res.json()
@@ -50,12 +53,9 @@ async function checkAdmin() {
   } catch {
     // silently fail — default sidebar stays
   }
-}
 
-onMounted(() => {
-  isAuthenticated.value = localStorage.getItem('ll-docs-auth') === 'true'
+  adminChecked.value = true
   isReady.value = true
-  checkAdmin()
 })
 
 function onAuthenticated() {
