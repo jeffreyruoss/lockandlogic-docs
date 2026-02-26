@@ -6,6 +6,10 @@ export default defineConfig({
   srcDir: 'docs',
   base: '/lockandlogic-docs/',
 
+  head: [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/lockandlogic-docs/favicon.svg' }],
+  ],
+
   themeConfig: {
     siteTitle: 'Lock & Logic Docs',
     logo: '/logo.png',
