@@ -1,6 +1,5 @@
 # Lock & Logic — Content Questionnaire
 
-> Client-facing document — sent after project is signed
 
 Welcome aboard! This questionnaire collects everything we need to build your site. Fill in as much as you can — if you're unsure about something, just write "not sure" and we'll figure it out together.
 

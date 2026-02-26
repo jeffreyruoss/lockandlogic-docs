@@ -1,7 +1,5 @@
 # Bookeo vs Resova — Booking Platform Comparison
 
-> **Internal reference** | February 2026
->
 > Comparing the two leading booking platforms for escape rooms
 
 ---

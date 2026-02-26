@@ -1,7 +1,5 @@
 # Lock & Logic -- Competitor Analysis
 
-> **Internal developer reference** | Compiled February 2026
->
 > Market area: ~30-mile radius from Pottstown, PA (Route 100 / Pottstown Diner corridor)
 
 ---

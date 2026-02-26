@@ -1,6 +1,5 @@
 # Lock & Logic — Scoping Questionnaire
 
-> Client-facing document — sent before estimate is finalized
 
 This helps us figure out exactly what to build for launch and what to plan for down the road. Just check the box that fits for each feature.
 

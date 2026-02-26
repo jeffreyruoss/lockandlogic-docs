@@ -4,7 +4,7 @@ layout: home
 hero:
   name: Lock & Logic
   text: Project Documentation
-  tagline: Client-facing documents, internal briefs, and project planning resources.
+  tagline: Project planning resources and documentation.
   image:
     src: /logo.png
     alt: Lock & Logic Logo
@@ -17,10 +17,10 @@ hero:
       link: /client-brief
 
 features:
-  - title: Client-Facing Docs
-    details: Estimates, questionnaires, and tech stack options prepared for the client.
-  - title: Internal Reference
-    details: Competitor analysis, feature research, and developer briefs.
+  - title: Project Docs
+    details: Estimates, questionnaires, strategy, and tech stack options.
+  - title: Research & Reference
+    details: Competitor analysis, feature research, and platform comparisons.
   - title: Search
     details: Full-text search across all project documentation.
 ---

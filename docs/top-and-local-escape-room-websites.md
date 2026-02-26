@@ -1,7 +1,5 @@
 # Top & Local Escape Room Websites
 
-> **Client-facing document** | February 2026
->
 > A visual tour of the best escape room websites — from national chains to standout independents — plus every competitor within 30 miles of Pottstown, PA. Use this as a reference for what great looks like and where Lock & Logic can stand out.
 
 ---

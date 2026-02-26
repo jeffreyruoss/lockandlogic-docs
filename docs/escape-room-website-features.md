@@ -1,6 +1,5 @@
 # Escape Room Website — Essential & Recommended Features
 
-> **Internal developer reference** — Compiled from industry research, competitor analysis, and escape room business best practices. Last updated: February 2026.
 
 ---
 

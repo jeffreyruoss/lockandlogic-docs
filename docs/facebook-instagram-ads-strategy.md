@@ -1,6 +1,5 @@
 # Lock & Logic — Facebook & Instagram Ads Strategy
 
-> Client-facing document | February 2026
 
 This document outlines a paid social media advertising strategy for Lock & Logic on Facebook and Instagram (both run through Meta Ads Manager). Unlike Google Ads, which captures people already searching for escape rooms, social ads put your business in front of people who aren't searching yet — but are exactly the type of person who would book.
 

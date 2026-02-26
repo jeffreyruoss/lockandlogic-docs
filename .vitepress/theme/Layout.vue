@@ -1,14 +1,61 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
+import { useData } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import PasswordGate from './PasswordGate.vue'
 
 const isAuthenticated = ref(false)
 const isReady = ref(false)
+const { site } = useData()
+
+const adminSidebar = [
+  {
+    text: 'Client-Facing',
+    items: [
+      { text: 'Project Estimate', link: '/project-estimate' },
+      { text: 'Tech Stack Options', link: '/tech-stack-options' },
+      { text: 'Features Overview', link: '/escape-room-features-client' },
+      { text: 'Feature Estimator', link: '/feature-estimator' },
+      { text: 'Scoping Questionnaire', link: '/questionnaire-1-scoping' },
+      { text: 'Scoping Questionnaire v2', link: '/questionnaire-1-scoping-v2' },
+      { text: 'Content Questionnaire', link: '/questionnaire-2-content' },
+      { text: 'SEO Strategy', link: '/seo-strategy' },
+      { text: 'Google Ads Strategy', link: '/google-ads-strategy' },
+      { text: 'Facebook & Instagram Ads Strategy', link: '/facebook-instagram-ads-strategy' },
+      { text: 'Top & Local Escape Room Websites', link: '/top-and-local-escape-room-websites' },
+    ],
+  },
+  {
+    text: 'Internal',
+    items: [
+      { text: 'Client Brief', link: '/client-brief' },
+      { text: 'Competitor Analysis', link: '/competitor-analysis' },
+      { text: 'Website Features (Research)', link: '/escape-room-website-features' },
+      { text: 'Option 2 Detail', link: '/option-2-detail' },
+      { text: 'Bookeo vs Resova', link: '/bookeo-vs-resova' },
+      { text: 'Pre-Engagement Checklist', link: '/pre-engagement-checklist' },
+    ],
+  },
+]
+
+const ADMIN_IP = '45.11.81.248'
+
+async function checkAdmin() {
+  try {
+    const res = await fetch('https://api.ipify.org?format=json')
+    const data = await res.json()
+    if (data.ip === ADMIN_IP) {
+      site.value.themeConfig.sidebar = adminSidebar
+    }
+  } catch {
+    // silently fail — default sidebar stays
+  }
+}
 
 onMounted(() => {
   isAuthenticated.value = localStorage.getItem('ll-docs-auth') === 'true'
   isReady.value = true
+  checkAdmin()
 })
 
 function onAuthenticated() {

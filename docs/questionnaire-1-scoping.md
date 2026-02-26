@@ -1,6 +1,5 @@
 # Lock & Logic — Scoping Questionnaire
 
-> Client-facing document — sent before estimate is finalized
 
 This short questionnaire helps us nail down exactly what features your website needs so we can give you an accurate project estimate. Don't worry about details like room descriptions or photos yet — we'll collect all of that later.
 

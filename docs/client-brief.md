@@ -1,6 +1,5 @@
 # Lock & Logic — Client Brief
 
-> Internal developer reference
 
 ## Business Info
 

@@ -1,6 +1,5 @@
 # Lock & Logic — Google Ads Strategy
 
-> Client-facing document | February 2026
 
 This document outlines a Google Ads strategy for Lock & Logic, covering campaign structure, keyword targeting, ad copy, budget recommendations, and ongoing optimization. Google Ads puts your business at the top of search results immediately — no waiting months for organic rankings to build.
 

@@ -1,6 +1,5 @@
 # Lock & Logic — SEO Strategy
 
-> Client-facing document | February 2026
 
 This is the SEO strategy for Lock & Logic's online presence. As covered in the [competitor analysis](/competitor-analysis), Pottstown currently has zero escape rooms, the closest competitors are 7+ miles away, and there are very few indoor entertainment options in the area. This strategy is designed to capitalize on that gap.
 

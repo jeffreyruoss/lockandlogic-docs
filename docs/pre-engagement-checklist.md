@@ -1,6 +1,5 @@
 # Lock & Logic — Pre-Engagement Checklist
 
-> Internal developer reference
 
 Things to research, prepare, or resolve **before** sending the questionnaire and estimate to the client.
 

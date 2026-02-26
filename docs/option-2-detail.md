@@ -1,6 +1,5 @@
 # Lock & Logic - Option 2: Astro + Decap CMS + Resova
 
-> Internal developer reference
 
 ## Tech Stack
 

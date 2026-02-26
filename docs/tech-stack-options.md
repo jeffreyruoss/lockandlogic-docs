@@ -1,6 +1,5 @@
 # Lock & Logic - Tech Stack Options
 
-> Client-facing document
 
 ## Context
 

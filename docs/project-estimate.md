@@ -1,6 +1,5 @@
 # Lock & Logic — Website Project Estimate
 
-> Client-facing document
 
 ## Project Overview
 
