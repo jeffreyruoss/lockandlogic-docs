@@ -17,19 +17,29 @@ hero:
       link: /seo-strategy
 
 features:
-  - title: Features Overview
+  - icon: 🧩
+    title: Features Overview
     details: A breakdown of every feature a modern escape room website can have, organized by priority.
     link: /escape-room-features-client
-  - title: SEO Strategy
+    linkText: View Features
+  - icon: 🔍
+    title: SEO Strategy
     details: SEO strategy designed to capitalize on Pottstown's lack of local escape room competition.
     link: /seo-strategy
-  - title: Google Ads Strategy
+    linkText: View Strategy
+  - icon: 📢
+    title: Google Ads Strategy
     details: Campaign structure, keyword targeting, ad copy, and budget recommendations.
     link: /google-ads-strategy
-  - title: Bookeo vs Resova
+    linkText: View Strategy
+  - icon: 📊
+    title: Bookeo vs Resova
     details: Side-by-side comparison of the two leading booking platforms for escape rooms.
     link: /bookeo-vs-resova
-  - title: Competitor Analysis
+    linkText: Compare Platforms
+  - icon: 🏆
+    title: Competitor Analysis
     details: Market analysis of escape room competitors within a 30-mile radius of Pottstown, PA.
     link: /competitor-analysis
+    linkText: View Analysis
 ---

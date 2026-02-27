@@ -15,11 +15,11 @@ export default defineConfig({
     logo: '/logo.png',
 
     sidebar: [
-      { text: 'Features Overview', link: '/escape-room-features-client' },
-      { text: 'SEO Strategy', link: '/seo-strategy' },
-      { text: 'Google Ads Strategy', link: '/google-ads-strategy' },
-      { text: 'Bookeo vs Resova', link: '/bookeo-vs-resova' },
-      { text: 'Competitor Analysis', link: '/competitor-analysis' },
+      { text: '🧩 Features Overview', link: '/escape-room-features-client' },
+      { text: '🔍 SEO Strategy', link: '/seo-strategy' },
+      { text: '📢 Google Ads Strategy', link: '/google-ads-strategy' },
+      { text: '📊 Bookeo vs Resova', link: '/bookeo-vs-resova' },
+      { text: '🏆 Competitor Analysis', link: '/competitor-analysis' },
     ],
 
     search: {

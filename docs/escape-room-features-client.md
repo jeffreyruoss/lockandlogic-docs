@@ -1,4 +1,4 @@
-# What Makes an Escape Room Website Work
+# 🧩 What Makes an Escape Room Website Work
 
 
 This is a breakdown of every feature a modern escape room website can have, organized by how important it is to your business. We use this to make sure we're building the right things at launch and planning smart for the future.

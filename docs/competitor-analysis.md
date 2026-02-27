@@ -1,4 +1,4 @@
-# Lock & Logic -- Competitor Analysis
+# 🏆 Lock & Logic — Competitor Analysis
 
 > Market area: ~30-mile radius from Pottstown, PA (Route 100 / Pottstown Diner corridor)
 

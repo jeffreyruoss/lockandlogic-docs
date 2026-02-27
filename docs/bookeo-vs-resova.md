@@ -1,4 +1,4 @@
-# Bookeo vs Resova — Booking Platform Comparison
+# 📊 Bookeo vs Resova — Booking Platform Comparison
 
 > Comparing the two leading booking platforms for escape rooms
 
