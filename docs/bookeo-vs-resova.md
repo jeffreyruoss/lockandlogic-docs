@@ -6,7 +6,7 @@
 
 ## Quick Verdict
 
-**Resova** is the better fit for Lock & Logic. It's purpose-built for escape rooms, has a modern customer-facing UI, and includes waivers at the Premium tier. Bookeo is a solid budget alternative — it costs less, includes more bookings per dollar, and covers the basics — but it's a generalist tool that wasn't designed specifically for escape rooms.
+**Resova** is the better fit for Lock & Logic. It's purpose-built for escape rooms, has a modern customer-facing UI, and includes waivers at the Premium tier. Bookeo is a solid budget alternative — it costs less, includes more bookings per dollar, and has an escape room industry template — but it's a generalist platform adapted for escape rooms rather than built from the ground up for them.
 
 ---
 
@@ -60,7 +60,7 @@ With annual billing, Resova costs drop ~20% (e.g., Pro becomes $72/mo = $0.24/bo
 
 | Feature | Bookeo | Resova |
 |---------|--------|--------|
-| **Escape room specific** | No — generalist (tours, activities, appointments) | Yes — built for escape rooms (2,000+ locations in 70+ countries) |
+| **Escape room specific** | Partial — has an escape room industry template within Tours & Activities that pre-configures room capacity, time slots, and group booking, but the underlying platform is generalist | Yes — built for escape rooms (2,000+ locations in 70+ countries) |
 | **Customer-facing UI** | Functional, dated design | Modern, polished design |
 | **Digital waivers** | Paid add-on ($9+/mo) — includes kiosk + QR code modes | Included in Premium plan only |
 | **Gift vouchers** | Included | Included |
@@ -99,7 +99,7 @@ With annual billing, Resova costs drop ~20% (e.g., Pro becomes $72/mo = $0.24/bo
 - 60-day risk-free evaluation (30-day trial + 30-day money-back)
 
 **Weaknesses:**
-- Not escape-room-specific — built as a generalist booking tool
+- Not a purpose-built escape room platform — offers an escape room industry template (pre-configured room capacity, time slots, group booking) but the underlying product is the generalist Tours & Activities platform
 - Customer-facing booking UI looks dated compared to Resova
 - Less modern admin dashboard
 - Waivers cost extra ($9+/mo)
@@ -141,14 +141,14 @@ Lock & Logic is a single-location escape room in Pottstown, PA starting with 1-3
 | Waivers included | No (+$9/mo) | Only on Premium ($135 / $108) |
 | **Total for 200 bookings + waivers** | **$48.95/mo** | **$135 / $108** (Premium) or **$90 / $72** (Pro, no waivers) |
 | Customer booking experience | Adequate | Superior |
-| Escape room features | Covers the basics | Native, deeper |
+| Escape room features | Escape room template with pre-configured defaults | Native, purpose-built |
 
 **Recommendation: Start with Resova Lite on annual billing ($40/mo), upgrade as needed.**
 
 Despite Bookeo's cost advantage, Resova is the right choice because:
 
 1. **Customer experience matters** — escape rooms sell an *experience*. A polished, modern booking flow sets the tone before guests even arrive. First impressions count, especially for a new brand without established reputation.
-2. **Industry-specific features** — Resova understands escape room workflows natively. Less configuration, fewer workarounds.
+2. **Purpose-built vs adapted** — Bookeo has an escape room template that pre-configures the basics, but Resova was built from the ground up for escape rooms. Less configuration, fewer workarounds, deeper understanding of the business model.
 3. **Growth path** — as Lock & Logic grows, Resova's Pro and Premium tiers add features (cart abandonment, waivers) that directly drive revenue.
 4. **Ecosystem** — Resova now supports 2,000+ locations across 70+ countries, all focused on experiences and escape rooms.
 
@@ -158,7 +158,7 @@ The price difference (~$10-50/mo more than Bookeo, depending on plan and billing
 - Ultra-tight budget where every dollar matters in the first few months
 - Need multilingual booking (international tourist area)
 - Want OTA distribution (TripAdvisor, Viator) from day one
-- Business includes non-escape-room activities (party rooms, axe throwing, etc.) — Bookeo's generalist nature becomes an advantage
+- Business includes non-escape-room activities (party rooms, axe throwing, etc.) — Bookeo's escape room template plus generalist Tours & Activities features handle mixed offerings seamlessly
 
 ---
 
