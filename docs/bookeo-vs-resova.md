@@ -77,7 +77,7 @@ With annual billing, Resova costs drop ~20% (e.g., Pro becomes $72/mo = $0.24/bo
 | **Language support** | 35+ languages | English only |
 | **Waitlist** | Yes (with auto-notifications) | No |
 | **OTA / distribution channels** | Yes (TripAdvisor, Viator, GetYourGuide, Expedia) | No |
-| **Embeddable widget** | Yes | Yes |
+| **Embeddable widget** | Yes — iframe (cannot be styled with custom CSS) | Yes — JavaScript SDK renders in the DOM (fully customizable with CSS) |
 | **API access** | Yes | Yes |
 | **Kiosk mode** | Yes (for waivers) | No |
 | **Mobile app for staff** | No | No |
@@ -101,6 +101,7 @@ With annual billing, Resova costs drop ~20% (e.g., Pro becomes $72/mo = $0.24/bo
 **Weaknesses:**
 - Not a purpose-built escape room platform — offers an escape room industry template (pre-configured room capacity, time slots, group booking) but the underlying product is the generalist Tours & Activities platform
 - Customer-facing booking UI looks dated compared to Resova
+- Booking widget is an iframe — cannot be styled with custom CSS to match your site's branding
 - Less modern admin dashboard
 - Waivers cost extra ($9+/mo)
 - No cart abandonment recovery
