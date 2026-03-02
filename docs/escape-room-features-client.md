@@ -21,6 +21,7 @@ These are non-negotiable. Without them, the website won't do its job.
 | **Analytics** | Tracking that shows how many people visit your site, where they come from, and where they drop off. You can't improve what you don't measure. |
 | **Atmospheric design** | Your website is the first impression of your experience. If it looks generic, people assume the rooms will be too. A dark, immersive design signals quality. |
 | **Legal pages** | Privacy Policy, Terms of Service, and Cookie Policy. Required by law for any site collecting personal data and processing payments. |
+| **Booking data backups** | An independent copy of all customer and booking data outside the booking platform (e.g., automatic sync to Google Sheets via Zapier). Protects against platform outages, data loss, or service changes. |
 
 ---
 

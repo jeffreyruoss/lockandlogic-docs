@@ -36,6 +36,7 @@ const adminSidebar = [
       { text: 'Website Features (Research)', link: '/escape-room-website-features' },
       { text: 'Option 2 Detail', link: '/option-2-detail' },
       { text: 'Pre-Engagement Checklist', link: '/pre-engagement-checklist' },
+      { text: 'Data Backup Strategy', link: '/data-backup-strategy' },
     ],
   },
 ]
