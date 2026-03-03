@@ -8,13 +8,6 @@ hero:
   image:
     src: /logo.png
     alt: Lock & Logic Logo
-  actions:
-    - theme: brand
-      text: Features Overview
-      link: /escape-room-features-client
-    - theme: alt
-      text: SEO Strategy
-      link: /seo-strategy
 
 features:
   - icon: 🧩
