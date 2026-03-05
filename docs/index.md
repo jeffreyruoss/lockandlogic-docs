@@ -35,4 +35,9 @@ features:
     details: Market analysis of escape room competitors within a 30-mile radius of Pottstown, PA.
     link: /competitor-analysis
     linkText: View Analysis
+  - icon: 🎮
+    title: Game Master Software
+    details: How your staff will run games, track times, deliver clues, and power the website leaderboard.
+    link: /game-master-software
+    linkText: View Options
 ---

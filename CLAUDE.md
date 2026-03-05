@@ -13,7 +13,7 @@ VitePress documentation site for the Lock & Logic escape room project.
 
 ## Auth & Access
 
-- Client-side password gate (`PasswordGate.vue`, password: `lockandlogic2026`, stored in `localStorage` as `ll-docs-auth`)
+- Client-side password gate (`PasswordGate.vue`, password: `SiL$C6$Td4*wA6se`, stored in `localStorage` as `ll-docs-auth`)
 - IP-based admin sidebar (`Layout.vue`): admin IP `45.11.81.248` sees all docs grouped by Client-Facing / Internal; everyone else sees 5 client-facing docs only
 - Admin status cached in `localStorage` as `ll-docs-admin`, verified via `api.ipify.org`
 

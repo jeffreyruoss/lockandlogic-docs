@@ -6,7 +6,7 @@ const emit = defineEmits<{ authenticated: [] }>()
 const password = ref('')
 const error = ref(false)
 
-const SITE_PASSWORD = 'lockandlogic2026'
+const SITE_PASSWORD = 'SiL$C6$Td4*wA6se'
 
 function submit() {
   if (password.value === SITE_PASSWORD) {

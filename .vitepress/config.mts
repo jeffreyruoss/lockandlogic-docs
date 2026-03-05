@@ -20,6 +20,7 @@ export default defineConfig({
       { text: '📢 Google Ads Strategy', link: '/google-ads-strategy' },
       { text: '📊 Bookeo vs Resova', link: '/bookeo-vs-resova' },
       { text: '🏆 Competitor Analysis', link: '/competitor-analysis' },
+      { text: '🎮 Game Master Software', link: '/game-master-software' },
     ],
 
     search: {

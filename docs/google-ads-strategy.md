@@ -1,18 +1,18 @@
-# 📢 Lock & Logic — Google Ads Strategy
+# 📢 Google Ads Strategy
 
 
-This document outlines a Google Ads strategy for Lock & Logic, covering campaign structure, keyword targeting, ad copy, budget recommendations, and ongoing optimization. Google Ads puts your business at the top of search results immediately — no waiting months for organic rankings to build.
+A Google Ads strategy covering campaign structure, keyword targeting, ad copy, budget recommendations, and ongoing optimization. Google Ads puts a business at the top of search results immediately — no waiting months for organic rankings to build.
 
 ---
 
-## Why Google Ads for Lock & Logic
+## Why Google Ads
 
-SEO is a long-term investment that takes months to pay off. Google Ads delivers results on day one. When someone searches "escape room near me" or "things to do in Pottstown," a Google Ad can put Lock & Logic at the very top of the page — above the map pack, above organic results, above everything.
+SEO is a long-term investment that takes months to pay off. Google Ads delivers results on day one. When someone searches "escape room near me" or "things to do in Pottstown," a Google Ad appears at the very top of the page — above the map pack, above organic results, above everything.
 
-- **Immediate visibility at launch.** Your site will be brand new in May 2026 with no search history. Ads bridge the gap while organic rankings build.
+- **Immediate visibility at launch.** A brand new site has no search history. Ads bridge the gap while organic rankings build.
 - **High-intent searches.** People searching for escape rooms are ready to book. Google Ads captures them at the exact moment of intent.
 - **No local competitor is running ads.** A search for "escape room Pottstown" shows zero paid results. The nearest competitors running ads are 20+ miles away in King of Prussia.
-- **Controllable budget.** You set a daily budget and only pay when someone clicks. You can start small and scale up as you see what works.
+- **Controllable budget.** Daily budget is adjustable, and you only pay when someone clicks. Easy to start small and scale up based on what works.
 - **Measurable ROI.** Every click, call, and booking can be tracked back to the specific ad and keyword that drove it.
 
 ---
@@ -37,7 +37,7 @@ Each campaign targets a different audience with different intent.
 | **Core — Escape Room Searches** | Search | Capture people actively searching for escape rooms in the area |
 | **Local — Things to Do** | Search | Capture broader activity searches ("things to do Pottstown," "fun activities near me") |
 | **Events — Team Building & Parties** | Search | Target high-value group bookings (corporate, birthdays, date nights) |
-| **Brand** | Search | Protect your brand name from competitors bidding on it |
+| **Brand** | Search | Protect the brand name from competitors bidding on it |
 | **Remarketing** | Display | Re-engage people who visited your site but didn't book |
 | **Local Services** | Local | Show in Google Maps and local search results with a "Google Guaranteed" badge (when eligible) |
 
@@ -122,7 +122,7 @@ High-value group bookings. A single corporate booking can be worth $200-500+.
 
 ### Campaign 4: Brand
 
-Protect your brand name so competitors can't bid on it and steal your traffic.
+Protects the brand name so competitors can't bid on it and divert traffic.
 
 | Keyword | Match Type |
 |---------|-----------|
@@ -267,7 +267,7 @@ At a $600/month budget with an average CPC of $1.50, that's roughly **400 clicks
 
 ## Part 6: Remarketing Strategy
 
-97% of first-time visitors don't book on their first visit. Remarketing shows ads to people who already visited your site, keeping Lock & Logic top of mind until they're ready to book.
+97% of first-time visitors don't book on their first visit. Remarketing shows ads to people who already visited the site, keeping the business top of mind until they're ready to book.
 
 | Audience | Who They Are | Ad Message |
 |----------|-------------|------------|
@@ -377,4 +377,4 @@ Google Ads is not set-it-and-forget-it. Regular optimization is what separates p
 
 ---
 
-*Google Ads is the fastest way to put Lock & Logic in front of people who are ready to book. In a market with zero local competitors running ads, even a modest budget can deliver outsized results. Combined with the long-term [SEO strategy](/seo-strategy), it creates a complete search marketing approach — ads for immediate results, organic for sustainable growth.*
+*In a market with zero local competitors running ads, even a modest budget can deliver outsized results. Combined with a long-term [SEO strategy](/seo-strategy), Google Ads creates a complete search marketing approach — ads for immediate results, organic for sustainable growth.*

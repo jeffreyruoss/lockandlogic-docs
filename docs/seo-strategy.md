@@ -1,7 +1,7 @@
-# 🔍 Lock & Logic — SEO Strategy
+# 🔍 SEO Strategy
 
 
-This is the SEO strategy for Lock & Logic's online presence. As covered in the [competitor analysis](/competitor-analysis), Pottstown currently has zero escape rooms, the closest competitors are 7+ miles away, and there are very few indoor entertainment options in the area. This strategy is designed to capitalize on that gap.
+An SEO strategy tailored to the Pottstown market. As covered in the [competitor analysis](/competitor-analysis), Pottstown currently has zero escape rooms, the closest competitors are 7+ miles away, and there are very few indoor entertainment options in the area. This represents a significant opportunity in local search.
 
 ---
 
@@ -47,7 +47,7 @@ Google allows profile creation **up to 90 days before opening** — so the listi
 
 ### Tier 1: Must-Win
 
-These are the terms Lock & Logic should rank #1 for. With no direct competitor in Pottstown, this is very achievable.
+These are the highest-priority search terms. With no direct competitor in Pottstown, ranking #1 for these is very achievable.
 
 - **escape room Pottstown PA** / **escape room Pottstown** — the primary search terms, no competitor owns these
 - **escape rooms near Pottstown** — captures surrounding area searches
@@ -114,7 +114,7 @@ Reviews are one of the most heavily weighted local search ranking factors, and *
 
 1. **Post-game photo moment** with a branded backdrop — teams holding a "We Escaped!" sign are psychologically primed to leave positive reviews
 2. **QR code at the exit** linking directly to the Google review page
-3. **Automated follow-up email** via Resova within 1-2 hours (group photo, escape time, "Leave a Review" link)
+3. **Automated follow-up email** via the booking platform within 1-2 hours (group photo, escape time, "Leave a Review" link)
 4. **Game master ask** — a genuine, human ask is more effective than any automation
 
 **Goal**: 50+ Google reviews within the first 3 months. Respond to every review within 24 hours. Focus on Google first, then TripAdvisor and Yelp.
@@ -239,4 +239,4 @@ Backlinks are one of Google's top ranking factors. For a local business, the mos
 
 ---
 
-*This strategy is tailored to Lock & Logic's unique position: a new escape room entering an underserved market with zero local competition. The combination of a fast Astro site, strong local SEO, and consistent content marketing can position Lock & Logic to dominate search results in the Pottstown and western Montgomery County area.*
+*Lock & Logic's position — a new escape room entering an underserved market with zero local competition — is unusually strong for SEO. A fast site, strong local SEO foundation, and consistent content marketing can establish dominance in Pottstown and western Montgomery County search results relatively quickly.*

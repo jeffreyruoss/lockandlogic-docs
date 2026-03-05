@@ -19,6 +19,7 @@ const adminSidebar = [
       { text: '📢 Google Ads Strategy', link: '/google-ads-strategy' },
       { text: '📊 Bookeo vs Resova', link: '/bookeo-vs-resova' },
       { text: '🏆 Competitor Analysis', link: '/competitor-analysis' },
+      { text: '🎮 Game Master Software', link: '/game-master-software' },
     ],
   },
   {
@@ -37,6 +38,7 @@ const adminSidebar = [
       { text: 'Option 2 Detail', link: '/option-2-detail' },
       { text: 'Pre-Engagement Checklist', link: '/pre-engagement-checklist' },
       { text: 'Data Backup Strategy', link: '/data-backup-strategy' },
+      { text: 'GM Software (Technical)', link: '/game-master-software-internal' },
     ],
   },
 ]

@@ -4,9 +4,9 @@
 
 ---
 
-## Quick Verdict
+## Quick Summary
 
-**Resova** is the better fit for Lock & Logic. It's purpose-built for escape rooms, has a modern customer-facing UI, and includes waivers at the Premium tier. Bookeo is a solid budget alternative — it costs less, includes more bookings per dollar, and has an escape room industry template — but it's a generalist platform adapted for escape rooms rather than built from the ground up for them.
+Resova is purpose-built for escape rooms, has a modern customer-facing UI, and includes waivers at the Premium tier. Bookeo is a solid budget alternative — it costs less, includes more bookings per dollar, and has an escape room industry template — but it's a generalist platform adapted for escape rooms rather than built from the ground up for them. Both are viable options with different trade-offs.
 
 ---
 
@@ -131,9 +131,9 @@ With annual billing, Resova costs drop ~20% (e.g., Pro becomes $72/mo = $0.24/bo
 
 ---
 
-## For Lock & Logic Specifically
+## Cost Scenario: Single Location, 1-3 Rooms
 
-Lock & Logic is a single-location escape room in Pottstown, PA starting with 1-3 rooms. Expected booking volume: **50-200 bookings/month** in the first year.
+A single-location escape room starting with 1-3 rooms might expect **50-200 bookings/month** in the first year. Here's how the costs compare at that scale.
 
 | Factor | Bookeo | Resova (monthly / annual) |
 |--------|--------|--------------------------|
@@ -141,25 +141,22 @@ Lock & Logic is a single-location escape room in Pottstown, PA starting with 1-3
 | Cost at 200 bookings/mo | $39.95 (Standard) | $90 / $72 (Pro) |
 | Waivers included | No (+$9/mo) | Only on Premium ($135 / $108) |
 | **Total for 200 bookings + waivers** | **$48.95/mo** | **$135 / $108** (Premium) or **$90 / $72** (Pro, no waivers) |
-| Customer booking experience | Adequate | Superior |
+| Customer booking experience | Functional, dated design | Modern, polished design |
 | Escape room features | Escape room template with pre-configured defaults | Native, purpose-built |
 
-**Recommendation: Start with Resova Lite on annual billing ($40/mo), upgrade as needed.**
+### Factors That Favor Resova
 
-Despite Bookeo's cost advantage, Resova is the right choice because:
+- **Customer experience** — escape rooms sell an *experience*. A polished, modern booking flow sets the tone before guests even arrive. First impressions count, especially for a new brand without established reputation.
+- **Purpose-built** — Resova was built from the ground up for escape rooms. Less configuration, fewer workarounds, deeper understanding of the business model.
+- **Growth path** — Pro and Premium tiers add features (cart abandonment, waivers) that directly drive revenue.
 
-1. **Customer experience matters** — escape rooms sell an *experience*. A polished, modern booking flow sets the tone before guests even arrive. First impressions count, especially for a new brand without established reputation.
-2. **Purpose-built vs adapted** — Bookeo has an escape room template that pre-configures the basics, but Resova was built from the ground up for escape rooms. Less configuration, fewer workarounds, deeper understanding of the business model.
-3. **Growth path** — as Lock & Logic grows, Resova's Pro and Premium tiers add features (cart abandonment, waivers) that directly drive revenue.
-4. **Ecosystem** — Resova now supports 2,000+ locations across 70+ countries, all focused on experiences and escape rooms.
+### Factors That Favor Bookeo
 
-The price difference (~$10-50/mo more than Bookeo, depending on plan and billing cycle) is worth it for a business where the booking experience is a direct extension of the brand.
-
-**When Bookeo might make sense instead:**
-- Ultra-tight budget where every dollar matters in the first few months
-- Need multilingual booking (international tourist area)
-- Want OTA distribution (TripAdvisor, Viator) from day one
-- Business includes non-escape-room activities (party rooms, axe throwing, etc.) — Bookeo's escape room template plus generalist Tours & Activities features handle mixed offerings seamlessly
+- **Cost** — significantly cheaper at every volume level, especially with waivers
+- **Multilingual** — 35+ languages, useful for tourist areas
+- **OTA distribution** — TripAdvisor, Viator, GetYourGuide, Expedia integrations from day one
+- **Mixed activities** — handles non-escape-room offerings (party rooms, axe throwing, etc.) seamlessly alongside escape rooms
+- **Longer trial** — 60-day risk-free evaluation vs Resova's 14-day trial
 
 ---
 

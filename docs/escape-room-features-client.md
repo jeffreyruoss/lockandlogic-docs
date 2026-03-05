@@ -1,7 +1,7 @@
 # 🧩 What Makes an Escape Room Website Work
 
 
-This is a breakdown of every feature a modern escape room website can have, organized by how important it is to your business. We use this to make sure we're building the right things at launch and planning smart for the future.
+A breakdown of every feature a modern escape room website can have, organized by priority. Use this as a reference for deciding what to include at launch and what to plan for later.
 
 ---
 
@@ -28,7 +28,7 @@ These are non-negotiable. Without them, the website won't do its job.
 
 ## Strongly Recommended
 
-These have a direct impact on bookings and revenue. We include most of these in your build.
+These have a direct impact on bookings and revenue. Most successful escape room sites include the majority of these.
 
 | Feature | What it does for you |
 |---------|---------------------|
