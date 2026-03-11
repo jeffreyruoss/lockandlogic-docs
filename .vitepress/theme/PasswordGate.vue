@@ -6,6 +6,7 @@ const emit = defineEmits<{ authenticated: [] }>()
 const password = ref('')
 const error = ref(false)
 
+// Not a security measure — just friction to gate casual access. OK to be in git.
 const SITE_PASSWORD = 'SiL$C6$Td4*wA6se'
 
 function submit() {
