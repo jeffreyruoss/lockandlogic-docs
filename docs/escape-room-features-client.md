@@ -23,6 +23,18 @@ These are non-negotiable. Without them, the website won't do its job.
 | **Atmospheric design** | Your website is the first impression of your experience. If it looks generic, people assume the rooms will be too. A dark, immersive design signals quality. |
 | **Legal pages** | Privacy Policy, Terms of Service, and Cookie Policy. Required by law for any site collecting personal data and processing payments. |
 | **Booking data backups** | An independent copy of all customer and booking data outside the booking platform (e.g., automatic sync to Google Sheets via Zapier). Protects against platform outages, data loss, or service changes. |
+| **Email capture during booking** | A checkbox in the booking flow that lets customers opt in to your Mailchimp email list. Builds your marketing list automatically from every booking — no extra effort required. |
+
+---
+
+## AJA Marketing Requests
+
+Features recommended by AJA Marketing to strengthen post-visit engagement and online reputation.
+
+| Feature | What it does for you |
+|---------|---------------------|
+| **Automated follow-up emails** | Emails automatically sent to customers after they attend or check in for a room. Can include a thank-you, a review request, a discount on their next visit, or a referral offer. Turns one-time visitors into repeat customers. |
+| **Dedicated reviews page** | A standalone page on the site that showcases customer reviews and testimonials. Goes beyond a few quotes on the homepage — gives social proof its own space and helps with SEO for "escape room reviews" searches. |
 
 ---
 
