@@ -21,6 +21,7 @@ export default defineConfig({
       { text: '📊 Bookeo vs Resova', link: '/bookeo-vs-resova' },
       { text: '🏆 Competitor Analysis', link: '/competitor-analysis' },
       { text: '🎮 Game Master Software', link: '/game-master-software' },
+      { text: '🛠️ Houdini MC Setup Guide', link: '/houdini-mc-setup' },
     ],
 
     search: {

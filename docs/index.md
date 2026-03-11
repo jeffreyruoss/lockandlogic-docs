@@ -40,4 +40,9 @@ features:
     details: How your staff will run games, track times, deliver clues, and power the website leaderboard.
     link: /game-master-software
     linkText: View Options
+  - icon: 🛠️
+    title: Houdini MC Setup Guide
+    details: Step-by-step instructions for installing and configuring Houdini MC at your venue.
+    link: /houdini-mc-setup
+    linkText: View Guide
 ---

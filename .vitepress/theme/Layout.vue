@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, onMounted, watch } from 'vue'
+import { ref, computed, onMounted, onUnmounted, watch } from 'vue'
 import { useData, useRoute } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import PasswordGate from './PasswordGate.vue'
@@ -7,6 +7,16 @@ import PasswordGate from './PasswordGate.vue'
 const isAuthenticated = ref(false)
 const isReady = ref(false)
 const isAdmin = ref(false)
+
+// Countdown to opening day: May 31, 2026
+const OPENING_DAY = new Date('2026-05-31T00:00:00')
+const now = ref(new Date())
+let countdownTimer: ReturnType<typeof setInterval>
+
+const daysUntilOpening = computed(() => {
+  const diff = OPENING_DAY.getTime() - now.value.getTime()
+  return Math.max(0, Math.ceil(diff / (1000 * 60 * 60 * 24)))
+})
 const { site } = useData()
 const route = useRoute()
 
@@ -20,6 +30,7 @@ const adminSidebar = [
       { text: '📊 Bookeo vs Resova', link: '/bookeo-vs-resova' },
       { text: '🏆 Competitor Analysis', link: '/competitor-analysis' },
       { text: '🎮 Game Master Software', link: '/game-master-software' },
+      { text: '🛠️ Houdini MC Setup Guide', link: '/houdini-mc-setup' },
     ],
   },
   {
@@ -77,6 +88,14 @@ onMounted(async () => {
   }
 
   isReady.value = true
+
+  countdownTimer = setInterval(() => {
+    now.value = new Date()
+  }, 60000) // update every minute
+})
+
+onUnmounted(() => {
+  clearInterval(countdownTimer)
 })
 
 function onAuthenticated() {
