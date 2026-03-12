@@ -114,7 +114,7 @@ Any final changes or feature additions must be submitted **at least 2 weeks befo
 
 ## Ongoing Support After Launch
 
-After the 3-month period, ongoing support is available at **$90/hr** — typically **1–10 hours/month** depending on your needs. Below is a ballpark of what I can help with. We can adjust the scope at any time.
+After the 3-month period, **optional** ongoing support is available at **$90/hr** — typically **1–10 hours/month** depending on your needs. Below is a ballpark of what I can help with. We can adjust the scope at any time.
 
 - **SEO monitoring & optimization** — Keyword rankings, meta tags, page performance, algorithm changes.
 - **Security updates** — Dependencies, frameworks, and hosting kept up to date.
@@ -141,7 +141,7 @@ Optional — you're never locked in. Start, pause, or cancel at any time.
 
 ## Ownership & Deliverables
 
-You get **full ownership** of everything: source code, design assets, branding style guide, and deployment configuration.
+You get **full ownership** of everything: source code, design assets, branding style guide, documentation, and deployment configuration.
 
 You're not locked into an ongoing relationship. After launch, you own everything and can take it to any developer or host it anywhere.
 
