@@ -101,9 +101,8 @@ function onAuthenticated() {
 </script>
 
 <template>
-  <div v-if="!isReady" class="password-gate" />
-  <PasswordGate v-else-if="!isAuthenticated" @authenticated="onAuthenticated" />
-  <DefaultTheme.Layout v-else>
+  <!-- Always render Layout so VitePress can hydrate page content on hard navigation -->
+  <DefaultTheme.Layout>
     <template #home-hero-info-after>
       <CountdownBar />
     </template>
@@ -113,6 +112,10 @@ function onAuthenticated() {
       </div>
     </template>
   </DefaultTheme.Layout>
+
+  <!-- Full-screen overlay for loading / auth gate -->
+  <div v-if="!isReady" class="password-gate password-gate--overlay" />
+  <PasswordGate v-else-if="!isAuthenticated" class="password-gate--overlay" @authenticated="onAuthenticated" />
 </template>
 
 <style scoped>
@@ -124,5 +127,11 @@ function onAuthenticated() {
   color: var(--vp-c-text-2);
   background: var(--vp-c-bg-soft);
   border-radius: 6px;
+}
+
+.password-gate--overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
 }
 </style>
