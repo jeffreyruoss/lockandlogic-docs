@@ -10,6 +10,11 @@ hero:
     alt: Lock & Logic Logo
 
 features:
+  - icon: 📋
+    title: Project Proposal
+    details: Full project scope, pricing, timeline, and terms for your Lock & Logic escape room website.
+    link: /proposal
+    linkText: View Proposal
   - icon: 🧩
     title: Features Overview
     details: A breakdown of every feature a modern escape room website can have, organized by priority.

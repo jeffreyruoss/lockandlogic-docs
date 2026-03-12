@@ -15,6 +15,7 @@ export default defineConfig({
     logo: '/logo.png',
 
     sidebar: [
+      { text: '📋 Project Proposal', link: '/proposal' },
       { text: '🧩 Features Overview', link: '/escape-room-features-client' },
       { text: '🔍 SEO Strategy', link: '/seo-strategy' },
       { text: '📢 Google Ads Strategy', link: '/google-ads-strategy' },

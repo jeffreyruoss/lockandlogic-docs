@@ -26,6 +26,22 @@ Before getting started, make sure you have the following:
 
 ---
 
+## Remote Setup & Management
+
+Because Houdini MC is a standard Windows application, most of the software setup can be done remotely — no need for us to be physically at the venue. Using remote desktop tools (like TeamViewer, which Houdini MC's own support team uses), we can handle:
+
+- **Installing and updating** Houdini MC
+- **Configuring rooms** — names, durations, puzzle counts, themes
+- **Programming clues** — text, images, audio, video, text-to-speech
+- **Setting up the leaderboard**
+- **Configuring automated backups**
+- **Troubleshooting** software issues as they come up
+- **Ongoing monitoring and adjustments** after launch
+
+The only things that need to be done on-site are the physical tasks — running HDMI cables to room TVs, mounting displays and cameras, and verifying audio levels and visibility in the actual rooms. So the process is straightforward: someone at the venue handles the physical hardware setup, and we handle all the software configuration remotely.
+
+---
+
 ## Step 1 — Install Houdini MC
 
 1. Go to [houdinimc.com/download](https://houdinimc.com/download/) and download the latest stable version (it downloads as a `.zip` file)

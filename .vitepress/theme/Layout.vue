@@ -1,22 +1,13 @@
 <script setup lang="ts">
-import { ref, computed, onMounted, onUnmounted, watch } from 'vue'
+import { ref, onMounted, watch } from 'vue'
 import { useData, useRoute } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import PasswordGate from './PasswordGate.vue'
+import CountdownBar from './CountdownBar.vue'
 
 const isAuthenticated = ref(false)
 const isReady = ref(false)
 const isAdmin = ref(false)
-
-// Countdown to opening day: May 31, 2026
-const OPENING_DAY = new Date('2026-05-31T00:00:00')
-const now = ref(new Date())
-let countdownTimer: ReturnType<typeof setInterval>
-
-const daysUntilOpening = computed(() => {
-  const diff = OPENING_DAY.getTime() - now.value.getTime()
-  return Math.max(0, Math.ceil(diff / (1000 * 60 * 60 * 24)))
-})
 const { site } = useData()
 const route = useRoute()
 
@@ -24,6 +15,7 @@ const adminSidebar = [
   {
     text: 'Client-Facing',
     items: [
+      { text: '📋 Project Proposal', link: '/proposal' },
       { text: '🧩 Features Overview', link: '/escape-room-features-client' },
       { text: '🔍 SEO Strategy', link: '/seo-strategy' },
       { text: '📢 Google Ads Strategy', link: '/google-ads-strategy' },
@@ -88,14 +80,6 @@ onMounted(async () => {
   }
 
   isReady.value = true
-
-  countdownTimer = setInterval(() => {
-    now.value = new Date()
-  }, 60000) // update every minute
-})
-
-onUnmounted(() => {
-  clearInterval(countdownTimer)
 })
 
 function onAuthenticated() {
@@ -108,6 +92,9 @@ function onAuthenticated() {
   <div v-if="!isReady" class="password-gate" />
   <PasswordGate v-else-if="!isAuthenticated" @authenticated="onAuthenticated" />
   <DefaultTheme.Layout v-else>
+    <template #home-hero-info-after>
+      <CountdownBar />
+    </template>
     <template #sidebar-nav-before>
       <div v-if="isAdmin" class="admin-note">
         Admin view — clients only see the Client-Facing docs.

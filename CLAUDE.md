@@ -29,6 +29,10 @@ VitePress documentation site for the Lock & Logic escape room project.
 - `feature-estimator.md` uses a Vue component (`FeatureEstimator.vue`)
 - Homepage (`index.md`) shows the 5 client-facing docs as feature cards
 
+## Estimating
+
+See `.claude/projects/.../memory/project_estimating.md` for developer speed context when estimating timelines. Never expose these details in client-facing content.
+
 ## Commands
 
 - `npm run docs:dev` — Start dev server (http://localhost:5173/lockandlogic-docs/)
