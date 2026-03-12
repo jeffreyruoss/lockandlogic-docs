@@ -60,7 +60,19 @@ watch(() => route.path, () => {
 })
 
 onMounted(async () => {
-  isAuthenticated.value = localStorage.getItem('ll-docs-auth') === 'true'
+  // Allow authentication via ?pw= query parameter
+  const params = new URLSearchParams(window.location.search)
+  const pw = params.get('pw')
+  if (pw === 'SiL$C6$Td4*wA6se') {
+    localStorage.setItem('ll-docs-auth', 'true')
+    isAuthenticated.value = true
+    // Clean the URL so the password isn't visible/bookmarked
+    const url = new URL(window.location.href)
+    url.searchParams.delete('pw')
+    window.history.replaceState({}, '', url.toString())
+  } else {
+    isAuthenticated.value = localStorage.getItem('ll-docs-auth') === 'true'
+  }
 
   // Check cached admin status first for instant sidebar
   if (localStorage.getItem('ll-docs-admin') === 'true') {
