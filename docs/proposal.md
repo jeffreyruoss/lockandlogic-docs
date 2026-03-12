@@ -30,8 +30,8 @@ A complete digital package for **Lock & Logic** escape rooms — not just a webs
 |---------|---------------------|
 | **Website copywriting** | All copy for the site — room descriptions, page content, calls to action. You're welcome to submit your own or request changes at any time. |
 | **How it works section** | Explanation for first-timers: what to expect, how it works, what to bring, when to arrive. Reduces anxiety, increases bookings. |
-| **Location & contact info** | Address, phone, email, hours, and embedded Google Map on every page. |
-| **Contact form** | Simple form for general inquiries (group events, questions, partnerships) via Formspree. Separate from booking. |
+| **Location & contact info** | Address, phone, email, hours, and embedded Google Map. |
+| **Contact form** | Simple form for general inquiries (group events, questions, partnerships) via Formspree or similar. Separate from booking. |
 | **FAQ page** | Answers common pre-booking questions. Removes hesitation. |
 | **Accessibility info** | Wheelchair access and physical considerations per room. Builds trust, avoids surprises. |
 | **Legal pages** | Privacy Policy, Terms of Service, Cookie Policy. Required by law for any site collecting data and processing payments. |
@@ -42,7 +42,7 @@ A complete digital package for **Lock & Logic** escape rooms — not just a webs
 |---------|---------------------|
 | **Online booking** | Customers pick a room, date/time, and pay online. No back-and-forth calls or emails. |
 | **Digital waivers** | Online liability waivers signed before arrival. Better experience, less paperwork at check-in. |
-| **Booking data backups** | Automatic sync to Google Sheets via Zapier. Protects against platform outages or data loss. |
+| **Booking data backups** | Automatic sync to Google Sheets via Zapier or similar. Protects against platform outages or data loss. |
 | **Email capture during booking** | Opt-in checkbox for your Mailchimp list. Builds your marketing list automatically from every booking. |
 
 ### Marketing & Engagement

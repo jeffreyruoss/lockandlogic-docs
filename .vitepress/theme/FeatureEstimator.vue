@@ -61,7 +61,7 @@ const sections: Section[] = [
       {
         id: 'location',
         name: 'Location & Contact Info',
-        desc: 'Address, phone, email, hours, and embedded Google Map on every page.',
+        desc: 'Address, phone, email, hours, and embedded Google Map.',
         bookeo: 3,
         resova: 3,
       },

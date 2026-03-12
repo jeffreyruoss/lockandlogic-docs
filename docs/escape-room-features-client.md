@@ -15,14 +15,14 @@ These are non-negotiable. Without them, the website won't do its job.
 | **Room pages** | Each room gets its own page with photos, a description, difficulty level, group size, duration, and price. This is how customers decide which room to book. |
 | **Clear pricing** | Prices are visible upfront. Hidden pricing is the #1 reason people leave an escape room website without booking. |
 | **Mobile-friendly design** | Over 60% of your visitors will be on their phones. If the site doesn't work well on mobile, you lose the majority of potential bookings. |
-| **Location & contact info** | Your address, phone, email, hours, and an embedded Google Map — on every page. Customers need to know where you are and how to reach you. |
+| **Location & contact info** | Your address, phone, email, hours, and an embedded Google Map. Customers need to know where you are and how to reach you. |
 | **Contact form** | A simple form for general inquiries (group events, questions, partnerships). Submissions go straight to your email via a free form service (Formspree). Separate from the booking system — this is for everything that isn't a booking. |
 | **"How it works" section** | A clear explanation for first-timers: what to expect, how the game works, what to bring, when to arrive. Reduces anxiety and gets more people to book. |
 | **SEO foundation** | The technical setup that helps you show up when someone searches "escape room near me" or "escape room Pottstown." Without this, you're invisible online. |
 | **Analytics** | Tracking that shows how many people visit your site, where they come from, and where they drop off. You can't improve what you don't measure. |
 | **Atmospheric design** | Your website is the first impression of your experience. If it looks generic, people assume the rooms will be too. A dark, immersive design signals quality. |
 | **Legal pages** | Privacy Policy, Terms of Service, and Cookie Policy. Required by law for any site collecting personal data and processing payments. |
-| **Booking data backups** | An independent copy of all customer and booking data outside the booking platform (e.g., automatic sync to Google Sheets via Zapier). Protects against platform outages, data loss, or service changes. |
+| **Booking data backups** | An independent copy of all customer and booking data outside the booking platform (e.g., automatic sync to Google Sheets via Zapier or similar). Protects against platform outages, data loss, or service changes. |
 | **Email capture during booking** | A checkbox in the booking flow that lets customers opt in to your Mailchimp email list. Builds your marketing list automatically from every booking — no extra effort required. |
 | **Game master software** | Houdini MC — the best-in-class game master software for running escape rooms. Lets your GM manage clues, timers, and room controls from a dashboard during live games. It runs locally on a Windows PC at the venue (LAN-only, no cloud version), but most of the software setup and ongoing configuration can be done remotely — only the physical hardware (cables, TVs, cameras) needs to be handled on-site. |
 
