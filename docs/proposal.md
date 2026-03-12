@@ -71,9 +71,9 @@ This project integrates with Bookeo and Houdini MC — both third-party platform
 
 ## What You'll Be Responsible For
 
-- **Bookeo account** — Create the account under your name and billing info. I'll handle configuration and integration.
-- **Stripe account** — Recommended payment processor for Bookeo. Create an account and connect your bank info. I'll connect it to Bookeo.
-- **Windows PC for Houdini MC** — Dedicated Windows computer at your venue. This is the central hub — game masters connect from iPads/tablets on the local network. See the [Houdini MC Setup Guide](/houdini-mc-setup) for details.
+- **Bookeo account** — Create the initial account with your email address and billing info. I'll handle configuration and integration from there.
+- **Stripe account** — Recommended payment processor for Bookeo. Create the initial account with your email address and connect your bank info. I'll connect it to Bookeo.
+- **Windows PC for Houdini MC** — Dedicated Windows computer at your venue. This is the central hub — game masters connect from iPads/tablets on the local network.
 - **Houdini MC hardware setup** — Physical setup at your venue (HDMI cables to room TVs, mounting displays, etc.) needs to be handled on-site.
 
 ## Investment
@@ -81,7 +81,6 @@ This project integrates with Bookeo and Houdini MC — both third-party platform
 <div class="proposal-price-box">
   <div class="price">$4,200</div>
   <div class="price-note">Flat rate — based on estimated hours, but I won't be logging hours as we go.</div>
-  <div class="price-note">Includes 2 rounds of design revisions. Additional rounds at $90/hr.</div>
 </div>
 
 **Unlimited change requests** within reason, at my discretion. The goal is to get it right — not to cap you at an arbitrary number of revisions.
