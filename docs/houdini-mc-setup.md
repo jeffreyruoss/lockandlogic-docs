@@ -120,20 +120,20 @@ The main game master interface runs directly on the host PC. The Houdini MC wind
 - **Console Region** — Send clues and interact with players
 - **CCTV Panel** — Monitor camera feeds from the room
 
-### Remote Control from a Tablet (Optional)
+### Remote Control from Tablets (Recommended)
 
-If you'd rather control games from a tablet instead of sitting at the PC:
+Each game master can control their room from an iPad or tablet instead of sitting at the host PC. This means if you have multiple rooms running at the same time, each GM gets their own tablet to independently manage their room:
 
 1. In Houdini MC, go to **Settings → Connections** and enable incoming requests
-2. Connect a tablet or phone to the **same Wi-Fi network**
-3. Open Chrome on the tablet and go to the **Mobile Smart Menu (MSM)** URL shown in Houdini MC
+2. Connect each tablet to the **same Wi-Fi network** as the host PC
+3. Open Chrome or Safari on the tablet and go to the **Mobile Smart Menu (MSM)** URL shown in Houdini MC
 
-From the tablet, your game master can:
-- **Start and stop** the countdown timer remotely
+From their tablet, each game master can:
+- **Start and stop** the countdown timer for their room
 - **Send clues** to the in-room display
 - **Monitor game progress**
 
-The full interface with all features (cameras, detailed settings, etc.) is always available on the host PC.
+Multiple tablets can connect at the same time, so each GM controls their own room without needing to share the host PC. The full interface with all features (cameras, detailed settings, etc.) is always available on the host PC as well.
 
 ---
 

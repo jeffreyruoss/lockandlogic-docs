@@ -24,7 +24,7 @@ These are non-negotiable. Without them, the website won't do its job.
 | **Legal pages** | Privacy Policy, Terms of Service, and Cookie Policy. Required by law for any site collecting personal data and processing payments. |
 | **Booking data backups** | An independent copy of all customer and booking data outside the booking platform (e.g., automatic sync to Google Sheets via Zapier). Protects against platform outages, data loss, or service changes. |
 | **Email capture during booking** | A checkbox in the booking flow that lets customers opt in to your Mailchimp email list. Builds your marketing list automatically from every booking — no extra effort required. |
-| **Game master software** | Houdini MC — the best-in-class game master software for running escape rooms. Lets your GM manage clues, timers, and room controls from a dashboard during live games. It's LAN-only (no cloud version), so it will need to be set up on-site on your local network. |
+| **Game master software** | Houdini MC — the best-in-class game master software for running escape rooms. Lets your GM manage clues, timers, and room controls from a dashboard during live games. It runs locally on a Windows PC at the venue (LAN-only, no cloud version), but most of the software setup and ongoing configuration can be done remotely — only the physical hardware (cables, TVs, cameras) needs to be handled on-site. |
 
 ---
 
