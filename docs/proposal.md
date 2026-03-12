@@ -7,7 +7,7 @@ outline: [2, 3]
 A complete digital package for **Lock & Logic** escape rooms — not just a website, but online booking, a branding style guide, all marketing copywriting, SEO foundation, automated email systems, and 3 months of post-launch support.
 
 ::: info At a Glance
-- **Price:** $4,200 flat
+- **Price:** $4,000 flat
 - **Timeline:** Launch by May 31, 2026
 :::
 
@@ -54,7 +54,6 @@ A complete digital package for **Lock & Logic** escape rooms — not just a webs
 | **Automated email reminders** | Confirmation on booking, reminders before visit, follow-up after. Reduces no-shows. |
 | **Reviews page and homepage section** | Dedicated reviews page plus homepage testimonial section. Social proof helps with SEO. |
 | **Automated review requests** | Post-visit emails requesting Google reviews. Fresh reviews improve local search ranking. |
-| **Leaderboard** | Top escape times by room. Drives repeat bookings and social sharing. |
 
 ### SEO & Visibility
 
@@ -79,7 +78,7 @@ This project integrates with Bookeo and Houdini MC — both third-party platform
 ## Investment
 
 <div class="proposal-price-box">
-  <div class="price">$4,200</div>
+  <div class="price">$4,000</div>
   <div class="price-note">Flat rate — based on estimated hours, but I won't be logging hours as we go.</div>
 </div>
 
@@ -100,9 +99,9 @@ This is part of delivering a finished product — making sure everything works o
 
 | Milestone | Amount | When |
 |-----------|--------|------|
-| Deposit | 25% ($1,050) | Project kickoff |
-| Launch | 25% ($1,050) | Shortly after go-live |
-| Post-launch support complete | 50% ($2,100) | After 3-month support period ends |
+| Deposit | 25% ($1,000) | Project kickoff |
+| Launch | 25% ($1,000) | Shortly after go-live |
+| Post-launch support complete | 50% ($2,000) | After 3-month support period ends |
 
 If the launch is postponed beyond 6 months from kickoff, the launch payment becomes due at that point and the 3-month support period begins regardless.
 
