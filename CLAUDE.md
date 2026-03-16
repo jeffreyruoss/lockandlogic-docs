@@ -26,7 +26,6 @@ VitePress documentation site for the Lock & Logic escape room project.
 ## Docs
 
 - All markdown docs live in `docs/` (single source of truth)
-- `feature-estimator.md` uses a Vue component (`FeatureEstimator.vue`)
 - Homepage (`index.md`) shows client-facing docs as feature cards
 - **When adding a new client-facing page:** add it to the homepage `features` cards in `docs/index.md`, the default sidebar in `config.mts`, and the admin Client-Facing sidebar group in `Layout.vue`
 

@@ -28,9 +28,7 @@ const adminSidebar = [
   {
     text: 'Internal',
     items: [
-      { text: 'Project Estimate', link: '/project-estimate' },
       { text: 'Tech Stack Options', link: '/tech-stack-options' },
-      { text: 'Feature Estimator', link: '/feature-estimator' },
       { text: 'Scoping Questionnaire', link: '/questionnaire-1-scoping' },
       { text: 'Scoping Questionnaire v2', link: '/questionnaire-1-scoping-v2' },
       { text: 'Content Questionnaire', link: '/questionnaire-2-content' },
@@ -38,7 +36,6 @@ const adminSidebar = [
       { text: 'Top & Local Escape Room Websites', link: '/top-and-local-escape-room-websites' },
       { text: 'Client Brief', link: '/client-brief' },
       { text: 'Website Features (Research)', link: '/escape-room-website-features' },
-      { text: 'Option 2 Detail', link: '/option-2-detail' },
       { text: 'Pre-Engagement Checklist', link: '/pre-engagement-checklist' },
       { text: 'Data Backup Strategy', link: '/data-backup-strategy' },
       { text: 'GM Software (Technical)', link: '/game-master-software-internal' },
