@@ -8,7 +8,7 @@ import CountdownBar from './CountdownBar.vue'
 const isAuthenticated = ref(false)
 const isReady = ref(false)
 const isAdmin = ref(false)
-const { site } = useData()
+const { site, page, frontmatter } = useData()
 const route = useRoute()
 
 const adminSidebar = [
@@ -103,6 +103,11 @@ function onAuthenticated() {
     <template #home-hero-info-after>
       <CountdownBar />
     </template>
+    <template #doc-before>
+      <div v-if="page.lastUpdated && frontmatter.layout !== 'home'" class="last-updated">
+        Last updated: {{ new Date(page.lastUpdated).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }) }}
+      </div>
+    </template>
     <template #sidebar-nav-before>
       <div v-if="isAdmin" class="admin-note">
         Admin view — clients only see the Client-Facing docs.
@@ -116,6 +121,12 @@ function onAuthenticated() {
 </template>
 
 <style scoped>
+.last-updated {
+  margin-bottom: 16px;
+  font-size: 13px;
+  color: var(--vp-c-text-3);
+}
+
 .admin-note {
   padding: 8px 12px;
   margin: 0 0 12px;

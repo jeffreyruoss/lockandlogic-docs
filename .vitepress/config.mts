@@ -5,6 +5,7 @@ export default defineConfig({
   description: 'Project documentation for Lock & Logic',
   srcDir: 'docs',
   base: '/lockandlogic-docs/',
+  lastUpdated: true,
 
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: '/lockandlogic-docs/favicon.png' }],
