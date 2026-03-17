@@ -2,6 +2,12 @@
 outline: [2, 3]
 ---
 
+<div class="print-header">
+  <p><strong>Created:</strong> March 12, 2026</p>
+</div>
+
+<button class="print-pdf-btn" onclick="window.print()">Print as PDF</button>
+
 # Project Proposal
 
 A complete digital package for **Lock & Logic** escape rooms — not just a website, but online booking, a branding style guide, all marketing copywriting, SEO foundation, automated email systems, and 3 months of post-launch support.
@@ -154,8 +160,12 @@ Billed separately because the level of involvement can vary — you may handle s
 
 Training and documentation are included regardless, so your team can manage Houdini MC independently.
 
+<div class="next-steps-section">
+
 ## Next Steps
 
 ::: tip Ready to move forward?
 If this looks good, let me know and we'll lock in the deposit to kick things off. Questions or adjustments — happy to talk it through.
 :::
+
+</div>
