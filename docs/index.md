@@ -50,4 +50,14 @@ features:
     details: Step-by-step instructions for installing and configuring Houdini MC at your venue.
     link: /houdini-mc-setup
     linkText: View Guide
+  - icon: 📘
+    title: Facebook Page Text
+    details: Pre-written intro, bio, and legal text options ready to copy-paste into your Facebook business page.
+    link: /facebook-page
+    linkText: View Text
+  - icon: 🎁
+    title: Additional Work
+    details: Extra work completed beyond the original proposal — coming soon page, Facebook content, site animations, and more.
+    link: /extras
+    linkText: View Extras
 ---

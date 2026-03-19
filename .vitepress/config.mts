@@ -25,6 +25,7 @@ export default defineConfig({
       { text: '🎮 Game Master Software', link: '/game-master-software' },
       { text: '🛠️ Houdini MC Setup Guide', link: '/houdini-mc-setup' },
       { text: '📘 Facebook Page Text', link: '/facebook-page' },
+      { text: '🎁 Additional Work', link: '/extras' },
     ],
 
     search: {
