@@ -1,4 +1,4 @@
-# Additional Work
+# Additional Work - FREE :)
 
 Work completed beyond the scope of the [original proposal](/proposal). These are items that came up naturally during the project and were handled at no extra charge.
 
