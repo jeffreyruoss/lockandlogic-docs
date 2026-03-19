@@ -22,7 +22,7 @@
 
 > Step into one of four immersive themed experiences:
 
-> Grandma's Kitchen — Something's not quite right at Grandma's house. Uncover the secrets hiding in her kitchen before dinner is served.
+> Grandma Betty's Kitchen — Grandma Betty has passed and the house has been sold. The family has one last chance to find her famous meatball recipe hidden somewhere in her kitchen before the new owners arrive.
 
 > The Tomb — An ancient archaeological dig has gone wrong. Solve the tomb's riddles before the restless spirit traps you inside forever.
 
@@ -40,7 +40,7 @@
 
 > Four themed rooms. Four completely different adventures:
 
-> Grandma's Kitchen — Peel back the layers of a seemingly innocent kitchen. Nothing is what it seems.
+> Grandma Betty's Kitchen — The house is sold. The clock is ticking. Find Grandma Betty's famous meatball recipe before the new owners arrive.
 
 > The Tomb — Race against an ancient curse deep inside an archaeological dig. Solve the puzzles or join the spirits.
 
@@ -56,7 +56,7 @@
 
 > Lock & Logic is an immersive escape room experience in Pottstown, PA. We offer four unique themed rooms, each packed with hand-crafted puzzles, atmospheric set design, and stories that pull you in from the first moment.
 
-> Our rooms: Grandma's Kitchen, The Tomb, The Initiates Room, and Tesla's Workshop.
+> Our rooms: Grandma Betty's Kitchen, The Tomb, The Initiates Room, and Tesla's Workshop.
 
 > Beat the clock. Find a way out.
 
