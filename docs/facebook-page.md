@@ -22,13 +22,13 @@
 
 > Step into one of four immersive themed experiences:
 
-> Grandma Betty's Kitchen — Grandma Betty has passed and the house has been sold. The family has one last chance to find her famous meatball recipe hidden somewhere in her kitchen before the new owners arrive.
+> Grandma Betty's Secret Recipe — Grandma Betty has passed and the house is sold. The family has one last chance to search her kitchen for the famous recipe she hid before the new owners arrive.
 
-> The Tomb — An ancient archaeological dig has gone wrong. Solve the tomb's riddles before the restless spirit traps you inside forever.
+> The Pharaoh's Wrath — Your excavation team broke into a sealed tomb, but the passage collapsed behind you. Decipher ancient riddles and escape before the tomb claims you as its next offering.
 
-> The Initiates Room — Prove yourself worthy. Only those who pass the trials will earn their place among the initiated.
+> The Initiation — A secret society has invited you to prove your worth. Complete their trials of intellect, teamwork, and nerve before midnight — or be forgotten forever.
 
-> Tesla's Workshop — Step inside the lost workshop of Nikola Tesla. His greatest invention is hidden somewhere in the chaos — can you find it before the power runs out?
+> Tesla's Lost Laboratory — Nikola Tesla's hidden workshop has been sealed for over a century. Something inside has powered up on its own. Get in, figure out what he built, and get out before it overloads.
 
 > Whether it's a night out with friends, a family challenge, or a corporate team-building event, Lock & Logic delivers an experience you won't forget.
 
@@ -40,13 +40,13 @@
 
 > Four themed rooms. Four completely different adventures:
 
-> Grandma Betty's Kitchen — The house is sold. The clock is ticking. Find Grandma Betty's famous meatball recipe before the new owners arrive.
+> Grandma Betty's Secret Recipe — The house is sold. The clock is ticking. Find what Grandma Betty hid in her kitchen before the new owners arrive.
 
-> The Tomb — Race against an ancient curse deep inside an archaeological dig. Solve the puzzles or join the spirits.
+> The Pharaoh's Wrath — You broke the seal. The passage collapsed. Solve the pharaoh's riddles or the tomb claims you next.
 
-> The Initiates Room — A series of cryptic trials stand between you and initiation. Do you have what it takes?
+> The Initiation — A secret society is watching. Pass their trials of logic and nerve before midnight — or be erased.
 
-> Tesla's Workshop — The legendary inventor left behind one final experiment. Find it before time runs out — or it's lost forever.
+> Tesla's Lost Laboratory — His workshop has been sealed for a century. Something just powered up. Get in, stabilize it, get out.
 
 > Perfect for date nights, birthday parties, team outings, and anyone who loves a good challenge.
 
@@ -56,7 +56,7 @@
 
 > Lock & Logic is an immersive escape room experience in Pottstown, PA. We offer four unique themed rooms, each packed with hand-crafted puzzles, atmospheric set design, and stories that pull you in from the first moment.
 
-> Our rooms: Grandma Betty's Kitchen, The Tomb, The Initiates Room, and Tesla's Workshop.
+> Our rooms: Grandma Betty's Secret Recipe, The Pharaoh's Wrath, The Initiation, and Tesla's Lost Laboratory.
 
 > Beat the clock. Find a way out.
 
