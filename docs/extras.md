@@ -53,11 +53,9 @@ Additional features and polish added to the main Astro site beyond what was scop
 
 Getting lockandlogic.com live and ready to share.
 
-- Connected lockandlogic.com to the coming soon page (DNS configuration through GoDaddy)
-- Set up HTTPS so the site loads securely with the padlock icon
-- Changed "Coming Soon" to "Opening Soon" across the page
+- Connected lockandlogic.com to the coming soon page
+- Set up HTTPS so the site loads securely
 - Added a preview image that shows when the link is shared on Facebook, iMessage, Slack, etc.
 - Added contact info section with address, phone, email, and Facebook link
-- Set up Google Analytics so you can see how many people are visiting the page
-- Updated the behind-the-scenes business info that Google uses for search results (address, phone, email, social links)
-- Fixed a mobile issue where content was getting cut off at the bottom
+- Set up Google Analytics to track visitor traffic
+- Added business info for Google search results (address, phone, email, social links)
