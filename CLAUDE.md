@@ -33,6 +33,22 @@ VitePress documentation site for the Lock & Logic escape room project.
 
 See `.claude/projects/.../memory/project_estimating.md` for developer speed context when estimating timelines. Never expose these details in client-facing content.
 
+## Additional Work Tracking
+
+The file `docs/extras.md` tracks work done beyond the original proposal. After committing significant work, remind the user to consider adding it to `extras.md` if it qualifies.
+
+**What qualifies:**
+- New pages, features, or tools not in the original proposal
+- Setup/configuration work (domain, analytics, third-party accounts)
+- Content creation (copywriting, social media assets, marketing materials)
+- Design/UX work beyond basic site buildout
+
+**What doesn't qualify:**
+- Bug fixes, minor text changes, or expected responsive/mobile work
+- Standard development tasks (code cleanup, dependency updates)
+- Changes to features already in the proposal (e.g. "Room pages" is a proposal item — rewriting room descriptions or swapping images is normal scope, not extra work)
+- Overly specific technical details — keep descriptions client-friendly and non-technical
+
 ## Commands
 
 - `npm run docs:dev` — Start dev server (http://localhost:5173/lockandlogic-docs/)
