@@ -3,7 +3,7 @@
 ## Category
 > Escape Room Center
 
-## Short Description (155 characters max)
+## Intro (155 characters max)
 
 **Option A:**
 > Immersive escape rooms in Pottstown, PA. Solve puzzles, beat the clock, and escape before time runs out. Book your adventure today.
@@ -14,7 +14,7 @@
 **Option C:**
 > Pottstown's premier escape room experience. Four unique themed rooms, challenging puzzles, and unforgettable team adventures await.
 
-## Long Description
+## Bio
 
 ### Option A — Story-driven
 
