@@ -55,6 +55,11 @@ features:
     details: Pre-written intro, bio, and legal text options ready to copy-paste into your Facebook business page.
     link: /facebook-page
     linkText: View Text
+  - icon: 🌐
+    title: Website Hosting
+    details: Where your websites are hosted, what it costs, and how everything stays online automatically.
+    link: /hosting
+    linkText: View Hosting
   - icon: 🎁
     title: Additional Work
     details: Extra work completed beyond the original proposal — coming soon page, Facebook content, site animations, and more.

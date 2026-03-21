@@ -25,6 +25,7 @@ const adminSidebar = [
       { text: '🛠️ Houdini MC Setup Guide', link: '/houdini-mc-setup' },
       { text: '📘 Facebook Page Text', link: '/facebook-page' },
       { text: '📬 Forms System', link: '/forms-system' },
+      { text: '🌐 Website Hosting', link: '/hosting' },
       { text: '🎁 Additional Work', link: '/extras' },
     ],
   },
@@ -42,6 +43,7 @@ const adminSidebar = [
       { text: 'Pre-Engagement Checklist', link: '/pre-engagement-checklist' },
       { text: 'Data Backup Strategy', link: '/data-backup-strategy' },
       { text: 'GM Software (Technical)', link: '/game-master-software-internal' },
+      { text: 'Hosting (Technical)', link: '/hosting-technical' },
     ],
   },
 ]
