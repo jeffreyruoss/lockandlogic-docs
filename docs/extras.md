@@ -49,6 +49,17 @@ Additional features and polish added to the main Astro site beyond what was scop
 - CTA button pulse glow animation
 - Parallax scrolling on hero background
 
+## Forms System — Advanced Setup
+
+The proposal included a basic contact form and Mailchimp newsletter signup. What was built goes significantly beyond that:
+
+- **Spam protection** — three layers of defense: invisible bot detection (Cloudflare Turnstile), honeypot fields, and rate limiting per IP address
+- **Email notifications** — contact form and group inquiry submissions send professional HTML-formatted notification emails to `info@lockandlogic.com` with one-click reply to the customer
+- **Email deliverability setup** — DNS records (SPF, DKIM, DMARC) configured so notification emails reliably land in the inbox, not spam
+- **Form submission logging** — every submission (contact, group inquiry, newsletter) is stored in a database as a permanent record and backup
+- **Group inquiry form** — a dedicated form for corporate events and group bookings with fields for company, group size, event type, and preferred date (not in the original proposal)
+- **Shared infrastructure** — the coming-soon page and main site share the same newsletter subscription backend, so subscribers from either site end up in the same Mailchimp list
+
 ## Coming Soon Page — Domain & Launch Setup
 
 Getting lockandlogic.com live and ready to share.
