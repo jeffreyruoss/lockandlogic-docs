@@ -24,6 +24,7 @@ const adminSidebar = [
       { text: '🎮 Game Master Software', link: '/game-master-software' },
       { text: '🛠️ Houdini MC Setup Guide', link: '/houdini-mc-setup' },
       { text: '📘 Facebook Page Text', link: '/facebook-page' },
+      { text: '📬 Forms System', link: '/forms-system' },
       { text: '🎁 Additional Work', link: '/extras' },
     ],
   },
