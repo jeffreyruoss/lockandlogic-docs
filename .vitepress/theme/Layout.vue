@@ -43,7 +43,9 @@ const adminSidebar = [
       { text: 'Pre-Engagement Checklist', link: '/pre-engagement-checklist' },
       { text: 'Data Backup Strategy', link: '/data-backup-strategy' },
       { text: 'GM Software (Technical)', link: '/game-master-software-internal' },
+      { text: 'Forms System (Technical)', link: '/forms-system-technical' },
       { text: 'Hosting (Technical)', link: '/hosting-technical' },
+      { text: 'Infrastructure Map', link: '/infrastructure-map' },
     ],
   },
 ]

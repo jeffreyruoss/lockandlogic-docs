@@ -55,6 +55,11 @@ features:
     details: Pre-written intro, bio, and legal text options ready to copy-paste into your Facebook business page.
     link: /facebook-page
     linkText: View Text
+  - icon: 📬
+    title: Forms System
+    details: How your contact form, group inquiry form, and newsletter signup work — submissions, spam protection, and email notifications.
+    link: /forms-system
+    linkText: View Forms
   - icon: 🌐
     title: Website Hosting
     details: Where your websites are hosted, what it costs, and how everything stays online automatically.
