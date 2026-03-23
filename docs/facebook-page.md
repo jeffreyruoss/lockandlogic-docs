@@ -24,11 +24,11 @@
 
 > Grandma Betty's Secret Recipe — Grandma Betty has passed and the house is sold. The family has one last chance to search her kitchen for the famous recipe she hid before the new owners arrive.
 
-> The Pharaoh's Wrath — Your excavation team broke into a sealed tomb, but the passage collapsed behind you. Decipher ancient riddles and escape before the tomb claims you as its next offering.
+> The Forsaken Shrine — While scouting a newly discovered site, your team stumbles upon a hidden cave with an ancient altar dedicated to a forgotten god. The entrance seals behind you — decipher its mysteries and reawaken the deity before the cave becomes your tomb.
 
 > The Initiation — A secret society has invited you to prove your worth. Complete their trials of intellect, teamwork, and nerve before midnight — or be forgotten forever.
 
-> Tesla's Lost Laboratory — Nikola Tesla's hidden workshop has been sealed for over a century. Something inside has powered up on its own. Get in, figure out what he built, and get out before it overloads.
+> Tesla's Workshop — Tesla vanished mid-experiment. His lab is still running. His work is incomplete. You have 60 minutes to decode his research and activate the Tesla Coil — before it's lost forever.
 
 > Whether it's a night out with friends, a family challenge, or a corporate team-building event, Lock & Logic delivers an experience you won't forget.
 
@@ -42,11 +42,11 @@
 
 > Grandma Betty's Secret Recipe — The house is sold. The clock is ticking. Find what Grandma Betty hid in her kitchen before the new owners arrive.
 
-> The Pharaoh's Wrath — You broke the seal. The passage collapsed. Solve the pharaoh's riddles or the tomb claims you next.
+> The Forsaken Shrine — A hidden cave. An ancient altar. The entrance sealed behind you. Reawaken the forgotten god — or the cave becomes your tomb.
 
 > The Initiation — A secret society is watching. Pass their trials of logic and nerve before midnight — or be erased.
 
-> Tesla's Lost Laboratory — His workshop has been sealed for a century. Something just powered up. Get in, stabilize it, get out.
+> Tesla's Workshop — Tesla vanished mid-experiment. His lab is still running. Decode his research and activate the Tesla Coil before it's lost forever.
 
 > Perfect for date nights, birthday parties, team outings, and anyone who loves a good challenge.
 
@@ -56,7 +56,7 @@
 
 > Lock & Logic is an immersive escape room experience in Pottstown, PA. We offer four unique themed rooms, each packed with hand-crafted puzzles, atmospheric set design, and stories that pull you in from the first moment.
 
-> Our rooms: Grandma Betty's Secret Recipe, The Pharaoh's Wrath, The Initiation, and Tesla's Lost Laboratory.
+> Our rooms: Grandma Betty's Secret Recipe, The Forsaken Shrine, The Initiation, and Tesla's Workshop.
 
 > Beat the clock. Find a way out.
 
