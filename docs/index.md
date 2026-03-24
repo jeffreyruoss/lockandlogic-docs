@@ -55,6 +55,16 @@ features:
     details: Pre-written intro, bio, and legal text options ready to copy-paste into your Facebook business page.
     link: /facebook-page
     linkText: View Text
+  - icon: 🎨
+    title: Branding Style Guide
+    details: Your visual identity — colors, typography, and design language derived from the logo and website.
+    link: /brand-style-guide
+    linkText: View Guide
+  - icon: 📣
+    title: Marketing Examples
+    details: Ready-to-use copy and visual mockups for social media, Google Ads, email, business cards, posters, signage, and more.
+    link: /marketing-examples
+    linkText: View Examples
   - icon: 📬
     title: Forms System
     details: How your contact form, group inquiry form, and newsletter signup work — submissions, spam protection, and email notifications.
