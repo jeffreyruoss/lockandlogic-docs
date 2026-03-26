@@ -75,6 +75,11 @@ features:
     details: Where your websites are hosted, what it costs, and how everything stays online automatically.
     link: /hosting
     linkText: View Hosting
+  - icon: 📧
+    title: Email Opt-In Campaign
+    details: Three ready-to-use email options for reaching out to your contacts and building your newsletter list the right way.
+    link: /email-opt-in-campaign
+    linkText: View Options
   - icon: 🎁
     title: Additional Work
     details: Extra work completed beyond the original proposal — coming soon page, Facebook content, site animations, and more.

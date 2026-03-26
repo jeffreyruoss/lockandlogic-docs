@@ -28,6 +28,7 @@ const adminSidebar = [
       { text: '📣 Marketing Examples', link: '/marketing-examples' },
       { text: '📬 Forms System', link: '/forms-system' },
       { text: '🌐 Website Hosting', link: '/hosting' },
+      { text: '📧 Email Opt-In Campaign', link: '/email-opt-in-campaign' },
       { text: '🎁 Additional Work', link: '/extras' },
     ],
   },
