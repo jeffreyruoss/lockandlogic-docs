@@ -40,6 +40,7 @@ These are additional booking flow items worth verifying or configuring in Bookeo
 - **Per-person pricing vs. flat-rate** -- Confirm which pricing model each room uses and that Bookeo calculates totals correctly for both booking modes.
 - **Deposit vs. full payment** -- Decide whether customers pay in full at booking or put down a deposit. Configure Bookeo accordingly.
 - **Cancellation and refund policy** -- Set up Bookeo's cancellation window (e.g., free cancellation up to 24 hours before) and any refund rules.
+- **Modify reservations after payment** -- Can customers change their booking after paying? Specifically: adding more people to an existing reservation, paying the difference for the added spots, and changing the date/time. Confirm what Bookeo allows customers to do self-service vs. what requires staff intervention.
 
 ### Notifications & Reminders
 
