@@ -31,6 +31,7 @@ export default defineConfig({
       { text: '🌐 Website Hosting', link: '/hosting' },
       { text: '📧 Email Opt-In Campaign', link: '/email-opt-in-campaign' },
       { text: '📅 Booking Flow Checklist', link: '/booking-flow' },
+      { text: '🕐 Room Hours & Schedule', link: '/room-hours' },
       { text: '🎁 Additional Work', link: '/extras' },
     ],
 

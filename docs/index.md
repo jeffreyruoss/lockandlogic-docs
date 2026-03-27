@@ -80,6 +80,11 @@ features:
     details: Three ready-to-use email options for reaching out to your contacts and building your newsletter list the right way.
     link: /email-opt-in-campaign
     linkText: View Options
+  - icon: 🕐
+    title: Room Hours & Schedule
+    details: Proposed time slot schedules for all three rooms on weekdays and weekends, with capacity and revenue projections.
+    link: /room-hours
+    linkText: View Schedule
   - icon: 📅
     title: Booking Flow Checklist
     details: Requirements and checklist for the Bookeo booking integration — booking modes, private rooms, discounts, and more.
