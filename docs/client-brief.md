@@ -10,9 +10,9 @@
 | Type | Escape room |
 | Locations | 1 |
 | Rooms | 1-3 (exact count TBD) |
-| Address | Pottstown, PA — off Route 100 near the Pottstown Diner |
-| Phone | TBD |
-| Email | TBD |
+| Address | 142 Shoemaker Rd, Unit 1, Pottstown, PA 19464 |
+| Phone | (484) 919-1317 |
+| Email | info@lockandlogic.com |
 | Business hours | TBD |
 | Social media | TBD |
 | Domain | LockandLogic.com |
