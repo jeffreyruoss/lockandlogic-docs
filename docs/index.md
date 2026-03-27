@@ -80,6 +80,11 @@ features:
     details: Three ready-to-use email options for reaching out to your contacts and building your newsletter list the right way.
     link: /email-opt-in-campaign
     linkText: View Options
+  - icon: 📅
+    title: Booking Flow Checklist
+    details: Requirements and checklist for the Bookeo booking integration — booking modes, private rooms, discounts, and more.
+    link: /booking-flow
+    linkText: View Checklist
   - icon: 🎁
     title: Additional Work
     details: Extra work completed beyond the original proposal — coming soon page, Facebook content, site animations, and more.

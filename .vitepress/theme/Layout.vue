@@ -29,6 +29,7 @@ const adminSidebar = [
       { text: '📬 Forms System', link: '/forms-system' },
       { text: '🌐 Website Hosting', link: '/hosting' },
       { text: '📧 Email Opt-In Campaign', link: '/email-opt-in-campaign' },
+      { text: '📅 Booking Flow Checklist', link: '/booking-flow' },
       { text: '🎁 Additional Work', link: '/extras' },
     ],
   },
