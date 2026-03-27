@@ -9,7 +9,10 @@
 | Tagline | Unlock the Mystery |
 | Type | Escape room |
 | Locations | 1 |
-| Rooms | 1-3 (exact count TBD) |
+| Rooms | 4 |
+| Players per room | 2–8 |
+| Price | $30/person (tax included) |
+| Room duration | 60 minutes |
 | Address | 142 Shoemaker Rd, Unit 1, Pottstown, PA 19464 |
 | Phone | (484) 919-1317 |
 | Email | info@lockandlogic.com |
