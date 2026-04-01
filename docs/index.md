@@ -81,9 +81,9 @@ features:
     link: /email-opt-in-campaign
     linkText: View Options
   - icon: 🕐
-    title: Room Hours & Schedule
-    details: Proposed time slot schedules for all three rooms on weekdays and weekends, with capacity and revenue projections.
-    link: /room-hours
+    title: Room Schedule
+    details: Daily time slot schedule for all four rooms, staggered by 15 minutes, for every day of the week.
+    link: /room-schedule
     linkText: View Schedule
   - icon: 📅
     title: Booking Flow Checklist
