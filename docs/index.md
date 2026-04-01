@@ -90,6 +90,11 @@ features:
     details: Requirements and checklist for the Bookeo booking integration — booking modes, private rooms, discounts, and more.
     link: /booking-flow
     linkText: View Checklist
+  - icon: 🔗
+    title: Bookeo API AI Integration
+    details: What your Bookeo connection makes possible — real-time availability, booking data, instant notifications, and more.
+    link: /bookeo-api
+    linkText: View Integration
   - icon: 🎁
     title: Additional Work
     details: Extra work completed beyond the original proposal — coming soon page, Facebook content, site animations, and more.

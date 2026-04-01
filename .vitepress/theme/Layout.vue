@@ -30,6 +30,7 @@ const adminSidebar = [
       { text: '🌐 Website Hosting', link: '/hosting' },
       { text: '📧 Email Opt-In Campaign', link: '/email-opt-in-campaign' },
       { text: '📅 Booking Flow Checklist', link: '/booking-flow' },
+      { text: '🔗 Bookeo API AI Integration', link: '/bookeo-api' },
       { text: '🕐 Room Schedule', link: '/room-schedule' },
       { text: '🎁 Additional Work', link: '/extras' },
     ],
