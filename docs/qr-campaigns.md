@@ -25,7 +25,17 @@ That tells Analytics: this visitor came from a **flyer** (source), it was **prin
 | **Medium** | `print` |
 | **URL** | `https://www.lockandlogic.com?utm_source=flyer&utm_medium=print&utm_campaign=spring_2026` |
 
-This QR code is on the printed flyers distributed in the Pottstown area.
+Printed as a handheld flyer for the founders to carry and show to people in person.
+
+### In-Venue Door Sign
+
+| Detail | Value |
+|--------|-------|
+| **Campaign** | `in_venue` |
+| **Source** | `door_sign` |
+| **URL** | `https://www.lockandlogic.com?utm_source=door_sign&utm_campaign=in_venue` |
+
+QR code posted on the escape room door for visitors who are already at the venue.
 
 ## Viewing Campaign Performance
 
