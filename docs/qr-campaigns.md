@@ -37,6 +37,10 @@ Example questions you can ask:
 - "How many people scanned the QR code this week?"
 - "Compare flyer traffic to other sources"
 
+## QR Code Design
+
+QR codes are generated using [QRCode Monkey](https://www.qrcode-monkey.com/) with the Lock & Logic logo centered in the code for brand recognition.
+
 ## Adding New Campaigns
 
 When you create a new piece of marketing (a new flyer, a poster, a business card, a social media ad), a new tracked QR code can be generated with its own campaign name. This lets you compare the performance of different materials side by side — for example, seeing whether the flyer or the poster drives more traffic.
