@@ -95,6 +95,16 @@ features:
     details: What your Bookeo connection makes possible — real-time availability, booking data, instant notifications, and more.
     link: /bookeo-api
     linkText: View Integration
+  - icon: 📈
+    title: Google Analytics AI
+    details: AI-powered analytics reporting — ask plain English questions about your site traffic, campaigns, and visitor behavior.
+    link: /google-analytics-ai
+    linkText: View Details
+  - icon: 📱
+    title: QR Code Campaigns
+    details: Trackable QR codes for print marketing — see exactly how many people each flyer, poster, or card brings to your site.
+    link: /qr-campaigns
+    linkText: View Campaigns
   - icon: 🎁
     title: Additional Work
     details: Extra work completed beyond the original proposal — coming soon page, Facebook content, site animations, and more.

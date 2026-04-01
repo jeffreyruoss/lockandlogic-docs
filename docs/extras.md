@@ -70,3 +70,18 @@ Getting lockandlogic.com live and ready to share.
 - Added contact info section with address, phone, email, and Facebook link
 - Set up Google Analytics to track visitor traffic
 - Added business info for Google search results (address, phone, email, social links)
+
+## QR Code Campaign Tracking
+
+Created trackable QR codes with UTM parameters for print marketing materials.
+
+- QR codes link to the site with campaign tracking built in (source, medium, campaign name)
+- Campaign performance can be queried instantly via the AI analytics integration (see below)
+
+## Google Analytics AI Integration
+
+Connected Google Analytics to an AI-powered reporting system that can answer questions about your site traffic in plain English — no need to navigate the GA4 dashboard.
+
+- Set up a secure, read-only connection between your Google Analytics account and the AI assistant
+- Traffic sources, campaign performance, user behavior, and page views can all be queried on demand
+- Works for any GA4 property you manage — not limited to Lock & Logic
