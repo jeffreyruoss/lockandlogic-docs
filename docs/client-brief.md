@@ -16,7 +16,7 @@
 | Address | 142 Shoemaker Rd, Unit 1, Pottstown, PA 19464 |
 | Phone | (484) 919-1317 |
 | Email | info@lockandlogic.com |
-| Business hours | TBD |
+| Business hours | Mon–Fri 5:00 PM – 10:00 PM, Sat–Sun 12:00 PM – 10:00 PM |
 | Social media | TBD |
 | Domain | LockandLogic.com |
 | Existing website | None (new business) |
