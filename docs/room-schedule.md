@@ -12,20 +12,20 @@ Daily time slot schedule for all four rooms, staggered by 15 minutes with a 15-m
 
 ## Monday – Friday
 
-**5:00 PM – 10:00 PM** · 4 sessions for Grandma Betty's & The Initiation, 3 for Tesla's & Forsaken Shrine
+**5:00 PM – 10:00 PM** · 4 sessions per room
 
 | Grandma Betty's Secret Recipe | The Initiation | Tesla's Workshop | The Forsaken Shrine |
 |-------------------------------|----------------|------------------|---------------------|
 | 5:00 PM | 5:15 PM | 5:30 PM | 5:45 PM |
 | 6:15 PM | 6:30 PM | 6:45 PM | 7:00 PM |
 | 7:30 PM | 7:45 PM | 8:00 PM | 8:15 PM |
-| 8:45 PM | 9:00 PM | — | — |
+| 8:45 PM | 9:00 PM | 9:15 PM | 9:30 PM |
 
 ---
 
 ## Saturday – Sunday
 
-**12:00 PM – 10:00 PM** · 8 sessions for Grandma Betty's & The Initiation, 7 for Tesla's & Forsaken Shrine
+**12:00 PM – 10:00 PM** · 8 sessions per room
 
 | Grandma Betty's Secret Recipe | The Initiation | Tesla's Workshop | The Forsaken Shrine |
 |-------------------------------|----------------|------------------|---------------------|
@@ -36,16 +36,16 @@ Daily time slot schedule for all four rooms, staggered by 15 minutes with a 15-m
 | 5:00 PM | 5:15 PM | 5:30 PM | 5:45 PM |
 | 6:15 PM | 6:30 PM | 6:45 PM | 7:00 PM |
 | 7:30 PM | 7:45 PM | 8:00 PM | 8:15 PM |
-| 8:45 PM | 9:00 PM | — | — |
+| 8:45 PM | 9:00 PM | 9:15 PM | 9:30 PM |
 
 ---
 
 ## Weekly Summary
 
-| Day | Sessions | Details |
-|-----|----------|---------|
-| Monday – Friday (×5) | 70 | 4 × 2 rooms + 3 × 2 rooms = 14/day |
-| Saturday – Sunday (×2) | 30 | 8 × 2 rooms + 7 × 2 rooms = 15/day |
-| **Weekly Total** | **100** | |
+| Day | Sessions per Room | Total Sessions (4 rooms) |
+|-----|-------------------|--------------------------|
+| Monday – Friday (×5) | 4 | 80 |
+| Saturday – Sunday (×2) | 8 | 64 |
+| **Weekly Total** | | **144** |
 
-At an average of 4 players per session at $30/person, that's **$12,000/week** at full capacity.
+At an average of 4 players per session at $30/person, that's **$17,280/week** at full capacity.
