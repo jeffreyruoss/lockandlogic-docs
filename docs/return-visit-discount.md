@@ -4,28 +4,28 @@ How to offer a 10% discount to customers who book their next room before leaving
 
 ---
 
-## Recommended Setup
+## How It Works
 
-The simplest approach: create a single promo code in Bookeo with a long, unguessable name. Customers enter the code themselves on the public booking widget, but they only receive it in person at your venue.
+Staff book the customer's next visit right at the front desk before they leave. The customer never sees or handles a promo code.
 
-### How It Works
+### Setup (One-Time)
 
-1. **Create one promo code in Bookeo** -- Go to **Marketing > Promotional codes** and create a code like `RETURNVISIT-JF8KAN3VX9` (or any random string that can't be guessed). Set it to 10% off.
-2. **Print or display the code at checkout** -- Put it on a small card handed to customers after their game, or display it on a sign at the front desk. The code only exists inside the venue.
-3. **Customers book on the spot** -- They pull out their phones, go to your booking page, and enter the code themselves. No staff involvement needed during the booking.
+1. **Create a promo code in Bookeo** -- Go to **Marketing > Promotional codes** and create a code (e.g., `RETURN10`). Set it to 10% off.
+2. **Train staff** -- After a game, if the guest wants to book their next visit, staff open the Bookeo dashboard, create the booking, and apply the promo code on their end.
+
+### At Checkout
+
+1. Guest finishes their game and wants to book again.
+2. Staff open the Bookeo dashboard and create a new booking for the guest.
+3. Staff enter the promo code to apply the 10% discount.
+4. Guest pays the discounted rate on the spot.
 
 ### Why This Works
 
-- **Can't be guessed** -- A random string like `RETURNVISIT-JF8KAN3VX9` won't show up in Google or be guessed by someone who wasn't at the venue.
-- **No per-customer code management** -- One code for everyone. No creating individual codes or tracking who got what.
-- **No staff bottleneck** -- Customers book and apply the discount themselves. Staff don't need to log in to Bookeo or enter anything.
-- **Easy to change** -- If the code ever leaks, just delete it in Bookeo and create a new one. Update the card or sign at the venue.
-
-### Optional: Add an Expiration Window
-
-To encourage booking on the spot (not saving the code for later), you could rotate the code periodically -- for example, change it monthly. The old code stops working, so customers who wait too long can't use it.
-
-Bookeo also lets you set a **valid date range** on promo codes, so you can set an end date and create a fresh code when the old one expires.
+- **Code never leaves the building** -- Only staff know it, so it can't be shared or used online by anyone else.
+- **No code management overhead** -- One reusable code for all return bookings. No individual codes to create or track.
+- **Simple for customers** -- They just tell staff what room and date they want. Staff handle everything.
+- **Easy to change** -- If a staff member leaves or the code needs to rotate, just update it in Bookeo.
 
 ---
 
