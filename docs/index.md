@@ -90,6 +90,11 @@ features:
     details: Requirements and checklist for the Bookeo booking integration — booking modes, private rooms, discounts, and more.
     link: /booking-flow
     linkText: View Checklist
+  - icon: 🎟️
+    title: Return Visit Discount
+    details: How to offer a 10% discount for customers who book their next room before leaving the venue, using Bookeo and Square POS.
+    link: /return-visit-discount
+    linkText: View Details
   - icon: 🔗
     title: Bookeo API AI Integration
     details: What your Bookeo connection makes possible — real-time availability, booking data, instant notifications, and more.
