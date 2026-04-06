@@ -2,3 +2,7 @@ node_modules/
 **/.vitepress/dist/
 **/.vitepress/cache/
 .DS_Store
+
+# Claude Code (track .claude/CLAUDE.md if created)
+.claude/
+!.claude/CLAUDE.md
