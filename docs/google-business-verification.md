@@ -20,3 +20,15 @@ Instructions for recording the video verification required by Google to verify y
 5. **Show the inside** -- Walk inside and show the interior of the business.
 6. **Show yourself** -- Spin the phone around to show the person recording (Mark or Dan).
 7. **Show a legal document** -- Hold up a legal document that shows both the **person's name** (Mark or Dan) and the **business name** (Lock & Logic) in the same shot.
+
+---
+
+## Accepted Documents
+
+The document needs to clearly show the **person's name** and the **business name** together. Any of these will work:
+
+- Board resolutions (e.g., appointing directors, authorizing bank access)
+- Articles of incorporation
+- Business license
+- Utility bill in the business name
+- Insurance policy in the business name
