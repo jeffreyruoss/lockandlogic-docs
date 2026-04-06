@@ -2,6 +2,14 @@
 
 Instructions for recording the video verification required by Google to verify your business listing.
 
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-bottom: 1.5rem; border-radius: 8px;">
+  <iframe src="https://www.youtube.com/embed/WJWNHwLWWkI" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+📎 [Google Business Profile Help — Video verification](https://support.google.com/business/answer/14271705?hl=en)
+
+---
+
 ::: danger 🎥 Important
 The entire video must be **one continuous shot** -- do not stop or pause the recording at any point.
 :::
