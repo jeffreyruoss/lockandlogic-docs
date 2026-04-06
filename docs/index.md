@@ -110,6 +110,11 @@ features:
     details: Trackable QR codes for print marketing — see exactly how many people each flyer, poster, or card brings to your site.
     link: /qr-campaigns
     linkText: View Campaigns
+  - icon: 📍
+    title: Google Business Verification
+    details: Step-by-step instructions for recording the video verification required by Google to verify your business listing.
+    link: /google-business-verification
+    linkText: View Instructions
   - icon: 🎁
     title: Additional Work
     details: Extra work completed beyond the original proposal — coming soon page, Facebook content, site animations, and more.
