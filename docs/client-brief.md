@@ -14,7 +14,7 @@
 | Price | $30/person (tax included) |
 | Room duration | 60 minutes |
 | Address | 142 Shoemaker Rd, Unit 1, Pottstown, PA 19464 |
-| Phone | (484) 919-1317 |
+| Phone | (610) 819-0152 |
 | Email | info@lockandlogic.com |
 | Business hours | Mon–Fri 5:00 PM – 10:00 PM, Sat–Sun 12:00 PM – 10:00 PM |
 | Social media | TBD |
