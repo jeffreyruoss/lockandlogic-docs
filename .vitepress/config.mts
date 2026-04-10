@@ -32,6 +32,7 @@ export default defineConfig({
       { text: '📧 Email Opt-In Campaign', link: '/email-opt-in-campaign' },
       { text: '📅 Booking Flow Checklist', link: '/booking-flow' },
       { text: '🎟️ Return Visit Discount', link: '/return-visit-discount' },
+      { text: '🚫 Bookeo Closing Periods', link: '/bookeo-closing-periods' },
       { text: '🔗 Bookeo API AI Integration', link: '/bookeo-api' },
       { text: '📈 Google Analytics AI', link: '/google-analytics-ai' },
       { text: '📱 QR Code Campaigns', link: '/qr-campaigns' },

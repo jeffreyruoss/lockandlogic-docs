@@ -95,6 +95,11 @@ features:
     details: How to offer a 10% discount for customers who book their next room before leaving the venue, using Bookeo and Square POS.
     link: /return-visit-discount
     linkText: View Details
+  - icon: 🚫
+    title: Bookeo Closing Periods
+    details: How to close a day in Bookeo so no one can book it — including the easy-to-miss "click Ok" gotcha.
+    link: /bookeo-closing-periods
+    linkText: View Guide
   - icon: 🔗
     title: Bookeo API AI Integration
     details: What your Bookeo connection makes possible — real-time availability, booking data, instant notifications, and more.
