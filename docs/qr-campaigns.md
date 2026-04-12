@@ -27,6 +27,8 @@ That tells Analytics: this visitor came from a **flyer** (source), it was **prin
 
 Printed as a handheld flyer for the founders to carry and show to people in person.
 
+**Download full resolution:** [PNG](/qr-codes/qr-code_flyer-print-spring_2026/qr-code_flyer-print-spring_2026.png) · [SVG](/qr-codes/qr-code_flyer-print-spring_2026/qr-code_flyer-print-spring_2026.svg)
+
 ### In-Venue Door Sign
 
 | Detail | Value |
@@ -36,6 +38,8 @@ Printed as a handheld flyer for the founders to carry and show to people in pers
 | **URL** | `https://www.lockandlogic.com?utm_source=door_sign&utm_campaign=in_venue` |
 
 QR code posted on the escape room door for visitors who are already at the venue.
+
+**Download full resolution:** [PNG](/qr-codes/qr-code-door_sign-in_venue/qr-code-door_sign-in_venue.png) · [SVG](/qr-codes/qr-code-door_sign-in_venue/qr-code-door_sign-in_venue.svg)
 
 ## Viewing Campaign Performance
 
