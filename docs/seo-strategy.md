@@ -74,19 +74,57 @@ The technical SEO foundation — meta titles/descriptions, heading hierarchy, im
 
 ### Structured Data (Schema Markup)
 
-Behind-the-scenes code that enables "rich snippets" in Google — star ratings, price ranges, hours, and FAQ answers shown directly in search results. Most competitors don't implement this.
+Behind-the-scenes code that enables "rich snippets" in Google — star ratings, price ranges, hours, and FAQ answers shown directly in search results. Most competitors don't implement this. Structured data has also become a primary signal for AI search (Google AI Overviews, ChatGPT, Perplexity), which parse it directly to surface factual answers.
 
-| Schema Type | What It Shows |
-|-------------|--------------|
-| **EntertainmentBusiness** | Business name, address, phone, hours, price range |
-| **FAQPage** | FAQ answers as expandable dropdowns in search results |
-| **AggregateRating** | Star rating and review count next to listing |
-| **BreadcrumbList** | Navigation path (Home > Rooms > The Vault) |
-| **Event** | Special events in Google's event listings |
+| Schema Type | What It Shows | Status |
+|-------------|--------------|--------|
+| **EntertainmentBusiness** | Business name, address, phone, hours, price range, service area, geo | ✅ Implemented site-wide |
+| **WebSite** | Site identity for the knowledge graph | ✅ Implemented site-wide |
+| **FAQPage** | FAQ answers as expandable dropdowns in search results | ✅ Implemented on `/faq` |
+| **BreadcrumbList** | Navigation path (Home > Rooms > Tesla's Workshop) | ✅ Implemented on all sub-pages |
+| **Product** (per room) | Each room with price, description, image, offer | ✅ Implemented on `/rooms/[slug]` |
+| **ItemList** | Listing of all rooms | ✅ Implemented on `/rooms` |
+| **AggregateRating** | Star rating and review count next to listing | ⏳ Add once review base exists |
+| **Event** | Seasonal events (Halloween nights, holiday parties) in Google's event listings | ⏳ Add when programming events |
 
 ### NAP Consistency
 
 Name, Address, Phone Number should be defined in one canonical format and used identically everywhere — website footer, GBP, every directory listing, all social profiles. Even small inconsistencies ("Street" vs "St.") can hurt rankings.
+
+The canonical format for Lock & Logic is:
+
+| Field | Value |
+|-------|-------|
+| **Name** | Lock & Logic |
+| **Address** | 142 Shoemaker Rd, Unit 1, Pottstown, PA 19464 |
+| **Phone** | (610) 819-0152 |
+| **Canonical URL** | `https://www.lockandlogic.com` (always with `www`) |
+| **Email** | info@lockandlogic.com |
+
+---
+
+## AI Search Optimization (AI-SEO)
+
+AI search — Google AI Overviews, ChatGPT search, Perplexity, Claude, Gemini, Bing Copilot — is increasingly how customers research local businesses. Unlike classic SEO (ranking a URL), AI search requires being cited inside a generated answer. The signals that drive AI inclusion overlap heavily with local SEO but emphasize different things.
+
+### What AI Search Looks For
+
+- **Structured data** — LLMs parse JSON-LD directly; a clean `EntertainmentBusiness` + `FAQPage` + `Product` graph is highly ingestible
+- **Authoritative citations** — mentions on third-party sites with NAP matching yours (directory listings, press, Chamber of Commerce)
+- **Clear Q&A content** — a real FAQ section answering natural-language questions is often quoted verbatim
+- **Consistent entity identity** — exact same name/address/phone everywhere so AI can confidently resolve "Lock & Logic" → one real entity
+- **Freshness** — recently updated pages, reviews, and blog posts signal the business is active
+
+### `llms.txt`
+
+The site publishes [`/llms.txt`](https://www.lockandlogic.com/llms.txt) — an emerging convention (similar in spirit to `robots.txt`) that gives AI crawlers a plain-text overview of the business: hours, pricing, each room with difficulty and player count, and canonical URLs for every key page. No competitor in the Pottstown area publishes this yet.
+
+### Practical AI-SEO Tactics
+
+- Write FAQ entries in real question form ("Are escape rooms scary?", "How much does it cost?") — matches natural user prompts
+- Each room page should read as a standalone factual description (who, what, when, where, how much) — AI assistants often cite a single page
+- Keep Google Business Profile fully populated — AI Overviews lean heavily on GBP data
+- Earn mentions on authoritative local sites (Valley Forge Tourism Board, Pottstown Mercury, Chamber of Commerce) — these become citation sources
 
 ---
 
