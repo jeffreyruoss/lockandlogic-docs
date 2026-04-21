@@ -22,13 +22,45 @@ Roughly 2 weeks before the escape room opens, we'll quietly switch `lockandlogic
 
 ### What happens at soft launch
 
-- [ ] Point `lockandlogic.com` DNS away from the coming-soon Vercel project to the main Astro site
+- [ ] Flip the `lockandlogic.com` and `www.lockandlogic.com` domains from the coming-soon Vercel project to the Astro project (commands below)
 - [ ] Submit the updated sitemap to Google Search Console
 - [ ] Request indexing of key pages (home, rooms, contact, groups, FAQ)
 - [ ] Verify all forms work end-to-end (contact, group inquiry, newsletter)
 - [ ] Verify the Bookeo integration is live and accepting bookings
 - [ ] Spot-check on mobile, tablet, and desktop
 - [ ] **Do not post on social media or send newsletters yet**
+
+### How to flip the domain (coming-soon → Astro)
+
+Both domains live on Vercel. Two projects exist — `lockandlogic-coming-soon` (currently live) and `lockandlogic` (the Astro site). The switch is done by re-assigning the domain aliases to a fresh Astro production deploy.
+
+```bash
+# From the repo root (Astro project)
+vercel --prod
+# Copy the deployment URL printed at the end, e.g.
+# lockandlogic-abc123xyz-jeff-ruoss.vercel.app
+
+vercel alias set <deploy-url> lockandlogic.com
+vercel alias set <deploy-url> www.lockandlogic.com
+```
+
+`vercel alias set` will transfer the alias even if it's currently assigned to the coming-soon project. After running, verify:
+
+```bash
+vercel alias ls | grep lockandlogic.com
+curl -sI https://www.lockandlogic.com | head -5
+```
+
+### How to roll back (Astro → coming-soon)
+
+If something goes wrong and the site needs to go back to coming-soon quickly:
+
+```bash
+# From coming-soon/
+vercel --prod
+vercel alias set <deploy-url> lockandlogic.com
+vercel alias set <deploy-url> www.lockandlogic.com
+```
 
 ---
 
