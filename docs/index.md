@@ -15,6 +15,11 @@ features:
     details: Full project scope, pricing, timeline, and terms for your Lock & Logic escape room website.
     link: /proposal
     linkText: View Proposal
+  - icon: 🚀
+    title: Launch Plan
+    details: How we'll transition from coming-soon to live — the Mid June opening, the ~2-week soft launch for indexing, and Google Business Profile readiness.
+    link: /launch-plan
+    linkText: View Plan
   - icon: 🧩
     title: Features Overview
     details: A breakdown of every feature a modern escape room website can have, organized by priority.

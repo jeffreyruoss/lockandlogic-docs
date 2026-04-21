@@ -21,9 +21,9 @@ SEO is a long-term investment that takes months to pay off. Google Ads delivers 
 
 | Phase | Timing | Focus |
 |-------|--------|-------|
-| **Pre-Launch** | April 2026 | Set up Google Ads account, conversion tracking, and campaigns. Build initial ad copy and keyword lists. |
-| **Launch** | May 2026 | Go live with Search and Local campaigns. Aggressive spending to build awareness. |
-| **Optimization** | June – August 2026 | Refine keywords, ad copy, and bids based on real performance data. Add remarketing. |
+| **Pre-Launch** | April – May 2026 | Set up Google Ads account, conversion tracking, and campaigns. Build initial ad copy and keyword lists. |
+| **Launch** | Mid June 2026 | Go live with Search and Local campaigns. Aggressive spending to build awareness. |
+| **Optimization** | July – August 2026 | Refine keywords, ad copy, and bids based on real performance data. Add remarketing. |
 | **Scaling** | September 2026+ | Expand to seasonal campaigns, event targeting, and Performance Max. Scale budget toward what converts. |
 
 ---
@@ -288,9 +288,8 @@ Google Ads should flex with demand. For the full seasonal content calendar, see 
 | Month | Budget Adjustment | Why |
 |-------|-------------------|-----|
 | **January – March** | Normal | Baseline spend |
-| **April** | Pre-launch budget | "Coming Soon" awareness |
-| **May** | +50% | Grand opening — max visibility |
-| **June** | +10% | Father's Day, graduation parties |
+| **April – May** | Pre-launch budget | "Coming Soon" awareness |
+| **June** | +50% | Grand opening (Mid June) — max visibility, plus Father's Day and graduation parties |
 | **July – August** | Normal | Steady summer |
 | **September** | +15% | Corporate team building season |
 | **October** | +30% | Halloween — peak escape room season |
@@ -340,7 +339,7 @@ Google Ads is not set-it-and-forget-it. Regular optimization is what separates p
 
 ## Summary: Action Items by Phase
 
-### Pre-Launch (April 2026)
+### Pre-Launch (April – May 2026)
 
 - [ ] Create Google Ads account
 - [ ] Set up conversion tracking (Google Ads tag, GA4, Google Tag Manager)
@@ -350,7 +349,7 @@ Google Ads is not set-it-and-forget-it. Regular optimization is what separates p
 - [ ] Create remarketing audiences
 - [ ] Ensure landing pages are ready (homepage, rooms, events pages)
 
-### Launch Month (May 2026)
+### Launch Month (Mid June 2026)
 
 - [ ] Activate all Search campaigns
 - [ ] Run grand opening promotion ads
@@ -359,7 +358,7 @@ Google Ads is not set-it-and-forget-it. Regular optimization is what separates p
 - [ ] Launch remarketing after 1-2 weeks (once audience builds)
 - [ ] Target budget: $750-$1,000
 
-### Optimization (June – August 2026)
+### Optimization (July – August 2026)
 
 - [ ] Identify top keywords and top-performing ads from launch data
 - [ ] Pause underperformers, A/B test new ad copy

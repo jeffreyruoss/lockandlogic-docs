@@ -14,7 +14,7 @@ A complete digital package for **Lock & Logic** escape rooms — not just a webs
 
 ::: info At a Glance
 - **Price:** $4,000 flat
-- **Timeline:** Launch by May 31, 2026
+- **Timeline:** Launch Mid June 2026
 :::
 
 ## What's Included
@@ -113,7 +113,7 @@ If the launch is postponed beyond 6 months from kickoff, the launch payment beco
 
 ## Timeline
 
-**Target launch: May 31, 2026** — contingent on timely responses to content requests and feedback.
+**Target launch: Mid June 2026** — contingent on timely responses to content requests and feedback.
 
 Any final changes or feature additions must be submitted **at least 2 weeks before launch** for regression testing and QA.
 

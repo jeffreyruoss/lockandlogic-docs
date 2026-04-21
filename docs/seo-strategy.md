@@ -9,9 +9,10 @@ An SEO strategy tailored to the Pottstown market. As covered in the [competitor 
 
 | Phase | Timing | Focus |
 |-------|--------|-------|
-| **Pre-Launch** | March – April 2026 | Google Business Profile, SEO foundation, blog content, directory listings |
-| **Launch** | May 2026 | Local press, review collection, launch content |
-| **Growth** | June 2026 onward | Ongoing blog content, review management, seasonal campaigns, link building |
+| **Pre-Launch** | March – May 2026 | Google Business Profile, SEO foundation, blog content, directory listings |
+| **Soft Launch** | ~2 weeks before opening | Point domain to main site for indexing (no public announcement) |
+| **Launch** | Mid June 2026 | Local press, review collection, launch content |
+| **Growth** | July 2026 onward | Ongoing blog content, review management, seasonal campaigns, link building |
 
 ---
 
@@ -32,7 +33,7 @@ The Google Business Profile (GBP) is arguably more important than the website fo
 | **Photos** | Room photos, lobby, exterior, team celebration shots |
 | **Q&A** | Pre-seed common questions (How long is a game? What ages? Can I book privately?) |
 
-Google allows profile creation **up to 90 days before opening** — so the listing can start appearing in search results before the May opening.
+Google allows profile creation **up to 90 days before opening** — so the listing can start appearing in search results before the Mid June opening. Aim to have the GBP fully set up and verified **~2 weeks before opening** so it's active and showing up alongside the soft launch.
 
 ### Ongoing GBP Activity
 
@@ -202,7 +203,7 @@ A blog is one of the most effective long-term SEO tools. In a case study of Fox 
 |--------|------------------|
 | **Winter** (Jan–Feb) | Indoor activity guides, Valentine's Day couples content, corporate Q1 team building |
 | **Spring** (Mar–Apr) | Spring break family content, rainy day activities, teacher appreciation |
-| **Summer** (May–Aug) | Grand opening, Mother's/Father's Day gift cards, graduation parties, summer activity guides |
+| **Summer** (Jun–Aug) | Grand opening, Father's Day gift cards, graduation parties, summer activity guides |
 | **Fall** (Sep–Oct) | Corporate team building season, **Halloween** (biggest month for escape room searches) |
 | **Holidays** (Nov–Dec) | **Gift card season** (up to 25% sales increase), Black Friday deals, holiday party content |
 
@@ -246,7 +247,7 @@ Backlinks are one of Google's top ranking factors. For a local business, the mos
 
 ## Action Items by Phase
 
-### Before Opening (March – April 2026)
+### Before Opening (March – May 2026)
 
 - [ ] Create and optimize Google Business Profile with future opening date
 - [ ] Build SEO foundation into every page (meta tags, schema markup, sitemap, alt text)
@@ -258,15 +259,22 @@ Backlinks are one of Google's top ranking factors. For a local business, the mos
 - [ ] Set up Google Analytics and Google Search Console
 - [ ] Claim social media profiles (Facebook, Instagram, TikTok) with consistent NAP
 
-### Opening Month (May 2026)
+### Soft Launch (~2 weeks before opening — early June 2026)
 
-- [ ] Verify Google Business Profile
+- [ ] Point `lockandlogic.com` from the coming-soon page to the main Astro site
+- [ ] Confirm Google Business Profile is fully set up, verified, and live
+- [ ] Submit updated sitemap to Google Search Console; request indexing of key pages
+- [ ] Do **not** publicly announce — goal is quiet indexing and crawl activity only
+- [ ] Monitor Search Console for coverage issues; fix any crawl errors that surface
+
+### Opening Month (Mid June 2026)
+
 - [ ] Send press release to Pottstown Mercury and local media
 - [ ] Publish launch blog post targeting "new escape room Pottstown"
 - [ ] Begin systematic review collection (QR code, follow-up emails, game master asks)
 - [ ] Host soft launch events for influencers and community leaders to seed initial reviews
 
-### Ongoing (June 2026+)
+### Ongoing (July 2026+)
 
 - [ ] Publish 1-2 blog posts per week
 - [ ] Post on GBP weekly, respond to every review within 24 hours

@@ -95,5 +95,5 @@ These features have been discussed and are planned for launch:
 - [ ] Gift card denominations (fixed amounts, custom amounts, or both?)
 - [ ] Waiver legal text
 - [x] Domain name — LockandLogic.com (registered)
-- [x] Timeline — targeting May 2026 opening
+- [x] Timeline — targeting Mid June 2026 opening
 - [ ] Future feature wishlist

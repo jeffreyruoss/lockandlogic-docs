@@ -16,6 +16,7 @@ const adminSidebar = [
     text: 'Client-Facing',
     items: [
       { text: '📋 Project Proposal', link: '/proposal' },
+      { text: '🚀 Launch Plan', link: '/launch-plan' },
       { text: '🧩 Features Overview', link: '/escape-room-features-client' },
       { text: '🔍 SEO Strategy', link: '/seo-strategy' },
       { text: '📢 Google Ads Strategy', link: '/google-ads-strategy' },
