@@ -57,6 +57,7 @@ const adminSidebar = [
       { text: 'GM Software (Technical)', link: '/game-master-software-internal' },
       { text: 'Forms System (Technical)', link: '/forms-system-technical' },
       { text: 'Hosting (Technical)', link: '/hosting-technical' },
+      { text: 'Monitoring & Alerting', link: '/monitoring' },
       { text: 'Infrastructure Map', link: '/infrastructure-map' },
     ],
   },
