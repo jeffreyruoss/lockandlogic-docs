@@ -142,7 +142,7 @@ Optional — you're never locked in. Start, pause, or cancel at any time.
 | Bookeo (booking platform) | $39.95/mo | Standard plan — up to 20 rooms. Digital waivers add $9/mo. |
 | Bookeo payment processing | 2.9% + $0.30/txn | Standard Stripe rate on every booking payment. |
 | Mailchimp (email marketing) | $0/mo | Free up to 500 contacts. Next tier ~$13/mo (more features) or ~$27/mo (up to 1,500 contacts). |
-| Website hosting (GitHub Pages) | $0/mo | Free for sites like this. Unlikely to need a paid host for a local business. |
+| Website hosting (Vercel) | $0/mo | Hobby plan covers a local business this size. Pro ($20/mo) is only needed if traffic grows past the free tier. |
 
 ## Ownership & Deliverables
 

@@ -6,13 +6,13 @@
 
 ## Architecture
 
-All three forms use the same server-side pipeline:
+Both forms use the same server-side pipeline:
 
 ```
 Honeypot check → Turnstile verify → Rate limit → Validate → Log to Supabase → Action
 ```
 
-- **Contact & Group Inquiry** action: send email via Resend
+- **Contact** action: send email via Resend
 - **Newsletter** action: subscribe via Mailchimp API
 
 ## Stack
@@ -37,12 +37,11 @@ Honeypot check → Turnstile verify → Rate limit → Validate → Log to Supab
 
 **API routes** (`src/pages/api/`):
 - `contact.ts` — POST `/api/contact`
-- `group-inquiry.ts` — POST `/api/group-inquiry`
 - `newsletter.ts` — POST `/api/newsletter`
+- `keepalive.ts` — GET, hit by daily cron to prevent Supabase free-tier project pause
 
 **Components** (`src/components/`):
 - `ContactForm.astro` — contact form with client-side validation
-- `InquiryForm.astro` — group inquiry form
 - `Newsletter.astro` — newsletter signup (homepage)
 
 **Coming-soon page** (separate repo):
@@ -54,7 +53,7 @@ Single table `form_submissions`:
 
 ```sql
 id          UUID        (auto-generated)
-form_type   TEXT        ('contact' | 'group_inquiry' | 'newsletter')
+form_type   TEXT        ('contact' | 'newsletter')
 data        JSONB       (all form fields as JSON)
 ip_address  INET        (submitter's IP)
 created_at  TIMESTAMPTZ (auto-timestamped)

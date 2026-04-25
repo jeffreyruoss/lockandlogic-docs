@@ -72,7 +72,7 @@ features:
     linkText: View Examples
   - icon: 📬
     title: Forms System
-    details: How your contact form, group inquiry form, and newsletter signup work — submissions, spam protection, and email notifications.
+    details: How your contact form and newsletter signup work — submissions, spam protection, and email notifications.
     link: /forms-system
     linkText: View Forms
   - icon: 🌐

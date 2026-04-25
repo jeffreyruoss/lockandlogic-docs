@@ -1,16 +1,12 @@
 # Forms System
 
-Your website has three built-in forms that handle everything automatically — no manual work needed on your end.
+Your website has two built-in forms that handle everything automatically — no manual work needed on your end.
 
 ## How It Works
 
 ### Contact Form (`/contact`)
 
 When a visitor fills out the contact form, you'll receive an email notification at **info@lockandlogic.com** (and your personal email) with their name, email, phone, and message. You can reply directly to the notification email and it will go straight to the customer.
-
-### Group Inquiry Form (`/groups`)
-
-Same as the contact form, but designed for corporate events and group bookings. Includes fields for company name, group size, event type, and preferred date. You'll receive the same email notification with all the details.
 
 ### Newsletter Signup (Homepage + Coming Soon Page)
 
@@ -23,7 +19,7 @@ All form submissions are permanently stored in a database, regardless of whether
 **[Supabase Dashboard](https://supabase.com/dashboard/project/yfsnhellrgjpjjkgoqry)** > Table Editor > `form_submissions`
 
 Each entry shows:
-- **Form type** — contact, group_inquiry, or newsletter
+- **Form type** — contact or newsletter
 - **Data** — all the fields the visitor submitted
 - **IP address** — the visitor's IP (used for spam protection)
 - **Timestamp** — when it was submitted

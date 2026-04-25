@@ -54,10 +54,9 @@ Additional features and polish added to the main Astro site beyond what was scop
 The proposal included a basic contact form and Mailchimp newsletter signup. What was built goes significantly beyond that:
 
 - **Spam protection** — three layers of defense: invisible bot detection (Cloudflare Turnstile), honeypot fields, and rate limiting per IP address
-- **Email notifications** — contact form and group inquiry submissions send professional HTML-formatted notification emails to `info@lockandlogic.com` with one-click reply to the customer
+- **Email notifications** — contact form submissions send professional HTML-formatted notification emails to `info@lockandlogic.com` with one-click reply to the customer
 - **Email deliverability setup** — DNS records (SPF, DKIM, DMARC) configured so notification emails reliably land in the inbox, not spam
-- **Form submission logging** — every submission (contact, group inquiry, newsletter) is stored in a database as a permanent record and backup
-- **Group inquiry form** — a dedicated form for corporate events and group bookings with fields for company, group size, event type, and preferred date (not in the original proposal)
+- **Form submission logging** — every submission (contact, newsletter) is stored in a database as a permanent record and backup
 - **Shared infrastructure** — the coming-soon page and main site share the same newsletter subscription backend, so subscribers from either site end up in the same Mailchimp list
 
 ## Coming Soon Page — Domain & Launch Setup
@@ -77,6 +76,47 @@ Created trackable QR codes with UTM parameters for print marketing materials.
 
 - QR codes link to the site with campaign tracking built in (source, medium, campaign name)
 - Campaign performance can be queried instantly via the AI analytics integration (see below)
+
+## Cookie Consent & Google Analytics on the Main Site
+
+Privacy-compliant tracking on the Astro site, set up to match the standards already in place on the coming-soon page.
+
+- Cookie consent banner with accept / reject controls
+- "Cookie Preferences" link in the footer so customers can change their choice anytime
+- Google Analytics only loads after consent — no tracking of customers who decline
+- Same GA4 property as the coming-soon page so traffic data carries through the launch
+
+## SEO Foundation
+
+A search-engine and AI-bot-friendly setup beyond standard meta tags.
+
+- Structured data (JSON-LD) for the business, rooms, and FAQ — what makes Google show ratings, prices, and FAQ accordions in search results
+- Open Graph image so the site previews nicely when shared in Facebook, iMessage, Slack, etc.
+- `llms.txt` file — a newer standard that helps AI assistants (ChatGPT, Claude, Perplexity, etc.) understand and accurately describe your business
+- Social profile links wired into the structured data so Google associates your Facebook and Instagram pages with the business
+
+## Custom Bookeo Booking Experiment Page
+
+A working prototype of a fully-custom booking flow built directly against the Bookeo API.
+
+- Live page that pulls real availability from your Bookeo account and lets a visitor walk through room → date → time → party size → checkout
+- Demonstrates what a future fully-custom booking experience could look like (vs. the embedded Bookeo widget) — completely on-brand, no Bookeo styling, faster
+- Useful as a reference if you ever want to invest in a custom booking flow down the road
+
+## Supabase Keep-Alive Cron
+
+Behind-the-scenes automation that keeps the database healthy on the free tier.
+
+- Daily Vercel cron job pings the database so Supabase doesn't auto-pause the project (which would break form submissions)
+- Each ping is logged for transparency
+- No action needed from you — fully automatic
+
+## Synthetic Monitoring Endpoint
+
+A health-check endpoint (`/api/health`) that external uptime monitors can hit to confirm the site and database are responding.
+
+- Returns status of the Vercel function and Supabase connectivity
+- Ready to plug into UptimeRobot, BetterStack, or similar (free) so you get an SMS/email if the site ever goes down
 
 ## Google Analytics AI Integration
 

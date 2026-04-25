@@ -70,8 +70,8 @@ npm run build (Astro + @astrojs/vercel adapter)
         └── API routes → Serverless Functions
                 │
                 ├── /api/contact
-                ├── /api/group-inquiry
-                └── /api/newsletter
+                ├── /api/newsletter
+                └── /api/keepalive  (daily Vercel cron → Supabase ping)
 ```
 
 ### Docs Site
@@ -114,7 +114,7 @@ Vercel detects push
 
 ## Form Submission Flow
 
-All three forms follow the same pipeline:
+Both forms follow the same pipeline:
 
 ```
 Visitor fills out form
@@ -142,7 +142,7 @@ POST to Vercel Serverless Function
 │         │                       │
 └─────────┼───────────────────────┘
           │
-          ├── Contact / Group Inquiry:
+          ├── Contact:
           │         │
           │         ▼
           │    Resend API ──→ Email to info@lockandlogic.com

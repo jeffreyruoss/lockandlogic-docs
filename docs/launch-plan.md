@@ -24,8 +24,8 @@ Roughly 2 weeks before the escape room opens, we'll quietly switch `lockandlogic
 
 - [ ] Flip the `lockandlogic.com` and `www.lockandlogic.com` domains from the coming-soon Vercel project to the Astro project (commands below)
 - [ ] Submit the updated sitemap to Google Search Console
-- [ ] Request indexing of key pages (home, rooms, contact, groups, FAQ)
-- [ ] Verify all forms work end-to-end (contact, group inquiry, newsletter)
+- [ ] Request indexing of key pages (home, rooms, contact, FAQ, about)
+- [ ] Verify all forms work end-to-end (contact, newsletter)
 - [ ] Verify the Bookeo integration is live and accepting bookings
 - [ ] Spot-check on mobile, tablet, and desktop
 - [ ] **Do not post on social media or send newsletters yet**

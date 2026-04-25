@@ -11,24 +11,24 @@
 - **Vercel** — SSR deployment with the `@astrojs/vercel` adapter
 - **Framework:** Astro (server-side rendered, not static)
 - **Repo:** `jeffreyruoss/lockandlogic` (private GitHub repo)
-- **Vercel Project:** Linked via `vercel link`, auto-deploys on push to `main`
+- **Vercel Project:** Linked via `vercel link`. **Auto-deploy on push is disabled** — production deploys are run manually via `vercel --prod`.
 
 ### Deployment Pipeline
 
 ```
-git push to main
-  → Vercel detects push via GitHub integration
-  → Runs `npm run build` (Astro build with Vercel adapter)
+vercel --prod  (run from repo root)
+  → Vercel uploads source, runs `npm run build`
   → Deploys to production (~30-60 seconds)
   → Previous deployment available for instant rollback
 ```
 
-- **Preview deployments:** Every push to a non-main branch gets a unique preview URL
-- **Rollback:** Any previous deployment can be promoted to production instantly from the Vercel dashboard
+- **Preview deployments:** `vercel` (no `--prod`) produces a unique preview URL
+- **Rollback:** Any previous deployment can be promoted to production instantly from the Vercel dashboard, or via `vercel alias set <previous-deploy-url> lockandlogic.com`
 
 ### Runtime
 
-- **Serverless Functions:** API routes (`/api/contact`, `/api/group-inquiry`, `/api/newsletter`) run as Vercel Serverless Functions (Node.js)
+- **Serverless Functions:** API routes (`/api/contact`, `/api/newsletter`, `/api/keepalive`) run as Vercel Serverless Functions (Node.js)
+- **Cron:** Daily Vercel cron hits `/api/keepalive` to prevent the Supabase free-tier project from auto-pausing
 - **Static assets:** Served from Vercel's Edge Network (global CDN)
 - **SSR pages:** Rendered per-request via serverless functions
 
@@ -104,20 +104,13 @@ git push to main
 
 ### Platform
 
-- **Vercel** — separate Vercel project from main site
-- **Repo:** `jeffreyruoss/lockandlogic` → `coming-soon/` directory (separate git repo)
-- **Type:** Static HTML + one Vercel serverless function (`api/newsletter.js`)
+- **Vercel** — separate Vercel project (`lockandlogic-coming-soon`) from the main site
+- **Repo:** `coming-soon/` directory inside the main repo, but its own git repo
+- **Type:** Static HTML + one Vercel serverless function (`api/newsletter.js`) that writes to the same Supabase + Mailchimp pipeline as the Astro site
 
 ### Domain Routing
 
-Currently, `lockandlogic.com` points to the coming-soon Vercel project. At launch:
-
-1. Remove domain from coming-soon project in Vercel
-2. Add domain to main site project in Vercel
-3. Vercel auto-provisions new SSL certificate
-4. DNS records (GoDaddy) stay the same — Vercel handles the routing change
-
-This is a ~5-minute switchover with zero downtime.
+Currently, `lockandlogic.com` and `www.lockandlogic.com` point to the coming-soon Vercel project. At soft launch the aliases get reassigned to the Astro project — see [Launch Plan](/launch-plan) for the exact `vercel alias set` commands. DNS records (GoDaddy) stay the same; Vercel handles the project routing change. ~5-minute switchover with zero downtime.
 
 ---
 

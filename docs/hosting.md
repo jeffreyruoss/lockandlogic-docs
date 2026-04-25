@@ -11,7 +11,7 @@ Your main website is hosted on **[Vercel](https://vercel.com)** — the same pla
 **What this means for you:**
 
 - **Always online** — Vercel serves your site from a global network of servers, so visitors get fast load times regardless of location
-- **Automatic deployments** — when a code update is made, the site rebuilds and goes live within about a minute
+- **One-command deploys** — code updates go live within about a minute by running `vercel --prod` from the project (auto-deploy from GitHub is intentionally disabled so changes are deployed deliberately)
 - **Free SSL** — your site is served over HTTPS (the padlock icon in the browser), which is important for trust, SEO, and security
 - **No server maintenance** — there's no server to patch, restart, or monitor. Vercel handles all of that
 
@@ -24,14 +24,14 @@ Your main website is hosted on **[Vercel](https://vercel.com)** — the same pla
 This documentation site is hosted on **GitHub Pages** — a free hosting service from GitHub.
 
 - Lives at a separate URL from your main site
-- Automatically rebuilds when documentation is updated
+- Automatically rebuilds via GitHub Actions when documentation is updated
 - Password-protected so only you can access it
 
 ---
 
 ## Coming Soon Page
 
-The temporary "coming soon" page at `lockandlogic.com` is a separate project also hosted on **Vercel**. When the main site is ready to launch, the domain will be switched over and the coming soon page will be retired.
+The temporary "coming soon" page at `lockandlogic.com` is a separate project also hosted on **Vercel**. At the soft launch (~2 weeks before opening), the domain will be flipped from the coming-soon project to the main Astro project — see [Launch Plan](/launch-plan) for the procedure.
 
 ---
 
