@@ -85,7 +85,7 @@ Single monitor protects everything. Configured via the Better Stack MCP server.
 | Type | `keyword_absence` |
 | Required keyword | `"ok":true` |
 | Check frequency | 180s (3 min) |
-| Confirmation period | 60s (avoids paging on a single transient blip) |
+| Confirmation period | 180s (requires two consecutive failed checks before alerting) |
 | Recovery period | 180s |
 | Regions | eu, us, as, au |
 | Request timeout | 30s |
@@ -95,6 +95,8 @@ The keyword check catches three failure modes with one rule:
 - **HTTP 503** (one of the checks failed) → no `"ok":true` in body → alert
 - **HTTP 200 with `"ok":false`** (defense-in-depth, shouldn't happen but covered) → alert
 - **Connection error / timeout / cert / DNS failure** → no body to match → alert
+
+**Why a 180s confirmation period?** Vercel's per-region edge propagation can briefly trail a fresh deployment, and individual regions occasionally have transient hiccups. Both produce a single failed check that resolves on the next cycle. Requiring two consecutive failures (~6 min total) absorbs those without losing the ability to catch real outages.
 
 [Monitor in Better Stack](https://uptime.betterstack.com/team/t532372/monitors/4326514)
 
@@ -108,6 +110,22 @@ The keyword check catches three failure modes with one rule:
 
 1. **Without breaking anything** — open the monitor → "Send test incident" button. You should get an email and (if voice is enabled) a phone call within seconds.
 2. **End-to-end** — temporarily change `SUPABASE_URL` in Vercel env vars to an invalid value, redeploy, wait 3-6 min for the alert, then revert and redeploy.
+
+---
+
+## Deploying without spurious alerts
+
+Use `npm run deploy` instead of bare `vercel --prod`. The wrapper at `scripts/deploy.mjs`:
+
+1. Pauses monitor `4326514` via the Better Stack REST API
+2. Runs `vercel --prod`
+3. Polls `/api/health` until it returns 200 + `"ok":true` (max 120s)
+4. Settles 60s for global edge propagation across non-US regions
+5. Unpauses the monitor — always, even on build failure or polling timeout (in a `finally` block)
+
+If unpause itself fails, the script exits with code 2 and prints `UNPAUSE MANUALLY` so it's noticed. Without `BETTERSTACK_API_TOKEN` set in `.env`, the script warns and falls back to a plain `vercel --prod` so it stays usable.
+
+The Better Stack API token is created at `Better Stack → Settings → API tokens` (scope: Uptime → write) and stored in `.env` (already gitignored).
 
 ---
 
@@ -151,6 +169,10 @@ When `www.lockandlogic.com` flips from `lockandlogic-coming-soon` to the Astro p
 - `vercel.json` — daily keepalive cron schedule
 - `astro.config.mjs` — `security.checkOrigin` + `allowedDomains` (CSRF guard relies on these)
 
+**Deploy script**
+- `scripts/deploy.mjs` — pause/deploy/settle/unpause wrapper, run via `npm run deploy`
+
 **Env vars (production + .env)**
-- `SYNTHETIC_SECRET` — gates the contact-form synthetic bypass
+- `SYNTHETIC_SECRET` — gates the contact-form synthetic bypass (set in Vercel + local `.env`)
+- `BETTERSTACK_API_TOKEN` — used by `scripts/deploy.mjs` to pause/unpause monitor `4326514` (local `.env` only — not needed in Vercel)
 - All other env vars are documented in [Forms System](/forms-system-technical) and [Hosting](/hosting-technical)
