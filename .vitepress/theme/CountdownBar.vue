@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, onUnmounted } from 'vue'
 
-const OPENING_DAY = new Date('2026-05-31T00:00:00')
+const OPENING_DAY = new Date('2026-08-08T00:00:00')
 const now = ref(new Date())
 let timer: ReturnType<typeof setInterval>
 
