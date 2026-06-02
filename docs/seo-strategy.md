@@ -9,9 +9,9 @@ An SEO strategy tailored to the Pottstown market. As covered in the [competitor 
 
 | Phase | Timing | Focus |
 |-------|--------|-------|
-| **Pre-Launch** | March – May 2026 | Google Business Profile, SEO foundation, blog content, directory listings |
+| **Pre-Launch** | March – July 2026 | Google Business Profile, SEO foundation, blog content, directory listings |
 | **Soft Launch** | ~2 weeks before opening | Point domain to main site for indexing (no public announcement) |
-| **Launch** | Mid June 2026 | Local press, review collection, launch content |
+| **Launch** | August 2026 | Local press, review collection, launch content |
 | **Growth** | July 2026 onward | Ongoing blog content, review management, seasonal campaigns, link building |
 
 ---
@@ -33,7 +33,7 @@ The Google Business Profile (GBP) is arguably more important than the website fo
 | **Photos** | Room photos, lobby, exterior, team celebration shots |
 | **Q&A** | Pre-seed common questions (How long is a game? What ages? Can I book privately?) |
 
-Google allows profile creation **up to 90 days before opening** — so the listing can start appearing in search results before the Mid June opening. Aim to have the GBP fully set up and verified **~2 weeks before opening** so it's active and showing up alongside the soft launch.
+Google allows profile creation **up to 90 days before opening** — so the listing can start appearing in search results before the August 8 opening. Aim to have the GBP fully set up and verified **~2 weeks before opening** so it's active and showing up alongside the soft launch.
 
 ### Ongoing GBP Activity
 
@@ -247,7 +247,7 @@ Backlinks are one of Google's top ranking factors. For a local business, the mos
 
 ## Action Items by Phase
 
-### Before Opening (March – May 2026)
+### Before Opening (March – July 2026)
 
 - [ ] Create and optimize Google Business Profile with future opening date
 - [ ] Build SEO foundation into every page (meta tags, schema markup, sitemap, alt text)
@@ -259,7 +259,7 @@ Backlinks are one of Google's top ranking factors. For a local business, the mos
 - [ ] Set up Google Analytics and Google Search Console
 - [ ] Claim social media profiles (Facebook, Instagram, TikTok) with consistent NAP
 
-### Soft Launch (~2 weeks before opening — early June 2026)
+### Soft Launch (~2 weeks before opening — late July 2026)
 
 - [ ] Point `lockandlogic.com` from the coming-soon page to the main Astro site
 - [ ] Confirm Google Business Profile is fully set up, verified, and live
@@ -267,7 +267,7 @@ Backlinks are one of Google's top ranking factors. For a local business, the mos
 - [ ] Do **not** publicly announce — goal is quiet indexing and crawl activity only
 - [ ] Monitor Search Console for coverage issues; fix any crawl errors that surface
 
-### Opening Month (Mid June 2026)
+### Opening Month (August 2026)
 
 - [ ] Send press release to Pottstown Mercury and local media
 - [ ] Publish launch blog post targeting "new escape room Pottstown"

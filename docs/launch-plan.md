@@ -6,7 +6,7 @@ How we'll transition from the coming-soon page to the live website, and what nee
 
 ## Target Opening
 
-**Mid June 2026** — exact date to be confirmed closer to opening.
+**August 8, 2026** — confirmed by client 2026-06-01. Construction started the week of June 1, 2026.
 
 ---
 
@@ -82,7 +82,7 @@ The GBP should be **fully set up, verified, and live** around the same time as t
 
 ---
 
-## Public Launch (Opening Day — Mid June 2026)
+## Public Launch (Opening Day — August 8, 2026)
 
 This is the loud one. Once the rooms are ready for paying customers:
 
@@ -98,7 +98,7 @@ This is the loud one. Once the rooms are ready for paying customers:
 
 | When | What |
 |------|------|
-| **Now – early June** | Pre-launch: GBP setup, SEO foundation, ad creative prep, newsletter list building |
-| **~2 weeks before opening** | Soft launch: domain switch, GBP goes live, quiet indexing period |
-| **Mid June 2026** | Public launch: press, social announcement, ads go live |
-| **July 2026+** | Growth phase: ongoing content, review collection, seasonal campaigns |
+| **Now – late July** | Pre-launch: GBP setup, SEO foundation, ad creative prep, newsletter list building |
+| **~July 25, 2026** | Soft launch: domain switch, GBP goes live, quiet indexing period |
+| **August 8, 2026** | Public launch: press, social announcement, ads go live |
+| **August 2026+** | Growth phase: ongoing content, review collection, seasonal campaigns |

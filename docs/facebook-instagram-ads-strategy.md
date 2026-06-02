@@ -22,10 +22,10 @@ Google Ads catches people with intent. Social ads create demand. Both are valuab
 
 | Phase | Timing | Focus |
 |-------|--------|-------|
-| **Pre-Launch** | March – May 2026 | Build anticipation. Tease rooms. Grow local following. Collect email signups for early booking access. |
-| **Launch** | Mid June 2026 | Grand opening campaign. Drive first bookings. Promote opening-week specials. |
-| **Growth** | July – August 2026 | Ongoing booking campaigns. Event targeting. Remarketing. A/B testing creative. |
-| **Scaling** | September 2026+ | Seasonal campaigns. Lookalike audiences. Gift card promotions. Video-first creative. |
+| **Pre-Launch** | March – July 2026 | Build anticipation. Tease rooms. Grow local following. Collect email signups for early booking access. |
+| **Launch** | August 2026 | Grand opening campaign. Drive first bookings. Promote opening-week specials. |
+| **Growth** | September – October 2026 | Ongoing booking campaigns. Event targeting. Remarketing. A/B testing creative. |
+| **Scaling** | November 2026+ | Seasonal campaigns. Lookalike audiences. Gift card promotions. Video-first creative. |
 
 ---
 
@@ -174,9 +174,9 @@ Facebook and Instagram ads are generally cheaper than Google Ads, especially for
 
 | Phase | Monthly Budget | Daily Budget | Notes |
 |-------|---------------|-------------|-------|
-| **Pre-Launch** (March – May) | $300 – $500 | $10 – $17 | Awareness and anticipation building |
-| **Launch** (Mid June) | $600 – $1,000 | $20 – $33 | Maximum push for opening month |
-| **Growth** (July – August) | $400 – $600 | $13 – $20 | Consistent booking campaigns + remarketing |
+| **Pre-Launch** (through July) | $300 – $500 | $10 – $17 | Awareness and anticipation building |
+| **Launch** (August) | $600 – $1,000 | $20 – $33 | Maximum push for opening month |
+| **Growth** (September – October) | $400 – $600 | $13 – $20 | Consistent booking campaigns + remarketing |
 | **Steady state** (September+) | $300 – $500 | $10 – $17 | Ongoing with seasonal boosts |
 | **Seasonal peaks** (October, December) | $500 – $800 | $17 – $27 | Halloween, holiday gift cards |
 
@@ -194,7 +194,7 @@ At a $500/month budget, you can expect roughly **250-500 website clicks** and **
 
 ---
 
-## Part 5: Pre-Launch Campaign (March – May 2026)
+## Part 5: Pre-Launch Campaign (March – July 2026)
 
 The pre-launch period is about building anticipation and growing an audience before opening day.
 
@@ -209,7 +209,7 @@ The pre-launch period is about building anticipation and growing an audience bef
 | Content | Format | Purpose |
 |---------|--------|---------|
 | Room teaser video (construction progress → finished room reveal) | Video (15-30 sec) | Build excitement, show this is real and coming soon |
-| "Coming Mid June 2026" announcement graphic | Image | Simple awareness |
+| "Coming August 2026" announcement graphic | Image | Simple awareness |
 | Behind-the-scenes puzzle construction | Reels / Stories | Create intrigue and investment in the brand |
 | "What kind of escape room player are you?" quiz/poll | Stories interactive | Drive engagement and grow followers |
 | Countdown posts (30 days, 2 weeks, 1 week) | Carousel or image | Build urgency and anticipation |
@@ -226,7 +226,7 @@ An email list of 200-500 local people ready to book on opening day is extremely 
 
 ---
 
-## Part 6: Launch Campaign (Mid June 2026)
+## Part 6: Launch Campaign (August 2026)
 
 Opening month is your biggest push. The goal is maximum visibility in the Pottstown area.
 
@@ -274,7 +274,7 @@ Review performance weekly by campaign, creative, and audience. Do a full funnel 
 
 ## Summary: Action Items by Phase
 
-### Pre-Launch (March – May 2026)
+### Pre-Launch (March – July 2026)
 
 - [ ] Set up Meta Business Suite, Facebook Page, and Instagram Business account
 - [ ] Install Meta Pixel on the website and configure key events (ViewContent, InitiateCheckout, Purchase, Lead)
@@ -284,7 +284,7 @@ Review performance weekly by campaign, creative, and audience. Do a full funnel 
 - [ ] Build a library of photos and short videos for ad creative
 - [ ] Goal: 500+ local followers, 200+ email signups before opening
 
-### Launch Month (Mid June 2026)
+### Launch Month (August 2026)
 
 - [ ] Launch grand opening conversion campaign
 - [ ] Run room showcase carousel ads
@@ -294,7 +294,7 @@ Review performance weekly by campaign, creative, and audience. Do a full funnel 
 - [ ] Target budget: $600-$1,000
 - [ ] Goal: 50+ bookings from social ads in month one
 
-### Growth (July – August 2026)
+### Growth (September – October 2026)
 
 - [ ] Identify top creative and audiences from launch data
 - [ ] Build custom audiences from Pixel data and customer lists

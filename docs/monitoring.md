@@ -2,6 +2,10 @@
 
 > Uptime monitoring, synthetic form testing, and alert routing for the production site
 
+::: warning Monitor paused until soft launch
+The Better Stack monitor (`4326514`) is paused. `lockandlogic.vercel.app/api/health` currently 404s because the apex/www domains still point at the `lockandlogic-coming-soon` project, which auto-pauses the monitor every few days. Re-enable as part of the soft-launch cutover — see [Post-launch checklist](#post-launch-checklist).
+:::
+
 ---
 
 ## What gets monitored
@@ -147,6 +151,7 @@ When `www.lockandlogic.com` flips from `lockandlogic-coming-soon` to the Astro p
 
 - [ ] Either edit monitor `4326514` URL to `https://www.lockandlogic.com/api/health`, or add a second monitor for the canonical domain (free tier has 10 slots)
 - [ ] Confirm the new URL returns 200 with `"ok":true` before cutting over
+- [ ] Unpause monitor `4326514` in Better Stack (paused since 2026-05 due to repeated auto-pauses while the domain pointed at `lockandlogic-coming-soon`)
 - [ ] After cutover, watch Better Stack for 30 minutes to make sure no regional check fails
 
 ---

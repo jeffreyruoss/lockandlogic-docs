@@ -17,7 +17,7 @@ features:
     linkText: View Proposal
   - icon: 🚀
     title: Launch Plan
-    details: How we'll transition from coming-soon to live — the Mid June opening, the ~2-week soft launch for indexing, and Google Business Profile readiness.
+    details: How we'll transition from coming-soon to live — the August 8 opening, the ~2-week soft launch for indexing, and Google Business Profile readiness.
     link: /launch-plan
     linkText: View Plan
   - icon: 🧩
