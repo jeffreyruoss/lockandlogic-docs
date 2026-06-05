@@ -92,15 +92,7 @@ Behind-the-scenes code that enables "rich snippets" in Google — star ratings, 
 
 Name, Address, Phone Number should be defined in one canonical format and used identically everywhere — website footer, GBP, every directory listing, all social profiles. Even small inconsistencies ("Street" vs "St.") can hurt rankings.
 
-The canonical format for Lock & Logic is:
-
-| Field | Value |
-|-------|-------|
-| **Name** | Lock & Logic |
-| **Address** | 142 Shoemaker Rd, Unit 1, Pottstown, PA 19464 |
-| **Phone** | (610) 819-0152 |
-| **Canonical URL** | `https://www.lockandlogic.com` (always with `www`) |
-| **Email** | info@lockandlogic.com |
+See the dedicated **[NAP Consistency](/nap-consistency)** page for the canonical format, the "Lock & Logic" vs. "Lock & Logic, LLC" rule, and where it needs to match.
 
 ---
 
@@ -116,16 +108,35 @@ AI search — Google AI Overviews, ChatGPT search, Perplexity, Claude, Gemini, B
 - **Consistent entity identity** — exact same name/address/phone everywhere so AI can confidently resolve "Lock & Logic" → one real entity
 - **Freshness** — recently updated pages, reviews, and blog posts signal the business is active
 
+### What's Done vs. What's Coming
+
+The on-site AI-SEO work is essentially complete — it's the same structured-data and FAQ work that powers classic rich results, so it does double duty. The remaining items are off-site or depend on the business being open and collecting reviews.
+
+| Item | Status | When |
+|------|--------|------|
+| Structured-data graph (`EntertainmentBusiness`, `WebSite`, `Product`, `FAQPage`, `BreadcrumbList`, `ItemList`) | ✅ Done | Live site-wide |
+| FAQ written in natural question form, incl. AI-style queries ("Where are you located?", "Which room is best for beginners?", "Is it good for a birthday party?") | ✅ Done | Live on `/faq` |
+| Each room page reads as a standalone factual description (who/what/when/where/how much) | ✅ Done | Live |
+| `/llms.txt` published | ✅ Done | Live (see note below) |
+| `AggregateRating` schema (star ratings in AI answers + rich results) | ⏳ Pending | **After first reviews** — code scaffolding is in place, wire to real totals once a review base exists (target 50+ in first 3 months post-launch) |
+| `Event` schema (seasonal events in AI/Google listings) | ⏳ Pending | When events are scheduled (e.g. Halloween nights) |
+| Google Business Profile fully populated | ⏳ Pending | ~2 weeks before opening (late July 2026) — AI Overviews lean heavily on GBP data |
+| Authoritative third-party citations with matching NAP | ⏳ Ongoing | Pre-launch + ongoing (directories, press, Chamber) |
+
+> **Do not populate `AggregateRating` with placeholder or invented numbers** — fake ratings violate Google's guidelines and can trigger a manual penalty. It stays commented out in the code until real reviews are flowing.
+
 ### `llms.txt`
 
 The site publishes [`/llms.txt`](https://www.lockandlogic.com/llms.txt) — an emerging convention (similar in spirit to `robots.txt`) that gives AI crawlers a plain-text overview of the business: hours, pricing, each room with difficulty and player count, and canonical URLs for every key page. No competitor in the Pottstown area publishes this yet.
 
+**Reality check (mid-2026):** adoption by the major AI search providers is still low. Google has publicly said it does **not** use `llms.txt` for AI Overviews or AI Mode, and no major LLM provider (OpenAI, Anthropic, Google) has committed to reading it in production. Independent studies show only a tiny fraction of AI-crawler traffic ever requests the file. It *is* used by AI coding agents (Claude Code, Cursor) and costs nothing to maintain. **Verdict: keep it, but don't over-invest.** The real drivers of AI visibility are the structured data, a fully populated Google Business Profile, and consistent third-party citations.
+
 ### Practical AI-SEO Tactics
 
-- Write FAQ entries in real question form ("Are escape rooms scary?", "How much does it cost?") — matches natural user prompts
-- Each room page should read as a standalone factual description (who, what, when, where, how much) — AI assistants often cite a single page
-- Keep Google Business Profile fully populated — AI Overviews lean heavily on GBP data
-- Earn mentions on authoritative local sites (Valley Forge Tourism Board, Pottstown Mercury, Chamber of Commerce) — these become citation sources
+- Write FAQ entries in real question form ("Are escape rooms scary?", "How much does it cost?") — matches natural user prompts ✅ *done, and expanded with location/occasion/room-selection questions*
+- Each room page should read as a standalone factual description (who, what, when, where, how much) — AI assistants often cite a single page ✅ *done*
+- Keep Google Business Profile fully populated — AI Overviews lean heavily on GBP data ⏳ *pre-launch*
+- Earn mentions on authoritative local sites (Valley Forge Tourism Board, Pottstown Mercury, Chamber of Commerce) — these become citation sources ⏳ *ongoing*
 
 ---
 

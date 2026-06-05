@@ -30,6 +30,11 @@ features:
     details: SEO strategy designed to capitalize on Pottstown's lack of local escape room competition.
     link: /seo-strategy
     linkText: View Strategy
+  - icon: 🏷️
+    title: NAP Consistency
+    details: Your canonical Name, Address & Phone — the exact format to use everywhere online so search and AI confidently identify your business.
+    link: /nap-consistency
+    linkText: View Details
   - icon: 📢
     title: Google Ads Strategy
     details: Campaign structure, keyword targeting, ad copy, and budget recommendations.

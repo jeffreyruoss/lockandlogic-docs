@@ -19,6 +19,7 @@ const adminSidebar = [
       { text: '🚀 Launch Plan', link: '/launch-plan' },
       { text: '🧩 Features Overview', link: '/escape-room-features-client' },
       { text: '🔍 SEO Strategy', link: '/seo-strategy' },
+      { text: '🏷️ NAP Consistency', link: '/nap-consistency' },
       { text: '📢 Google Ads Strategy', link: '/google-ads-strategy' },
       { text: '📊 Bookeo vs Resova', link: '/bookeo-vs-resova' },
       { text: '🏆 Competitor Analysis', link: '/competitor-analysis' },
