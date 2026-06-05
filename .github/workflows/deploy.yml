@@ -20,7 +20,10 @@ jobs:
     steps:
       - uses: actions/checkout@v6
         with:
-          fetch-depth: 1
+          # Full history so VitePress can read each page's real last-commit
+          # date for "Last updated" (a shallow clone makes every page show
+          # the most recent commit date).
+          fetch-depth: 0
 
       - uses: actions/setup-node@v6
         with:
