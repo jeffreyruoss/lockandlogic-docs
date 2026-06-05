@@ -43,6 +43,8 @@ When an imported contact clicks the "Subscribe" button in the opt-in email, they
 
 ## Step-by-Step Process
 
+> **Before this can begin:** Jeff needs to make a small code change to the newsletter signup form on both the coming-soon page and the main website so that website signups are automatically tagged `coming-soon-signup`. Without that change in place first, the tag-based separation below won't work and imported contacts who later opt in via the website wouldn't be distinguishable from the unverified import group.
+
 1. **Export the spreadsheet to CSV** (just the email column is required; first/last name optional)
 2. **Upload to Mailchimp** → "Add contacts" → choose **"Import contacts"** → upload the CSV
 3. **During the import**, apply the tag **`2026-import`** to all uploaded contacts
