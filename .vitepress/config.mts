@@ -33,6 +33,7 @@ export default defineConfig({
       { text: '🌐 Website Hosting', link: '/hosting' },
       { text: '📧 Email Opt-In Campaign', link: '/email-opt-in-campaign' },
       { text: '📅 Booking Flow Checklist', link: '/booking-flow' },
+      { text: '🆚 Bookeo Embed vs. Hosted Page', link: '/bookeo-embed-vs-hosted' },
       { text: '🎟️ Return Visit Discount', link: '/return-visit-discount' },
       { text: '🚫 Bookeo Closing Periods', link: '/bookeo-closing-periods' },
       { text: '🔗 Bookeo API AI Integration', link: '/bookeo-api' },
