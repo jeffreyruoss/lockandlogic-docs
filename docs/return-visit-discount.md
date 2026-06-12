@@ -9,8 +9,8 @@ Give guests **10% off** when they book their next room before they leave. There 
 Staff book the guest's next visit right at the front desk and take $3 off.
 
 1. Open the Bookeo dashboard and create the booking for the guest.
-2. Under **Additional items/adjustments**, enter **-$3**. The total drops from $30 to **$27**.
-3. Charge the $27 on the **Square POS** card reader.
+2. Under **Additional items/adjustments**, enter **-$3**. The total drops from $35 to **$32**.
+3. Charge the $32 on the **Square POS** card reader.
 
 Nothing for the guest to type or remember — staff handle it all at the desk.
 

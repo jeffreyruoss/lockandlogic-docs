@@ -11,7 +11,7 @@
 | Locations | 1 |
 | Rooms | 4 |
 | Players per room | 2–8 |
-| Price | $30/person (tax included) |
+| Price | $35/person (tax included) |
 | Room duration | 60 minutes |
 | Address | 142 Shoemaker Rd, Unit 1, Pottstown, PA 19464 |
 | Phone | (610) 819-0152 |

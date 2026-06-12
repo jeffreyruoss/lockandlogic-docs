@@ -82,7 +82,7 @@ Behind-the-scenes code that enables "rich snippets" in Google — star ratings, 
 | **EntertainmentBusiness** | Business name, address, phone, hours, price range, service area, geo | ✅ Implemented site-wide |
 | **WebSite** | Site identity for the knowledge graph | ✅ Implemented site-wide |
 | **FAQPage** | FAQ answers as expandable dropdowns in search results | ✅ Implemented on `/faq` |
-| **BreadcrumbList** | Navigation path (Home > Rooms > Tesla's Workshop) | ✅ Implemented on all sub-pages |
+| **BreadcrumbList** | Navigation path (Home > Rooms > Nikola Tesla's Workshop) | ✅ Implemented on all sub-pages |
 | **Product** (per room) | Each room with price, description, image, offer | ✅ Implemented on `/rooms/[slug]` |
 | **ItemList** | Listing of all rooms | ✅ Implemented on `/rooms` |
 | **AggregateRating** | Star rating and review count next to listing | ⏳ Add once review base exists |

@@ -52,7 +52,7 @@ Ready-to-use copy and layout ideas for online and print marketing. All examples 
       </div>
     </div>
     <div class="social-body">
-      Something stirs in the depths of the Forsaken Shrine...<br><br>
+      Something stirs in the temple of the Forgotten God...<br><br>
       Do you have what it takes to break the curse before time runs out?<br><br>
       Book now — if you dare.<br>
       lockandlogic.com
@@ -94,7 +94,7 @@ Ready-to-use copy and layout ideas for online and print marketing. All examples 
 | Pottstown Escape Rooms | Book Your Adventure Today | Lock & Logic |
 | Escape Room Near You | Groups of 2–8 Welcome | Unlock the Mystery |
 | #1 Escape Room Pottstown | Team Building Events | Book Online Now |
-| Date Night Escape Room | Birthday Party Escape | From $30/Person |
+| Date Night Escape Room | Birthday Party Escape | From $35/Person |
 
 ---
 
@@ -189,11 +189,11 @@ These mockups are **concept layouts for inspiration only** — they show how the
       <div class="rack-rooms-list">
         <div class="rack-room"><span class="rack-room-name">Grandma Betty's Secret Recipe</span><br>The house is sold. The clock is ticking. One secret remains.</div>
         <div class="rack-room-divider"></div>
-        <div class="rack-room"><span class="rack-room-name">The Forsaken Shrine</span><br>The cave sealed behind you. Only the forgotten god knows the way out.</div>
+        <div class="rack-room"><span class="rack-room-name">The Forgotten God</span><br>The cave sealed behind you. Only the forgotten god knows the way out.</div>
         <div class="rack-room-divider"></div>
         <div class="rack-room"><span class="rack-room-name">The Initiation</span><br>They're watching. They're judging. Prove you belong.</div>
         <div class="rack-room-divider"></div>
-        <div class="rack-room"><span class="rack-room-name">Tesla's Workshop</span><br>He vanished. His experiment didn't.</div>
+        <div class="rack-room"><span class="rack-room-name">Nikola Tesla's Workshop</span><br>He vanished. His experiment didn't.</div>
       </div>
       <div class="rack-back-cta">Book at lockandlogic.com</div>
       <div class="rack-footer">lockandlogic.com · Pottstown, PA</div>
@@ -317,12 +317,12 @@ These mockups are **concept layouts for inspiration only** — they show how the
     <div class="receipt-addr">123 Main St, Pottstown, PA · lockandlogic.com</div>
   </div>
   <div class="receipt-divider"></div>
-  <div class="receipt-row"><span>Room</span><span>The Forsaken Shrine</span></div>
+  <div class="receipt-row"><span>Room</span><span>The Forgotten God</span></div>
   <div class="receipt-row"><span>Date</span><span>Saturday, June 14, 2026</span></div>
   <div class="receipt-row"><span>Time</span><span>7:00 PM</span></div>
   <div class="receipt-row"><span>Group size</span><span>4 players</span></div>
   <div class="receipt-divider"></div>
-  <div class="receipt-row receipt-total"><span>Total</span><span>$120.00</span></div>
+  <div class="receipt-row receipt-total"><span>Total</span><span>$140.00</span></div>
   <div class="receipt-divider"></div>
   <div class="receipt-footer">We can't wait to see you. Don't be late — the clock starts on time.</div>
 </div>

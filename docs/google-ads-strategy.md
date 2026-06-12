@@ -261,7 +261,7 @@ For escape rooms in a low-competition market like Pottstown, costs will be on th
 | Brand | 5% |
 | Testing / New campaigns | 5% |
 
-At a $600/month budget with an average CPC of $1.50, that's roughly **400 clicks per month**. With a 5-10% booking conversion rate, that's **20-40 bookings per month from ads alone**. At $25-30 per person with average groups of 4, each booking is worth $100-120 — meaning Google Ads could drive **$2,000-$4,800/month in revenue** from a $600 investment.
+At a $600/month budget with an average CPC of $1.50, that's roughly **400 clicks per month**. With a 5-10% booking conversion rate, that's **20-40 bookings per month from ads alone**. At $35 per person with average groups of 4, each booking is worth $140 — meaning Google Ads could drive **$2,800-$5,600/month in revenue** from a $600 investment.
 
 ---
 

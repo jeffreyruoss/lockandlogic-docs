@@ -30,7 +30,7 @@ Rather than sending visitors to Bookeo's standard booking page, we can build the
 
 ### Split Payments
 
-The API supports adding multiple payments to a single booking, which means group members can each pay their own share. For example, if a group of 6 books a room at $30/person, each person could pay their $30 individually instead of one person covering the full $180. This would be built into the custom booking flow — after selecting a room and time, the organizer could generate a payment link to share with their group.
+The API supports adding multiple payments to a single booking, which means group members can each pay their own share. For example, if a group of 6 books a room at $35/person, each person could pay their $35 individually instead of one person covering the full $210. This would be built into the custom booking flow — after selecting a room and time, the organizer could generate a payment link to share with their group.
 
 ### Show Real-Time Availability on Your Website
 
