@@ -80,6 +80,11 @@ features:
     details: How your contact form and newsletter signup work — submissions, spam protection, and email notifications.
     link: /forms-system
     linkText: View Forms
+  - icon: 🎛️
+    title: Admin Dashboard
+    details: Your private control panel — create promo pop-ups for the site and view every form submission in one place.
+    link: /admin-dashboard
+    linkText: View Dashboard
   - icon: 🌐
     title: Website Hosting
     details: Where your websites are hosted, what it costs, and how everything stays online automatically.

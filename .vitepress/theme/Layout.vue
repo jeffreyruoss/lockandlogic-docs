@@ -29,6 +29,7 @@ const adminSidebar = [
       { text: '🎨 Branding Style Guide', link: '/brand-style-guide' },
       { text: '📣 Marketing Examples', link: '/marketing-examples' },
       { text: '📬 Forms System', link: '/forms-system' },
+      { text: '🎛️ Admin Dashboard', link: '/admin-dashboard' },
       { text: '🌐 Website Hosting', link: '/hosting' },
       { text: '📧 Email Opt-In Campaign', link: '/email-opt-in-campaign' },
       { text: '📅 Booking Flow Checklist', link: '/booking-flow' },
