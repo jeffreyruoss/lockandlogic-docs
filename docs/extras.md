@@ -59,6 +59,17 @@ The proposal included a basic contact form and Mailchimp newsletter signup. What
 - **Form submission logging** — every submission (contact, newsletter) is stored in a database as a permanent record and backup
 - **Shared infrastructure** — the coming-soon page and main site share the same newsletter subscription backend, so subscribers from either site end up in the same Mailchimp list
 
+## Admin Dashboard
+
+A private, password-protected control panel at `lockandlogic.com/admin` that lets you manage parts of the site yourself — no developer needed. Designed to grow as more tools are added over time.
+
+- **Promo pop-ups** — create scheduled pop-up messages for visitors (e.g. "Now open!", a discount, an event) with an optional button/link, start/end scheduling, page targeting, and control over how often each visitor sees it
+- **Top announcement bar** — a site-wide banner across the top of every page, with color styles (info / alert / success), an optional link, scheduling, and a choice of dismiss behavior
+- **Form submissions viewer** — browse, search (by name or email), and filter every contact, group-inquiry, and newsletter submission, with a month-by-month breakdown — no need to open the database
+- **FAQ management** — add, edit, reorder (drag-and-drop), and hide the questions on your public FAQ page yourself
+- **Dashboard overview** — at-a-glance counts (submissions this month, active pop-ups, number of FAQs, announcement on/off)
+- Protected by a password and hidden from search engines
+
 ## Coming Soon Page — Domain & Launch Setup
 
 Getting lockandlogic.com live and ready to share.
