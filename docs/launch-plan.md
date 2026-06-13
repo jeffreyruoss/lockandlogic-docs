@@ -82,6 +82,35 @@ The GBP should be **fully set up, verified, and live** around the same time as t
 
 ---
 
+## Booking Access Phases
+
+Booking opens in stages so play testers can run the rooms before the public, and so real customers can reserve sessions ahead of the grand opening.
+
+### 1. Play-tester booking (private — before public booking)
+
+Play testers (friends, family, and invited guests) need to book test sessions before booking is open to the public. The plan is to keep the booking page private and reachable only by people who are given access:
+
+- **Secret link or password gate** on the `/book` page — only people with the link or password reach the Bookeo booking page. The page isn't linked anywhere public, and search engines are kept from indexing it.
+- Alternatively, the Bookeo hosted page URL can be shared directly with play testers — it isn't linked from the site, so the public won't stumble onto it.
+- Bookeo stays in Demo (test) payment mode for these runs, or comp codes are issued, so play testers aren't charged.
+
+### 2. Public booking opens (before grand opening)
+
+Ahead of the August 8 grand opening, booking opens to everyone so customers can reserve sessions in advance:
+
+- [ ] Remove the password / secret-link gate so `/book` is publicly accessible
+- [ ] Switch the Bookeo payment gateway from Demo back to Stripe (real payments)
+- [ ] Confirm availability is open for grand-opening dates and beyond
+- [ ] Verify the full booking → payment → confirmation flow with a real transaction
+
+This can happen at or shortly after the soft launch — the site is live and indexable, but the loud announcement is still held for opening day.
+
+### 3. Grand opening (loud launch)
+
+See [Public Launch](#public-launch-opening-day-august-8-2026) below — press, social, newsletter, and ads.
+
+---
+
 ## Public Launch (Opening Day — August 8, 2026)
 
 This is the loud one. Once the rooms are ready for paying customers:
@@ -99,6 +128,8 @@ This is the loud one. Once the rooms are ready for paying customers:
 | When | What |
 |------|------|
 | **Now – late July** | Pre-launch: GBP setup, SEO foundation, ad creative prep, newsletter list building |
+| **Before public booking** | Play-tester booking: private/gated booking page, Bookeo in Demo mode |
 | **~July 25, 2026** | Soft launch: domain switch, GBP goes live, quiet indexing period |
+| **Soft launch → opening** | Public booking opens: gate removed, Bookeo on Stripe, customers reserve ahead |
 | **August 8, 2026** | Public launch: press, social announcement, ads go live |
 | **August 2026+** | Growth phase: ongoing content, review collection, seasonal campaigns |
