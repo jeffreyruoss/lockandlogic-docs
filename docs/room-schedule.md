@@ -49,3 +49,17 @@ Daily time slot schedule for all four rooms, staggered by 15 minutes with a 15-m
 | **Weekly Total** | | **144** |
 
 At an average of 4 players per session at $35/person, that's **$20,160/week** at full capacity.
+
+---
+
+## 5th Room (Holiday Room)
+
+A fifth room joins the lineup after launch.
+
+- **Opens:** September 5, 2026 (not available at the August 8 launch)
+- **Game duration:** 30 minutes (the other four are 60)
+- **Cost:** $25/person (the other four are $35)
+- **Theme:** Holiday room — the theme rotates for each holiday/season
+- **Name:** TBD — client will send it soon
+
+The shorter duration means this room can run on a tighter cadence than the four core rooms; its slot schedule will be added here once the name and opening details are confirmed.
