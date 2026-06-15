@@ -82,10 +82,11 @@ Before the public launch, room testers (friends, family, invited guests) should 
 - **Each code is single-use.** In the multiple-coupon-codes model, a code can't be reused once it's been redeemed on a booking — so each code is effectively one person, one use.
 - **100% discount = free room.** A code applies a full discount, bringing the tester's total to $0.
 
-### Tracking who used each code
+### Tracking who used each code (and which room)
 
 - **Coupons report** (Reports → Coupons, downloadable as XLS) lists each code, whether/when it was used, and the booking it applied to — which ties back to the customer's name. This is the source of truth for "who used `Test01`."
 - The **individual booking detail** also shows the promotion/code that was applied.
+- **Which room they chose is captured automatically.** Every Bookeo booking records the product/service (the room) booked, so each tester's booking shows their room — no extra setup needed. To see code + name + room together, cross-reference the Coupons report's booking against the **Bookings report** (or open the booking), or filter the Bookings report by date/room.
 - ⚠️ **Don't rely on the payments/transaction history** to match a code to a person — a 100%-off booking is **$0**, so it may not create a payment line at all. Use the Coupons report or the booking detail instead.
 
 ### Verify before handing out codes
@@ -93,3 +94,4 @@ Before the public launch, room testers (friends, family, invited guests) should 
 - [ ] Confirm a **100%-off booking completes without hitting the payment gateway** (it should skip payment entirely at $0). Safe to test now while Bookeo is in Demo gateway mode.
 - [ ] Confirm the **Coupons report shows the tester's name** alongside the code they used.
 - [ ] Confirm a redeemed code **cannot be reused** for a second booking.
+- [ ] Confirm the booking record / Bookings report shows **which room** the tester chose.
