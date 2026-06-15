@@ -69,3 +69,27 @@ These are additional booking flow items worth verifying or configuring in Bookeo
 
 - **Gift card / voucher support** -- Can customers purchase gift cards through Bookeo? If so, configure redemption flow.
 - **Group/corporate booking rates** -- If you plan to offer discounts for corporate team-building or large groups, set up those pricing tiers.
+
+---
+
+## Room Tester Free Codes
+
+Before the public launch, room testers (friends, family, invited guests) should be able to book and play for free. The plan is to give each tester a unique, one-time code (e.g. `Test01`, `Test02`, …) so their booking is free and we can track who used which code.
+
+### How to set it up in Bookeo
+
+- **One promotion, multiple coupon codes.** Create a single promotion set to **100% discount**, then attach a list of coupon codes to it (`Test01`, `Test02`, `Test03`, …). This is the same "multiple coupon codes" mechanism Bookeo uses for Groupon-style campaigns.
+- **Each code is single-use.** In the multiple-coupon-codes model, a code can't be reused once it's been redeemed on a booking — so each code is effectively one person, one use.
+- **100% discount = free room.** A code applies a full discount, bringing the tester's total to $0.
+
+### Tracking who used each code
+
+- **Coupons report** (Reports → Coupons, downloadable as XLS) lists each code, whether/when it was used, and the booking it applied to — which ties back to the customer's name. This is the source of truth for "who used `Test01`."
+- The **individual booking detail** also shows the promotion/code that was applied.
+- ⚠️ **Don't rely on the payments/transaction history** to match a code to a person — a 100%-off booking is **$0**, so it may not create a payment line at all. Use the Coupons report or the booking detail instead.
+
+### Verify before handing out codes
+
+- [ ] Confirm a **100%-off booking completes without hitting the payment gateway** (it should skip payment entirely at $0). Safe to test now while Bookeo is in Demo gateway mode.
+- [ ] Confirm the **Coupons report shows the tester's name** alongside the code they used.
+- [ ] Confirm a redeemed code **cannot be reused** for a second booking.
