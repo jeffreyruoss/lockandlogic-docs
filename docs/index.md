@@ -17,7 +17,7 @@ features:
     linkText: View Proposal
   - icon: 🚀
     title: Launch Plan
-    details: How we'll transition from coming-soon to live — the August 8 opening, the ~2-week soft launch for indexing, and Google Business Profile readiness.
+    details: How we'll transition from coming-soon to live — an ASAP soft launch so room testers can book, the mid-July full public booking launch, and the early-August grand opening.
     link: /launch-plan
     linkText: View Plan
   - icon: 🧩
@@ -85,6 +85,11 @@ features:
     details: Your private control panel — create promo pop-ups for the site and view every form submission in one place.
     link: /admin-dashboard
     linkText: View Dashboard
+  - icon: 🖼️
+    title: Admin Walkthrough
+    details: A step-by-step, screen-by-screen guide to using your admin dashboard, with screenshots of every view.
+    link: /admin-walkthrough
+    linkText: View Walkthrough
   - icon: 🌐
     title: Website Hosting
     details: Where your websites are hosted, what it costs, and how everything stays online automatically.

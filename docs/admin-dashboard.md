@@ -2,7 +2,9 @@
 
 Your website has a private control panel where you can manage parts of the site yourself — no developer needed. It lives at **lockandlogic.com/admin** and is protected by a password.
 
-Right now it has two tools: **promo pop-ups** and a **form submissions viewer**. It's built to grow, so more tools can be added over time.
+It includes tools for **promo pop-ups**, a **top announcement bar**, a **form submissions viewer**, and **FAQ management**, plus an at-a-glance **dashboard**. It's built to grow, so more tools can be added over time.
+
+> Want the full picture? The [Admin Walkthrough](/admin-walkthrough) is a step-by-step, screen-by-screen tour with screenshots of every view.
 
 ## Signing In
 
@@ -47,7 +49,7 @@ This is the easy day-to-day view. The same data also lives in your Supabase data
 
 ## Adding More Later
 
-The dashboard is designed to expand. Future tools could include things like a leaderboard entry screen for game results, or managing your FAQ content directly — each added as a new section without rebuilding what's there.
+The dashboard is designed to expand. Future tools could include things like a leaderboard entry screen for game results — each added as a new section without rebuilding what's there.
 
 ---
 
