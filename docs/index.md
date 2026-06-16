@@ -82,14 +82,9 @@ features:
     linkText: View Forms
   - icon: 🎛️
     title: Admin Dashboard
-    details: Your private control panel — create promo pop-ups for the site and view every form submission in one place.
+    details: Your private control panel — manage promo pop-ups, the announcement bar, FAQs, and form submissions. A step-by-step guide with screenshots of every screen.
     link: /admin-dashboard
     linkText: View Dashboard
-  - icon: 🖼️
-    title: Admin Walkthrough
-    details: A step-by-step, screen-by-screen guide to using your admin dashboard, with screenshots of every view.
-    link: /admin-walkthrough
-    linkText: View Walkthrough
   - icon: 🌐
     title: Website Hosting
     details: Where your websites are hosted, what it costs, and how everything stays online automatically.
