@@ -4,6 +4,7 @@ import { useData, useRoute } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import PasswordGate from './PasswordGate.vue'
 import CountdownBar from './CountdownBar.vue'
+import Lightbox from './Lightbox.vue'
 
 const isAuthenticated = ref(false)
 const isReady = ref(false)
@@ -142,6 +143,9 @@ function onAuthenticated() {
   <!-- Full-screen overlay for loading / auth gate -->
   <div v-if="!isReady" class="password-gate password-gate--overlay" />
   <PasswordGate v-else-if="!isAuthenticated" class="password-gate--overlay" @authenticated="onAuthenticated" />
+
+  <!-- Click-to-zoom lightbox for doc images -->
+  <Lightbox />
 </template>
 
 <style scoped>

@@ -1,3 +1,9 @@
+/* Lightbox — show a zoom cursor on click-to-enlarge screenshots */
+.vp-doc a:has(> img),
+.vp-doc a:has(> img) img {
+  cursor: zoom-in;
+}
+
 /* Brand colors — gold/amber + steel to match Lock & Logic logo */
 :root {
   --vp-c-brand-1: #a88425;

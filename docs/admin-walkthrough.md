@@ -110,6 +110,10 @@ The FAQs screen controls the questions and answers on your public **FAQ page**. 
 - **Reorder** questions by dragging the **⠿ handle** on the left — the order you set is the order visitors see.
 - Switching a FAQ to inactive **hides it** from the public page without deleting it.
 
+Click any question to open its editor, where you can change the **category**, **question**, or **answer** (simple links are allowed), turn it on or off, or delete it.
+
+[![The FAQ edit screen](/screenshots/admin/09-faq-edit.png)](/screenshots/admin/09-faq-edit.png)
+
 ## Good to Know
 
 - **You can always undo by switching things off.** Untick *Active* (or delete) to take a pop-up or announcement down at any time.
