@@ -12,7 +12,7 @@ By the time we run this campaign, you'll actually have **two groups of contacts*
 
 | Group | Where they came from | Permission status |
 |---|---|---|
-| **Coming-soon signups** | People who voluntarily entered their email on `lockandlogic.com` | ✅ Already opted in — safe to email |
+| **Website signups** | People who voluntarily entered their email through a form on `lockandlogic.com` (the coming-soon page or, after launch, the main site) | ✅ Already opted in — safe to email |
 | **Imported contacts** (~140) | The existing contact list you'll upload from your spreadsheet | ⚠️ Have not yet opted in — must ask permission first |
 
 **The opt-in campaign should only go to the imported contacts** — not to the people who already signed up on the website. Sending it to the website signups would confuse them ("Wait, I already signed up — why are they asking again?") and could hurt your sender reputation.
@@ -21,36 +21,39 @@ By the time we run this campaign, you'll actually have **two groups of contacts*
 
 ## How We'll Keep Them Separate
 
-We'll use **one Mailchimp audience** with two **tags** to keep the groups organized. Mailchimp tags are like labels — every contact can have one or more, and when you send a campaign you can target only the contacts with a specific tag.
+We'll use **one Mailchimp audience** with **tags** to keep the groups organized. Mailchimp tags are like labels — every contact can have one or more, and when you send a campaign you can target only the contacts with a specific tag.
 
 | Tag name | Who gets it | Applied how |
 |---|---|---|
-| `coming-soon-signup` | People who sign up via the website form | Automatically by the website, every time someone submits the form |
+| `coming-soon-signup` | People who sign up via the **coming-soon page** form | Automatically by the website, every time someone submits the form |
+| `website-signup` | People who sign up via the **main website** form (after launch) | Automatically by the website, every time someone submits the form |
 | `2026-import` | The ~140 contacts from your spreadsheet | Manually by you when you upload the CSV to Mailchimp |
 
-Using one audience with tags (instead of two separate audiences) keeps the Mailchimp cost the same and avoids duplicate contacts if someone is in both groups.
+Both `coming-soon-signup` and `website-signup` mean the same thing for permission purposes — **the person voluntarily opted in through a form on our site**. We use two separate tags only so you can see *where* a signup came from inside Mailchimp. The `2026-import` group is the one that hasn't opted in yet.
+
+Using one audience with tags (instead of separate audiences) keeps the Mailchimp cost the same and avoids duplicate contacts if someone is in more than one group.
 
 ### Sending campaigns after the tags are in place
 
 | When you send… | Target this segment |
 |---|---|
-| **The one-time opt-in campaign** | Contacts tagged `2026-import` **AND NOT** `coming-soon-signup` |
-| **Future newsletters and announcements** | Contacts tagged `coming-soon-signup` |
+| **The one-time opt-in campaign** | Contacts tagged `2026-import` **AND NOT** (`coming-soon-signup` **OR** `website-signup`) |
+| **Future newsletters and announcements** | Contacts tagged `coming-soon-signup` **OR** `website-signup` |
 
-When an imported contact clicks the "Subscribe" button in the opt-in email, they'll land on the website signup form. Submitting that form automatically adds the `coming-soon-signup` tag to their existing record — so from then on, they're in your real, opted-in newsletter list.
+When an imported contact clicks the "Subscribe" button in the opt-in email, they'll land on the website signup form. Submitting that form automatically adds the website opt-in tag to their existing record — so from then on, they're in your real, opted-in newsletter list and will be excluded from any future opt-in sends.
 
 ---
 
 ## Step-by-Step Process
 
-> **Before this can begin:** Jeff needs to make a small code change to the newsletter signup form on both the coming-soon page and the main website so that website signups are automatically tagged `coming-soon-signup`. Without that change in place first, the tag-based separation below won't work and imported contacts who later opt in via the website wouldn't be distinguishable from the unverified import group.
+> **Code prerequisite — done:** The newsletter signup forms on both the coming-soon page and the main website now automatically tag signups (`coming-soon-signup` and `website-signup` respectively), including re-tagging existing/imported contacts who later opt in. This is what makes the tag-based separation below work. (Deploy still required — see Implementation Notes.)
 
 1. **Export the spreadsheet to CSV** (just the email column is required; first/last name optional)
 2. **Upload to Mailchimp** → "Add contacts" → choose **"Import contacts"** → upload the CSV
 3. **During the import**, apply the tag **`2026-import`** to all uploaded contacts
 4. **Import status**: choose **"Subscribed"** so they'll receive the single opt-in email (we'll exclude them from everything else using the tag filter)
 5. **Build the campaign** in Mailchimp using one of the three options below
-6. **Target the segment**: contacts WITH tag `2026-import` AND WITHOUT tag `coming-soon-signup`
+6. **Target the segment**: contacts WITH tag `2026-import` AND WITHOUT tags `coming-soon-signup` or `website-signup`
 7. **Send and wait 1–2 weeks** for clicks
 8. **After 2 weeks**, anyone still tagged `2026-import` who never clicked through is removed (or kept as "unsubscribed" so they can't be re-imported by mistake)
 
@@ -139,38 +142,42 @@ Whichever you choose, the **[button]** in the email should link to your newslett
 
 > The section below is technical implementation detail for Jeff — not required reading for the client.
 
-The two-tag strategy above requires a small change to the existing newsletter API so that website signups are automatically tagged.
+**Status: implemented in code, not yet deployed.** Both newsletter APIs now tag signups and re-tag existing members.
 
-**File:** `src/lib/mailchimp.ts`
+**Files changed:**
+- `src/lib/mailchimp.ts` (main Astro site) — tags with `website-signup`
+- `coming-soon/api/newsletter.js` (coming-soon page) — tags with `coming-soon-signup` (also stopped HTML-escaping the email before Mailchimp, which had corrupted addresses containing `'` or `&`)
 
-**Current behavior:**
-- `POST /3.0/lists/{listId}/members` with `{email_address, status: "subscribed"}` — no tags applied
-- "Member Exists" response is treated as a silent success — no tag updates on existing members
+**What each does now:**
 
-**Required changes:**
+1. **Tags every new signup** — the create call includes `tags: ["<source-tag>"]` in the POST body, so a brand-new subscriber is tagged on creation.
 
-1. **Tag every new signup** by adding `tags: [{ name: "coming-soon-signup", status: "active" }]` to the POST body. (Note: the create-member endpoint accepts the simpler shape `tags: ["coming-soon-signup"]` too, but the object form is what's documented for `PATCH` and is consistent across endpoints.)
-
-2. **Handle the "Member Exists" case** so imported contacts who later opt in via the website actually get tagged. When the POST returns `title: "Member Exists"`, follow up with:
+2. **Handles the "Member Exists" case** so imported contacts who later opt in via the website actually get tagged. When the create POST returns `title: "Member Exists"`, it follows up with:
 
    ```
    POST /3.0/lists/{listId}/members/{subscriber_hash}/tags
    {
-     "tags": [{ "name": "coming-soon-signup", "status": "active" }]
+     "tags": [{ "name": "<source-tag>", "status": "active" }]
    }
    ```
 
-   Where `subscriber_hash` is the MD5 of the lowercased email address. The endpoint is idempotent — calling it on a member who already has the tag is a no-op.
+   Where `subscriber_hash` is the MD5 of the lowercased email (`node:crypto`). The endpoint is idempotent — re-tagging a member who already has the tag is a no-op.
 
-3. **Don't change status to `subscribed` on existing members.** If a contact in the `2026-import` group has not yet opted in, they may be in `unsubscribed` or `pending` status. Adding the `coming-soon-signup` tag is the opt-in signal; let the tag-based segment filter do the work on the send side.
+3. **Doesn't change status on existing members.** A `2026-import` contact who hasn't opted in may be `unsubscribed` or `pending`. Adding the source tag is the opt-in signal; the tag-based segment filter does the work on the send side.
 
-**Mailchimp setup that Jenn (or Jeff on her behalf) needs to do once:**
+4. **Tag-add failures don't break the form** — a failed follow-up tag POST is logged (`console.error`) but the user still sees success. Acceptable for v1; worth reviewing logs after launch.
 
-- Create the static tag `coming-soon-signup` in the audience tag library (Mailchimp will also auto-create it the first time the API references it, but pre-creating avoids a race on the first signup)
-- Create the static tag `2026-import` ahead of the CSV upload
+**Deploy:** both are separate Vercel projects — `vercel --prod` from the repo root (Astro) and from `coming-soon/`.
+
+**Mailchimp tag setup — mostly optional:**
+
+The code applies tags through the Mailchimp API, which **auto-creates any tag the first time it's referenced**. So website signups get tagged correctly even if nobody touches Mailchimp first, and **a missing tag will never make the form fail**. Order of operations doesn't matter — the tag code can ship before or after the Mailchimp setup.
+
+- *(Optional)* Pre-create `coming-soon-signup` and `website-signup` in the audience tag library if you'd like them visible in the UI before the first signup (avoids a harmless race on the very first submit).
+- *(Required, but it's a manual import step anyway)* Apply the `2026-import` tag when uploading the CSV — see Step 3 above.
 
 **Edge cases worth handling later (not blockers for the opt-in campaign):**
 
 - **Double-tagging on re-signup**: if someone signs up twice, the tag-add call will succeed both times — fine.
-- **Failed tag PATCH after a successful POST**: currently the API would still return `success: true` to the form. Acceptable for v1 — log the tag failure for review, but don't break the user-facing flow.
-- **Cleanup after opt-in window closes**: write a one-off script (or do it in the Mailchimp UI) to remove the `2026-import` tag from any contact who picked up `coming-soon-signup`, leaving a clean unverified-only segment for the final purge.
+- **Failed tag-add after a successful create**: the follow-up `POST .../tags` could fail even though the member create succeeded; the API still returns `success: true` to the form. Acceptable for v1 — log the tag failure for review, but don't break the user-facing flow.
+- **Cleanup after opt-in window closes**: write a one-off script (or do it in the Mailchimp UI) to remove the `2026-import` tag from any contact who picked up `coming-soon-signup` or `website-signup`, leaving a clean unverified-only segment for the final purge.
