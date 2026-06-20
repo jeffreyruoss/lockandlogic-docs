@@ -46,7 +46,7 @@ When an imported contact clicks the "Subscribe" button in the opt-in email, they
 
 ## Step-by-Step Process
 
-> **Code prerequisite — done:** The newsletter signup forms on both the coming-soon page and the main website now automatically tag signups (`coming-soon-signup` and `website-signup` respectively), including re-tagging existing/imported contacts who later opt in. This is what makes the tag-based separation below work. (Deploy still required — see Implementation Notes.)
+> **Code prerequisite — done:** The newsletter signup forms on both the coming-soon page and the main website now automatically tag signups (`coming-soon-signup` and `website-signup` respectively), including re-tagging existing/imported contacts who later opt in. This is what makes the tag-based separation below work. (Deployed and live as of June 2026.)
 
 1. **Export the spreadsheet to CSV** (just the email column is required; first/last name optional)
 2. **Upload to Mailchimp** → "Add contacts" → choose **"Import contacts"** → upload the CSV
@@ -164,7 +164,7 @@ You don't need a Mailchimp seat to confirm the form works end to end:
 
 > The section below is technical implementation detail for Jeff — not required reading for the client.
 
-**Status: implemented in code, not yet deployed.** Both newsletter APIs now tag signups and re-tag existing members.
+**Status: deployed and live (June 2026).** Both newsletter APIs tag signups and re-tag existing members.
 
 **Files changed:**
 - `src/lib/mailchimp.ts` (main Astro site) — tags with `website-signup`
