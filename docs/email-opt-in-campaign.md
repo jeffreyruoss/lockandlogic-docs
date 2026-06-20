@@ -138,6 +138,26 @@ Whichever you choose, the **[button]** in the email should link to your newslett
 
 ---
 
+## Mailchimp Plan & Access
+
+A few constraints of the current Mailchimp **Free** plan that affect this campaign and everyday use:
+
+- **One user seat.** The Free plan allows only a single login (the Owner). If the account shows two users, Mailchimp restricts campaign and automation setup until the extra user is removed or you upgrade. Removing the second user restores campaign sending on Free.
+- **Campaigns work; automations don't.** A one-time campaign like this opt-in send works on Free, including the tag targeting it needs (send to `2026-import`, exclude the website tags). Automated *welcome emails* were removed from the Free plan in 2026 — those need a paid plan, but this campaign doesn't require one.
+- **250-contact cap.** Free is limited to 250 contacts; unsubscribed contacts still count. With ~140 imported plus website signups, keep an eye on the total.
+- **Upgrade options:** Essentials (~$13/mo) adds seats and automations; a read-only "Viewer" login only exists on the Standard plan and above.
+
+### Testing the signup form (no Mailchimp login needed)
+
+You don't need a Mailchimp seat to confirm the form works end to end:
+
+1. Submit the newsletter form with a test email.
+2. Open **`lockandlogic.com/admin` → Form submissions** — the entry shows `mailchimp_success: true` when the whole pipeline succeeded.
+
+**Use your own (already-subscribed) email as the test address.** Because it's already in the list, Mailchimp returns "Member Exists" — which the code counts as success, adds **no** new contact (so it won't eat into the 250-contact cap), and still exercises the re-tagging logic. Avoid made-up addresses: Mailchimp's spam filter may reject an obvious fake (making the test falsely "fail"), and any genuinely new address you submit becomes a contact you can't delete without Mailchimp access.
+
+---
+
 ## Implementation Notes (Internal)
 
 > The section below is technical implementation detail for Jeff — not required reading for the client.
