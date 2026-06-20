@@ -12,6 +12,8 @@ When a visitor fills out the contact form, you'll receive an email notification 
 
 When someone subscribes, their email is automatically added to your **Mailchimp** mailing list ("Lock & Logic, LLC"). No email notification is sent for subscriptions — they just show up in your Mailchimp audience. Both the main website and the coming-soon page feed into the same mailing list.
 
+Each signup is also automatically labeled in Mailchimp with a tag showing where it came from — `coming-soon-signup` from the coming-soon page and `website-signup` from the main site. These tags let you target the right people when you send campaigns, and they keep your website opt-ins cleanly separated from any contacts you import yourself. See the [Email Opt-In Campaign](/email-opt-in-campaign) guide for how this is used.
+
 ## Where to Find Submissions
 
 All form submissions are permanently stored in a database, regardless of whether the email notification succeeds. You can view them anytime at:

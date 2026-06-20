@@ -59,6 +59,14 @@ The proposal included a basic contact form and Mailchimp newsletter signup. What
 - **Form submission logging** — every submission (contact, newsletter) is stored in a database as a permanent record and backup
 - **Shared infrastructure** — the coming-soon page and main site share the same newsletter subscription backend, so subscribers from either site end up in the same Mailchimp list
 
+## Email Opt-In Campaign Setup
+
+Groundwork for a permission-based campaign that invites your existing contact list to subscribe — staying compliant and protecting your sender reputation.
+
+- A written, step-by-step campaign plan with three ready-to-send email templates (see the [Email Opt-In Campaign](/email-opt-in-campaign) guide)
+- Automatic source tagging on every newsletter signup, so website opt-ins, coming-soon signups, and your imported contact list stay cleanly separated in Mailchimp
+- Lets you send the one-time permission email only to contacts who haven't opted in yet, then move people into your real subscriber list the moment they say yes
+
 ## Admin Dashboard
 
 A private, password-protected control panel at `lockandlogic.com/admin` that lets you manage parts of the site yourself — no developer needed. Designed to grow as more tools are added over time.
