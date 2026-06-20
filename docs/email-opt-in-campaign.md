@@ -152,9 +152,11 @@ A few constraints of the current Mailchimp **Free** plan that affect this campai
 You don't need a Mailchimp seat to confirm the form works end to end:
 
 1. Submit the newsletter form with a test email.
-2. Open **`lockandlogic.com/admin` → Form submissions** — the entry shows `mailchimp_success: true` when the whole pipeline succeeded.
+2. Open **`lockandlogic.com/admin` → Form submissions** — the entry shows `mailchimp_success: true` when the subscribe call succeeded.
 
-**Use your own (already-subscribed) email as the test address.** Because it's already in the list, Mailchimp returns "Member Exists" — which the code counts as success, adds **no** new contact (so it won't eat into the 250-contact cap), and still exercises the re-tagging logic. Avoid made-up addresses: Mailchimp's spam filter may reject an obvious fake (making the test falsely "fail"), and any genuinely new address you submit becomes a contact you can't delete without Mailchimp access.
+**Use your own (already-subscribed) email as the test address.** Because it's already in the list, Mailchimp returns "Member Exists" — which the code counts as success, adds **no** new contact (so it won't eat into the 250-contact cap), and exercises the re-tagging path. Avoid made-up addresses: Mailchimp's spam filter may reject an obvious fake (making the test falsely "fail"), and any genuinely new address you submit becomes a contact you can't delete without Mailchimp access.
+
+**What this confirms — and what it doesn't.** `mailchimp_success: true` proves the form pipeline and the Mailchimp connection are working; it does **not** by itself prove the source *tag* was applied (a tag hiccup is logged but still reported as success, so visitors never see an error). Reusing your own email also exercises the "existing member" branch, not brand-new member creation. To verify the new-signup path and that tags are actually landing, either submit a Gmail +alias once (e.g. `you+test@gmail.com` — a real, deliverable address that creates one new, undeletable contact) or, better, spot-check the contact's tags directly in Mailchimp.
 
 ---
 

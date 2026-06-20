@@ -28,6 +28,7 @@ As soon as the site is ready, we'll quietly switch `lockandlogic.com` from the c
 - [ ] Submit the updated sitemap to Google Search Console
 - [ ] Request indexing of key pages (home, rooms, contact, FAQ, about)
 - [ ] Verify all forms work end-to-end (contact, newsletter)
+- [ ] Confirm the newsletter success message reads correctly after the switch — the coming-soon page's "We'll let you know when we open" retires automatically with the domain flip, and the Astro site already says "Watch your inbox for updates" (no code change needed unless you want different copy)
 - [ ] Spot-check on mobile, tablet, and desktop
 - [ ] **Do not post on social media or send newsletters yet**
 
