@@ -58,6 +58,7 @@ const adminSidebar = [
       { text: 'Website Features (Research)', link: '/escape-room-website-features' },
       { text: 'Pre-Engagement Checklist', link: '/pre-engagement-checklist' },
       { text: 'Data Backup Strategy', link: '/data-backup-strategy' },
+      { text: 'Site Database Backups', link: '/database-backups' },
       { text: 'GM Software (Technical)', link: '/game-master-software-internal' },
       { text: 'Forms System (Technical)', link: '/forms-system-technical' },
       { text: 'Hosting (Technical)', link: '/hosting-technical' },

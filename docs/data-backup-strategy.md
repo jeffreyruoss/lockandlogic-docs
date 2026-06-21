@@ -2,6 +2,8 @@
 
 > Protecting customer, booking, and payment data from platform risk
 
+> This page covers the **booking platform** (Bookeo) data. For backups of the **website's own database** — form submissions, FAQs, pop-ups, announcements — see [Site Database Backups](/database-backups).
+
 ---
 
 ## Why This Matters
