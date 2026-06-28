@@ -144,3 +144,12 @@ Connected Google Analytics to an AI-powered reporting system that can answer que
 - Set up a secure, read-only connection between your Google Analytics account and the AI assistant
 - Traffic sources, campaign performance, user behavior, and page views can all be queried on demand
 - Works for any GA4 property you manage — not limited to Lock & Logic
+
+## Seasonal Holiday Room (5th Room)
+
+A fifth escape room beyond the four in the original proposal — and a unique one. The holiday room takes on a brand-new name, theme, and puzzles for each season, so there's always a fresh reason for guests to come back.
+
+- Added to the homepage and rooms page with its own distinct presentation, set apart from the four core rooms
+- Built around the rotating concept so the name and theme can change each season with no rebuild (first up: Halloween — "Blackwell's Sacrifice"; Christmas next)
+- Shorter 30-minute format at its own $25 price point, alongside the 60-minute core rooms
+- "Coming September 5" treatment with booking held until the room opens
