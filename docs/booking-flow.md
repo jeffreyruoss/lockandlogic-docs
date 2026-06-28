@@ -55,7 +55,7 @@ These are additional booking flow items worth verifying or configuring in Bookeo
 
 ### Calendar & Availability
 
-- **Buffer time between sessions** -- Build in reset/cleanup time between bookings (e.g., 15-30 minutes) so rooms aren't back-to-back with no prep time.
+- **Buffer time between sessions** -- Build in reset/cleanup time between bookings so rooms aren't back-to-back with no prep time. **Current policy: 30 minutes between sessions per room** (see the [Room Schedule](/room-schedule)).
 - **Blackout dates and special hours** -- Ability to block off holidays, private events, or maintenance days.
 - **Seasonal or day-of-week pricing** -- If weekend or holiday pricing differs, confirm Bookeo supports variable pricing rules.
 

@@ -97,7 +97,7 @@ features:
     linkText: View Options
   - icon: 🕐
     title: Room Schedule
-    details: Daily time slot schedule for all four rooms, staggered by 15 minutes, for every day of the week.
+    details: Daily time slot schedule for all four rooms, with a 30-minute reset between sessions, for every day of the week.
     link: /room-schedule
     linkText: View Schedule
   - icon: 📅
