@@ -55,6 +55,8 @@ Fill in:
 
 Click **Create announcement** to save.
 
+**Preview & Duplicate.** The **Preview** button shows exactly how the bar will look on your site — color, link, and dismiss ✕ — without saving or publishing anything. On an existing announcement, **Duplicate** opens a ready-made copy as a starting point: every field is carried over, but the copy starts switched **off** with a cleared schedule, so you can tweak the wording and turn it on when you're ready.
+
 ## 4. Promo Pop-Ups (Modals)
 
 A promo pop-up is a small message box that appears over the page for visitors — for example a grand-opening notice, a limited-time discount, or an event. The list shows all of your pop-ups and which one is active.
@@ -79,6 +81,8 @@ Fill in:
 - **Active** — the on/off switch (on by default)
 
 Click **Create modal** to save.
+
+**Preview & Duplicate.** The **Preview** button shows the pop-up exactly as visitors will see it — title, message, and button — without saving it or showing it to anyone. On an existing pop-up, **Duplicate** creates a copy as a starting point: every field is carried over, but the copy starts switched **off** with a cleared schedule, so it won't go live until you're ready.
 
 > **Editing re-shows it.** If you change a pop-up or announcement, anyone who already dismissed the old version will see the updated one — so a new message reaches everyone.
 
