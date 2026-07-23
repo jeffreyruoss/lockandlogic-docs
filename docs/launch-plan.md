@@ -12,11 +12,11 @@ How we'll transition from the coming-soon page to the live website, and what nee
 
 ## Soft Launch (ASAP)
 
-As soon as the site is ready, we'll quietly switch `lockandlogic.com` from the coming-soon page to the main Astro website. **This is a soft launch — not a public announcement.** The goals: give **room testers** a private way to book and play the rooms for free, and give Google time to index the site ahead of the public launch. The public **Book** button stays turned off during this phase — see [Booking Access Phases](#booking-access-phases).
+As soon as the site is ready, we'll quietly switch `lockandlogic.com` from the coming-soon page to the main Astro website. **This is a soft launch — not a public announcement.** The goals: give **room testers** a private way to book and play the rooms for free, and give Google time to index the site ahead of the public launch. The booking page is protected by a simple password during this phase, so only testers can reach it — see [Booking Access Phases](#booking-access-phases).
 
 ### Why a soft launch?
 
-- **Room testers can book privately.** Testers (friends, family, invited guests) book a limited set of tester slots for free using one-time codes, via a direct Bookeo link. The public site shows no live booking button yet, so no password gate is needed. See [Booking Access Phases](#booking-access-phases).
+- **Room testers can book privately.** Testers (friends, family, invited guests) book a limited set of tester slots for free using one-time codes. The booking page sits behind a simple password, so only the testers we've shared it with can reach the day/time picker. See [Booking Access Phases](#booking-access-phases).
 - **Google indexing takes time.** Search engines need to crawl and index new pages before they start showing up in search results. Flipping the switch early gives Google a head start so the site is discoverable when real customers begin searching.
 - **Shakedown period.** A quiet launch surfaces last-minute issues (broken links, slow pages, form errors) before any real traffic arrives.
 - **GBP alignment.** The Google Business Profile link needs to point at the live site, not the coming-soon page.
@@ -24,9 +24,9 @@ As soon as the site is ready, we'll quietly switch `lockandlogic.com` from the c
 ### What happens at soft launch
 
 - [ ] Flip the `lockandlogic.com` and `www.lockandlogic.com` domains from the coming-soon Vercel project to the Astro project (commands below)
-- [ ] Set the site's **Book** button to a "Booking opens [grand-opening date]" state so the public has no path to booking yet
+- [ ] Put the booking page behind the simple tester password so the public can't reach it yet
 - [ ] Confirm the limited tester slots are live in Bookeo and the ~25 one-time free tester codes work
-- [ ] Send each tester their direct Bookeo booking link + one-time code out of band (email/text)
+- [ ] Send each tester the booking-page password + their one-time code out of band (email/text)
 - [ ] Submit the updated sitemap to Google Search Console
 - [ ] Request indexing of key pages (home, rooms, contact, FAQ, about)
 - [ ] Verify all forms work end-to-end (contact, newsletter)
@@ -90,25 +90,25 @@ The GBP should be **fully set up, verified, and live** by the hard launch (~2 we
 
 Booking rolls out in two phases, kept apart by **date**: room testers play the pre-grand-opening dates (blocked from the public), and the public books grand-opening dates onward. The physical rooms open at the grand opening.
 
-The key idea: **we never run tester booking and public booking on the same dates at the same time.** During the tester phase the public has no booking button at all; once the public button goes live, the pre-grand-opening dates are blocked from the public and testers reach them only by private link. That separation is what keeps this manageable.
+The key idea: **we never run tester booking and public booking on the same dates at the same time.** During the tester phase the booking page is password-gated so only testers get in; once the page goes public, the pre-grand-opening dates are blocked from the public and testers reach them only by private link. That separation is what keeps this manageable.
 
 ### 1. Tester booking (soft launch — ASAP, next few days)
 
-The site is live but unannounced, and the public **Book** button is turned off ("Booking opens [date]"). Testers book a limited set of sessions for free:
+The site is live but unannounced, and the booking page is behind a simple password. Testers book a limited set of sessions for free:
 
 - **Limited tester slots** are set up in Bookeo on the pre-grand-opening dates.
 - **~25 one-time free codes** (`Test01`, `Test02`, …) — one 100%-off Bookeo promotion with a list of single-use coupon codes. Each code makes the room free and ties the booking to a tester for tracking. Full setup and tracking details: [Booking Flow → Room Tester Free Codes](/booking-flow#room-tester-free-codes).
-- Testers get the **direct Bookeo booking link + their code** privately (email/text) and self-serve a day/time. No password gate needed — the public simply has no booking link.
+- Testers get the **booking-page password + their code** privately (email/text) and self-serve a day/time. The public can't get past the password, so they never reach the picker.
 - No public announcement, ads, or newsletter yet.
 
-Because the site isn't promoted and the Book button is off, the only people booking are the testers we've shared the link with. (Low-risk edge case: if a stranger stumbles onto the Bookeo URL and books a tester slot at full price, just cancel/refund it.)
+Because the site isn't promoted and the booking page is password-gated, the only people booking are the testers we've shared the password with. (Low-risk edge case: if a stranger gets the Bookeo URL directly and books a tester slot at full price, just cancel/refund it.)
 
-### 2. Hard launch (public booking — ~2 weeks before grand opening, ~July 25)
+### 2. Hard launch (public booking — ~2 weeks before grand opening)
 
 The site goes fully public and promotion begins:
 
 - [ ] Load the **full public schedule** in Bookeo, but **block every date before the grand opening** so the public can only book grand-opening dates and beyond
-- [ ] Turn the site's **Book** button live (it now opens the public Bookeo page)
+- [ ] Remove the tester password from the booking page so it's publicly accessible (it opens the public Bookeo page)
 - [ ] Start promotion — social, ads, newsletter (see [Public Launch](#public-launch-grand-opening-early-august-august-8-2026) below)
 - [ ] Verify the full booking → payment → confirmation flow with a real transaction
 - [ ] GBP live and verified (see checklist above)
@@ -143,7 +143,7 @@ This is the loud one. Once the rooms are ready for paying customers:
 
 | When | What |
 |------|------|
-| **ASAP (next few days)** | Soft launch: domain switch to Astro site, quiet indexing period. Public **Book** button off. Room testers book a limited set of slots for free via a private Bookeo link + one-time codes. No public announcement. |
-| **~2 weeks before grand opening (~July 25, 2026)** | Hard launch: full public schedule loaded with pre-grand-opening dates blocked, Book button live, promotion begins, GBP live. Straggler testers via Bookeo hidden-slot links (set up manually). |
+| **ASAP (next few days)** | Soft launch: domain switch to Astro site, quiet indexing period. Booking page password-gated. Room testers book a limited set of slots for free using the tester password + one-time codes. No public announcement. |
+| **~2 weeks before grand opening** | Hard launch: full public schedule loaded with pre-grand-opening dates blocked, Book button live, promotion begins, GBP live. Straggler testers via Bookeo hidden-slot links (set up manually). |
 | **Early August (August 8, 2026)** | Grand opening: rooms open, press, social announcement, newsletter, ads go live |
 | **August 2026+** | Growth phase: ongoing content, review collection, seasonal campaigns |
