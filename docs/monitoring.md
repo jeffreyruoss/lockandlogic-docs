@@ -2,8 +2,12 @@
 
 > Uptime monitoring, synthetic form testing, and alert routing for the production site
 
-::: warning Monitor paused until soft launch
-The Better Stack monitor (`4326514`) is paused. `lockandlogic.vercel.app/api/health` currently 404s because the apex/www domains still point at the `lockandlogic-coming-soon` project, which auto-pauses the monitor every few days. Re-enable as part of the soft-launch cutover — see [Post-launch checklist](#post-launch-checklist).
+::: danger Monitor is not running (as of 2026-07-25)
+The Better Stack monitor (`4326514`) **will not stay unpaused**, so uptime, SSL expiry, and the database/form checks are currently **watched by nothing**.
+
+The soft-launch cutover is done and the monitor URL now points at `https://www.lockandlogic.com/api/health` (returns 200 + `"ok":true`). But `PATCH {paused:false}` succeeds and Better Stack re-pauses server-side within ~3–10 seconds — reproduced three times.
+
+The earlier explanation (*"it 404s while coming-soon owns the apex"*) is **disproven**: post-cutover both the vercel.app and real-domain health URLs return 200 and it still re-pauses. It is also not a monitor-count limit (only 2 monitors on the account). Next step is the Better Stack UI — check for a plan/billing banner, and try dropping from 4 regions to 1 as a cheap test. See [Post-launch checklist](#post-launch-checklist).
 :::
 
 ---
@@ -33,7 +37,7 @@ A single failure of any of those checks turns the Better Stack monitor red and s
 
 ## `/api/health` endpoint
 
-Public GET endpoint at `https://lockandlogic.vercel.app/api/health`. Runs two checks in parallel and returns a JSON summary:
+Public GET endpoint at `https://www.lockandlogic.com/api/health` (also reachable at `https://lockandlogic.vercel.app/api/health`). Runs two checks in parallel and returns a JSON summary:
 
 ```json
 {
@@ -85,7 +89,7 @@ Single monitor protects everything. Configured via the Better Stack MCP server.
 | Setting | Value |
 |---|---|
 | Monitor ID | `4326514` |
-| URL | `https://lockandlogic.vercel.app/api/health` |
+| URL | `https://www.lockandlogic.com/api/health` (changed from the vercel.app URL at the 2026-07-25 cutover) |
 | Type | `keyword_absence` |
 | Required keyword | `"ok":true` |
 | Check frequency | 180s (3 min) |
@@ -147,12 +151,13 @@ Verify firings: Vercel dashboard → `lockandlogic` → Logs → filter to `/api
 
 ## Post-launch checklist
 
-When `www.lockandlogic.com` flips from `lockandlogic-coming-soon` to the Astro project (per [Launch Plan](/launch-plan)):
+The domain flip from `lockandlogic-coming-soon` to the Astro project happened **2026-07-25** (per [Launch Plan](/launch-plan)).
 
-- [ ] Either edit monitor `4326514` URL to `https://www.lockandlogic.com/api/health`, or add a second monitor for the canonical domain (free tier has 10 slots)
-- [ ] Confirm the new URL returns 200 with `"ok":true` before cutting over
-- [ ] Unpause monitor `4326514` in Better Stack (paused since 2026-05 due to repeated auto-pauses while the domain pointed at `lockandlogic-coming-soon`)
-- [ ] After cutover, watch Better Stack for 30 minutes to make sure no regional check fails
+- [x] Monitor `4326514` URL changed to `https://www.lockandlogic.com/api/health` (name → `lockandlogic.com/api/health`)
+- [x] Confirmed the new URL returns 200 with `"ok":true`
+- [ ] **⚠️ Get monitor `4326514` to actually stay unpaused** — see the warning at the top of this page. This is the blocker; everything below depends on it.
+- [ ] Once it stays up, watch Better Stack for 30 minutes to make sure no regional check fails
+- [ ] Re-check that `npm run deploy`'s pause/unpause wrapper leaves the monitor **running** afterwards — during the 2026-07-25 launch deploy it reported unpausing but the monitor was still paused a minute later, which is the same underlying issue
 
 ---
 

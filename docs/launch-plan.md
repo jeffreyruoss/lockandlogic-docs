@@ -10,7 +10,15 @@ How we'll transition from the coming-soon page to the live website, and what nee
 
 ---
 
-## Soft Launch (ASAP)
+## Soft Launch — ✅ done 2026-07-25
+
+::: tip The soft launch has happened
+`lockandlogic.com` and `www.lockandlogic.com` now serve the main website instead of the coming-soon page. Checked and working: SSL on both addresses, the contact form end-to-end, mobile, and the sitemap. No booking links are live anywhere on the site, as planned.
+
+Still to do: get the uptime monitor running again (see [Monitoring](/monitoring)), set up Google Search Console for the new domain, and switch Bookeo from its test payment mode to live. The coming-soon project is being kept for now as a rollback option.
+:::
+
+The plan below is kept as the record of what the soft launch involved.
 
 As soon as the site is ready, we'll quietly switch `lockandlogic.com` from the coming-soon page to the main Astro website. **This is a soft launch — not a public announcement.** The goals: give **room testers** a private way to book and play the rooms for free, and give Google time to index the site ahead of the public launch. During this phase the site has no public "Book" buttons and the `/book` page shows a "booking opens soon" state, so the public can't reach booking — testers book through a direct Bookeo link we share with them privately. See [Booking Access Phases](#booking-access-phases).
 
@@ -143,7 +151,7 @@ This is the loud one. Once the rooms are ready for paying customers:
 
 | When | What |
 |------|------|
-| **ASAP (next few days)** | Soft launch: domain switch to Astro site, quiet indexing period. No public "Book" links on the site. Room testers book a limited set of slots for free via a direct Bookeo link + one-time codes. No public announcement. |
+| **✅ 2026-07-25 (done)** | Soft launch: domain switched to Astro site, quiet indexing period begins. No public "Book" links on the site. Room testers book a limited set of slots for free via a direct Bookeo link + one-time codes. No public announcement. |
 | **~2 weeks before grand opening** | Hard launch: full public schedule loaded with pre-grand-opening dates blocked, Book button live, promotion begins, GBP live. Straggler testers via Bookeo hidden-slot links (set up manually). |
 | **Early August (August 8, 2026)** | Grand opening: rooms open, press, social announcement, newsletter, ads go live |
 | **August 2026+** | Growth phase: ongoing content, review collection, seasonal campaigns |

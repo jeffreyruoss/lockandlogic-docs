@@ -31,7 +31,7 @@ This documentation site is hosted on **GitHub Pages** — a free hosting service
 
 ## Coming Soon Page
 
-The temporary "coming soon" page at `lockandlogic.com` is a separate project also hosted on **Vercel**. At the soft launch (~2 weeks before opening), the domain will be flipped from the coming-soon project to the main Astro project — see [Launch Plan](/launch-plan) for the procedure.
+The temporary "coming soon" page was a separate project also hosted on **Vercel**. **As of 2026-07-25 the soft launch is done** — `lockandlogic.com` and `www.lockandlogic.com` now serve the main website, not the coming-soon page. The coming-soon project is being kept around for now as a quick rollback option. See [Launch Plan](/launch-plan).
 
 ---
 
