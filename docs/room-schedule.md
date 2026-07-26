@@ -65,7 +65,7 @@ At an average of 4 players per session at $35/person, that's **$19,040/week** at
 
 A fifth room joins the lineup after launch. It is **not** included in the four-room tables above. It runs as a **limited-time-only** room: each themed version runs roughly **8 weeks**, then the name, theme, and puzzles rotate for the next holiday/season.
 
-- **Opens:** September 5, 2026 (not available at the August 8 launch)
+- **Opens:** September 5, 2026 (a separate later date — not part of the grand-opening lineup, whose date is currently TBD/postponed)
 - **Game duration:** 30 minutes (the other four are 60)
 - **Reset time:** 15 minutes (the 30-minute game doesn't need the core rooms' 30-minute reset)
 - **Per-room cycle:** 45 minutes (30-minute game + 15-minute reset)

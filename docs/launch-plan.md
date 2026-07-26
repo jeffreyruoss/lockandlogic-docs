@@ -6,7 +6,11 @@ How we'll transition from the coming-soon page to the live website, and what nee
 
 ## Target Opening
 
-**August 8, 2026** — confirmed by client 2026-06-01. Construction started the week of June 1, 2026.
+::: warning Grand opening postponed — new date TBD (2026-07-26)
+The client has decided to **push the grand opening back** and hasn't set a new date yet. The **August 8, 2026** target is no longer firm — treat every grand-opening and hard-launch date in this doc as **to be determined** until the client confirms a new opening day. The **soft launch (already done 2026-07-25) is unaffected**; only the public/grand-opening timing is up in the air.
+:::
+
+**Originally targeted:** August 8, 2026 (confirmed by client 2026-06-01; construction started the week of June 1, 2026). **Now postponed — new date pending from the client.**
 
 ---
 
@@ -117,15 +121,15 @@ The site goes fully public and promotion begins:
 
 - [ ] Load the **full public schedule** in Bookeo, but **block every date before the grand opening** so the public can only book grand-opening dates and beyond
 - [ ] Restore the "Book" buttons/links on the site (and the Bookeo link on `/book`) so booking is publicly accessible again
-- [ ] Start promotion — social, ads, newsletter (see [Public Launch](#public-launch-grand-opening-early-august-august-8-2026) below)
+- [ ] Start promotion — social, ads, newsletter (see [Public Launch](#public-launch-grand-opening-date-tbd) below)
 - [ ] Verify the full booking → payment → confirmation flow with a real transaction
 - [ ] GBP live and verified (see checklist above)
 
 **Testers who still need to book after this point:** the pre-grand-opening dates are now blocked from the public, so a straggler tester can only be booked via a **Bookeo hidden-slot special link** — set up manually, one slot at a time (tick the *Hidden* checkbox on the date/time and share the secret link). Get the bulk of testers booked during the soft-launch phase to keep these to a minimum.
 
-### 3. Grand opening (August 8, 2026 — loud launch)
+### 3. Grand opening (date TBD — loud launch)
 
-The physical rooms open and we go loud. See [Public Launch](#public-launch-grand-opening-early-august-august-8-2026) below — press, social, newsletter, and ads.
+The physical rooms open and we go loud. See [Public Launch](#public-launch-grand-opening-date-tbd) below — press, social, newsletter, and ads. **Opening date is currently postponed and pending from the client** (see the note at the top).
 
 ### Verify in Bookeo before committing (do now, in Demo gateway mode)
 
@@ -135,7 +139,7 @@ The physical rooms open and we go loud. See [Public Launch](#public-launch-grand
 
 ---
 
-## Public Launch (Grand Opening — Early August / August 8, 2026)
+## Public Launch (Grand Opening — Date TBD)
 
 This is the loud one. Once the rooms are ready for paying customers:
 
@@ -153,5 +157,5 @@ This is the loud one. Once the rooms are ready for paying customers:
 |------|------|
 | **✅ 2026-07-25 (done)** | Soft launch: domain switched to Astro site, quiet indexing period begins. No public "Book" links on the site. Room testers book a limited set of slots for free via a direct Bookeo link + one-time codes. No public announcement. |
 | **~2 weeks before grand opening** | Hard launch: full public schedule loaded with pre-grand-opening dates blocked, Book button live, promotion begins, GBP live. Straggler testers via Bookeo hidden-slot links (set up manually). |
-| **Early August (August 8, 2026)** | Grand opening: rooms open, press, social announcement, newsletter, ads go live |
-| **August 2026+** | Growth phase: ongoing content, review collection, seasonal campaigns |
+| **Grand opening (date TBD — postponed)** | Rooms open, press, social announcement, newsletter, ads go live. New opening date pending from the client. |
+| **After grand opening** | Growth phase: ongoing content, review collection, seasonal campaigns |

@@ -23,7 +23,7 @@ Google Ads catches people with intent. Social ads create demand. Both are valuab
 | Phase | Timing | Focus |
 |-------|--------|-------|
 | **Pre-Launch** | March – July 2026 | Build anticipation. Tease rooms. Grow local following. Collect email signups for early booking access. |
-| **Launch** | August 2026 | Grand opening campaign. Drive first bookings. Promote opening-week specials. |
+| **Launch** | At launch (date TBD) | Grand opening campaign. Drive first bookings. Promote opening-week specials. |
 | **Growth** | September – October 2026 | Ongoing booking campaigns. Event targeting. Remarketing. A/B testing creative. |
 | **Scaling** | November 2026+ | Seasonal campaigns. Lookalike audiences. Gift card promotions. Video-first creative. |
 
@@ -209,7 +209,7 @@ The pre-launch period is about building anticipation and growing an audience bef
 | Content | Format | Purpose |
 |---------|--------|---------|
 | Room teaser video (construction progress → finished room reveal) | Video (15-30 sec) | Build excitement, show this is real and coming soon |
-| "Coming August 2026" announcement graphic | Image | Simple awareness |
+| "Coming soon" announcement graphic | Image | Simple awareness |
 | Behind-the-scenes puzzle construction | Reels / Stories | Create intrigue and investment in the brand |
 | "What kind of escape room player are you?" quiz/poll | Stories interactive | Drive engagement and grow followers |
 | Countdown posts (30 days, 2 weeks, 1 week) | Carousel or image | Build urgency and anticipation |
@@ -226,7 +226,7 @@ An email list of 200-500 local people ready to book on opening day is extremely 
 
 ---
 
-## Part 6: Launch Campaign (August 2026)
+## Part 6: Launch Campaign (at launch — date TBD)
 
 Opening month is your biggest push. The goal is maximum visibility in the Pottstown area.
 
@@ -284,7 +284,7 @@ Review performance weekly by campaign, creative, and audience. Do a full funnel 
 - [ ] Build a library of photos and short videos for ad creative
 - [ ] Goal: 500+ local followers, 200+ email signups before opening
 
-### Launch Month (August 2026)
+### Launch Month (at launch — date TBD)
 
 - [ ] Launch grand opening conversion campaign
 - [ ] Run room showcase carousel ads

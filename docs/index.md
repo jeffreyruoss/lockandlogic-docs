@@ -17,7 +17,7 @@ features:
     linkText: View Proposal
   - icon: 🚀
     title: Launch Plan
-    details: How we'll transition from coming-soon to live — an ASAP soft launch so room testers can book, the full public booking launch ~2 weeks before opening, and the early-August grand opening.
+    details: How we'll transition from coming-soon to live — an ASAP soft launch so room testers can book, the full public booking launch ~2 weeks before opening, and the grand opening (date currently TBD).
     link: /launch-plan
     linkText: View Plan
   - icon: 🧩
