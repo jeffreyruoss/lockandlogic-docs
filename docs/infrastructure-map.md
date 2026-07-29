@@ -71,7 +71,7 @@ npm run build (Astro + @astrojs/vercel adapter)
                 │
                 ├── /api/contact
                 ├── /api/newsletter
-                └── /api/keepalive  (daily Vercel cron → Supabase ping)
+                └── /api/keepalive  (daily GitHub Action → Supabase ping)
 ```
 
 ### Docs Site

@@ -27,14 +27,14 @@ Run from the main project on your computer. It writes a timestamped folder, `sup
 - Use it when you want an immediate copy on your machine (e.g. before a risky change).
 - **To open them:** open the `supabase/backups/` folder — the JSON files inside *are* the backup.
 
-### Automatic — weekly GitHub Action
+### Automatic — daily GitHub Action
 
-A scheduled GitHub Action (`.github/workflows/backup.yml`) runs every **Monday at 09:00 UTC**, plus on demand.
+A scheduled GitHub Action (`.github/workflows/backup.yml`) runs every **day at 09:00 UTC**, plus on demand. (It ran weekly until 2026-07-29; daily was cheap and means a bad day costs at most 24 hours of form submissions instead of a week's worth.)
 
 **It runs entirely on GitHub's servers — not your computer.** Your machine can be off, asleep, or anywhere; the backup still happens in the cloud. The result is uploaded as a **private artifact** attached to that workflow run.
 
-- **Download it:** GitHub → the repo → **Actions** tab → open the latest **Weekly admin backup** run → scroll to **Artifacts** → download the zip.
-- **Run it on demand:** Actions tab → **Weekly admin backup** → **Run workflow**. (Good for verifying it works without waiting for Monday.)
+- **Download it:** GitHub → the repo → **Actions** tab → open the latest **Daily admin backup** run → scroll to **Artifacts** → download the zip.
+- **Run it on demand:** Actions tab → **Daily admin backup** → **Run workflow**. (Good for verifying it works without waiting for the next scheduled run.)
 - **Retention:** artifacts are kept **90 days**, then auto-deleted — rolling protection (recover something from the last ~3 months), not a permanent archive.
 
 ---

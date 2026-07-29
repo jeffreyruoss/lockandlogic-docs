@@ -19,7 +19,7 @@ The earlier explanation (*"it 404s while coming-soon owns the apex"*) is **dispr
 | Site reachability + SSL + DNS | Better Stack pings `/api/health` from 4 regions | Every 3 min |
 | Supabase database | `/api/health` runs `SELECT id FROM form_submissions LIMIT 1` | Every 3 min (via Better Stack) |
 | Contact form pipeline (end-to-end) | `/api/health` POSTs to `/api/contact` with a synthetic-bypass header | Every 3 min (via Better Stack) |
-| Supabase pause prevention | Vercel cron hits `/api/keepalive` | Daily at 00:00 UTC |
+| Supabase pause prevention | GitHub Actions hits `/api/keepalive` | Daily at 12:00 UTC |
 
 A single failure of any of those checks turns the Better Stack monitor red and sends an email + phone-call alert after a 60s confirmation period.
 
@@ -30,7 +30,7 @@ A single failure of any of those checks turns the Better Stack monitor red and s
 | Service | Purpose | Dashboard |
 |---|---|---|
 | **Better Stack** | Uptime monitoring, alert routing, on-call | [uptime.betterstack.com](https://uptime.betterstack.com/team/t532372/monitors) |
-| **Vercel Cron** | Triggers `/api/keepalive` daily | [Vercel project](https://vercel.com/jeff-ruoss/lockandlogic) → Settings → Cron Jobs |
+| **GitHub Actions** | Triggers `/api/keepalive` daily; also runs the daily backup | [Actions tab](https://github.com/jeffreyruoss/lockandlogic/actions) |
 | **Supabase** | Backend being monitored | [Supabase project](https://supabase.com/dashboard/project/yfsnhellrgjpjjkgoqry) |
 
 ---
@@ -137,15 +137,19 @@ The Better Stack API token is created at `Better Stack → Settings → API toke
 
 ---
 
-## Supabase keepalive cron
+## Supabase keepalive
 
 Independent of Better Stack, in case Better Stack is ever unreachable.
 
-- Vercel cron in `vercel.json`: `{ "path": "/api/keepalive", "schedule": "0 0 * * *" }` (daily at 00:00 UTC)
+- GitHub Actions workflow `.github/workflows/supabase-keepalive.yml`, `cron: '0 12 * * *'` (daily at 12:00 UTC), plus a manual "Run workflow" button
+- It `curl`s `https://lockandlogic.vercel.app/api/keepalive` and fails the job unless the response contains `"ok":true` — so a broken keepalive turns the workflow red instead of failing silently
+- It deliberately uses the `vercel.app` URL rather than the custom domain: the job's only purpose is keeping Supabase awake, and that should still work even if the domain alias or DNS breaks
 - `/api/keepalive` runs the same Supabase SELECT and logs `[keepalive] ok` or `[keepalive] supabase error` to Vercel runtime logs
 - Supabase free-tier projects auto-pause after 7 days of inactivity. Daily pings give a 7× safety margin.
 
-Verify firings: Vercel dashboard → `lockandlogic` → Logs → filter to `/api/keepalive`.
+This used to be a Vercel cron defined in `vercel.json`; that file was removed and GitHub Actions is now the single source of truth.
+
+Verify firings: [Actions tab](https://github.com/jeffreyruoss/lockandlogic/actions) → "Supabase keepalive". Failures also arrive by email via GitHub's default workflow-failure notifications.
 
 ---
 
@@ -173,10 +177,11 @@ The domain flip from `lockandlogic-coming-soon` to the Astro project happened **
 **Endpoints**
 - `src/pages/api/health.ts` — health endpoint
 - `src/pages/api/contact.ts` — contact endpoint (synthetic bypass branch at top of POST)
-- `src/pages/api/keepalive.ts` — Supabase ping for daily cron
+- `src/pages/api/keepalive.ts` — Supabase ping hit by the daily GitHub Action
 
 **Config**
-- `vercel.json` — daily keepalive cron schedule
+- `.github/workflows/supabase-keepalive.yml` — daily keepalive schedule
+- `.github/workflows/backup.yml` — daily Supabase table backup
 - `astro.config.mjs` — `security.checkOrigin` + `allowedDomains` (CSRF guard relies on these)
 
 **Deploy script**

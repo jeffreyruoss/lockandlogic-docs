@@ -28,7 +28,7 @@ vercel --prod  (run from repo root)
 ### Runtime
 
 - **Serverless Functions:** API routes (`/api/contact`, `/api/newsletter`, `/api/keepalive`) run as Vercel Serverless Functions (Node.js)
-- **Cron:** Daily Vercel cron hits `/api/keepalive` to prevent the Supabase free-tier project from auto-pausing
+- **Cron:** A daily GitHub Actions workflow (`.github/workflows/supabase-keepalive.yml`, 12:00 UTC) hits `/api/keepalive` to prevent the Supabase free-tier project from auto-pausing. This was a Vercel cron originally; `vercel.json` was removed and GitHub Actions is now the source of truth.
 - **Static assets:** Served from Vercel's Edge Network (global CDN)
 - **SSR pages:** Rendered per-request via serverless functions
 
