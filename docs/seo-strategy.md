@@ -44,6 +44,16 @@ Google allows profile creation **up to 90 days before opening** — so the listi
 
 ---
 
+## Google Search Console
+
+Google Search Console is Google's free reporting tool for how your site performs in search — which searches show your site, which pages Google has indexed, and any crawling or security problems.
+
+**It's already set up.** The property is `lockandlogic.com`, on the **`admin@lockandlogic.com`** Google account. It's a *domain property* (verified via a DNS record at GoDaddy), so it covers `www.lockandlogic.com` and `lockandlogic.com` together — one property, all addresses.
+
+As of the 2026-07-25 soft launch it shows some history from the coming-soon page (a small number of indexed pages and clicks). Now that the real site is live, the next steps are submitting the new sitemap and asking Google to index the main pages — see [Launch Plan](/launch-plan).
+
+---
+
 ## Target Keywords
 
 ### Tier 1: Must-Win
@@ -267,7 +277,7 @@ Backlinks are one of Google's top ranking factors. For a local business, the mos
 - [ ] Submit to escape room directories (Morty, Room Escape Artist, Escaperoom.com, World of Escapes)
 - [ ] Join Pottstown Chamber of Commerce and apply for Valley Forge Tourism Board listing
 - [ ] Publish 8-12 blog posts targeting key informational and local keywords
-- [ ] Set up Google Analytics and Google Search Console
+- [x] Set up Google Analytics and Google Search Console — GSC property `lockandlogic.com` is live on `admin@lockandlogic.com` (see [above](#google-search-console))
 - [ ] Claim social media profiles (Facebook, Instagram, TikTok) with consistent NAP
 
 ### Soft Launch (~2 weeks before opening — late July 2026)

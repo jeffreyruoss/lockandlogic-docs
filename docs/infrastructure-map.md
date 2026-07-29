@@ -248,3 +248,6 @@ GoDaddy DNS Records for lockandlogic.com
 | Cloudflare Turnstile | [dash.cloudflare.com/turnstile](https://dash.cloudflare.com/turnstile) |
 | Mailchimp | [mailchimp.com](https://mailchimp.com) |
 | GoDaddy | [godaddy.com](https://godaddy.com) |
+| Google Search Console | [search.google.com/search-console](https://search.google.com/search-console) — owned by `admin@lockandlogic.com` |
+
+**Google Search Console** is a *domain property* (`lockandlogic.com`), verified by a DNS TXT record at GoDaddy. Because it's a domain property it covers `www` and non-`www` and both `http`/`https` in one place — no separate property is needed for either address. It lives on the **`admin@lockandlogic.com`** Google account.

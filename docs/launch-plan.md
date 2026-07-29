@@ -19,7 +19,9 @@ The client has set the grand opening for **August 15, 2026**. The **soft launch 
 ::: tip The soft launch has happened
 `lockandlogic.com` and `www.lockandlogic.com` now serve the main website instead of the coming-soon page. Checked and working: SSL on both addresses, the contact form end-to-end, mobile, and the sitemap. No booking links are live anywhere on the site, as planned.
 
-Still to do: get the uptime monitor running again (see [Monitoring](/monitoring)), set up Google Search Console for the new domain, and switch Bookeo from its test payment mode to live. The coming-soon project is being kept for now as a rollback option.
+Still to do: get the uptime monitor running again (see [Monitoring](/monitoring)), submit the new sitemap in Google Search Console, and switch Bookeo from its test payment mode to live. The coming-soon project is being kept for now as a rollback option.
+
+Google Search Console is already set up — the `lockandlogic.com` property lives on the `admin@lockandlogic.com` account and covers both `www` and non-`www`. See [SEO Strategy → Google Search Console](/seo-strategy#google-search-console).
 :::
 
 The plan below is kept as the record of what the soft launch involved.
@@ -35,16 +37,16 @@ As soon as the site is ready, we'll quietly switch `lockandlogic.com` from the c
 
 ### What happens at soft launch
 
-- [ ] Flip the `lockandlogic.com` and `www.lockandlogic.com` domains from the coming-soon Vercel project to the Astro project (commands below)
-- [ ] Remove all "Book" buttons/links from the public site (and the Bookeo link from `/book`) so the public can't reach booking yet
-- [ ] Confirm the limited tester slots are live in Bookeo and the ~25 one-time free tester codes work
-- [ ] Send each tester the direct Bookeo booking link + their one-time code out of band (email/text)
-- [ ] Submit the updated sitemap to Google Search Console
-- [ ] Request indexing of key pages (home, rooms, contact, FAQ, about)
-- [ ] Verify all forms work end-to-end (contact, newsletter)
-- [ ] Confirm the newsletter success message reads correctly after the switch — the coming-soon page's "We'll let you know when we open" retires automatically with the domain flip, and the Astro site already says "Watch your inbox for updates" (no code change needed unless you want different copy)
-- [ ] Spot-check on mobile, tablet, and desktop
-- [ ] **Do not post on social media or send newsletters yet**
+- [x] Flip the `lockandlogic.com` and `www.lockandlogic.com` domains from the coming-soon Vercel project to the Astro project (commands below)
+- [x] Remove all "Book" buttons/links from the public site (and the Bookeo link from `/book`) so the public can't reach booking yet
+- [ ] Confirm the limited tester slots are live in Bookeo and the ~25 one-time free tester codes work — *waiting on the client for the tester list*
+- [ ] Send each tester the direct Bookeo booking link + their one-time code out of band (email/text) — *waiting on the client for the tester list*
+- [ ] Submit the updated sitemap (`https://www.lockandlogic.com/sitemap-index.xml`) to Google Search Console
+- [ ] Request indexing of key pages (home, rooms, each room page, contact, FAQ)
+- [x] Verify the contact form works end-to-end on the live domain (2026-07-25); newsletter form still to re-test
+- [x] Confirm the newsletter success message reads correctly after the switch — the coming-soon page's "We'll let you know when we open" retired automatically with the domain flip, and the Astro site says "Watch your inbox for updates"
+- [x] Spot-check on mobile, tablet, and desktop
+- [x] **Do not post on social media or send newsletters yet**
 
 ### How to flip the domain (coming-soon → Astro)
 
