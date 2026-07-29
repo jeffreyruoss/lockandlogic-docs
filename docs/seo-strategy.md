@@ -50,7 +50,9 @@ Google Search Console is Google's free reporting tool for how your site performs
 
 **It's already set up.** The property is `lockandlogic.com`, on the **`admin@lockandlogic.com`** Google account. It's a *domain property* (verified via a DNS record at GoDaddy), so it covers `www.lockandlogic.com` and `lockandlogic.com` together — one property, all addresses.
 
-As of the 2026-07-25 soft launch it shows some history from the coming-soon page (a small number of indexed pages and clicks). Now that the real site is live, the next steps are submitting the new sitemap and asking Google to index the main pages — see [Launch Plan](/launch-plan).
+Most of the history in it is from the coming-soon page — a small number of indexed pages and clicks. On **2026-07-29** the sitemap for the real site was resubmitted (13 pages).
+
+Expect the "not indexed" count to look bad for a week or two. Google last crawled most pages in May and June, when the domain still served the coming-soon page and every real page returned "not found" — so those old results are stale, not broken. All 13 pages are confirmed live and reachable now, and the homepage has already been re-crawled and indexed. The rest will follow as Google works through the sitemap.
 
 ---
 
