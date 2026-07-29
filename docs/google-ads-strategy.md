@@ -22,7 +22,7 @@ SEO is a long-term investment that takes months to pay off. Google Ads delivers 
 | Phase | Timing | Focus |
 |-------|--------|-------|
 | **Pre-Launch** | April – July 2026 | Set up Google Ads account, conversion tracking, and campaigns. Build initial ad copy and keyword lists. |
-| **Launch** | At launch (date TBD) | Go live with Search and Local campaigns. Aggressive spending to build awareness. |
+| **Launch** | At launch (August 2026) | Go live with Search and Local campaigns. Aggressive spending to build awareness. |
 | **Optimization** | September – October 2026 | Refine keywords, ad copy, and bids based on real performance data. Add remarketing. |
 | **Scaling** | November 2026+ | Expand to seasonal campaigns, event targeting, and Performance Max. Scale budget toward what converts. |
 
@@ -289,8 +289,8 @@ Google Ads should flex with demand. For the full seasonal content calendar, see 
 |-------|-------------------|-----|
 | **January – March** | Normal | Baseline spend |
 | **April – May** | Pre-launch budget | "Coming Soon" awareness |
-| **August** | +50% | Back-to-school season. (The grand-opening spike now shifts to whatever month the postponed opening lands in — date TBD.) |
-| **July** | Pre-launch budget | Final ramp before opening (opening date now TBD — re-peg this row once confirmed) |
+| **August** | +50% | Back-to-school season **and the grand opening (August 15, 2026)** — the biggest push of the year. |
+| **July** | Pre-launch budget | Final ramp before the August 15, 2026 grand opening. |
 | **September** | +15% | Corporate team building season |
 | **October** | +30% | Halloween — peak escape room season |
 | **November** | +20% | Black Friday gift card promotions |
@@ -349,7 +349,7 @@ Google Ads is not set-it-and-forget-it. Regular optimization is what separates p
 - [ ] Create remarketing audiences
 - [ ] Ensure landing pages are ready (homepage, rooms, events pages)
 
-### Launch Month (at launch — date TBD)
+### Launch Month (at launch — August 2026)
 
 - [ ] Activate all Search campaigns
 - [ ] Run grand opening promotion ads

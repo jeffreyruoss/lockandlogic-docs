@@ -11,7 +11,7 @@ An SEO strategy tailored to the Pottstown market. As covered in the [competitor 
 |-------|--------|-------|
 | **Pre-Launch** | March – July 2026 | Google Business Profile, SEO foundation, blog content, directory listings |
 | **Soft Launch** | ~2 weeks before opening | Point domain to main site for indexing (no public announcement) |
-| **Launch** | At launch (date TBD) | Local press, review collection, launch content |
+| **Launch** | At launch (August 2026) | Local press, review collection, launch content |
 | **Growth** | July 2026 onward | Ongoing blog content, review management, seasonal campaigns, link building |
 
 ---
@@ -278,7 +278,7 @@ Backlinks are one of Google's top ranking factors. For a local business, the mos
 - [ ] Do **not** publicly announce — goal is quiet indexing and crawl activity only
 - [ ] Monitor Search Console for coverage issues; fix any crawl errors that surface
 
-### Opening Month (at launch — date TBD)
+### Opening Month (at launch — August 2026)
 
 - [ ] Send press release to Pottstown Mercury and local media
 - [ ] Publish launch blog post targeting "new escape room Pottstown"
