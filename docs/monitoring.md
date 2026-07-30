@@ -22,6 +22,8 @@ That also explains the pausing that looked unexplainable: with the check inverte
 | Supabase database | `/api/health` runs `SELECT id FROM form_submissions LIMIT 1` | Every 3 min (via Better Stack) |
 | Contact form pipeline (end-to-end) | `/api/health` POSTs to `/api/contact` with a synthetic-bypass header | Every 3 min (via Better Stack) |
 | Supabase pause prevention | GitHub Actions hits `/api/keepalive` | Daily at 12:00 UTC |
+| **The keepalive job itself still running** | Better Stack heartbeat `477324` — alerts if the daily ping stops | Daily (+3h grace) |
+| **The backup job itself still running** | Better Stack heartbeat `477325` — alerts if the daily ping stops | Daily (+3h grace) |
 
 A single failure of any of those checks turns the Better Stack monitor red and sends an email + phone-call alert after a 60s confirmation period.
 
@@ -33,6 +35,7 @@ A single failure of any of those checks turns the Better Stack monitor red and s
 |---|---|---|
 | **Better Stack** | Uptime monitoring, alert routing, on-call | [uptime.betterstack.com](https://uptime.betterstack.com/team/t532372/monitors) |
 | **GitHub Actions** | Triggers `/api/keepalive` daily; also runs the daily backup | [Actions tab](https://github.com/jeffreyruoss/lockandlogic/actions) |
+| **Better Stack Heartbeats** | Alert if either GitHub Action stops running | [Heartbeats](https://uptime.betterstack.com/team/t532372/heartbeats) |
 | **Supabase** | Backend being monitored | [Supabase project](https://supabase.com/dashboard/project/yfsnhellrgjpjjkgoqry) |
 
 ---
@@ -151,6 +154,29 @@ Independent of Better Stack, in case Better Stack is ever unreachable.
 
 This used to be a Vercel cron defined in `vercel.json`; that file was removed and GitHub Actions is now the single source of truth.
 
+---
+
+## Heartbeats (dead-man's switches)
+
+The keepalive and backup jobs both watch *something else*. Nothing watched **them** — either could have stopped running entirely (workflow disabled, renamed, repo archived, GitHub quietly dropping the schedule) and no alert would ever fire. A silently dead cron is the classic monitoring failure, and a periodic manual audit is a poor fix: it means up to a month of broken backups before anyone notices.
+
+Heartbeats invert that. Each job pings a URL **on success**; if the expected ping doesn't arrive, Better Stack alerts. Absence becomes the alarm, so the jobs self-report instead of needing to be checked.
+
+| Heartbeat | ID | Pinged by | Expects | Alerts |
+|---|---|---|---|---|
+| L&L Supabase keepalive | `477324` | `supabase-keepalive.yml` | ping every 24h | email after 27h of silence |
+| L&L daily Supabase backup | `477325` | `backup.yml` | ping every 24h | email after 27h of silence |
+
+**Why 3 hours of grace?** GitHub's scheduled workflows are routinely late under load — sometimes by an hour or more. A tight window would alert on normal lateness instead of real failure.
+
+**Why email and not a phone call?** A cron that missed one run isn't a 4am problem. The uptime monitor pages you; the heartbeats email you. Keeping those tiers distinct is what stops alert fatigue.
+
+**The ping is the last step in both workflows, deliberately.** GitHub aborts a job at its first failing step, so the ping only fires when every step before it succeeded. For `backup.yml` that means the ping asserts *"a real artifact was uploaded"* — not merely *"the workflow started."* If you ever add steps, **keep the ping last**, or it starts reporting success for work that didn't happen.
+
+The heartbeat URLs are stored as repo secrets (`BETTERSTACK_HEARTBEAT_KEEPALIVE`, `BETTERSTACK_HEARTBEAT_BACKUP`) rather than inline, since anyone holding a heartbeat URL can ping it and suppress a genuine alert.
+
+Verified working 2026-07-30: both workflows run manually, both heartbeats went 🟢 Up.
+
 Verify firings: [Actions tab](https://github.com/jeffreyruoss/lockandlogic/actions) → "Supabase keepalive". Failures also arrive by email via GitHub's default workflow-failure notifications.
 
 ---
@@ -200,6 +226,10 @@ The domain flip from `lockandlogic-coming-soon` to the Astro project happened **
 
 **Deploy script**
 - `scripts/deploy.mjs` — pause/deploy/settle/unpause wrapper, run via `npm run deploy`
+
+**GitHub repo secrets** (Settings → Secrets and variables → Actions)
+- `SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY` — used by the backup workflow
+- `BETTERSTACK_HEARTBEAT_KEEPALIVE`, `BETTERSTACK_HEARTBEAT_BACKUP` — heartbeat ping URLs
 
 **Env vars (production + .env)**
 - `SYNTHETIC_SECRET` — gates the contact-form synthetic bypass (set in Vercel + local `.env`)
