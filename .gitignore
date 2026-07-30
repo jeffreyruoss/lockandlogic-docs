@@ -3,6 +3,9 @@ node_modules/
 **/.vitepress/cache/
 .DS_Store
 
+# Local scratch — client spreadsheets etc., not part of the docs site
+temp/
+
 # MCP config (contains API keys)
 .mcp.json
 

@@ -2,12 +2,14 @@
 
 > Uptime monitoring, synthetic form testing, and alert routing for the production site
 
-::: danger Monitor is not running (as of 2026-07-25)
-The Better Stack monitor (`4326514`) **will not stay unpaused**, so uptime, SSL expiry, and the database/form checks are currently **watched by nothing**.
+::: warning Monitor was misconfigured from day one — fixed 2026-07-29
+The monitor (`4326514`) had its check **inverted** for three months. It was created with type `keyword_absence`, which means *"raise an incident when this keyword IS present"* — so it treated the healthy response `"ok":true` as the failure condition. Every incident it ever raised said `Keyword found (looked for "ok":true)`, and one of those had been sitting **active since 2026-04-30**.
 
-The soft-launch cutover is done and the monitor URL now points at `https://www.lockandlogic.com/api/health` (returns 200 + `"ok":true`). But `PATCH {paused:false}` succeeds and Better Stack re-pauses server-side within ~3–10 seconds — reproduced three times.
+That also explains the pausing that looked unexplainable: with the check inverted, the monitor was permanently "down" while the site was perfectly fine, so it got paused to stop the false alerts — and unpausing it just restarted the false alerts.
 
-The earlier explanation (*"it 404s while coming-soon owns the apex"*) is **disproven**: post-cutover both the vercel.app and real-domain health URLs return 200 and it still re-pauses. It is also not a monitor-count limit (only 2 monitors on the account). Next step is the Better Stack UI — check for a plan/billing banner, and try dropping from 4 regions to 1 as a cheap test. See [Post-launch checklist](#post-launch-checklist).
+**Fix:** monitor type changed to `keyword` (assert the keyword is *present*) — matching the Feeding Matters monitor, which was always configured correctly. The two earlier theories are both dead ends: it was never a DNS/404 problem and never a plan or region limit.
+
+**Consequence worth being honest about:** uptime, SSL expiry, and the database/form checks were effectively **unmonitored from 2026-04-25 to 2026-07-29**. Nothing bad appears to have come of it, but the coverage described on this page did not exist during that window.
 :::
 
 ---
@@ -90,7 +92,7 @@ Single monitor protects everything. Configured via the Better Stack MCP server.
 |---|---|
 | Monitor ID | `4326514` |
 | URL | `https://www.lockandlogic.com/api/health` (changed from the vercel.app URL at the 2026-07-25 cutover) |
-| Type | `keyword_absence` |
+| Type | `keyword` — alert when the keyword is **missing**. Do **not** use `keyword_absence`; that inverts the check and alerts when the site is healthy (see the note at the top of this page). |
 | Required keyword | `"ok":true` |
 | Check frequency | 180s (3 min) |
 | Confirmation period | 180s (requires two consecutive failed checks before alerting) |
@@ -159,9 +161,21 @@ The domain flip from `lockandlogic-coming-soon` to the Astro project happened **
 
 - [x] Monitor `4326514` URL changed to `https://www.lockandlogic.com/api/health` (name → `lockandlogic.com/api/health`)
 - [x] Confirmed the new URL returns 200 with `"ok":true`
-- [ ] **⚠️ Get monitor `4326514` to actually stay unpaused** — see the warning at the top of this page. This is the blocker; everything below depends on it.
-- [ ] Once it stays up, watch Better Stack for 30 minutes to make sure no regional check fails
-- [ ] Re-check that `npm run deploy`'s pause/unpause wrapper leaves the monitor **running** afterwards — during the 2026-07-25 launch deploy it reported unpausing but the monitor was still paused a minute later, which is the same underlying issue
+- [x] **Monitor `4326514` fixed 2026-07-29** — inverted check type corrected (`keyword_absence` → `keyword`) and unpaused. See the note at the top of this page.
+- [ ] Watch Better Stack for 30 minutes to confirm no regional check fails
+- [ ] Re-run `npm run deploy` once and confirm the pause/unpause wrapper leaves the monitor **running** afterwards. The 2026-07-25 deploy appeared to leave it paused, but that was the inverted check re-triggering — worth one clean confirmation now that the underlying bug is gone.
+- [x] **End-to-end alert test passed 2026-07-30.** Rather than the UI's "test incident" (which only exercises notification delivery), the check itself was made to fail for real by temporarily pointing `required_keyword` at a string that couldn't match. Full cycle, exactly as designed:
+
+  | Time (UTC) | Event |
+  |---|---|
+  | 00:28:59 | Sentinel keyword set |
+  | 00:29:00 | Failure detected → status `pending` |
+  | 00:32:11 | Incident `995334411` raised — `Keyword not found` |
+  | 00:36:29 | Keyword reverted to `"ok":true` |
+  | 00:40:28 | Incident auto-resolved |
+  | 00:41:47 | Monitor 🟢 Up |
+
+  Detection, the 180s confirmation delay, incident creation, recovery, and auto-resolve all work. Note the cause reads **"Keyword not found"** — every pre-fix incident said *"Keyword found"*, which is the clearest confirmation the type change was correct.
 
 ---
 
