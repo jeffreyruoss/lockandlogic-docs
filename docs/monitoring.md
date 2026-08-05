@@ -21,11 +21,12 @@ That also explains the pausing that looked unexplainable: with the check inverte
 | Site reachability + SSL + DNS | Better Stack pings `/api/health` from 4 regions | Every 3 min |
 | Supabase database | `/api/health` runs `SELECT id FROM form_submissions LIMIT 1` | Every 3 min (via Better Stack) |
 | Contact form pipeline (end-to-end) | `/api/health` POSTs to `/api/contact` with a synthetic-bypass header | Every 3 min (via Better Stack) |
+| Mailchimp API (newsletter dependency) | Deep monitor hits `/api/health/?deep=1`, which calls Mailchimp's `/ping` | Every 30 min |
 | Supabase pause prevention | GitHub Actions hits `/api/keepalive` | Daily at 12:00 UTC |
 | **The keepalive job itself still running** | Better Stack heartbeat `477324` — alerts if the daily ping stops | Daily (+3h grace) |
 | **The backup job itself still running** | Better Stack heartbeat `477325` — alerts if the daily ping stops | Daily (+3h grace) |
 
-A single failure of any of those checks turns the Better Stack monitor red and sends an email + phone-call alert after a 60s confirmation period.
+A failure of any of those checks turns the relevant Better Stack monitor red; alerts fire after the monitor's confirmation period (180s for the uptime monitor, 300s for the deep monitor).
 
 ---
 
@@ -42,7 +43,7 @@ A single failure of any of those checks turns the Better Stack monitor red and s
 
 ## `/api/health` endpoint
 
-Public GET endpoint at `https://www.lockandlogic.com/api/health` (also reachable at `https://lockandlogic.vercel.app/api/health`). Runs two checks in parallel and returns a JSON summary:
+Public GET endpoint at `https://www.lockandlogic.com/api/health/` (also reachable at `https://lockandlogic.vercel.app/api/health/`). The site enforces trailing-slash URLs (since 2026-08-05), so the non-slash form still works via a 308 redirect. Runs two checks in parallel and returns a JSON summary:
 
 ```json
 {
@@ -65,7 +66,7 @@ Runs a single `SELECT id FROM form_submissions LIMIT 1`. Fails on connection err
 
 ### Contact check (synthetic test)
 
-Performs a real HTTP `POST` from `/api/health` to its own `/api/contact` endpoint with:
+Performs a real HTTP `POST` from `/api/health` to its own `/api/contact/` endpoint (trailing slash required — the 308 redirect on the non-slash URL drops the POST body) with:
 
 - `x-synthetic-secret: $SYNTHETIC_SECRET` header — gates the bypass
 - A test payload (`name=synthetic-health`, `email=synthetic@health.test`, `message=…`)
@@ -85,16 +86,24 @@ The `SYNTHETIC_SECRET` env var is set in:
 
 If the secret is missing on the server, `/api/health` reports `contact: { ok: false, detail: "SYNTHETIC_SECRET not set" }` and returns 503. **Never expose this secret to the client.**
 
+### Deep mode (`?deep=1`)
+
+`GET /api/health/?deep=1` adds a third check — a Mailchimp API `/ping` with the configured key — and folds it into `ok`. A `401` there is the revoked-key signature (Mailchimp keys die when their creating user is removed from the account; that silently broke newsletter signups for three weeks in July 2026 while the shallow endpoint reported `ok:true`).
+
+Mailchimp is deliberately **not** in the default (shallow) response the 3-minute uptime monitor polls: Mailchimp being down doesn't make the site down, and polling it 480×/day would burn quota to page about a non-critical dependency. The separate deep monitor checks it every 30 minutes instead.
+
 ---
 
-## Better Stack monitor
+## Better Stack monitors
 
-Single monitor protects everything. Configured via the Better Stack MCP server.
+Two monitors: the main uptime monitor (fast, critical-path) and a slower deep-check monitor for third-party dependencies. Both configured via the Better Stack MCP server.
+
+### Uptime monitor (`4326514`)
 
 | Setting | Value |
 |---|---|
 | Monitor ID | `4326514` |
-| URL | `https://www.lockandlogic.com/api/health` (changed from the vercel.app URL at the 2026-07-25 cutover) |
+| URL | `https://www.lockandlogic.com/api/health` (changed from the vercel.app URL at the 2026-07-25 cutover). Still the non-slash form — fine, because the monitor follows the 308 redirect to `/api/health/`. |
 | Type | `keyword` — alert when the keyword is **missing**. Do **not** use `keyword_absence`; that inverts the check and alerts when the site is healthy (see the note at the top of this page). |
 | Required keyword | `"ok":true` |
 | Check frequency | 180s (3 min) |
@@ -112,6 +121,21 @@ The keyword check catches three failure modes with one rule:
 **Why a 180s confirmation period?** Vercel's per-region edge propagation can briefly trail a fresh deployment, and individual regions occasionally have transient hiccups. Both produce a single failed check that resolves on the next cycle. Requiring two consecutive failures (~6 min total) absorbs those without losing the ability to catch real outages.
 
 [Monitor in Better Stack](https://uptime.betterstack.com/team/t532372/monitors/4326514)
+
+### Deep-check monitor (`4752728`) — added 2026-07-30
+
+Watches the third-party dependencies the uptime monitor deliberately skips (currently Mailchimp — see [Deep mode](#deep-mode-deep-1) above).
+
+| Setting | Value |
+|---|---|
+| Monitor ID | `4752728` |
+| URL | `https://www.lockandlogic.com/api/health?deep=1` (non-slash; the query string survives the 308 redirect and the monitor follows it) |
+| Type | `keyword`, required keyword `"ok":true` |
+| Check frequency | 1800s (30 min) |
+| Confirmation / recovery period | 300s |
+| Regions | us only (a dependency check doesn't need 4-region consensus) |
+
+[Deep-check monitor in Better Stack](https://uptime.betterstack.com/team/t532372/monitors/4752728)
 
 ### Alert delivery
 
@@ -132,9 +156,11 @@ Use `npm run deploy` instead of bare `vercel --prod`. The wrapper at `scripts/de
 
 1. Pauses monitor `4326514` via the Better Stack REST API
 2. Runs `vercel --prod`
-3. Polls `/api/health` until it returns 200 + `"ok":true` (max 120s)
+3. Polls `/api/health/` until it returns 200 + `"ok":true` (max 120s)
 4. Settles 60s for global edge propagation across non-US regions
 5. Unpauses the monitor — always, even on build failure or polling timeout (in a `finally` block)
+
+The deep-check monitor (`4752728`) is **not** paused by the script — at a 30-minute cadence a collision with the ~3-minute deploy window is unlikely, and a spurious deep alert is email-only.
 
 If unpause itself fails, the script exits with code 2 and prints `UNPAUSE MANUALLY` so it's noticed. Without `BETTERSTACK_API_TOKEN` set in `.env`, the script warns and falls back to a plain `vercel --prod` so it stays usable.
 
@@ -147,7 +173,7 @@ The Better Stack API token is created at `Better Stack → Settings → API toke
 Independent of Better Stack, in case Better Stack is ever unreachable.
 
 - GitHub Actions workflow `.github/workflows/supabase-keepalive.yml`, `cron: '0 12 * * *'` (daily at 12:00 UTC), plus a manual "Run workflow" button
-- It `curl`s `https://lockandlogic.vercel.app/api/keepalive` and fails the job unless the response contains `"ok":true` — so a broken keepalive turns the workflow red instead of failing silently
+- It `curl`s `https://lockandlogic.vercel.app/api/keepalive/` (trailing slash required — this `curl` doesn't follow redirects, so the non-slash URL would return an empty 308 body and fail the job) and fails the job unless the response contains `"ok":true` — so a broken keepalive turns the workflow red instead of failing silently
 - It deliberately uses the `vercel.app` URL rather than the custom domain: the job's only purpose is keeping Supabase awake, and that should still work even if the domain alias or DNS breaks
 - `/api/keepalive` runs the same Supabase SELECT and logs `[keepalive] ok` or `[keepalive] supabase error` to Vercel runtime logs
 - Supabase free-tier projects auto-pause after 7 days of inactivity. Daily pings give a 7× safety margin.
@@ -188,8 +214,8 @@ The domain flip from `lockandlogic-coming-soon` to the Astro project happened **
 - [x] Monitor `4326514` URL changed to `https://www.lockandlogic.com/api/health` (name → `lockandlogic.com/api/health`)
 - [x] Confirmed the new URL returns 200 with `"ok":true`
 - [x] **Monitor `4326514` fixed 2026-07-29** — inverted check type corrected (`keyword_absence` → `keyword`) and unpaused. See the note at the top of this page.
-- [ ] Watch Better Stack for 30 minutes to confirm no regional check fails
-- [ ] Re-run `npm run deploy` once and confirm the pause/unpause wrapper leaves the monitor **running** afterwards. The 2026-07-25 deploy appeared to leave it paused, but that was the inverted check re-triggering — worth one clean confirmation now that the underlying bug is gone.
+- [x] Watch Better Stack for 30 minutes to confirm no regional check fails — no regional false positives observed 2026-07-30 → 2026-08-05
+- [x] Re-run `npm run deploy` once and confirm the pause/unpause wrapper leaves the monitor **running** afterwards — confirmed across multiple deploys 2026-07-31 → 2026-08-05; the monitor is consistently unpaused and 🟢 Up after each. (The 2026-08-05 incident `997988768` was a real, transient 503 during the trailing-slash rollout, caught and resolved in ~1 min — proof the unpause works, not a pause bug.)
 - [x] **End-to-end alert test passed 2026-07-30.** Rather than the UI's "test incident" (which only exercises notification delivery), the check itself was made to fail for real by temporarily pointing `required_keyword` at a string that couldn't match. Full cycle, exactly as designed:
 
   | Time (UTC) | Event |

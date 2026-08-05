@@ -36,8 +36,8 @@ Honeypot check → Turnstile verify → Rate limit → Validate → Log to Supab
 - `email-templates.ts` — HTML email templates for notifications
 
 **API routes** (`src/pages/api/`):
-- `contact.ts` — POST `/api/contact`
-- `newsletter.ts` — POST `/api/newsletter`
+- `contact.ts` — POST `/api/contact/`
+- `newsletter.ts` — POST `/api/newsletter/`
 - `keepalive.ts` — GET, hit by daily cron to prevent Supabase free-tier project pause
 
 **Components** (`src/components/`):
