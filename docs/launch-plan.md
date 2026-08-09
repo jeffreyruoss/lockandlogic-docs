@@ -6,15 +6,17 @@ How we'll transition from the coming-soon page to the live website, and what nee
 
 ## Target Opening
 
-::: warning Grand opening postponed — no new date yet (2026-08-09)
-The August 15, 2026 grand opening has been **postponed**, announced by the owners on Facebook. **No replacement date has been set.**
+::: warning Opening announced as postponed — August 15 still the working target (2026-08-09)
+The owners announced on Facebook that the grand opening is postponed again, without naming a new date: *"due to circumstances beyond our control we are going to have to postpone our grand opening again… we will be back to let everyone know once we have a firm date."*
 
-Everything downstream of the opening date is on hold: the hard launch (public booking), the press/social/ads push, and the tester schedule. The site now says "Opening Soon" everywhere instead of naming a date, and the opening date has been removed from the site's structured data rather than left wrong.
+**They are still aiming for August 15, 2026**, and the Google Business Profile carries that date. But because the date has already slipped repeatedly, the website deliberately says **"Opening Soon"** rather than naming a day — so another slip costs nothing and no customer is told a date that moves again.
 
-**What we need from the client:** the new opening date. Nearly everything below unblocks the moment that lands.
+That mismatch is intentional: GBP needs a date to show the "opening soon" state on Maps at all, while the site stays date-free. The site's structured data omits the opening date entirely rather than publishing one that may move.
+
+**What we need from the client:** a date they're confident in. The hard launch (public booking), the promotion push, and the tester schedule all key off it.
 :::
 
-**Grand opening:** postponed, date TBD. Previously August 15, 2026 (construction started the week of June 1, 2026). The date has now moved three times — originally August 8, briefly postponed, re-confirmed as August 15, and postponed again on 2026-08-09.
+**Grand opening:** targeting August 15, 2026, but publicly announced as postponed pending confirmation (construction started the week of June 1, 2026). The date has moved repeatedly — originally August 8, briefly postponed, re-confirmed as August 15, then announced as postponed again on 2026-08-09 while August 15 remained the internal target.
 
 ---
 
@@ -135,7 +137,7 @@ The site goes fully public and promotion begins:
 
 ### 3. Grand opening (date TBD — loud launch)
 
-The physical rooms open and we go loud. See [Public Launch](#public-launch-grand-opening-date-tbd) below — press, social, newsletter, and ads. **Grand opening: postponed, awaiting a new date from the client.**
+The physical rooms open and we go loud. See [Public Launch](#public-launch-grand-opening-date-tbd) below — press, social, newsletter, and ads. **Grand opening: targeting August 15, 2026, publicly announced as postponed until the client confirms.**
 
 ### Verify in Bookeo before committing (do now, in Demo gateway mode)
 
@@ -163,5 +165,5 @@ This is the loud one. Once the rooms are ready for paying customers:
 |------|------|
 | **✅ 2026-07-25 (done)** | Soft launch: domain switched to Astro site, quiet indexing period begins. No public "Book" links on the site. Room testers book a limited set of slots for free via a direct Bookeo link + one-time codes. No public announcement. |
 | **~2 weeks before grand opening** | Hard launch: full public schedule loaded with pre-grand-opening dates blocked, Book button live, promotion begins, GBP live. Straggler testers via Bookeo hidden-slot links (set up manually). |
-| **Grand opening (date TBD)** | Rooms open, press, social announcement, newsletter, ads go live. Postponed from 2026-08-15; awaiting a new date. |
+| **Grand opening (targeting 2026-08-15, unconfirmed)** | Rooms open, press, social announcement, newsletter, ads go live. Publicly announced as postponed; August 15 remains the working target. |
 | **After grand opening** | Growth phase: ongoing content, review collection, seasonal campaigns |
