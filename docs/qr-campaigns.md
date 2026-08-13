@@ -56,6 +56,30 @@ For the founders' business cards. Scans land on the homepage.
 
 **Print at 1 inch square or larger.** A business card is the smallest surface these codes go on, and printing much below that makes it unreliable to scan. Give your designer the SVG — it stays sharp at any size, unlike the PNG.
 
+## Results So Far
+
+**Snapshot taken August 13, 2026 — covering March 31 (first scan) through August 13, 2026.**
+
+These numbers are a point-in-time snapshot, not a live dashboard. Ask your developer any time for current figures.
+
+| Campaign | Real scans | Active period | Still running? |
+|----------|-----------|---------------|----------------|
+| Spring 2026 Flyer | ~23 | Mar 31 – Apr 10 | No — nothing since April 10 |
+| In-Venue Door Sign | 8 | Apr 22 – Jul 23 | Yes — roughly 1–2 per month |
+| Business Card | — | Not yet distributed | — |
+
+### What the numbers mean
+
+**The flyer worked, then stopped.** It brought in about 23 scans in a ten-day burst at the start of April, and visitors who came through it spent an average of over two minutes on the site — genuinely engaged, not a bounce. Encouragingly, most scans came from right around the venue: Sanatoga, Gilbertsville, Kenilworth, and Philadelphia. But there hasn't been a single scan since April 10. If flyers are still out in circulation, they've stopped producing.
+
+**The door sign is slow but still going.** Eight scans between late April and late July, all from the local area, most recently July 23. That's a modest number, but every one of them is somebody who walked up to the building before it opened and wanted to know more — which is a meaningful signal this far ahead of opening.
+
+### A note on the raw numbers
+
+Google Analytics recorded 31 visits for the flyer and 21 for the door sign. The counts above are lower because we filtered out automated traffic — web crawlers and bots that follow links around the internet and aren't real people.
+
+They're easy to spot: a QR code taped to the front door of a building in Pottstown shouldn't be producing desktop-computer visits from Los Angeles and Las Vegas, which is exactly what a chunk of the door sign's raw total was. The filtered figures are the ones worth paying attention to.
+
 ## Viewing Campaign Performance
 
 Campaign results are available through the [Google Analytics AI Integration](/google-analytics-ai). Your developer can pull performance data on demand — sessions, unique visitors, and trends — without needing to log into Google Analytics.
