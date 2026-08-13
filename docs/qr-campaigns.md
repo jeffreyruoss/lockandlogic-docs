@@ -27,7 +27,7 @@ That tells Analytics: this visitor came from a **flyer** (source), it was **prin
 
 Printed as a handheld flyer for the founders to carry and show to people in person.
 
-**Download full resolution:** [PNG](/qr-codes/qr-code_flyer-print-spring_2026/qr-code_flyer-print-spring_2026.png) · [SVG](/qr-codes/qr-code_flyer-print-spring_2026/qr-code_flyer-print-spring_2026.svg)
+⬇️ **Download Spring 2026 Flyer code:** [PNG](/qr-codes/qr-code_flyer-print-spring_2026/qr-code_flyer-print-spring_2026.png) · [SVG](/qr-codes/qr-code_flyer-print-spring_2026/qr-code_flyer-print-spring_2026.svg)
 
 ### In-Venue Door Sign
 
@@ -39,7 +39,7 @@ Printed as a handheld flyer for the founders to carry and show to people in pers
 
 QR code posted on the escape room door for visitors who are already at the venue.
 
-**Download full resolution:** [PNG](/qr-codes/qr-code-door_sign-in_venue/qr-code-door_sign-in_venue.png) · [SVG](/qr-codes/qr-code-door_sign-in_venue/qr-code-door_sign-in_venue.svg)
+⬇️ **Download In-Venue Door Sign code:** [PNG](/qr-codes/qr-code-door_sign-in_venue/qr-code-door_sign-in_venue.png) · [SVG](/qr-codes/qr-code-door_sign-in_venue/qr-code-door_sign-in_venue.svg)
 
 ### Business Card
 
@@ -52,7 +52,7 @@ QR code posted on the escape room door for visitors who are already at the venue
 
 For the founders' business cards. Scans land on the homepage.
 
-**Download full resolution:** [PNG](/qr-codes/qr-code_business_card-print/qr-code_business_card-print.png) · [SVG](/qr-codes/qr-code_business_card-print/qr-code_business_card-print.svg)
+⬇️ **Download Business Card code:** [PNG](/qr-codes/qr-code_business_card-print/qr-code_business_card-print.png) · [SVG](/qr-codes/qr-code_business_card-print/qr-code_business_card-print.svg)
 
 **Print at 1 inch square or larger.** A business card is the smallest surface these codes go on, and printing much below that makes it unreliable to scan. Give your designer the SVG — it stays sharp at any size, unlike the PNG.
 
