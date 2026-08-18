@@ -36,6 +36,7 @@ const adminSidebar = [
       { text: '📅 Booking Flow Checklist', link: '/booking-flow' },
       { text: '🆚 Bookeo Embed vs. Hosted Page', link: '/bookeo-embed-vs-hosted' },
       { text: '🎟️ Return Visit Discount', link: '/return-visit-discount' },
+      { text: '🎫 Free Room Codes', link: '/free-room-codes' },
       { text: '🚫 Bookeo Closing Periods', link: '/bookeo-closing-periods' },
       { text: '🔗 Bookeo API AI Integration', link: '/bookeo-api' },
       { text: '📈 Google Analytics AI', link: '/google-analytics-ai' },

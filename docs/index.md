@@ -115,6 +115,11 @@ features:
     details: How to offer a 10% discount for customers who book their next room before leaving the venue, using Bookeo and Square POS.
     link: /return-visit-discount
     linkText: View Details
+  - icon: 🎫
+    title: Free Room Codes
+    details: How to comp a whole room for a contractor, charity donation, or giveaway winner — five ready-to-use offers with single-use codes.
+    link: /free-room-codes
+    linkText: View Guide
   - icon: 🚫
     title: Bookeo Closing Periods
     details: How to close a day in Bookeo so no one can book it — including the easy-to-miss "click Ok" gotcha.

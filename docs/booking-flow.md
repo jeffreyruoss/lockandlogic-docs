@@ -89,9 +89,16 @@ Before the public launch, room testers (friends, family, invited guests) should 
 - **Which room they chose is captured automatically.** Every Bookeo booking records the product/service (the room) booked, so each tester's booking shows their room — no extra setup needed. To see code + name + room together, cross-reference the Coupons report's booking against the **Bookings report** (or open the booking), or filter the Bookings report by date/room.
 - ⚠️ **Don't rely on the payments/transaction history** to match a code to a person — a 100%-off booking is **$0**, so it may not create a payment line at all. Use the Coupons report or the booking detail instead.
 
-### Verify before handing out codes
+### ✅ Verified 2026-08-17
 
-- [ ] Confirm a **100%-off booking completes without hitting the payment gateway** (it should skip payment entirely at $0). Safe to test now while Bookeo is in Demo gateway mode.
-- [ ] Confirm the **Coupons report shows the tester's name** alongside the code they used.
-- [ ] Confirm a redeemed code **cannot be reused** for a second booking.
-- [ ] Confirm the booking record / Bookings report shows **which room** the tester chose.
+- [x] A **100%-off booking completes without hitting the payment gateway** — $0, payment skipped entirely. Confirmed again with a full room of eight ($280 → $0).
+- [x] The **Coupons report shows the tester's name** alongside the code they used — the coupon list links straight to the booking.
+- [x] A redeemed code **cannot be reused** — retried and Bookeo reported it already used.
+- [x] The booking record shows **which room** was played, with no extra setup.
+
+Two behaviours the original checklist didn't anticipate:
+
+- **Cancelling a booking does not release the code.** It stays used. There's a setting on the promotion ("Mark the coupon as unused if the customer cancels…") that changes this, currently switched off.
+- **Codes only work on the public booking page**, not from the staff dashboard. Anyone being comped has to book their own day and time; at the front desk, use a price adjustment instead.
+
+The same mechanism now powers the standing comp offers — see [Free Room Codes](/free-room-codes).

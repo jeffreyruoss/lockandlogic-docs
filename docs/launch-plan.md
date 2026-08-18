@@ -6,17 +6,19 @@ How we'll transition from the coming-soon page to the live website, and what nee
 
 ## Target Opening
 
-::: warning Opening announced as postponed — August 15 still the working target (2026-08-09)
-The owners announced on Facebook that the grand opening is postponed again, without naming a new date: *"due to circumstances beyond our control we are going to have to postpone our grand opening again… we will be back to let everyone know once we have a firm date."*
+::: warning No opening date (2026-08-17)
+August 15 has passed and the opening was delayed again, with no new date set.
 
-**They are still aiming for August 15, 2026**, and the Google Business Profile carries that date. But because the date has already slipped repeatedly, the website deliberately says **"Opening Soon"** rather than naming a day — so another slip costs nothing and no customer is told a date that moves again.
+**Booking is closed.** A closing period in Bookeo now blocks every date through the end of 2027, so nobody can book a slot for a day you may not be open. The room schedules underneath are untouched — when you have a date, we delete that one closing period and the full calendar comes straight back. Nothing has to be rebuilt.
 
-That mismatch is intentional: GBP needs a date to show the "opening soon" state on Maps at all, while the site stays date-free. The site's structured data omits the opening date entirely rather than publishing one that may move.
+Nothing was lost in the meantime. The website never had its "Book" buttons restored, so no customer could reach booking from the site, and no bookings had been taken.
 
-**What we need from the client:** a date they're confident in. The hard launch (public booking), the promotion push, and the tester schedule all key off it.
+**What we need from you:** a date you're confident in. Public booking, the promotion push, and the tester schedule all key off it.
 :::
 
-**Grand opening:** targeting August 15, 2026, but publicly announced as postponed pending confirmation (construction started the week of June 1, 2026). The date has moved repeatedly — originally August 8, briefly postponed, re-confirmed as August 15, then announced as postponed again on 2026-08-09 while August 15 remained the internal target.
+**Grand opening:** no date. Construction started the week of June 1, 2026. The date has moved repeatedly — originally August 8, briefly postponed, re-confirmed as August 15, publicly announced as postponed on August 9, and delayed again on August 17 with no replacement date.
+
+The website says **"Opening Soon"** rather than naming a day, on purpose. Every slip so far has cost nothing publicly because no customer was ever told a date that then moved.
 
 ---
 
@@ -137,13 +139,19 @@ The site goes fully public and promotion begins:
 
 ### 3. Grand opening (date TBD — loud launch)
 
-The physical rooms open and we go loud. See [Public Launch](#public-launch-grand-opening-date-tbd) below — press, social, newsletter, and ads. **Grand opening: targeting August 15, 2026, publicly announced as postponed until the client confirms.**
+The physical rooms open and we go loud. See [Public Launch](#public-launch-grand-opening-date-tbd) below — press, social, newsletter, and ads. **Grand opening: no date set.** Until there is one, booking stays closed by the Bookeo closing period described at the top of this page.
 
-### Verify in Bookeo before committing (do now, in Demo gateway mode)
+### Verified in Bookeo (2026-08-17)
 
-- [ ] A **100%-off booking completes without hitting the payment gateway** (skips payment entirely at $0)
-- [ ] The **Coupons report shows the tester's name** and which code they used, and a redeemed code **cannot be reused**
-- [ ] A **hidden/private slot can exist on a date that's otherwise closed to the public** — this is the linchpin of the hard-launch phase (testers reach blocked dates by link while the public can't)
+- [x] A **100%-off booking completes without hitting the payment gateway** — confirmed at $0, and again with a full room of eight people ($280 down to $0)
+- [x] The **Coupons report shows the tester's name** and which code they used, links straight to the booking, and records which room was played
+- [x] A redeemed code **cannot be reused** — retried and Bookeo reported it already used
+- [ ] A **hidden/private slot can exist on a date that's otherwise closed to the public** — this is the linchpin of the hard-launch phase (testers reach blocked dates by link while the public can't). Still to test.
+
+Two things that turned up while testing, worth knowing before you hand out any free codes:
+
+- **Cancelling a booking burns the code.** It does not become available again — the guest needs a new one.
+- **Codes only work on the public booking page**, not from the Bookeo dashboard. A comped guest has to book their own day and time. See [Free Room Codes](/free-room-codes).
 
 ---
 
@@ -164,6 +172,7 @@ This is the loud one. Once the rooms are ready for paying customers:
 | When | What |
 |------|------|
 | **✅ 2026-07-25 (done)** | Soft launch: domain switched to Astro site, quiet indexing period begins. No public "Book" links on the site. Room testers book a limited set of slots for free via a direct Bookeo link + one-time codes. No public announcement. |
+| **✅ 2026-08-17 (done)** | Opening delayed again with no new date. Booking closed in Bookeo via a closing period running through the end of 2027 — schedules kept intact underneath, so restoring is a one-step change. |
 | **~2 weeks before grand opening** | Hard launch: full public schedule loaded with pre-grand-opening dates blocked, Book button live, promotion begins, GBP live. Straggler testers via Bookeo hidden-slot links (set up manually). |
-| **Grand opening (targeting 2026-08-15, unconfirmed)** | Rooms open, press, social announcement, newsletter, ads go live. Publicly announced as postponed; August 15 remains the working target. |
+| **Grand opening (no date set)** | Rooms open, press, social announcement, newsletter, ads go live. |
 | **After grand opening** | Growth phase: ongoing content, review collection, seasonal campaigns |
