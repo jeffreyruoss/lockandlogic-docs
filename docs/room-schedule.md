@@ -63,9 +63,11 @@ At an average of 4 players per session at $35/person, that's **$19,040/week** at
 
 ## 5th Room (Holiday Room)
 
-A fifth room joins the lineup after launch. It is **not** included in the four-room tables above. It runs as a **limited-time-only** room: each themed version runs roughly **8 weeks**, then the name, theme, and puzzles rotate for the next holiday/season.
+A fifth room joins the lineup. It is **not** included in the four-room tables above. It runs as a **limited-time-only** room: each themed version runs roughly **8 weeks**, then the name, theme, and puzzles rotate for the next holiday/season.
 
-- **Opens:** September 5, 2026 (a separate later date — not part of the grand-opening lineup). ⚠️ This assumes the August 15 grand opening holds; that date is currently announced as postponed, so re-confirm with the client if it slips.
+- **Opens:** with the four core rooms (client, 2026-08-18 — it used to have its own later September 5 date). The website no longer names a date for it; it just says "Coming Soon".
+- **In Bookeo:** the product now exists, named **"The Holiday Room"** rather than "Blackwell's Sacrifice" — the season's name and story live in the product description instead, so renaming it every rotation doesn't retroactively relabel past bookings and reports. It's set to $25/person, 30 minutes, max 8, private (one group per booking), same waiver as the other rooms.
+- ⚠️ **Its schedule is a single placeholder slot** (Monday 4:30 PM) because the operating hours below have never been confirmed. Until real times are set, the room is marked **staff-only in Bookeo**, so it can't appear on the public booking page even if everything else opens.
 - **Game duration:** 30 minutes (the other four are 60)
 - **Reset time:** 15 minutes (the 30-minute game doesn't need the core rooms' 30-minute reset)
 - **Per-room cycle:** 45 minutes (30-minute game + 15-minute reset)
@@ -76,7 +78,16 @@ A fifth room joins the lineup after launch. It is **not** included in the four-r
 
 | Theme | Name | Runs |
 |-------|------|------|
-| Halloween | **Blackwell's Sacrifice** | Sept 5 → very beginning of November |
+| Halloween | **Blackwell's Sacrifice** | Opening day → very beginning of November |
 | Christmas | *(name TBD)* | Late November → mid-January |
 
+⚠️ The Halloween run is the one dependent on the opening date. If opening lands close to or past Halloween, Blackwell's Sacrifice gets a very short run — worth deciding then whether to hold it for next year and open with the Christmas theme instead.
+
 The shorter game and shorter reset mean this room runs on a 45-minute cycle, so it fits more sessions per hour than the core rooms. Its own slot schedule will be added here once its operating hours are confirmed.
+
+**To finish this room, we need four answers:**
+
+1. Does it run the **same hours** as the core four (4:30 PM weekdays, noon weekends), or its own?
+2. Is the **15-minute reset** right for a 30-minute game? The June 25 decision was "30 minutes between every booking" with no exception noted for this room, so this is currently our assumption, not yours.
+3. **Weekend open and closing time** — still unconfirmed since June, and it also blocks the hours on Google, the website, and the contact page.
+4. Should its slots be **staggered against** the core rooms so one game master isn't starting two rooms at once, or can they overlap?

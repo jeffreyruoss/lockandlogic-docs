@@ -13,6 +13,8 @@ August 15 has passed and the opening was delayed again, with no new date set.
 
 Nothing was lost in the meantime. The website never had its "Book" buttons restored, so no customer could reach booking from the site, and no bookings had been taken.
 
+**Google Business Profile says September 15.** Google requires an opening date on the profile — "coming soon" isn't an option — so September 15, 2026 is in there as a placeholder. Treat it as a Google form field, not a commitment: the website still says "Opening Soon" and names no date. **If the real date lands later, update the profile before September 15 arrives**, or Google will flip the listing to open and start showing the business as trading.
+
 **What we need from you:** a date you're confident in. Public booking, the promotion push, and the tester schedule all key off it.
 :::
 
@@ -97,6 +99,7 @@ The GBP should be **fully set up, verified, and live** by the hard launch (~2 we
 ### GBP readiness checklist
 
 - [ ] Business name, categories, address, phone, and hours filled in
+- [ ] Opening date kept current — September 15, 2026 is a placeholder and must be pushed out if the real date slips (see the warning at the top of this page)
 - [ ] Service area set (Pottstown + surrounding townships — see [SEO Strategy](/seo-strategy) for full list)
 - [ ] Services listed (each room with description and pricing)
 - [ ] Booking link pointing to the live booking page
@@ -173,6 +176,7 @@ This is the loud one. Once the rooms are ready for paying customers:
 |------|------|
 | **✅ 2026-07-25 (done)** | Soft launch: domain switched to Astro site, quiet indexing period begins. No public "Book" links on the site. Room testers book a limited set of slots for free via a direct Bookeo link + one-time codes. No public announcement. |
 | **✅ 2026-08-17 (done)** | Opening delayed again with no new date. Booking closed in Bookeo via a closing period running through the end of 2027 — schedules kept intact underneath, so restoring is a one-step change. |
+| **✅ 2026-08-18 (done)** | Google Business Profile given a September 15 placeholder opening date (Google requires one). The holiday room's own September 5 date dropped — it now opens with the four core rooms and the site says "Coming Soon". |
 | **~2 weeks before grand opening** | Hard launch: full public schedule loaded with pre-grand-opening dates blocked, Book button live, promotion begins, GBP live. Straggler testers via Bookeo hidden-slot links (set up manually). |
 | **Grand opening (no date set)** | Rooms open, press, social announcement, newsletter, ads go live. |
 | **After grand opening** | Growth phase: ongoing content, review collection, seasonal campaigns |

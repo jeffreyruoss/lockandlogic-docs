@@ -153,4 +153,5 @@ A fifth escape room beyond the four in the original proposal — and a unique on
 - Has its own dedicated "Holiday Room" area that keeps an archive of past seasons — when the theme rotates to the next holiday, the previous edition stays browsable instead of disappearing
 - Built around the rotating concept so the name and theme can change each season with no rebuild (first up: Halloween — "Blackwell's Sacrifice"; Christmas next)
 - Shorter 30-minute format at its own $25 price point, alongside the 60-minute core rooms
-- "Coming September 5" treatment with booking held until the room opens
+- Custom concept art for the season's room, blended into the right side of its homepage and rooms-page card
+- "Coming Soon" treatment with booking held until the room opens — it now opens alongside the four core rooms rather than on its own later date
