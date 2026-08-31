@@ -22,7 +22,7 @@ That also explains the pausing that looked unexplainable: with the check inverte
 | Supabase database | `/api/health` runs `SELECT id FROM form_submissions LIMIT 1` | Every 3 min (via Better Stack) |
 | Contact form pipeline (end-to-end) | `/api/health` POSTs to `/api/contact` with a synthetic-bypass header | Every 3 min (via Better Stack) |
 | Mailchimp API (newsletter dependency) | Deep monitor hits `/api/health/?deep=1`, which calls Mailchimp's `/ping` | Every 30 min |
-| Supabase pause prevention | GitHub Actions hits `/api/keepalive` | Daily at 12:00 UTC |
+| Supabase pause prevention | GitHub Actions hits `/api/keepalive` | Daily at 12:41 UTC |
 | **The keepalive job itself still running** | Better Stack heartbeat `477324` — alerts if the daily ping stops | Daily (+3h grace) |
 | **The backup job itself still running** | Better Stack heartbeat `477325` — alerts if the daily ping stops | Daily (+3h grace) |
 
@@ -172,7 +172,7 @@ The Better Stack API token is created at `Better Stack → Settings → API toke
 
 Independent of Better Stack, in case Better Stack is ever unreachable.
 
-- GitHub Actions workflow `.github/workflows/supabase-keepalive.yml`, `cron: '0 12 * * *'` (daily at 12:00 UTC), plus a manual "Run workflow" button
+- GitHub Actions workflow `.github/workflows/supabase-keepalive.yml`, `cron: '41 12 * * *'` (daily at 12:41 UTC — the odd minute is deliberate: top-of-the-hour slots are GitHub's most congested and got the job delayed ~10 hours on 2026-08-27), plus a manual "Run workflow" button
 - It `curl`s `https://lockandlogic.vercel.app/api/keepalive/` (trailing slash required — this `curl` doesn't follow redirects, so the non-slash URL would return an empty 308 body and fail the job) and fails the job unless the response contains `"ok":true` — so a broken keepalive turns the workflow red instead of failing silently
 - It deliberately uses the `vercel.app` URL rather than the custom domain: the job's only purpose is keeping Supabase awake, and that should still work even if the domain alias or DNS breaks
 - `/api/keepalive` runs the same Supabase SELECT and logs `[keepalive] ok` or `[keepalive] supabase error` to Vercel runtime logs

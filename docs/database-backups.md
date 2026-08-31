@@ -29,7 +29,7 @@ Run from the main project on your computer. It writes a timestamped folder, `sup
 
 ### Automatic — daily GitHub Action
 
-A scheduled GitHub Action (`.github/workflows/backup.yml`) runs every **day at 09:00 UTC**, plus on demand. (It ran weekly until 2026-07-29; daily was cheap and means a bad day costs at most 24 hours of form submissions instead of a week's worth.)
+A scheduled GitHub Action (`.github/workflows/backup.yml`) runs every **day at 09:23 UTC**, plus on demand. (The odd minute is deliberate — top-of-the-hour slots are GitHub's most congested and got the job delayed ~10 hours on 2026-08-27. It ran weekly until 2026-07-29; daily was cheap and means a bad day costs at most 24 hours of form submissions instead of a week's worth.)
 
 **It runs entirely on GitHub's servers — not your computer.** Your machine can be off, asleep, or anywhere; the backup still happens in the cloud. The result is uploaded as a **private artifact** attached to that workflow run.
 
