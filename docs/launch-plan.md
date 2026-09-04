@@ -29,7 +29,7 @@ The website says **"Opening Soon"** rather than naming a day, on purpose. Every 
 ::: tip The soft launch has happened
 `lockandlogic.com` and `www.lockandlogic.com` now serve the main website instead of the coming-soon page. Checked and working: SSL on both addresses, the contact form end-to-end, mobile, and the sitemap. No booking links are live anywhere on the site, as planned.
 
-Still to do: get the uptime monitor running again (see [Monitoring](/monitoring)) and switch Bookeo from its test payment mode to live. The coming-soon project is being kept for now as a rollback option.
+Still to do: get the uptime monitor running again (see [Monitoring](/monitoring)) and switch Bookeo from its test payment mode to live. The coming-soon project is being kept for now as a rollback option. The real waiver is now in Bookeo (2026-09-04) — attorney sign-off on the setup is a hard-launch gate, see below.
 
 Google Search Console is set up and the sitemap was resubmitted on 2026-07-29 — the `lockandlogic.com` property lives on the `admin@lockandlogic.com` account and covers both `www` and non-`www`. See [SEO Strategy → Google Search Console](/seo-strategy#google-search-console).
 :::
@@ -132,6 +132,7 @@ Because the site isn't promoted and has no public "Book" links, the only people 
 
 The site goes fully public and promotion begins:
 
+- [ ] **Waiver: attorney sign-off on the Bookeo setup.** The attorney's waiver text is already live in Bookeo (set up 2026-09-04, the recommended Bookeo way). Before the public can book, the attorney needs to confirm two mechanical differences from the paper form — how a minor is identified and the 100-character acknowledgment box. Details: [Booking Flow → Waiver Setup](/booking-flow#waiver-setup).
 - [ ] Load the **full public schedule** in Bookeo, but **block every date before the grand opening** so the public can only book grand-opening dates and beyond
 - [ ] Restore the "Book" buttons/links on the site (and the Bookeo link on `/book`) so booking is publicly accessible again
 - [ ] Start promotion — social, ads, newsletter (see [Public Launch](#public-launch-grand-opening-august-15-2026) below)

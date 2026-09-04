@@ -50,8 +50,8 @@ These are additional booking flow items worth verifying or configuring in Bookeo
 
 ### Waivers & Policies
 
-- **Liability waiver integration** -- Determine whether Bookeo can collect signed waivers during booking or if a separate waiver tool is needed.
-- **Age restrictions / parental consent** -- If any rooms have age limits, configure Bookeo to enforce them or display a notice during booking.
+- ~~**Liability waiver integration** -- Determine whether Bookeo can collect signed waivers during booking or if a separate waiver tool is needed.~~ **Done — Bookeo's waiver add-on handles it.** See [Waiver Setup](#waiver-setup) below.
+- ~~**Age restrictions / parental consent**~~ **Done** — every signer gives a date of birth, and Bookeo requires a parent/guardian signature for anyone under 18. See [Waiver Setup](#waiver-setup).
 
 ### Calendar & Availability
 
@@ -69,6 +69,46 @@ These are additional booking flow items worth verifying or configuring in Bookeo
 
 - **Gift card / voucher support** -- Can customers purchase gift cards through Bookeo? If so, configure redemption flow.
 - **Group/corporate booking rates** -- If you plan to offer discounts for corporate team-building or large groups, set up those pricing tiers.
+
+---
+
+## Waiver Setup
+
+The attorney-drafted waiver ("Release, Waiver, and Rules combo") is live in Bookeo as the **Escape Room Waiver** template and is assigned to all five rooms. It's set up the way Bookeo recommends and the way most escape rooms run their waivers.
+
+### How it works for customers
+
+1. The person booking only enters their own details at checkout — nothing about the rest of their group.
+2. The confirmation and 24-hour reminder emails include a **Sign waiver** button. The booker can forward that link to everyone in the group. A QR code at the front desk and a kiosk login (`kiosk.bookeo.com`) cover anyone who arrives unsigned.
+3. **Each participant signs their own waiver.** When they open the link they enter their name, email, phone, and date of birth, read the full agreement and the rules, tick the required acknowledgment box, and sign (typed or drawn).
+4. **Under 18:** Bookeo uses the date of birth to require a parent/guardian signature automatically. The minor is identified by their own participant record (name + DOB); the parent signs that record.
+5. Each signed waiver is stamped with the signature date/time, IP address, and a tamper-check fingerprint, linked to the booking and the participant, and a PDF copy is emailed to the signer. The participant's details print at the top of the document.
+
+### What's in the template
+
+- Heading + full text of the *Escape Room Assumption of Risk and Release of Liability Agreement* — verbatim from the attorney's document.
+- Heading + full text of the *Escape Room Rules, Media, and Safety Guidelines* (bulleted).
+- A required checkbox: "I have read, understand, and agree to this Agreement and the Rules above." (Bookeo caps checkbox text at 100 characters, so the fuller "By signing below…" language lives in the body text directly above it.)
+- Bookeo supplies the signature block, printed name, date, and contact details itself, so those lines from the paper form are not re-created as fields.
+
+### Bookeo settings behind it
+
+| Where | Setting |
+|---|---|
+| Settings → Waivers → template | Each participant must sign · sign every booking · "Print participant details" on · parent/guardian required for under-18s |
+| Settings → Customer details → Participants | Name, email, phone, **date of birth** all required |
+| Each room → People tab | "Ask for the details of every participant: **when signing the waiver**" (not at booking time — otherwise the booker would have to type everyone's details at checkout) |
+
+Changing the template later never affects waivers already signed.
+
+### For the attorney to confirm
+
+Two places where the online flow differs mechanically from the paper form:
+
+- **Minor's name.** The paper form has a "Printed Name of Minor Child" line. Online, the minor is their own participant record (name + date of birth) and the parent/guardian signs that record — same information, captured by the system instead of a blank line.
+- **Acknowledgment wording.** The tick-box is limited to 100 characters, so it reads "I have read, understand, and agree to this Agreement and the Rules above." The full "By signing below, I acknowledge…" paragraphs sit in the body text immediately above the box.
+
+Attorney sign-off on this setup is a **hard-launch gate** — it must happen before public booking opens. See the [Launch Plan](/launch-plan#2-hard-launch-public-booking-2-weeks-before-grand-opening).
 
 ---
 
