@@ -6,21 +6,15 @@ How we'll transition from the coming-soon page to the live website, and what nee
 
 ## Target Opening
 
-::: warning No opening date (2026-08-17)
-August 15 has passed and the opening was delayed again, with no new date set.
+::: tip Grand opening: Friday, September 19, 2026 (confirmed 2026-09-08)
+**Three rooms open on day one:** Grandma Betty's Secret Recipe, The Initiation, and the seasonal Holiday Room (Blackwell's Sacrifice). **The Forgotten God and Nikola Tesla's Workshop open after the grand opening** — the website marks both "Coming Soon" until they have their own date.
 
-**Booking is closed.** A closing period in Bookeo now blocks every date through the end of 2027, so nobody can book a slot for a day you may not be open. The room schedules underneath are untouched — when you have a date, we delete that one closing period and the full calendar comes straight back. Nothing has to be rebuilt.
+The website now names the date everywhere (homepage, footer, contact, booking page, structured data), and the Google Business Profile was updated to September 19 on 2026-09-08 (change pending on Google's side).
 
-Nothing was lost in the meantime. The website never had its "Book" buttons restored, so no customer could reach booking from the site, and no bookings had been taken.
-
-**Google Business Profile says September 15.** Google requires an opening date on the profile — "coming soon" isn't an option — so September 15, 2026 is in there as a placeholder. Treat it as a Google form field, not a commitment: the website still says "Opening Soon" and names no date. **If the real date lands later, update the profile before September 15 arrives**, or Google will flip the listing to open and start showing the business as trading.
-
-**What we need from you:** a date you're confident in. Public booking, the promotion push, and the tester schedule all key off it.
+**Still to do before opening day:** delete the Bookeo closing period and load the public schedule from September 19, restore the "Book" buttons on the site, and confirm operating hours (needed for Google, the website, and the Bookeo schedules). Booking stays closed until those happen — see the checklist below.
 :::
 
-**Grand opening:** no date. Construction started the week of June 1, 2026. The date has moved repeatedly — originally August 8, briefly postponed, re-confirmed as August 15, publicly announced as postponed on August 9, and delayed again on August 17 with no replacement date.
-
-The website says **"Opening Soon"** rather than naming a day, on purpose. Every slip so far has cost nothing publicly because no customer was ever told a date that then moved.
+**Date history**, for the record: construction started the week of June 1, 2026. The date moved repeatedly — August 8 → postponed → August 15 → publicly postponed August 9 → indefinite as of August 17 — and landed on **September 19** on September 8. The website deliberately said "Opening Soon" with no date through all of it, so none of those slips ever cost anything publicly. September 19 is the first date the site has ever shown.
 
 ---
 
@@ -141,9 +135,9 @@ The site goes fully public and promotion begins:
 
 **Testers who still need to book after this point:** the pre-grand-opening dates are now blocked from the public, so a straggler tester can only be booked via a **Bookeo hidden-slot special link** — set up manually, one slot at a time (tick the *Hidden* checkbox on the date/time and share the secret link). Get the bulk of testers booked during the soft-launch phase to keep these to a minimum.
 
-### 3. Grand opening (date TBD — loud launch)
+### 3. Grand opening (September 19, 2026 — loud launch)
 
-The physical rooms open and we go loud. See [Public Launch](#public-launch-grand-opening-date-tbd) below — press, social, newsletter, and ads. **Grand opening: no date set.** Until there is one, booking stays closed by the Bookeo closing period described at the top of this page.
+The physical rooms open and we go loud. See [Public Launch](#public-launch-grand-opening-september-19-2026) below — press, social, newsletter, and ads. **Three rooms on day one** (Grandma Betty's, The Initiation, the Holiday Room); Forgotten God and Tesla follow after. Booking stays closed by the Bookeo closing period until the pre-opening checklist at the top of this page is done.
 
 ### Verified in Bookeo (2026-08-17)
 
@@ -159,7 +153,7 @@ Two things that turned up while testing, worth knowing before you hand out any f
 
 ---
 
-## Public Launch (Grand Opening — date TBD)
+## Public Launch (Grand Opening — September 19, 2026)
 
 This is the loud one. Once the rooms are ready for paying customers:
 
@@ -178,6 +172,7 @@ This is the loud one. Once the rooms are ready for paying customers:
 | **✅ 2026-07-25 (done)** | Soft launch: domain switched to Astro site, quiet indexing period begins. No public "Book" links on the site. Room testers book a limited set of slots for free via a direct Bookeo link + one-time codes. No public announcement. |
 | **✅ 2026-08-17 (done)** | Opening delayed again with no new date. Booking closed in Bookeo via a closing period running through the end of 2027 — schedules kept intact underneath, so restoring is a one-step change. |
 | **✅ 2026-08-18 (done)** | Google Business Profile given a September 15 placeholder opening date (Google requires one). The holiday room's own September 5 date dropped — it now opens with the four core rooms and the site says "Coming Soon". |
-| **~2 weeks before grand opening** | Hard launch: full public schedule loaded with pre-grand-opening dates blocked, Book button live, promotion begins, GBP live. Straggler testers via Bookeo hidden-slot links (set up manually). |
-| **Grand opening (no date set)** | Rooms open, press, social announcement, newsletter, ads go live. |
+| **✅ 2026-09-08 (done)** | **Grand opening confirmed: September 19**, with three rooms (Grandma Betty's, The Initiation, Holiday Room); Forgotten God and Tesla to follow. Website updated site-wide with the date, the two later rooms marked "Coming Soon", and the Google Business Profile changed to September 19. |
+| **Before September 19** | Hard launch: delete the Bookeo closing period, load the public schedule from opening day (three rooms), restore the Book buttons, confirm hours, promotion begins. Straggler testers via Bookeo hidden-slot links (set up manually). |
+| **2026-09-19 — Grand opening** | Three rooms open: press, social announcement, newsletter, ads go live. |
 | **After grand opening** | Growth phase: ongoing content, review collection, seasonal campaigns |

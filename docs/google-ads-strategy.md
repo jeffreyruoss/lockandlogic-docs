@@ -289,7 +289,7 @@ Google Ads should flex with demand. For the full seasonal content calendar, see 
 |-------|-------------------|-----|
 | **January – March** | Normal | Baseline spend |
 | **April – May** | Pre-launch budget | "Coming Soon" awareness |
-| **August** | +50% | Back-to-school season **and the grand opening** — the biggest push of the year. ⚠️ The August 15 opening was postponed; re-time this ramp to the new date once set. |
+| **August** | +50% | Back-to-school season **and the grand opening** — the biggest push of the year. ⚠️ The opening landed on **September 19, 2026**, so this ramp shifts a month later: treat September/October as the grand-opening push for year one, then settle into this calendar. |
 | **July** | Pre-launch budget | Final ramp before the grand opening. |
 | **September** | +15% | Corporate team building season |
 | **October** | +30% | Halloween — peak escape room season |

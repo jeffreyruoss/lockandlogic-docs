@@ -65,7 +65,7 @@ At an average of 4 players per session at $35/person, that's **$19,040/week** at
 
 A fifth room joins the lineup. It is **not** included in the four-room tables above. It runs as a **limited-time-only** room: each themed version runs roughly **8 weeks**, then the name, theme, and puzzles rotate for the next holiday/season.
 
-- **Opens:** with the four core rooms (client, 2026-08-18 — it used to have its own later September 5 date). The website no longer names a date for it; it just says "Coming Soon".
+- **Opens:** at the grand opening, **September 19, 2026**, alongside Grandma Betty's and The Initiation (client, 2026-09-08). The Forgotten God and Tesla open after the grand opening on their own later date. The website shows "Coming September 19" for this room.
 - **In Bookeo:** the product now exists, named **"The Holiday Room"** rather than "Blackwell's Sacrifice" — the season's name and story live in the product description instead, so renaming it every rotation doesn't retroactively relabel past bookings and reports. It's set to $25/person, 30 minutes, max 8, private (one group per booking), same waiver as the other rooms.
 - ⚠️ **Its schedule is a single placeholder slot** (Monday 4:30 PM) because the operating hours below have never been confirmed. Until real times are set, the room is marked **staff-only in Bookeo**, so it can't appear on the public booking page even if everything else opens.
 - **Game duration:** 30 minutes (the other four are 60)
@@ -78,10 +78,10 @@ A fifth room joins the lineup. It is **not** included in the four-room tables ab
 
 | Theme | Name | Runs |
 |-------|------|------|
-| Halloween | **Blackwell's Sacrifice** | Opening day → very beginning of November |
+| Halloween | **Blackwell's Sacrifice** | September 19 → very beginning of November |
 | Christmas | *(name TBD)* | Late November → mid-January |
 
-⚠️ The Halloween run is the one dependent on the opening date. If opening lands close to or past Halloween, Blackwell's Sacrifice gets a very short run — worth deciding then whether to hold it for next year and open with the Christmas theme instead.
+✅ *Resolved by the September 19 opening date:* the Halloween run gets about six weeks — short of the usual eight, but a real season. The hold-it-for-next-year question is moot.
 
 The shorter game and shorter reset mean this room runs on a 45-minute cycle, so it fits more sessions per hour than the core rooms. Its own slot schedule will be added here once its operating hours are confirmed.
 
