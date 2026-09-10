@@ -11,7 +11,9 @@ How we'll transition from the coming-soon page to the live website, and what nee
 
 The website now names the date everywhere (homepage, footer, contact, booking page, structured data), and the Google Business Profile was updated to September 19 on 2026-09-08 (change pending on Google's side).
 
-**Still to do before opening day:** delete the Bookeo closing period and load the public schedule from September 19, restore the "Book" buttons on the site, and confirm operating hours (needed for Google, the website, and the Bookeo schedules). Booking stays closed until those happen — see the checklist below.
+**Booking went live (privately) on September 10.** The Bookeo closing period was deleted and the booking page now sells real slots from September 19 — the schedules Jenn built: Grand Opening day, then the regular week from September 20. The Forgotten God and Tesla are hidden from the booking page entirely until their opening date is set. The website still has no "Book" buttons, so only someone with the direct Bookeo link can book — that's the private-testing window.
+
+**Still to do before opening day:** test bookings (the tester codes still work — but note the schedules start September 19, so a test would use up a real grand-opening slot unless test slots are added on an earlier date), restore the "Book" buttons on the site (this is the "go public" moment — one deploy, say the word), and confirm the official store hours for Google, the website, and search engines.
 :::
 
 **Date history**, for the record: construction started the week of June 1, 2026. The date moved repeatedly — August 8 → postponed → August 15 → publicly postponed August 9 → indefinite as of August 17 — and landed on **September 19** on September 8. The website deliberately said "Opening Soon" with no date through all of it, so none of those slips ever cost anything publicly. September 19 is the first date the site has ever shown.
@@ -173,6 +175,7 @@ This is the loud one. Once the rooms are ready for paying customers:
 | **✅ 2026-08-17 (done)** | Opening delayed again with no new date. Booking closed in Bookeo via a closing period running through the end of 2027 — schedules kept intact underneath, so restoring is a one-step change. |
 | **✅ 2026-08-18 (done)** | Google Business Profile given a September 15 placeholder opening date (Google requires one). The holiday room's own September 5 date dropped — it now opens with the four core rooms and the site says "Coming Soon". |
 | **✅ 2026-09-08 (done)** | **Grand opening confirmed: September 19**, with three rooms (Grandma Betty's, The Initiation, Holiday Room); Forgotten God and Tesla to follow. Website updated site-wide with the date, the two later rooms marked "Coming Soon", and the Google Business Profile changed to September 19. |
-| **Before September 19** | Hard launch: delete the Bookeo closing period, load the public schedule from opening day (three rooms), restore the Book buttons, confirm hours, promotion begins. Straggler testers via Bookeo hidden-slot links (set up manually). |
+| **✅ 2026-09-10 (done)** | Closing period deleted — **booking is live for September 19+ via the direct Bookeo link** (three rooms; Tesla and Forgotten God hidden until their date). The website has no Book buttons yet, so this is effectively a private testing window. |
+| **Before September 19** | Owner test bookings, restore the Book buttons ("go public"), confirm store hours, promotion begins. |
 | **2026-09-19 — Grand opening** | Three rooms open: press, social announcement, newsletter, ads go live. |
 | **After grand opening** | Growth phase: ongoing content, review collection, seasonal campaigns |
