@@ -17,7 +17,7 @@ features:
     linkText: View Proposal
   - icon: 🚀
     title: Launch Plan
-    details: How we'll transition from coming-soon to live — soft launch done, public booking launch in progress, and the grand opening confirmed for September 19, 2026 with three rooms on day one.
+    details: How we transitioned from coming-soon to live — soft launch done, booking now public, and the grand opening confirmed for September 19, 2026 with three rooms on day one.
     link: /launch-plan
     linkText: View Plan
   - icon: 🧩
