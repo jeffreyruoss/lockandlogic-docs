@@ -105,6 +105,11 @@ features:
     details: Requirements and checklist for the Bookeo booking integration — booking modes, private rooms, discounts, and more.
     link: /booking-flow
     linkText: View Checklist
+  - icon: ↩️
+    title: Cancellations & Refunds
+    details: How to cancel a customer's booking in Bookeo (freeing the slot) and refund their payment in Stripe — step by step, with the 24-hour policy explained.
+    link: /cancellations-and-refunds
+    linkText: View Guide
   - icon: 🆚
     title: Bookeo Embed vs. Hosted Page
     details: The two ways to put booking on the site — the embedded widget vs. Bookeo's hosted page — compared with screenshots, pros, cons, and a recommendation.
