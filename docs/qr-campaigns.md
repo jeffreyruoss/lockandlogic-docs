@@ -56,6 +56,30 @@ For the founders' business cards. Scans land on the homepage.
 
 **Print at 1 inch square or larger.** A business card is the smallest surface these codes go on, and printing much below that makes it unreliable to scan. Give your designer the SVG — it stays sharp at any size, unlike the PNG.
 
+### Google Review Card
+
+⬇️ **Download Google Review code:** [PNG](/qr-codes/qr-code_google_review/qr-code_google_review.png) · [SVG](/qr-codes/qr-code_google_review/qr-code_google_review.svg)
+
+| Detail | Value |
+|--------|-------|
+| **Purpose** | Collecting Google reviews |
+| **Links to** | `https://g.page/r/CRITHPZ8tMVdEBM/review` |
+| **Tracking** | None — see below |
+
+Scanning this opens the star-rating box on your Google listing directly, with the review form already up. No searching for the business, no hunting through Maps — which is exactly why it converts better than telling people to "look us up on Google."
+
+::: tip This code isn't tracked, and that's on purpose
+Every other code on this page sends people to your website, where Analytics can count the visit. This one sends people to Google instead, so there's nothing for Analytics to see. The number to watch is the review count on your Business Profile — that *is* the result.
+:::
+
+**Where to put it:** the best moment to ask is the two minutes right after a game ends, while people are still buzzing. A table tent at the front desk, a card handed over with the team photo, or a sticker by the exit all work. Print it at 1 inch or larger, same as the others.
+
+**How you ask matters more than the code does.** A game master saying "if you had fun, would you mind leaving us a Google review? Just scan this" converts far better than a card sitting silently on a counter. Reviews in the first month or two carry the most weight — they're what makes a brand-new listing look established to both Google and the people deciding where to spend their Friday night.
+
+::: warning Don't offer anything in exchange for reviews
+No discounts, free rooms, or entries into a drawing for leaving a review. Google's policy prohibits incentivised reviews, and enforcement can mean the reviews get deleted or the profile takes a hit. Asking is fine, and asking everyone is fine — paying for it in any form isn't.
+:::
+
 ## Results So Far
 
 **Snapshot taken August 13, 2026 — covering March 31 (first scan) through August 13, 2026.**
@@ -104,6 +128,8 @@ python3 qr-codes/make_qr.py "<tracked-url>" "<slug>" docs/public/qr-codes/<slug>
 ```
 
 It writes a matching PNG and SVG straight into the published folder, using the same module grid, quiet zone, and centered logo as every existing code. Then add a section above with the download links.
+
+The script pins every code to the same grid size on purpose. The logo is a fixed number of squares wide, so a short URL would otherwise produce a small code that the logo covers too much of to scan reliably — which is exactly what happened on the first attempt at the Google review code, since its link is much shorter than the tracked website URLs.
 
 Two reasons this is the default: the design stays identical across codes without eyeballing it, and the result can be decode-tested at several sizes before it goes to print — which is how we confirmed the business card code scans down to the same threshold as the flyer and door sign.
 

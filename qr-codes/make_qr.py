@@ -19,10 +19,14 @@ OUT = Path(sys.argv[3])
 MODULE_PX = 21          # matches the existing codes' 21px module grid
 BORDER = 2              # quiet zone in modules
 LOGO_MODULES = 16       # logo width; knockout adds 1 module of padding
+MIN_VERSION = 8         # the logo is a fixed module count, so a short URL would
+                        # otherwise yield a small grid the logo covers too much
+                        # of to decode reliably. v8 matches the existing codes.
 
 logo_path = Path(__file__).parent / "qr-logo.png"
 
-qr = qrcode.QRCode(error_correction=ERROR_CORRECT_H, border=BORDER, box_size=MODULE_PX)
+qr = qrcode.QRCode(version=MIN_VERSION, error_correction=ERROR_CORRECT_H,
+                   border=BORDER, box_size=MODULE_PX)
 qr.add_data(URL)
 qr.make(fit=True)
 matrix = qr.get_matrix()
