@@ -68,6 +68,12 @@ For the founders' business cards. Scans land on the homepage.
 
 Scanning this opens the star-rating box on your Google listing directly, with the review form already up. No searching for the business, no hunting through Maps — which is exactly why it converts better than telling people to "look us up on Google."
 
+::: warning Reviews won't work until the doors actually open
+Scan it before opening day and Google answers *"Posting is currently turned off — our policies do not permit contributions to this type of place."* That's expected, and the code is not broken. Google won't accept reviews for a business whose listing still says "Opens Sat Sep 19," because nobody can have visited yet.
+
+It should start working once the listing flips to open on September 19. **Test it yourself on opening day before handing any printed cards to customers** — a card that throws an error at a happy customer is worse than no card at all.
+:::
+
 ::: tip This code isn't tracked, and that's on purpose
 Every other code on this page sends people to your website, where Analytics can count the visit. This one sends people to Google instead, so there's nothing for Analytics to see. The number to watch is the review count on your Business Profile — that *is* the result.
 :::
