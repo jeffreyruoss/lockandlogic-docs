@@ -63,12 +63,16 @@ For the founders' business cards. Scans land on the homepage.
 | Detail | Value |
 |--------|-------|
 | **Purpose** | Collecting Google reviews |
-| **Links to** | `https://g.page/r/CRITHPZ8tMVdEAI/review` |
+| **Links to** | `https://g.page/r/CRITHPZ8tMVdEBM/review` |
 | **Tracking** | None — see below |
 
 Scanning this opens the star-rating box on your Google listing directly, with the review form already up. No searching for the business, no hunting through Maps — which is exactly why it converts better than telling people to "look us up on Google."
 
-The link is Google's own, not one we built. To see it yourself: search your business name while signed in to the business account, then click **Get your first review** (later it reads *Get more reviews*) in the panel on the right. The **Review link** box there is the authoritative source — if it ever differs from the link above, Google's wins and the code should be regenerated.
+The link is Google's own, not one we built. To see it yourself: search your business name while signed in to the business account, then click **Get your first review** (later it reads *Get more reviews*) in the panel on the right. The **Review link** box there is where this came from, and Google offers its own plain QR code just below it — the one on this page is the same link with your logo on it, matching your other codes.
+
+::: tip If the link looks slightly different from yours, it's still fine
+Google hands out the review link with slightly different characters on the end depending on where you copy it from — the dashboard, the knowledge panel, a share button. They all encode the same business and all open the same review box; the trailing part only records which Google screen produced the link. So a small mismatch is not a broken link, and there's no need to regenerate the code over it.
+:::
 
 ::: warning Reviews won't work until the doors actually open
 Scan it before opening day and Google answers *"Posting is currently turned off — our policies do not permit contributions to this type of place."* That's expected, and the code is not broken. Google won't accept reviews for a business whose listing still says "Opens Sat Sep 19," because nobody can have visited yet.
