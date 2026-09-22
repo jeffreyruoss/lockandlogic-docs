@@ -3,7 +3,6 @@ import { ref, onMounted, watch } from 'vue'
 import { useData, useRoute } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import PasswordGate from './PasswordGate.vue'
-import CountdownBar from './CountdownBar.vue'
 import Lightbox from './Lightbox.vue'
 
 const isAuthenticated = ref(false)
@@ -128,9 +127,6 @@ function onAuthenticated() {
 <template>
   <!-- Always render Layout so VitePress can hydrate page content on hard navigation -->
   <DefaultTheme.Layout>
-    <template #home-hero-info-after>
-      <CountdownBar />
-    </template>
     <template #doc-before>
       <div v-if="page.lastUpdated && frontmatter.layout !== 'home'" class="last-updated">
         Last updated: {{ new Date(page.lastUpdated).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }) }}
