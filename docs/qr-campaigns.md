@@ -63,8 +63,10 @@ For the founders' business cards. Scans land on the homepage.
 | Detail | Value |
 |--------|-------|
 | **Purpose** | Collecting Google reviews |
-| **Links to** | `https://g.page/r/CRITHPZ8tMVdEBM/review` |
-| **Tracking** | None — see below |
+| **Campaign** | `reviews` |
+| **Source** | `review_card` |
+| **URL** | `https://www.lockandlogic.com/review/?utm_source=review_card&utm_medium=print&utm_campaign=reviews` |
+| **Ends up at** | `https://g.page/r/CRITHPZ8tMVdEBM/review` |
 
 Scanning this opens the star-rating box on your Google listing directly, with the review form already up. No searching for the business, no hunting through Maps — which is exactly why it converts better than telling people to "look us up on Google."
 
@@ -74,14 +76,16 @@ The link is Google's own, not one we built. To see it yourself: search your busi
 Google hands out the review link with slightly different characters on the end depending on where you copy it from — the dashboard, the knowledge panel, a share button. They all encode the same business and all open the same review box; the trailing part only records which Google screen produced the link. So a small mismatch is not a broken link, and there's no need to regenerate the code over it.
 :::
 
-::: warning Reviews won't work until the doors actually open
-Scan it before opening day and Google answers *"Posting is currently turned off — our policies do not permit contributions to this type of place."* That's expected, and the code is not broken. Google won't accept reviews for a business whose listing still says "Opens Sat Sep 19," because nobody can have visited yet.
-
-It should start working once the listing flips to open on September 19. **Test it yourself on opening day before handing any printed cards to customers** — a card that throws an error at a happy customer is worse than no card at all.
+::: tip Confirmed working
+Google blocked reviews before opening day (*"Posting is currently turned off"*) because it won't accept reviews for a business that hasn't opened. That cleared when the listing went open on September 19, and the code was tested and works.
 :::
 
-::: tip This code isn't tracked, and that's on purpose
-Every other code on this page sends people to your website, where Analytics can count the visit. This one sends people to Google instead, so there's nothing for Analytics to see. The number to watch is the review count on your Business Profile — that *is* the result.
+::: tip How this one is tracked
+The code doesn't point straight at Google. It points at **lockandlogic.com/review**, a page on your own site that records the scan and immediately forwards to the review form — visitors just see Google.
+
+Two reasons. First, a code pointing straight at Google is invisible to Analytics, because there's no page of yours to count. Second, and more valuable long-term: **the printed cards point at a URL you control.** If Google ever changes your review link, we change one file and every card already in the wild keeps working.
+
+One honest caveat on the numbers: your site asks visitors to accept cookies, and someone who scans and lands on Google within a second never answers that. Those scans still register, but as estimates rather than exact counts — so read this campaign as a trend, not a precise tally. The number that actually matters is your review count on the Business Profile.
 :::
 
 **Where to put it:** the best moment to ask is the two minutes right after a game ends, while people are still buzzing. A table tent at the front desk, a card handed over with the team photo, or a sticker by the exit all work. Print it at 1 inch or larger, same as the others.
