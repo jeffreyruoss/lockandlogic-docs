@@ -42,6 +42,7 @@ const adminSidebar = [
       { text: '📈 Google Analytics AI', link: '/google-analytics-ai' },
       { text: '📱 QR Code Campaigns', link: '/qr-campaigns' },
       { text: '⭐ Getting Google Reviews', link: '/getting-reviews' },
+      { text: '🔎 SEO & AI Search Reports', link: '/seo-reports' },
       { text: '🕐 Room Schedule', link: '/room-schedule' },
       { text: '📍 Google Business Verification', link: '/google-business-verification' },
       { text: '🎁 Additional Work', link: '/extras' },
