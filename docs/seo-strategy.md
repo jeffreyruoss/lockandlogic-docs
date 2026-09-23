@@ -87,7 +87,7 @@ The technical SEO foundation — meta titles/descriptions, heading hierarchy, im
 
 ### Structured Data (Schema Markup)
 
-Behind-the-scenes code that enables "rich snippets" in Google — star ratings, price ranges, hours, and FAQ answers shown directly in search results. Most competitors don't implement this. Structured data has also become a primary signal for AI search (Google AI Overviews, ChatGPT, Perplexity), which parse it directly to surface factual answers.
+Behind-the-scenes code that enables "rich snippets" in Google — price ranges, hours, and FAQ answers shown directly in search results. Most competitors don't implement this. Structured data has also become a primary signal for AI search (Google AI Overviews, ChatGPT, Perplexity), which parse it directly to surface factual answers.
 
 | Schema Type | What It Shows | Status |
 |-------------|--------------|--------|
@@ -97,7 +97,7 @@ Behind-the-scenes code that enables "rich snippets" in Google — star ratings, 
 | **BreadcrumbList** | Navigation path (Home > Rooms > Nikola Tesla's Workshop) | ✅ Implemented on all sub-pages |
 | **Product** (per room) | Each room with price, description, image, offer | ✅ Implemented on `/rooms/[slug]` |
 | **ItemList** | Listing of all rooms | ✅ Implemented on `/rooms` |
-| **AggregateRating** | Star rating and review count next to listing | ⏳ Add once review base exists |
+| **AggregateRating** | Star rating and review count next to listing | ✖ Not used — see note below |
 | **Event** | Seasonal events (Halloween nights, holiday parties) in Google's event listings | ⏳ Add when programming events |
 
 ### NAP Consistency
@@ -130,12 +130,12 @@ The on-site AI-SEO work is essentially complete — it's the same structured-dat
 | FAQ written in natural question form, incl. AI-style queries ("Where are you located?", "Which room is best for beginners?", "Is it good for a birthday party?") | ✅ Done | Live on `/faq` |
 | Each room page reads as a standalone factual description (who/what/when/where/how much) | ✅ Done | Live |
 | `/llms.txt` published | ✅ Done | Live (see note below) |
-| `AggregateRating` schema (star ratings in AI answers + rich results) | ⏳ Pending | **After first reviews** — code scaffolding is in place, wire to real totals once a review base exists (target 50+ in first 3 months post-launch) |
+| `AggregateRating` schema (star ratings) | ✖ Dropped | Google doesn't allow it here — see note below |
 | `Event` schema (seasonal events in AI/Google listings) | ⏳ Pending | When events are scheduled (e.g. Halloween nights) |
 | Google Business Profile fully populated | ⏳ Pending | ~2 weeks before opening (late July 2026) — AI Overviews lean heavily on GBP data |
 | Authoritative third-party citations with matching NAP | ⏳ Ongoing | Pre-launch + ongoing (directories, press, Chamber) |
 
-> **Do not populate `AggregateRating` with placeholder or invented numbers** — fake ratings violate Google's guidelines and can trigger a manual penalty. It stays commented out in the code until real reviews are flowing.
+> **Why there's no star-rating code on the site:** Google doesn't show stars for ratings a business puts on its own website, and copying your Google review totals into the site's code breaks its rules. Your stars come from your **Google Business Profile** reviews, which show in Maps, search, and AI answers. That's where the effort pays off. See [Getting Google Reviews](/getting-reviews).
 
 ### `llms.txt`
 
