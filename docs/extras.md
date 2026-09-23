@@ -155,3 +155,13 @@ A fifth escape room beyond the four in the original proposal — and a unique on
 - Shorter 30-minute format at its own $25 price point, alongside the 60-minute core rooms
 - Custom concept art for the season's room, blended into the right side of its homepage and rooms-page card
 - "Coming Soon" treatment with booking held until the room opens — it now opens alongside the four core rooms rather than on its own later date
+
+## Event Space Page
+
+A new page for the event space, added after launch. The original proposal covered only the escape room pages.
+
+- Leads with capacity (around 36 guests) and custom pricing, since every event is quoted separately
+- "Perfect For" cards for birthday parties, team building, group outings, and celebrations
+- Its own quote form, so event requests arrive at info@lockandlogic.com like any other message, plus call and email links
+- Linked from the site menu and footer, and marked up so Google and AI search tools know it's an event venue for about 36 people
+- Laid out as a single column for now; switches to a photo + text layout once a photo of the space is ready
