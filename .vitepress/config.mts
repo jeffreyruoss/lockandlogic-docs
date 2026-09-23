@@ -44,6 +44,7 @@ export default defineConfig({
       { text: '📧 Email Opt-In Campaign', link: '/email-opt-in-campaign' },
       { text: '📅 Booking Flow Checklist', link: '/booking-flow' },
       { text: '↩️ Cancellations & Refunds', link: '/cancellations-and-refunds' },
+      { text: '🛎️ Bookeo Front Desk Guide', link: '/bookeo-front-desk' },
       { text: '🆚 Bookeo Embed vs. Hosted Page', link: '/bookeo-embed-vs-hosted' },
       { text: '🎟️ Return Visit Discount', link: '/return-visit-discount' },
       { text: '🎫 Free Room Codes', link: '/free-room-codes' },

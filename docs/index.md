@@ -110,6 +110,11 @@ features:
     details: How to cancel a customer's booking in Bookeo (freeing the slot) and refund their payment in Stripe — step by step, with the 24-hour policy explained.
     link: /cancellations-and-refunds
     linkText: View Guide
+  - icon: 🛎️
+    title: Bookeo Front Desk Guide
+    details: Checking groups in, marking no-shows, and adding a player who wants to pay with their own card, plus a note on sales tax.
+    link: /bookeo-front-desk
+    linkText: View Guide
   - icon: 🆚
     title: Bookeo Embed vs. Hosted Page
     details: The two ways to put booking on the site — the embedded widget vs. Bookeo's hosted page — compared with screenshots, pros, cons, and a recommendation.
