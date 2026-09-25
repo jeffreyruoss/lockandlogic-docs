@@ -2,6 +2,40 @@
 
 > How to give someone a free room — a contractor, a charity donation, a giveaway winner, or a guest you want to make things right with.
 
+**Just testing the booking flow?** Jump to [Test code for the booking flow](#test-code). It's the one code you can use over and over.
+
+---
+
+## 🧪 Test code for the booking flow {#test-code}
+
+::: danger Turn it on, test, turn it off
+**"Jeff Test"** is a 100%-off promotion you can **reuse as many times as you like** to run a real booking all the way to the confirmation page, for $0, without a card.
+
+1. **Turn it on:** Bookeo → **Marketing → Promotions** → "Jeff Test" → switch it on.
+2. **Test** (steps below).
+3. **Turn it off again.** While it's on, anyone who has the code gets a free room.
+4. **Delete the test booking** in Bookeo so that time slot opens back up. Open the booking, **untick "Send email: customer"**, then click **Delete**. Use Delete, not Cancel: Cancel keeps it on record as if a real customer had cancelled.
+:::
+
+**Where's the code?** It's in **Jeff's LastPass**, not on this page. The files behind this site are publicly visible on GitHub, so a working free-room code must never be written here. Ask Jeff if you need it.
+
+### Running a test
+
+1. Open a **Chrome incognito window** (Cmd+Shift+N). Don't use your normal browser. It likely has the analytics opt-out add-on or a saved "Decline" on the cookie banner, and either one stops the test from showing up in Google Analytics. Incognito starts clean every time, just like a new customer.
+2. Go to **lockandlogic.com → Book**. Start on the website rather than the Bookeo link, so the handoff from the site to Bookeo gets tested too.
+3. Pick a room, time and group size, enter the test code at checkout, and confirm. The total should drop to **$0** and no card should be asked for.
+4. **Check that Google Analytics saw it:** open GA4 → **Reports → Realtime** and look for **`begin_checkout`** and **`purchase`** events. For an instant check instead, open DevTools (Cmd+Option+I) → **Network**, filter by `collect`, and look for requests with `en=purchase` in them.
+5. Turn the promotion off, then delete the booking.
+
+Deleting the booking in Bookeo doesn't remove it from Google Analytics, which records it the moment it's made. So when reading GA booking numbers, remember which days you ran a test.
+
+### Everyday browsing vs. testing
+
+- **Everyday:** use your normal browser with the [Google Analytics Opt-out Add-on](https://tools.google.com/dlpage/gaoptout) installed and left on. Your own visits to the site and Bookeo won't count as customers.
+- **Testing:** use an incognito window, where extensions (including the opt-out) are off by default, so you *are* counted and can watch the test arrive.
+
+See also: [Room Tester Free Codes](/booking-flow#room-tester-free-codes) (the original single-use tester codes) · [Google Analytics](/google-analytics-ai#testing-the-booking-flow)
+
 ---
 
 ## How it works

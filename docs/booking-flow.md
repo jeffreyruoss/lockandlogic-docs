@@ -114,6 +114,10 @@ Attorney sign-off on this setup is a **hard-launch gate** — it must happen bef
 
 ## Room Tester Free Codes
 
+::: tip Testing the booking flow yourself?
+Use the reusable **"Jeff Test"** code. It works any number of times, unlike the single-use codes below. See [Test code for the booking flow](/free-room-codes#test-code).
+:::
+
 Before the public launch, room testers (friends, family, invited guests) should be able to book and play for free. The plan is to give each tester a unique, one-time code (e.g. `Test01`, `Test02`, …) so their booking is free and we can track who used which code.
 
 ### How to set it up in Bookeo

@@ -35,6 +35,13 @@ Your print marketing materials can include QR codes with built-in tracking. When
 
 See [QR Code Campaigns](/qr-campaigns) for details on active campaigns and how to add new ones.
 
+## Testing the Booking Flow
+
+Google Analytics follows each visitor from the website into Bookeo's checkout and records every completed booking, including the room, the price and where the customer came from.
+
+- **To test it end to end** without paying, use the reusable test code. Full steps are in [Test code for the booking flow](/free-room-codes#test-code).
+- **To keep your own visits out of the numbers**, install the [Google Analytics Opt-out Add-on](https://tools.google.com/dlpage/gaoptout) in the browser you normally use and leave it on. Use an incognito window when you *want* to be counted, for a test.
+
 ## How to Use It
 
 This integration runs through your developer's AI assistant. When you want to check analytics, just ask — your developer can pull the data in seconds and share the results with you. No GA4 login needed on your end.

@@ -127,7 +127,7 @@ features:
     linkText: View Details
   - icon: 🎫
     title: Free Room Codes
-    details: How to comp a whole room for a contractor, charity donation, or giveaway winner — five ready-to-use offers with single-use codes.
+    details: How to comp a whole room for a contractor, charity donation, or giveaway winner — five ready-to-use offers with single-use codes. Plus the reusable test code for trying the booking flow yourself.
     link: /free-room-codes
     linkText: View Guide
   - icon: 🚫
