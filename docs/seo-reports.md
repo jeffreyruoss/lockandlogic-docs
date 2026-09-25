@@ -84,6 +84,8 @@ Worth noticing: **Morty is already sending people**, and the business cards are 
 
 ::: info About these numbers
 Your site asks visitors for cookie consent, and people who never answer the banner are counted by estimate rather than exactly. The trends are reliable; treat any single number as approximate.
+
+As of September 25, US visitors are counted unless they click Decline, so visitor numbers from that date on are more complete and will look higher. That's better measurement, not a jump in traffic.
 :::
 
 ### Fixed this month
@@ -93,6 +95,7 @@ Your site asks visitors for cookie consent, and people who never answer the bann
 - **FAQ links to a removed group-booking page** were pointed at the contact page instead.
 - **The post-game email** was asking for a Google review with no button to click. It now has one.
 - **The review QR code** is now tracked, so scans can be counted.
+- **Bookings are now tracked end to end.** Google Analytics used to lose people the moment they left for Bookeo. It now sees each step through checkout and every completed booking, so you can tell where people drop off.
 
 ### What's next
 
