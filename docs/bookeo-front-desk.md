@@ -1,6 +1,6 @@
 # Bookeo Front Desk Guide
 
-> Everyday Bookeo tasks at the front desk: checking groups in, marking no-shows, and adding a player who wants to pay with their own card. Plus a note on sales tax.
+> Everyday Bookeo tasks at the front desk: checking groups in, marking no-shows, adding a player who wants to pay with their own card, and moving a booking to another day or time. Plus a note on sales tax.
 
 ---
 
@@ -76,6 +76,35 @@ If the player pays cash or on a card reader instead, use **Payment → record a 
 
 ---
 
+## Moving a booking to another day or time
+
+For when someone booked the wrong slot. Moving the booking keeps their payment attached, so you don't need to refund or charge anything. The old slot opens back up for sale automatically.
+
+1. Find the booking, then click the **blue name bar** to open the booking record.
+2. In the **When** section, click **Find** to see open dates and times, or pick the new **Date** and time from the dropdowns.
+3. Leave **Send email: customer** ticked so they get an updated confirmation with the new date.
+4. Click **Save**.
+
+### Joining another group's slot
+
+Rooms are **private**: once one group books a slot, Bookeo shows it as full ("0 available") and won't let anyone else in, including a booking you're moving. To put a second group in the same slot, briefly open the slot to one more booking:
+
+1. **Open up the target slot.** On the Calendar, click the time-slot row the group is joining. At the top of the window, set **Private** to **no** and **Seats** to the total players (e.g. **4** for 2 + 2). Click **Save**.
+2. **Move the booking** into that slot using the steps above.
+3. **Set the slot back.** Click the time-slot row again, set **Private** to **yes (default)** and **Seats** to **8 (default)**, and click **Save**.
+
+Setting **Seats** to the combined total means the slot is full right after the move, so no stranger can book the empty seats in between.
+
+The slot now shows **both bookings** (e.g. 4 booked). They stay as two separate bookings, each with its own payment, confirmation, and waivers. That's fine: they play together as one group.
+
+::: tip Rather merge them into one booking?
+You can instead add the players to the existing booking (**Participants +**), then cancel the other booking with a refund. That means refunding one card and collecting again with a payment request, so moving the booking is usually simpler.
+:::
+
+**Bookeo help:** [Reschedule a booking from the calendar](https://support.bookeo.com/hc/en-us/articles/360017925672-How-can-I-reschedule-a-booking-from-my-Bookeo-Calendar) · [Overbook a slot](https://support.bookeo.com/hc/en-us/articles/360017924512-Can-I-overbook-a-tour-class-workshop)
+
+---
+
 ## Sales tax
 
 Bookeo has **no sales tax set up**, so it records each $35 ticket as $35 of sales with no tax line. None of its reports can show tax collected.
@@ -92,4 +121,6 @@ Bookeo can split the tax out of the $35 automatically for **new** bookings (Sett
 | Mark a no-show | Open the booking record (after start time) | **No-show** → **Yes, mark as a no-show** → **Ok** |
 | Add a player who pays separately | Booking record → Participants **+** → Save | **Payment** → **send a payment request** → Save |
 | Record cash / card-reader payment | Booking record | **Payment** → **record a manual payment** |
+| Move a booking to another day/time | Booking record → **When** | **Find** → pick the slot → **Save** |
+| Put a group into another group's slot | Target slot: **Private** no, **Seats** = total → Save | Move the booking, then set the slot back to the defaults |
 | Cancel or refund | See [Cancellations & Refunds](/cancellations-and-refunds) | |
