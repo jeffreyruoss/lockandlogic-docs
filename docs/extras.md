@@ -166,3 +166,13 @@ A new page for the event space, added after launch. The original proposal covere
 - Its own quote form, so event requests arrive at info@lockandlogic.com like any other message, plus call and email links
 - Linked from the site menu and footer, and marked up so Google and AI search tools know it's an event venue for about 36 people
 - Laid out as a single column for now; switches to a photo + text layout once a photo of the space is ready
+
+## Game Nights Page
+
+A new page for walk-in game play in the event space, built from the owners' idea after launch. Not part of the original proposal.
+
+- Explains the setup at a glance: $10 per person paid at the front desk, games available first come first served, bring your own food and drinks
+- Notes that hours change day to day with private events, with buttons to the Facebook and Instagram pages where each day's hours are posted
+- Asks players to start games that take 2 hours or more before 7:30 PM
+- Includes a game-night photo and links back to the escape rooms and booking
+- Built and kept hidden (out of the menus and search results) until the owners approve it, so it can go live in minutes
