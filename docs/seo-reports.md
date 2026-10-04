@@ -86,6 +86,8 @@ Worth noticing: **Morty is already sending people**, and the business cards are 
 Your site asks visitors for cookie consent, and people who never answer the banner are counted by estimate rather than exactly. The trends are reliable; treat any single number as approximate.
 
 As of September 25, US visitors are counted unless they click Decline, so visitor numbers from that date on are more complete and will look higher. That's better measurement, not a jump in traffic.
+
+In early October the cookie pop-up was limited to visitors in Europe, the UK and Switzerland, where the law requires it. US visitors no longer see a Decline button on their first visit, so counts from then on are more complete again and will look a little higher.
 :::
 
 ### Fixed this month

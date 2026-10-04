@@ -100,9 +100,9 @@ Created trackable QR codes with UTM parameters for print marketing materials.
 
 Privacy-compliant tracking on the Astro site, set up to match the standards already in place on the coming-soon page.
 
-- Cookie consent banner with accept / reject controls
+- Cookie consent banner with accept / reject controls, shown to visitors in the EU, UK and Switzerland, where the law requires it
 - "Cookie Preferences" link in the footer so customers can change their choice anytime
-- US visitors are counted by default; anyone who clicks Decline is not tracked, and visitors in the EU, UK and Switzerland are only counted if they accept
+- US visitors are counted by default; anyone who opts out, or whose browser sends a "do not track" (Global Privacy Control) signal, is not tracked, and visitors in the EU, UK and Switzerland are only counted if they accept
 - Advertising cookies are never set unless the visitor clicks "Accept all"
 - Same GA4 property as the coming-soon page so traffic data carries through the launch
 
