@@ -175,4 +175,4 @@ A new page for walk-in game play in the event space, built from the owners' idea
 - Notes that hours change day to day with private events, with buttons to the Facebook and Instagram pages where each day's hours are posted
 - Asks players to start games that take 2 hours or more before 7:30 PM
 - Includes a game-night photo and links back to the escape rooms and booking
-- Built and kept hidden (out of the menus and search results) until the owners approve it, so it can go live in minutes
+- Approved by the owners and published October 9: added to the main menu and footer, and open to Google
