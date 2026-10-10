@@ -165,7 +165,6 @@ A new page for the event space, added after launch. The original proposal covere
 - "Perfect For" cards for birthday parties, team building, group outings, and celebrations
 - Its own quote form, so event requests arrive at info@lockandlogic.com like any other message, plus call and email links
 - Linked from the site menu and footer, and marked up so Google and AI search tools know it's an event venue for about 36 people
-- Laid out as a single column for now; switches to a photo + text layout once a photo of the space is ready
 
 ## Game Nights Page
 
