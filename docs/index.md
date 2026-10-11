@@ -150,9 +150,9 @@ features:
     details: Reviews are the highest-value thing you can do right now — what actually works to get them, in order, and the mistakes that can get your profile penalised.
     link: /getting-reviews
     linkText: View Guide
-  - icon: 🔎
-    title: SEO & AI Search Reports
-    details: Monthly snapshot of how people find you on Google, Google Maps and ChatGPT — what's working, what isn't yet, and what to do next.
+  - icon: 📊
+    title: Monthly Reports
+    details: Each month at a glance — bookings, how people find you on Google, Google Maps and ChatGPT, site health and security updates, and what to do next.
     link: /seo-reports
     linkText: View Reports
   - icon: 📱
