@@ -162,7 +162,9 @@ A fifth escape room beyond the four in the original proposal — and a unique on
 A new page for the event space, added after launch. The original proposal covered only the escape room pages.
 
 - Leads with capacity (around 36 guests) and custom pricing, since every event is quoted separately
-- "Perfect For" cards for birthday parties, team building, group outings, and celebrations
+- "Two Ways to Book": the room on its own, or the room plus up to 3 escape rooms at once
+- "Perfect For" cards for team building, networking events, and private gatherings
+- A "Good to Know" section: food, cleanup, cancellations, parking
 - Its own quote form, so event requests arrive at info@lockandlogic.com like any other message, plus call and email links
 - Linked from the site menu and footer, and marked up so Google and AI search tools know it's an event venue for about 36 people
 

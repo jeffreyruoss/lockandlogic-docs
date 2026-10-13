@@ -73,7 +73,7 @@ In September we said reviews were what would move you. You went from 3 reviews t
   { label: 'escape rooms near me', value: 30 },
 ]" />
 
-**"Things to do in Pottstown" is your biggest search**, bigger than "escape room". People who aren't looking for an escape room yet are finding you, so posts about Game Nights, the event space and Blackwell's are worth putting on your profile.
+**"Things to do in Pottstown" is your biggest search**, bigger than "escape room". People who aren't looking for an escape room yet are finding you, so posts about Game Nights and Blackwell's are worth putting on your profile.
 
 October's numbers so far (Oct 1–7, Google's data runs a few days behind): 79 interactions, 47 website clicks, 30 direction requests, 2 calls.
 
@@ -178,7 +178,6 @@ One more change came with the new version: it would have stored the site's passw
 
 ### Fixed and improved this month
 
-- **Event Space page** for parties and team building, with a quote form, live before the space opened on October 1.
 - **Game Nights page** published, in the menu and open to Google.
 - **Bookings are now tracked from the website through Bookeo's checkout**, including where each customer came from (Google, Facebook, Morty, QR codes).
 - **Better on phones** (about 4 in 5 of your visitors): a Book Now button in the header, the booking button first on the Book page, and the cookie pop-up only shown to visitors in Europe, where the law requires it.
@@ -194,7 +193,7 @@ One more change came with the new version: it would have stored the site's passw
 
 1. **Halloween is three weeks away and Blackwell's ends with it.** Google hasn't shown your site for a single Halloween search yet. We've retitled Blackwell's page to fix that on the website side; a few Google profile and Facebook posts that say *Halloween escape room* (with a photo and a Book link) are the fastest way to fix that this month.
 2. **Keep the reviews coming.** They took you from 9th to 1st. Google weighs recent reviews, so a steady flow keeps you there.
-3. **Post to your Google profile weekly.** "Things to do in Pottstown" is your top search, so Game Nights, the event space and Blackwell's all fit.
+3. **Post to your Google profile weekly.** "Things to do in Pottstown" is your top search, so Game Nights and Blackwell's both fit.
 4. **Mention the newsletter at the front desk**, or ask us about a newsletter opt-in at Bookeo's checkout. No one signed up this month.
 
 Next report: mid-November.
