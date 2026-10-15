@@ -23,8 +23,8 @@ That also explains the pausing that looked unexplainable: with the check inverte
 | Contact form pipeline (end-to-end) | `/api/health` POSTs to `/api/contact` with a synthetic-bypass header | Every 3 min (via Better Stack) |
 | Mailchimp API (newsletter dependency) | Deep monitor hits `/api/health/?deep=1`, which calls Mailchimp's `/ping` | Every 30 min |
 | Supabase pause prevention | GitHub Actions hits `/api/keepalive` | Daily at 12:41 UTC |
-| **The keepalive job itself still running** | Better Stack heartbeat `477324` — alerts if the daily ping stops | Daily (+3h grace) |
-| **The backup job itself still running** | Better Stack heartbeat `477325` — alerts if the daily ping stops | Daily (+3h grace) |
+| **The keepalive job itself still running** | Better Stack heartbeat `477324` — alerts if the daily ping stops | Daily (+12h grace) |
+| **The backup job itself still running** | Better Stack heartbeat `477325` — alerts if the daily ping stops | Daily (+12h grace) |
 
 A failure of any of those checks turns the relevant Better Stack monitor red; alerts fire after the monitor's confirmation period (180s for the uptime monitor, 300s for the deep monitor).
 
@@ -190,10 +190,10 @@ Heartbeats invert that. Each job pings a URL **on success**; if the expected pin
 
 | Heartbeat | ID | Pinged by | Expects | Alerts |
 |---|---|---|---|---|
-| L&L Supabase keepalive | `477324` | `supabase-keepalive.yml` | ping every 24h | email after 27h of silence |
-| L&L daily Supabase backup | `477325` | `backup.yml` | ping every 24h | email after 27h of silence |
+| L&L Supabase keepalive | `477324` | `supabase-keepalive.yml` | ping every 24h | email after 36h of silence |
+| L&L daily Supabase backup | `477325` | `backup.yml` | ping every 24h | email after 36h of silence |
 
-**Why 3 hours of grace?** GitHub's scheduled workflows are routinely late under load — sometimes by an hour or more. A tight window would alert on normal lateness instead of real failure.
+**Why 12 hours of grace?** GitHub starts scheduled workflows late, and the delay changes from day to day: these two jobs routinely start 3–10 hours after their scheduled time. The grace was 3 hours until 2026-10-14; on 10/12 one early run followed by a late one put more than 27 hours between pings, and both heartbeats sent false alarms. With 12 hours, normal lateness never alerts, and a day the job really doesn't run still alerts within about a day and a half.
 
 **Why email and not a phone call?** A cron that missed one run isn't a 4am problem. The uptime monitor pages you; the heartbeats email you. Keeping those tiers distinct is what stops alert fatigue.
 
