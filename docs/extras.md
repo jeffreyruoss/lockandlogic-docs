@@ -177,3 +177,14 @@ A new page for walk-in game play in the event space, built from the owners' idea
 - Asks players to start games that take 2 hours or more before 7:30 PM
 - Includes a game-night photo and links back to the escape rooms and booking
 - Approved by the owners and published October 9: added to the main menu and footer, and open to Google
+
+## Events Page — Murder Mystery Fundraiser
+
+A new Events page and homepage feature for "Lock, Paper, Scissors," the murder mystery fundraiser with Changemaker Inc. on January 22. Built at the owners' request after launch; not part of the original proposal.
+
+- An Events page with the story, what each ticket includes, the two ticket types, the prizes, and the event flyer
+- "Get Tickets" buttons that send guests straight to Changemaker's Zeffy page, which handles registration and payment
+- A featured card on the homepage, right after the escape rooms
+- An "Events" link in the site menu and footer
+- Marked up so Google can show it as an event, with the flyer as the preview image when the link is shared on Facebook or in a text
+- Shared as a preview for the owners to approve before it goes live
