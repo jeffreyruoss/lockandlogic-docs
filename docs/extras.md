@@ -187,4 +187,4 @@ A new Events page and homepage feature for "Lock, Paper, Scissors," the murder m
 - A featured card on the homepage, right after the escape rooms
 - An "Events" link in the site menu and footer
 - Marked up so Google can show it as an event, with the flyer as the preview image when the link is shared on Facebook or in a text
-- Shared as a preview for the owners to approve before it goes live
+- Approved by the owners and live on the site October 24
