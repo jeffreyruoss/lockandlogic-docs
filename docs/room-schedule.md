@@ -78,8 +78,10 @@ A fifth room joins the lineup. It is **not** included in the four-room tables ab
 
 | Theme | Name | Runs |
 |-------|------|------|
-| Halloween | **Blackwell's Sacrifice** | September 19 → very beginning of November |
-| Christmas | *(name TBD)* | Late November → mid-January |
+| Halloween | **Blackwell's Sacrifice** | September 19 → November 2, 2026 *(retired)* |
+| Christmas | **8 Tiny Reindeer** | November 27, 2026 (Black Friday) → end date TBD |
+
+Between seasons (November 3–26) the Holiday Room has no open slots in Bookeo, and the website shows it as retired with the next season coming.
 
 ✅ *Resolved by the September 19 opening date:* the Halloween run gets about six weeks — short of the usual eight, but a real season. The hold-it-for-next-year question is moot.
 
