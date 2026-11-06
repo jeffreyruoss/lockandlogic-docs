@@ -10,7 +10,8 @@ This is a working draft. **Updated June 28, 2026:** the client confirmed **Monda
 - **Reset time:** 30 minutes between sessions (core rooms; up from 15)
 - **Per-room cycle:** 90 minutes (60-minute game + 30-minute reset)
 - **Stagger:** Each room starts 15 minutes after the previous one
-- **First game:** 4:30 PM Mon–Fri · 12:00 PM Sat–Sun
+- **Open days:** closed Tuesdays (since November 4, 2026)
+- **First game:** 4:30 PM Mon, Wed–Fri · 12:00 PM Sat–Sun
 - **Cost:** $35/person (tax included)
 - **Players:** 2–8 per room
 
@@ -18,7 +19,9 @@ This is a working draft. **Updated June 28, 2026:** the client confirmed **Monda
 
 ---
 
-## Monday – Friday
+## Monday, Wednesday – Friday
+
+Closed Tuesdays since November 4, 2026. To open on a holiday Tuesday: add Bookeo times for that day, a pop-up or banner on the website, and holiday hours on Google Business Profile.
 
 **First game 4:30 PM · 4 sessions per room**
 
@@ -51,11 +54,11 @@ This is a working draft. **Updated June 28, 2026:** the client confirmed **Monda
 
 | Day | Sessions per Room | Total Sessions (4 rooms) |
 |-----|-------------------|--------------------------|
-| Monday – Friday (×5) | 4 | 80 |
+| Monday, Wednesday – Friday (×4) | 4 | 64 |
 | Saturday – Sunday (×2) | 7 | 56 |
-| **Weekly Total** | | **136** |
+| **Weekly Total** | | **120** |
 
-At an average of 4 players per session at $35/person, that's **$19,040/week** at full capacity (core rooms only — the holiday room is separate).
+At an average of 4 players per session at $35/person, that's **$16,800/week** at full capacity (core rooms only — the holiday room is separate).
 
 > Reflects the confirmed 4:30 PM weekday open and 30-minute core-room reset. Weekday capacity is lower than the weekend because the later open fits 4 sessions per room instead of 7. If the client later confirms an earlier weekend-style open on some weekdays, these numbers will rise.
 

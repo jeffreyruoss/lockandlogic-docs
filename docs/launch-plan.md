@@ -13,7 +13,7 @@ The website now names the date everywhere (homepage, footer, contact, booking pa
 
 **Booking went live (privately) on September 10**, when the Bookeo closing period was deleted, and **fully public on September 11** on the owners' go-ahead: every "Book" button is back on the website, and anyone can now book Grandma Betty's, The Initiation, or Blackwell's Sacrifice for September 19 and beyond. The Forgotten God and Tesla stay hidden from the booking page (and marked "Coming Soon" on the site) until their opening date is set.
 
-**Official store hours confirmed September 11:** Monday–Friday 4:30 PM–10:00 PM, Saturday–Sunday 12:00 PM–10:00 PM. Now on the website (contact page, search-engine structured data, llms.txt); the owners are updating the Google Business Profile to match.
+**Official store hours confirmed September 11:** Monday–Friday 4:30 PM–10:00 PM, Saturday–Sunday 12:00 PM–10:00 PM. Now on the website (contact page, search-engine structured data, llms.txt); the owners are updating the Google Business Profile to match. **Changed November 4:** closed Tuesdays, so weekdays are now Monday and Wednesday–Friday 4:30 PM–10:00 PM (website and Google Business Profile updated November 5).
 
 **Still to do before opening day:** promotion, and the attorney's sign-off on the waiver setup (being chased — see below).
 :::
