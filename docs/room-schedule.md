@@ -69,7 +69,7 @@ At an average of 4 players per session at $35/person, that's **$16,800/week** at
 A fifth room joins the lineup. It is **not** included in the four-room tables above. It runs as a **limited-time-only** room: each themed version runs roughly **8 weeks**, then the name, theme, and puzzles rotate for the next holiday/season.
 
 - **Opens:** at the grand opening, **September 19, 2026**, alongside Grandma Betty's and The Initiation (client, 2026-09-08). The Forgotten God and Tesla open after the grand opening on their own later date. The website shows "Coming September 19" for this room.
-- **In Bookeo:** the product now exists, named **"The Holiday Room"** rather than "Blackwell's Sacrifice" — the season's name and story live in the product description instead, so renaming it every rotation doesn't retroactively relabel past bookings and reports. It's set to $25/person, 30 minutes, max 8, private (one group per booking), same waiver as the other rooms.
+- **In Bookeo:** one product carries every season. It was set up as **"The Holiday Room"** so the season's name and story could live in the description, but it was later renamed for the season and is currently **"Blackwell's Sacrifice"** (checked November 9, 2026). It gets the Eight Tiny Reindeer name, description and image before the Christmas slots open. It's set to $25/person, 30 minutes, max 8, private (one group per booking), same waiver as the other rooms.
 - ⚠️ **Its schedule is a single placeholder slot** (Monday 4:30 PM) because the operating hours below have never been confirmed. Until real times are set, the room is marked **staff-only in Bookeo**, so it can't appear on the public booking page even if everything else opens.
 - **Game duration:** 30 minutes (the other four are 60)
 - **Reset time:** 15 minutes (the 30-minute game doesn't need the core rooms' 30-minute reset)
@@ -82,7 +82,7 @@ A fifth room joins the lineup. It is **not** included in the four-room tables ab
 | Theme | Name | Runs |
 |-------|------|------|
 | Halloween | **Blackwell's Sacrifice** | September 19 → November 2, 2026 *(retired)* |
-| Christmas | **8 Tiny Reindeer** | November 27, 2026 (Black Friday) → end date TBD |
+| Christmas | **Eight Tiny Reindeer** | November 27, 2026 (Black Friday) → January 17, 2027 |
 
 Between seasons (November 3–26) the Holiday Room has no open slots in Bookeo, and the website shows it as retired with the next season coming.
 
