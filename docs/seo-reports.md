@@ -6,6 +6,179 @@ Newest report first. Each one is a snapshot; ask your developer any time for cur
 
 ---
 
+## November 2026 — Second month open
+
+**Covers October 11 to November 9, 2026.** Comparisons are with the October report.
+
+### The short version
+
+- **50 bookings this month (≈ $4,840).** The busiest week was October 17–23. Bookings slowed after Halloween, when Blackwell's closed.
+- **The Forgotten God opened on November 9** and already has 3 bookings.
+- **Your reviews keep climbing: 32, all 5 stars**, up from 23. ChatGPT still recommends you first.
+- **Fewer clicks from Google (293, down from 385)**, mostly from fewer people searching your name now the opening buzz has settled. More people found you without knowing your name: clicks from *escape room near me* doubled.
+- **The site was up the whole month**, all 4 enquiry emails arrived, and the nightly backup ran every night.
+- **Christmas is the next opportunity.** Blackwell's never showed up in a Halloween search, so Eight Tiny Reindeer is getting a head start. See [What's next](#whats-next-november).
+
+<StatTiles :tiles="[
+  { label: 'Bookings', value: '50', was: 'was 57 in opening month' },
+  { label: 'Google reviews', value: '32 ★5.0', was: 'was 23' },
+  { label: 'Website visitors', value: '516', was: 'was 597' },
+  { label: 'Clicks from Google', value: '293', was: 'was 385' },
+  { label: 'Copilot mentions', value: '12', note: 'new: Microsoft\'s AI' },
+  { label: 'Site uptime', value: '100%', note: 'no outages' },
+]" />
+
+### Bookings
+
+<BarList title="Bookings by week (when the booking was made)" :rows="[
+  { label: 'Oct 11–16', value: 10 },
+  { label: 'Oct 17–23', value: 13 },
+  { label: 'Oct 24–30', value: 10 },
+  { label: 'Oct 31 – Nov 6', value: 8 },
+  { label: 'Nov 7–9 (3 days)', value: 9 },
+]" />
+
+<BarList title="Bookings by room" :rows="[
+  { label: 'Grandma Betty\'s Secret Recipe', value: 21 },
+  { label: 'The Initiation', value: 14 },
+  { label: 'Blackwell\'s Sacrifice (Holiday Room)', value: 12 },
+  { label: 'The Forgotten God (opened Nov 9)', value: 3 },
+]" />
+
+36 were booked online and 14 at the front desk. People are booking ahead: 4 of this month's bookings are for December. Counts are from Bookeo; 1 cancelled booking isn't counted.
+
+### Google Maps
+
+When someone searches *escape room pottstown pa*, **your website is the first result and your profile fills the side panel**, with the right address, phone and hours (it correctly shows *Closed* on Tuesdays).
+
+You now have **32 reviews, all 5 stars** (23 last month), and all but one have a reply. Keep asking every group.
+
+**Your Google profile in October** (September in brackets):
+
+<StatTiles :tiles="[
+  { label: 'Profile views', value: '1,137', was: 'was 772' },
+  { label: 'Website clicks', value: '246', was: 'was 212' },
+  { label: 'Direction requests', value: '128', was: 'was 78' },
+  { label: 'Calls', value: '11', was: 'was 7' },
+]" />
+
+<BarList title="What people searched when your profile showed up (October)" :rows="[
+  { label: 'escape room', value: 141 },
+  { label: 'escape room near me', value: 67 },
+  { label: 'things to do in pottstown pa', value: 61 },
+  { label: 'escape room pottstown pa', value: 54 },
+  { label: 'escape rooms near me', value: 52 },
+]" />
+
+**Your profile is doing more work than your website for new customers.** Views rose by half and direction requests by 64%, and *escape room* (people who don't know you yet) is now your top profile search, ahead of *things to do in Pottstown*.
+
+### Google Search
+
+<StatTiles :tiles="[
+  { label: 'Clicks from Google', value: '293', was: 'was 385' },
+  { label: 'Times you appeared', value: '1,238', was: 'was 1,087' },
+  { label: 'Click rate', value: '24%', was: 'was 35%' },
+  { label: 'Average position', value: '6.4', was: 'was 3.6' },
+]" />
+
+**You're showing up more often (1,238 times) but in broader searches**, like *escape room* and *escape room near me*, where you're further down the page. That's why the click rate and average position look worse; it's a sign Google is testing you for bigger searches.
+
+<BarList title="Searches that brought clicks, other than your name (Oct 9 – Nov 7)" :rows="[
+  { label: 'escape room pottstown pa', value: 27, note: 'average position 1.4' },
+  { label: 'escape room pottstown', value: 11, note: 'average position 1.5' },
+  { label: 'pottstown escape room', value: 10, note: 'average position 1.2' },
+  { label: 'escape room near me', value: 10, note: 'was 5; average position 5.8' },
+  { label: 'escape room', value: 8, note: 'was 2; average position 8.4' },
+  { label: 'escape rooms near me', value: 7, note: 'was 5; average position 5.3' },
+]" />
+
+Your name (*lock and logic pottstown*) brought another 122 clicks (140 last month). Fewer people searching your name is normal after an opening month. Searches like *escape room near me* are the ones that bring new customers, and they're growing.
+
+**No Halloween searches found you this season.** Google never showed the site for a Halloween search, even after Blackwell's page was retitled. Seasonal pages need a few weeks' head start, so Eight Tiny Reindeer's page went to Google on November 9, more than two weeks before it opens.
+
+### AI assistants
+
+- **ChatGPT** (*"escape room pottstown pa"*): lists Lock & Logic first, as *"the best match directly in Pottstown"*, with your 5-star rating, address, $35 price, and all four rooms with the right difficulty, including The Forgotten God and Tesla's Workshop as coming soon.
+- **Microsoft Copilot** cited your site 12 times in its answers in its first week of reporting (November 3–9). This is new: your site has been set up with Bing since October 31.
+
+### Where website visitors came from
+
+<BarList title="Visits, Oct 11 – Nov 9" :rows="[
+  { label: 'Google and other search engines', value: 408 },
+  { label: 'Typed the address / bookmarks', value: 296 },
+  { label: 'Source not recorded', value: 156 },
+  { label: 'Facebook & Instagram', value: 39 },
+  { label: 'Apple Maps', value: 31 },
+  { label: 'Morty (escape-room app)', value: 25 },
+  { label: 'ChatGPT', value: 19 },
+  { label: 'QR code (door sign)', value: 3 },
+]" />
+
+- **ChatGPT sent 19 visits**, up from 4. **Apple Maps** sent 31, a source we hadn't seen before.
+- **Facebook and Instagram sent 39 visits**, down from 158. Posts with a link to a room page or the booking page bring people to the site.
+
+::: info About these numbers
+Analytics recorded 34 of the 36 online bookings, but since early October it has lost where most of them came from, so this month's report can't say which source brought the most bookings. Analytics still recognizes the same visitors on Bookeo, but it records their booking as a separate visit with no source. We're testing what changed in early October and how to fix it. Bookeo's own counts aren't affected.
+:::
+
+### Site health
+
+<StatTiles :tiles="[
+  { label: 'Uptime', value: '100%', note: 'checked every 3 minutes' },
+  { label: 'Nightly backups', value: '31 / 31', note: 'every night ran' },
+  { label: 'Enquiry emails delivered', value: '4 / 4', note: '0 bounced' },
+  { label: 'Newsletter signups', value: '0', was: 'last one Sept 9' },
+]" />
+
+- **Backups are real.** We opened the latest one and checked it holds your 28 FAQs, announcements, pop-ups and form submissions.
+- **The newsletter signup works.** We tested it on November 10: the signup reached the database and Mailchimp, tagged as a website signup. Nobody has signed up for real since September 9.
+- **Three short alerts, all outside your site:** Mailchimp was unavailable for 30 minutes on October 26 and again on November 7, and GitHub, which runs the nightly jobs, ran them late on October 12. All recovered on their own and no signups were lost.
+- **Your database provider's October 30 change** was checked on the day: everything still reads and saves normally.
+
+### Security and software updates
+
+GitHub flagged 7 security problems in the site's software packages (4 high). We updated them on November 8. The update was tested on a private copy of the site first, because an earlier version of the same hosting software caused a brief outage in October.
+
+<StatTiles :tiles="[
+  { label: 'High-severity problems', value: '0', was: 'was 4' },
+  { label: 'Moderate', value: '2', note: 'build tool only, not reachable by visitors' },
+  { label: 'Packages updated', value: '6 main', note: '+ some underneath' },
+]" />
+
+| Package | What it does for your site | Was | Now |
+|---|---|---|---|
+| Astro Vercel adapter | Runs the site on Vercel, your web host | 11.0.14 | 11.0.20 |
+| Supabase | Connects to the database (FAQs, forms, announcements) | 2.117 | 2.119 |
+| Resend | Sends enquiry emails to your inbox | 6.32 | 6.37 |
+| Tailwind CSS | The site's styling | 4.3.3 | 4.3.5 |
+| Vitest | Runs the automated checks before every update | 5.0 | 5.1 |
+| Playwright | Tests the admin login in a real browser | 1.64 | 1.65 |
+
+The 2 moderate warnings are in a tool that only runs while the site is being built, so visitors can't reach it. The only fix offered today would mean going back three major versions of the hosting software, so we're waiting for a proper fix.
+
+### Fixed and improved this month
+
+- **The Forgotten God is open**: bookable on the website, visible in Bookeo, on your Google profile, and the thank-you email now says it's open (it used to say "2 more rooms opening in October").
+- **Real room photos** on the website for Grandma Betty's, The Initiation and The Forgotten God.
+- **Blackwell's retired** the morning after its last day, and **Eight Tiny Reindeer** is on the site as *Coming November 27*, with an archive of past holiday rooms.
+- **Event Space page rebuilt** around your answers: team building, networking and private gatherings, the two ways to book, and what's included.
+- **Murder mystery fundraiser page** (*Lock, Paper, Scissors*, January 22) with a link to the tickets.
+- **Closed Tuesdays** everywhere: the website's hours, your Google profile, and what Google and AI assistants read from the site.
+- **Rescheduling rules match everywhere**: full refund up to 24 hours before, free reschedule up to 2 hours before.
+- **On Bing now**: a Bing Places listing (copied from your Google profile) and Bing's site tools, which also feed Microsoft Copilot and ChatGPT's search.
+- **Room pages tell Google they're bookable now.** Since launch they had said "pre-order", even for open rooms.
+
+### What's next {#whats-next-november}
+
+1. **Add Eight Tiny Reindeer's time slots in Bookeo soon.** People are already booking weeks ahead. Tell us when they're in and the Book button goes on the website the same day.
+2. **Post about Christmas and The Forgotten God on your Google profile and Facebook**, with a photo and a link to the room page. *Christmas escape room in Pottstown* is the phrase to use. It's also the easiest way to win back the Facebook visits.
+3. **Keep the reviews coming.** 32 five-star reviews is a strong lead; Google weighs recent ones.
+4. **Mention the newsletter at the front desk**, or ask us about a newsletter opt-in at Bookeo's checkout. Still no real signups since September 9.
+
+Next report: mid-December.
+
+---
+
 ## October 2026 — First full month open
 
 **Covers September 10 to October 10, 2026.** Comparisons are with the month before opening.
